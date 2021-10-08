@@ -1,0 +1,79 @@
+{{ block title }}
+{{ trans 'Task: results'}}
+{{ endblock }}
+{{ block content }}
+
+<div class="container box">
+
+{{ if treatment == "identity" }}
+
+<p>{{ trans 'Well done! These are the sentences that you and your group reordered.'}}</p>
+
+<ul>
+  <li>
+    {{ trans 'It can be cold or warm.' }}
+  </li>
+  <li>
+    {{ trans 'It can be transparent.' }}
+  </li>
+  <li>
+    {{ trans 'It can be salty.' }}
+  </li>
+  <li>
+    {{ trans 'It makes thirst go away.' }}
+  </li>
+</ul>
+
+<p>{{ trans 'The object is <b>water</b>' }} </p>
+
+{{else}}
+
+<p>{{ trans 'Well done! These are sentences that describe water.'}}</p>
+
+<ul>
+  <li>
+    {{ trans 'Water can be cold or warm.' }}
+  </li>
+  <li>
+  {{ trans 'Water can be transparent.' }}
+  </li>
+  <li>
+    {{ trans 'Water can be salty.' }}
+  </li>
+  <li>
+  {{ trans 'Water makes thirst go away.' }}
+  </li>
+</ul>
+
+{{endif}}
+
+
+<center><img src="{{ static "figures/water.jpg" }}" width="400px" /></center>
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-8">
+
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-outline-primary btn-large" >{{ trans 'Continue' }}</button>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+{{ endblock }}
+
+
+{{ block styles }}
+<style type="text/css">
+</style>
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+<style type="text/css">
+</style>
+{{ endblock }}
