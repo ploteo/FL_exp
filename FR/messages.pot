@@ -1,0 +1,2009 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-10-08 10:22+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: FL_DG/Choice_sender.html:7 FL_DG/Choice_sender_inst.html:7
+#: FL_TG/Choice_sender_inst.html:7 FL_payments/Results_1.html:99
+#: FL_payments/Results_2.html:57 FL_risk/Choices.html:7 FL_time/Choices.html:6
+msgid "Choice"
+msgstr ""
+
+#: FL_DG/Choice_sender.html:10 FL_PGG/Choices.html:12
+#: FL_TG/Choice_sender.html:10 FL_risk/Choices.html:11 FL_time/Choices.html:9
+msgid "Your answers to the previous understanding questions were all correct."
+msgstr ""
+
+#: FL_DG/Choice_sender.html:12 FL_PGG/Choices.html:15
+#: FL_TG/Choice_sender_inst.html:10
+msgid "We will now play the game."
+msgstr ""
+
+#: FL_DG/Choice_sender.html:14
+msgid "You are now choosing as <b>Sender</b>"
+msgstr ""
+
+#: FL_DG/Choice_sender.html:16 FL_DG/Choice_sender_inst.html:11
+msgid "How many of your"
+msgstr ""
+
+#: FL_DG/Choice_sender.html:18
+msgid "do you choose to send to the Receiver?"
+msgstr ""
+
+#: FL_DG/Choice_sender.html:33 FL_DG/Choice_sender_inst.html:30
+msgid "Confirm"
+msgstr ""
+
+#: FL_DG/Choice_sender_inst.html:13 FL_TG/Choice_sender_inst.html:15
+msgid "do you send to the"
+msgstr ""
+
+#: FL_DG/Final_questionnaire.html:16 FL_DG/Questionnaire_1.html:16
+#: FL_PGG/Questionnaire1.html:7 FL_PGG/Questionnaire2.html:7
+#: FL_TG/Questionnaire_1.html:16 FL_risk/Example.html:7
+#: FL_risk/Questionnaire.html:8 FL_time/Example.html:6
+#: FL_time/Questionnaire.html:8
+msgid "Questionnaire"
+msgstr ""
+
+#: FL_DG/Final_questionnaire.html:17
+msgid ""
+"Thank you again for playing this game. Before we proceed, we want to ask "
+"you some questions in relation to the game you played. Please answer the "
+"following questions."
+msgstr ""
+
+#: FL_DG/Final_questionnaire.html:22
+msgid "Of all the people in this room, how many do you know personally?"
+msgstr ""
+
+#: FL_DG/Final_questionnaire.html:26
+msgid "How well do you know"
+msgstr ""
+
+#: FL_DG/Final_questionnaire.html:30
+msgid ""
+"How much do you think that you understood the instructions you were given"
+" in this game?"
+msgstr ""
+
+#: FL_DG/Final_questionnaire.html:36 FL_payments/Results_1.html:236
+#: FL_payments/Results_2.html:191
+msgid "Conclude"
+msgstr ""
+
+#: FL_DG/Header.html:10 FL_PGG/Header.html:10 FL_TG/Header.html:10
+#: FL_risk/Header.html:10 FL_time/Header.html:10
+msgid "You are about to start game "
+msgstr ""
+
+#: FL_DG/Instructions_container.html:16 FL_PGG/Instructions_container.html:16
+#: FL_TG/Instructions_container.html:16 FL_risk/Instructions.html:7
+#: FL_time/Instructions.html:7
+msgid "Game"
+msgstr ""
+
+#: FL_DG/Instructions_container.html:18 FL_PGG/Instructions_container.html:18
+#: FL_TG/Instructions_container.html:18 FL_TG/Instructions_container.html:28
+msgid "NEXT"
+msgstr ""
+
+#: FL_DG/Instructions_container.html:25 FL_PGG/Instructions.html:2
+#: FL_PGG/Instructions2.html:2 FL_TG/Instructions_sender_inst.html:13
+msgid "Instructions"
+msgstr ""
+
+#: FL_DG/Instructions_container.html:27 FL_PGG/Instructions_container_2.html:15
+#: FL_TG/Instructions_container.html:26 FL_TG/Instructions_container.html:35
+msgid "PREVIOUS"
+msgstr ""
+
+#: FL_DG/Instructions_container.html:29 FL_PGG/Examples.html:73
+msgid "Go to questionnaire"
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:2
+msgid "Sender"
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:4
+msgid ""
+"These instructions refer to the role of the <i>Sender</i>. As a Sender "
+"you will have the opportunity to decide how much of your initial "
+"endowment of tokens you want to keep for yourself, and how much of it you"
+" want to send to another participant (the Receiver)."
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:5
+msgid ""
+"Every participant will decide as a Sender before knowing her/his actual "
+"role."
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:10
+msgid "Your initial endowment is"
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:12
+msgid ""
+"You will have the opportunity to send to the Receiver any amount of "
+"tokens between 0 and 100"
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:14
+msgid ""
+"The tokens you send are subtracted from your initial endowment and the "
+"Receiver receives them, without making any further decision. These are in"
+" addition to the participation stipend and the tokens possibly earned in "
+"other games."
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:16
+msgid "Receiver"
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:18
+msgid ""
+"These instructions refer to the role of the Receiver. Your initial "
+"endowment is 0 tokens. As a Receiver you will have the opportunity to "
+"receive from the Sender a varying amount of tokens between 0 and 100. No "
+"further action is needed from your side."
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:20
+msgid "Roles"
+msgstr ""
+
+#: FL_DG/Instructions_sender.html:22
+#, python-format
+msgid ""
+"At the end of today’s session, the system will randomly pick all "
+"participants’ role: 50% of the participants will be picked as Senders, "
+"while the remaining 50% will be picked as Receivers. Each Sender will be "
+"matched with a Receiver. According to the role drawn and choices of the "
+"Sender we will tell you the total number of tokens you will be paid."
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:6
+msgid "Instructions "
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:10
+msgid ""
+"You will now play a variation of the game played before. This round will "
+"follow the same rules of the previous one, with the difference that you "
+"will always be a Sender, while a"
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:11
+msgid "will be the Receiver."
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:13
+msgid ""
+"This means that the amount of tokens that you decide to send to the "
+"Receiver from your initial endowment will be transferred to local "
+"smallholder farmers through the local"
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:18
+#: FL_TG/Instructions_sender_inst.html:27
+msgid "Your new initial endowment is"
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:20
+msgid ""
+"These are in addition to the tokens received in previous games. Your "
+"gains from previous games will not be affected in this new game."
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:24 FL_TG/Instructions_welcome.html:20
+msgid ""
+"At the end of today’s session, we will tell you the total number of "
+"tokens you will be paid."
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:28 FL_DG/Results.html:49
+#: FL_PGG/Choices.html:33 FL_PGG/Identity_task.html:120
+#: FL_PGG/Identity_task_ALT.html:123 FL_PGG/Identity_task_feedback.html:62
+#: FL_PGG/Pregame.html:33 FL_PGG/Questionnaire2.html:35
+#: FL_TG/Final_questionnaire_inst.html:93
+#: FL_TG/Final_questionnaire_receiver.html:33
+#: FL_TG/Final_questionnaire_sender.html:37 FL_TG/inst_descr.html:23
+#: FL_risk/Instructions.html:39 FL_risk/Questionnaire.html:33
+#: FL_time/Choices.html:157 FL_time/Instructions.html:43
+#: FL_time/Questionnaire.html:37 FL_welcome/Welcome.html:47
+msgid "Continue"
+msgstr ""
+
+#: FL_DG/Instructions_welcome.html:4
+msgid "General Instructions"
+msgstr ""
+
+#: FL_DG/Instructions_welcome.html:7
+msgid ""
+"In this game, each of you will be asked to make a decision on the use of "
+"assigned tokens that will influence both your earnings, and the earnings "
+"of one other participant. Your final payoff will depend on your own "
+"decisions and the decisions of other participants. "
+msgstr ""
+
+#: FL_DG/Instructions_welcome.html:11
+msgid ""
+"In this game you will interact with one other participant using the "
+"computer terminal. In this game there are two roles: <i>Sender</i> and "
+"<i>Receiver</i>. You will discover your actual role only at the end of "
+"the session. You will not be told who you have been paired with, either "
+"during or after the end of today’s session. The participant you will be "
+"paired with is not necessarily the same of other games. "
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:17
+msgid ""
+"Now we will ask you some questions to help you understand the "
+"instructions. If you provide a wrong answer, you will receive a message "
+"from the system telling you that there was a mistake in the way you "
+"answered. If this is the case, you can either try again or call the "
+"enumerator for further clarifications."
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:21 FL_PGG/Questionnaire1.html:15
+#: FL_TG/Questionnaire_1.html:23 FL_risk/Example.html:16
+#: FL_time/Example.html:14
+msgid ""
+"Your answers to these questions will not affect your final earnings. "
+"Please ask for clarifications if needed."
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:26
+msgid ""
+"As a Sender you decide to send 100 tokens to the Receiver. How many "
+"tokens will the Receiver obtain from you at the end of the game?"
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:30
+msgid ""
+"As a Sender you decide to send 0 tokens to the Receiver. How many tokens "
+"will you have at the end of the game?"
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:34
+msgid ""
+"You are the Receiver and the Sender sends you 50 tokens from its initial "
+"endowment. How many tokens will you have at the end of the game?"
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:39 FL_PGG/Questionnaire1.html:38
+#: FL_risk/Example.html:137 FL_time/Example.html:119
+msgid "Check my answers"
+msgstr ""
+
+#: FL_DG/Questionnaire_1.html:44 FL_PGG/Questionnaire1.html:46
+#: FL_TG/Questionnaire_1.html:75
+msgid "Click here to consult the instructions"
+msgstr ""
+
+#: FL_DG/Results.html:6
+msgid "Results"
+msgstr ""
+
+#: FL_DG/Results.html:10
+msgid "Peer Dictator"
+msgstr ""
+
+#: FL_DG/Results.html:12
+msgid "You are the <b>Sender</b> in the group"
+msgstr ""
+
+#: FL_DG/Results.html:13
+msgid "The <b>Sender</b> in the group (you) sent"
+msgstr ""
+
+#: FL_DG/Results.html:14 FL_DG/Results.html:19
+msgid "Your earnings are"
+msgstr ""
+
+#: FL_DG/Results.html:15
+msgid "The earnings of the Receiver are"
+msgstr ""
+
+#: FL_DG/Results.html:17
+msgid "You are the <b>Receiver</b> in the group"
+msgstr ""
+
+#: FL_DG/Results.html:18
+msgid "The <b>Sender</b> in the group (the other) sent"
+msgstr ""
+
+#: FL_DG/Results.html:20
+msgid "The earnings of the Sender are"
+msgstr ""
+
+#: FL_DG/Results.html:25
+msgid "Institution Dictator"
+msgstr ""
+
+#: FL_DG/Results.html:26
+msgid "You sent "
+msgstr ""
+
+#: FL_DG/Results.html:27
+msgid "Thus,"
+msgstr ""
+
+#: FL_DG/Results.html:29
+msgid "receives"
+msgstr ""
+
+#: FL_DG/Results.html:31
+msgid "from you"
+msgstr ""
+
+#: FL_DG/Results.html:32
+msgid "You earn"
+msgstr ""
+
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:54
+#: FL_PGG/__init__.py:70 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_TG/__init__.py:86 FL_risk/__init__.py:58 FL_time/__init__.py:59
+#: FL_time/__init__.py:69
+msgid "Not at all"
+msgstr ""
+
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:55
+#: FL_PGG/__init__.py:71 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_TG/__init__.py:86 FL_risk/__init__.py:59 FL_time/__init__.py:60
+#: FL_time/__init__.py:70
+msgid "Little"
+msgstr ""
+
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:56
+#: FL_PGG/__init__.py:72 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_TG/__init__.py:86 FL_risk/__init__.py:60 FL_time/__init__.py:61
+#: FL_time/__init__.py:71
+msgid "Average"
+msgstr ""
+
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48
+msgid "Fairly Well"
+msgstr ""
+
+#: FL_DG/__init__.py:45 FL_PGG/__init__.py:58
+msgid "Completely"
+msgstr ""
+
+#: FL_DG/__init__.py:48 FL_PGG/__init__.py:74 FL_TG/__init__.py:78
+#: FL_TG/__init__.py:86 FL_risk/__init__.py:62 FL_time/__init__.py:63
+msgid "Very well"
+msgstr ""
+
+#: FL_DG/__init__.py:115 FL_PGG/__init__.py:299 FL_time/__init__.py:187
+msgid "Please check your answer to question 1"
+msgstr ""
+
+#: FL_DG/__init__.py:117 FL_PGG/__init__.py:301 FL_time/__init__.py:190
+msgid "Please check your answer to question 2"
+msgstr ""
+
+#: FL_DG/__init__.py:119
+msgid "Please check your answer to question 3"
+msgstr ""
+
+#: FL_DG/inst_descr.html:6 FL_TG/inst_descr.html:6
+msgid "Description"
+msgstr ""
+
+#: FL_DG/inst_descr.html:10
+msgid "This short text box will present you the"
+msgstr ""
+
+#: FL_DG/inst_descr.html:11 FL_TG/inst_descr.html:11
+msgid ""
+"you will be playing with. Please read it carefully. Once you have read "
+"the text box, continue to the next step."
+msgstr ""
+
+#: FL_DG/inst_descr.html:16 FL_TG/inst_descr.html:16
+msgid "Hello, we are the local"
+msgstr ""
+
+#: FL_DG/inst_descr.html:17 FL_TG/inst_descr.html:17
+msgid "Our organization works with the smallholder farmers in the area of"
+msgstr ""
+
+#: FL_DG/inst_descr.html:18
+msgid ""
+"to whom we provide technical assistance. Through your support we will be "
+"able to empower the local farmers and to jointly develop a"
+msgstr ""
+
+#: FL_DG/inst_descr.html:23 FL_PGG/Instructions_container_2.html:16
+#: FL_TG/Instructions_sender_inst.html:33
+msgid "CONTINUE"
+msgstr ""
+
+#: FL_PGG/Choices.html:7
+msgid "Choice (Round"
+msgstr ""
+
+#: FL_PGG/Choices.html:16
+msgid "Your endowment is"
+msgstr ""
+
+#: FL_PGG/Choices.html:18
+msgid "How much do you contribute to the common group account?"
+msgstr ""
+
+#: FL_PGG/Examples.html:7
+msgid "Examples"
+msgstr ""
+
+#: FL_PGG/Examples.html:13
+msgid ""
+"Before we proceed with your choice, we will give you some examples that "
+"illustrate the possible outcomes of the game."
+msgstr ""
+
+#: FL_PGG/Examples.html:28 FL_risk/Example.html:20 FL_time/Example.html:18
+msgid "Example 1"
+msgstr ""
+
+#: FL_PGG/Examples.html:31
+msgid ""
+"Your group is made of 4 individuals. If everyone from your group puts "
+"their entire endowment (150 Tokens) in the common account, 600 Tokens "
+"will be in there. Twice this sum (1200 Tokens) will be equally divided "
+"among all the participants in your group, so that each of you will earn "
+"300 Tokens"
+msgstr ""
+
+#: FL_PGG/Examples.html:43 FL_risk/Example.html:74 FL_time/Example.html:63
+msgid "Example 2"
+msgstr ""
+
+#: FL_PGG/Examples.html:47
+msgid ""
+"Your group is made of 4 individuals. If everyone from your group keeps "
+"their 150 Tokens for themselves, no money will be put in the common "
+"account, thus leaving no money to be divided between the participants in "
+"your group. Each participant in your group will then earn 150 Tokens"
+msgstr ""
+
+#: FL_PGG/Examples.html:57
+msgid ""
+"Remember that you can put any amount between 0 and 150 Tokens in the "
+"common account."
+msgstr ""
+
+#: FL_PGG/Examples.html:59 FL_PGG/Instructions.html:26
+#: FL_PGG/Instructions2.html:25 FL_PGG/Pregame.html:17
+#: FL_TG/Instructions_sender.html:20 FL_TG/Instructions_welcome.html:22
+msgid "Do you have any questions?"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:2 FL_PGG/Identity_task_ALT.html:2
+msgid "Task"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:9
+msgid ""
+"Reorder now the words in the boxes below to obtain the description of an "
+"object."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:12 FL_PGG/Identity_task_ALT.html:84
+msgid ""
+"Members of your group are involved in the same task, but with a different"
+" sentence referring to the same object. All sentences put together give "
+"you an accurate description of this object."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:17
+msgid ""
+"The destination box turns green when the right words are dragged. The "
+"destination box turns red when the wrong words are dragged."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:19
+msgid ""
+"If you do a mistake just press the button Retry. When all words are "
+"correctly positioned a button will appear: click on it to continue."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:22
+msgid "Retry"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:30 FL_PGG/Identity_task.html:62
+#: FL_PGG/Identity_task_ALT.html:15 FL_PGG/Identity_task_ALT.html:50
+#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
+#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
+#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+msgid "can be"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:31 FL_PGG/Identity_task.html:32
+#: FL_PGG/Identity_task.html:63 FL_PGG/Identity_task.html:64
+#: FL_PGG/Identity_task_ALT.html:23 FL_PGG/Identity_task_ALT.html:31
+#: FL_PGG/Identity_task_ALT.html:58 FL_PGG/Identity_task_ALT.html:66
+#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
+#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
+#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
+#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
+#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
+#: FL_PGG/__init__.py:160
+msgid "can"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:33 FL_PGG/Identity_task.html:65
+#: FL_PGG/Identity_task_ALT.html:39 FL_PGG/Identity_task_ALT.html:74
+#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
+#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
+#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+msgid "makes"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:36 FL_PGG/Identity_task.html:37
+#: FL_PGG/Identity_task.html:38 FL_PGG/Identity_task.html:39
+#: FL_PGG/Identity_task_ALT.html:16 FL_PGG/Identity_task_ALT.html:24
+#: FL_PGG/Identity_task_ALT.html:32 FL_PGG/Identity_task_ALT.html:40
+#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:86 FL_PGG/__init__.py:88
+#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:105 FL_PGG/__init__.py:107
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:111 FL_PGG/__init__.py:126
+#: FL_PGG/__init__.py:128 FL_PGG/__init__.py:130 FL_PGG/__init__.py:132
+#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:149 FL_PGG/__init__.py:151
+#: FL_PGG/__init__.py:153
+msgid "It"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:42 FL_PGG/Identity_task.html:74
+#: FL_PGG/Identity_task_ALT.html:17 FL_PGG/Identity_task_ALT.html:52
+#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
+#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
+#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+msgid "warm."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:43 FL_PGG/Identity_task.html:75
+#: FL_PGG/Identity_task_ALT.html:25 FL_PGG/Identity_task_ALT.html:60
+#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:95 FL_PGG/__init__.py:107
+#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:128 FL_PGG/__init__.py:137
+#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:158
+msgid "transparent."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:44 FL_PGG/Identity_task.html:76
+#: FL_PGG/Identity_task_ALT.html:33 FL_PGG/Identity_task_ALT.html:68
+#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:97 FL_PGG/__init__.py:109
+#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:130 FL_PGG/__init__.py:139
+#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:160
+msgid "salty."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:45 FL_PGG/Identity_task.html:77
+#: FL_PGG/Identity_task_ALT.html:41 FL_PGG/Identity_task_ALT.html:76
+#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
+#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
+#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+msgid "go away."
+msgstr ""
+
+#: FL_PGG/Identity_task.html:48 FL_PGG/Identity_task.html:80
+#: FL_PGG/Identity_task_ALT.html:18 FL_PGG/Identity_task_ALT.html:53
+#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
+#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
+#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+msgid "cold or"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:49 FL_PGG/Identity_task.html:50
+#: FL_PGG/Identity_task.html:81 FL_PGG/Identity_task.html:82
+#: FL_PGG/Identity_task_ALT.html:26 FL_PGG/Identity_task_ALT.html:34
+#: FL_PGG/Identity_task_ALT.html:61 FL_PGG/Identity_task_ALT.html:69
+#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
+#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
+#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
+#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
+#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
+#: FL_PGG/__init__.py:160
+msgid "be"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:51 FL_PGG/Identity_task.html:83
+#: FL_PGG/Identity_task_ALT.html:42 FL_PGG/Identity_task_ALT.html:77
+#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
+#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
+#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+msgid "thirst"
+msgstr ""
+
+#: FL_PGG/Identity_task.html:68 FL_PGG/Identity_task.html:69
+#: FL_PGG/Identity_task.html:70 FL_PGG/Identity_task.html:71
+#: FL_PGG/Identity_task_ALT.html:51 FL_PGG/Identity_task_ALT.html:59
+#: FL_PGG/Identity_task_ALT.html:67 FL_PGG/Identity_task_ALT.html:75
+#: FL_PGG/__init__.py:93 FL_PGG/__init__.py:95 FL_PGG/__init__.py:97
+#: FL_PGG/__init__.py:99 FL_PGG/__init__.py:114 FL_PGG/__init__.py:116
+#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:120 FL_PGG/__init__.py:135
+#: FL_PGG/__init__.py:137 FL_PGG/__init__.py:139 FL_PGG/__init__.py:141
+#: FL_PGG/__init__.py:156 FL_PGG/__init__.py:158 FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:162
+msgid "Water"
+msgstr ""
+
+#: FL_PGG/Identity_task_ALT.html:9
+msgid "Reorder now the words below to obtain the description of an object."
+msgstr ""
+
+#: FL_PGG/Identity_task_ALT.html:88
+msgid "Put the words in the right order in the boxes below"
+msgstr ""
+
+#: FL_PGG/Identity_task_ALT.html:111
+msgid ""
+"If you do a mistake just try again. When all words are correctly "
+"positioned you will continue to the next page."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:2
+msgid "Task: results"
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:10
+msgid "Well done! These are the sentences that you and your group reordered."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:14
+msgid "It can be cold or warm."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:17
+msgid "It can be transparent."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:20
+msgid "It can be salty."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:23
+msgid "It makes thirst go away."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:27
+msgid "The object is <b>water</b>"
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:31
+msgid "Well done! These are sentences that describe water."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:35
+msgid "Water can be cold or warm."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:38
+msgid "Water can be transparent."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:41
+msgid "Water can be salty."
+msgstr ""
+
+#: FL_PGG/Identity_task_feedback.html:44
+msgid "Water makes thirst go away."
+msgstr ""
+
+#: FL_PGG/Instructions.html:5
+msgid ""
+"Thank you again for coming today. We will now play a game. Please remain "
+"seated at your desk. The game is to proceed in silence; talking is "
+"prohibited, and if you talk with one of the other participants, you will "
+"be asked to leave the room."
+msgstr ""
+
+#: FL_PGG/Instructions.html:9
+msgid ""
+"In this game, the participants present today will be split in groups of "
+"<i>four participants each.</i>"
+msgstr ""
+
+#: FL_PGG/Instructions.html:13
+msgid ""
+"Each of you will be asked to make a decision that will influence both "
+"your earnings, and the earnings of the other members of your group."
+msgstr ""
+
+#: FL_PGG/Instructions.html:17 FL_PGG/Instructions2.html:9
+msgid "You and the other members of your group will receive"
+msgstr ""
+
+#: FL_PGG/Instructions.html:19
+msgid ""
+"You and each member of your group will have the opportunity to put as "
+"many of these tokens as you want on a common account, or to keep some or "
+"all of them for yourself. The tokens that you keep for yourself will "
+"remain with you and will contribute to your earnings."
+msgstr ""
+
+#: FL_PGG/Instructions.html:23
+msgid ""
+"After all the members of your group have decided how much to contribute "
+"to the common account, the system will top up your group’s common account"
+" with the same amount as the total that was put in the common account, so"
+" that the amount is doubled. This will then be shared equally amongst the"
+" members of your group. Each member of your group, including you, will "
+"receive the same share regardless of the amount they put on the common "
+"account."
+msgstr ""
+
+#: FL_PGG/Instructions.html:29
+msgid ""
+"Before we proceed with the real decision, we will give you some examples "
+"that illustrate the possible outcomes of that game."
+msgstr ""
+
+#: FL_PGG/Instructions.html:34
+msgid "If everyone puts everything in the common account,"
+msgstr ""
+
+#: FL_PGG/Instructions.html:35
+msgid "tokens will be in it. Twice this sum ("
+msgstr ""
+
+#: FL_PGG/Instructions.html:37
+msgid ""
+"tokens) is then divided equally among all participants, such that each "
+"participant will earn"
+msgstr ""
+
+#: FL_PGG/Instructions.html:38
+msgid "tokens."
+msgstr ""
+
+#: FL_PGG/Instructions.html:41
+msgid ""
+"If everyone keeps the tokens for themselves, no money will be in the "
+"common account, thus leaving no money to be divided equally. Each "
+"participant will then earn their initial endowment of 100 or 200 tokens."
+msgstr ""
+
+#: FL_PGG/Instructions.html:44
+msgid ""
+"Remember that you can put any amount between 0 and 100 or 200 tokens in "
+"the common account."
+msgstr ""
+
+#: FL_PGG/Instructions.html:49
+msgid ""
+"Now we will ask you some questions to help you understand the game. "
+"Please go to the next page and fill the questionnaire. An enumerator will"
+" assist you in case of need."
+msgstr ""
+
+#: FL_PGG/Instructions2.html:5
+msgid ""
+"Now we will play a second round of this game. This round will follow the "
+"same rules of the previous one."
+msgstr ""
+
+#: FL_PGG/Instructions2.html:11
+msgid ""
+"You and each member of your group will have the opportunity to put as "
+"many of these tokens as you want on a common account, or to keep some or "
+"all of them for yourself. These are new tokens and the earnings from the "
+"previous round will not be affected. The tokens that you keep for "
+"yourself will remain with you and contribute to your final earnings."
+msgstr ""
+
+#: FL_PGG/Instructions2.html:15
+msgid ""
+"After all the members of your group have chosen how much to contribute to"
+" the common account, the system will top up your group’s common account "
+"with the same amount as what was put in the common account, so that the "
+"total amount is doubled. This will then be shared equally amongst the "
+"members of your group. Each member of your group, including you, will "
+"receive the same share <b>regardless of the amount they put on the common"
+" account.</b> "
+msgstr ""
+
+#: FL_PGG/Instructions2.html:20
+msgid ""
+"Again, you will make a decision on keeping your tokens or putting them, "
+"or part of them, in the common account. Once everyone has made their "
+"decision, we will count the tokens and communicate the result to "
+"everyone. Again, individual decisions won’t be communicated to anyone by "
+"the enumerators."
+msgstr ""
+
+#: FL_PGG/Instructions2.html:30
+msgid ""
+"Before making your decision, you will perform a group task with the "
+"remaining 3 participants of your group. Results from this task will not "
+"affect your earnings. Instructions follow."
+msgstr ""
+
+#: FL_PGG/Instructions2.html:35
+msgid ""
+"Before making your decision, you will perform a task. Results from this "
+"task will not affect your earnings. Instructions follow."
+msgstr ""
+
+#: FL_PGG/MyResultsWaitPage.html:5
+msgid " Please Wait"
+msgstr ""
+
+#: FL_PGG/Pregame.html:11
+msgid ""
+"Now we will play the game. The result will be communicated to you at the "
+"end of the session."
+msgstr ""
+
+#: FL_PGG/Pregame.html:14
+msgid ""
+"Once everyone in the room has made their decisions, we will count the "
+"total number of tokens put in the common account, the enumerators will "
+"add the same amount as the total put in your group’s common account, so "
+"that the amount is doubled. This amount will be shared equally between "
+"your and all members of your group. The result will be communicated to "
+"you at the end of the session."
+msgstr ""
+
+#: FL_PGG/Pregame.html:19
+msgid ""
+"Now we will play for this round: please go to the next page. An "
+"enumerator will assist you."
+msgstr ""
+
+#: FL_PGG/Questionnaire1.html:12
+msgid ""
+"Now we will ask you some questions to help you understand the game. If "
+"you provide a wrong answer, you will receive a message from the system "
+"telling you that there was a mistake in the way you answered. If this is "
+"the case, you can either try again or call the enumerator for further "
+"clarifications."
+msgstr ""
+
+#: FL_PGG/Questionnaire1.html:19
+msgid ""
+"How much will your total earnings be if you put nothing into the common "
+"account and the other members of your group put 400 in total?"
+msgstr ""
+
+#: FL_PGG/Questionnaire1.html:23
+msgid ""
+"If 600 Tokens are put in the common account by you and your group "
+"members, how much will each member of the group earn from the common "
+"account after the tokens are doubled?"
+msgstr ""
+
+#: FL_PGG/Questionnaire2.html:13 FL_risk/Questionnaire.html:14
+msgid ""
+"How would you rate your understanding of the instructions you were given "
+"in this game?"
+msgstr ""
+
+#: FL_PGG/Questionnaire2.html:18
+msgid ""
+"How much do you trust that the people in your group put money in the "
+"common account?"
+msgstr ""
+
+#: FL_PGG/Results.html:15
+msgid "Round"
+msgstr ""
+
+#: FL_PGG/Results.html:16
+msgid "Your endowment"
+msgstr ""
+
+#: FL_PGG/Results.html:17
+msgid "Your contribution"
+msgstr ""
+
+#: FL_PGG/Results.html:18
+msgid "Total contributions to the common account"
+msgstr ""
+
+#: FL_PGG/Results.html:19
+msgid "Your payoff"
+msgstr ""
+
+#: FL_PGG/__init__.py:57
+msgid "Fairly "
+msgstr ""
+
+#: FL_PGG/__init__.py:73 FL_risk/__init__.py:61 FL_time/__init__.py:62
+msgid "Fairly well"
+msgstr ""
+
+#: FL_PGG/__init__.py:344 FL_PGG/__init__.py:346 FL_PGG/__init__.py:348
+#: FL_PGG/__init__.py:350
+msgid "The sequence is not correct, please Retry"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:7
+msgid "Choice Receiver"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:10
+msgid "You will now play the game as a <b>Receiver</b>."
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:12
+msgid ""
+"Please report your choice in correspondence to each possible choice of "
+"the other"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:18
+msgid "When the other sends"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:19
+msgid "You receive"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:20
+msgid "How much do you send back?"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:68 FL_TG/Choice_sender.html:21
+#: FL_TG/Choice_sender_inst.html:20
+msgid "SEND"
+msgstr ""
+
+#: FL_TG/Choice_sender.html:7
+msgid "Choice Sender"
+msgstr ""
+
+#: FL_TG/Choice_sender.html:12
+msgid "You will now play the game as a <b>Sender</b>"
+msgstr ""
+
+#: FL_TG/Choice_sender.html:14 FL_TG/Choice_sender_inst.html:13
+msgid "How much of your endowment of"
+msgstr ""
+
+#: FL_TG/Choice_sender.html:16
+msgid "do you send to the Receiver?"
+msgstr ""
+
+#: FL_TG/Choice_sender.html:19
+msgid "You can choose only one option."
+msgstr ""
+
+#: FL_TG/Choice_sender_inst.html:11
+msgid " You are choosing as <b>Sender</b>"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:16
+msgid "Final Questionnaire"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:23
+msgid "1. According to the information provided, what is the field in which"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:24
+msgid "operates?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:32
+#: FL_TG/Final_questionnaire_inst.html:55
+msgid "Eco-friendly solutions"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:39
+#: FL_TG/Final_questionnaire_inst.html:62
+msgid "Nutrient-dense food products"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:45
+msgid "Medical care"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:68
+msgid "Micro finance"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:75
+msgid "2. Did you decide the amount of tokens you sent to the"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:76
+msgid "based on the expectation of a larger donation in return from the"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:78
+msgid "or independently from this?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:82
+msgid "3. How important do you think is the development of"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_inst.html:86
+msgid ""
+"4. How would you rate your understanding of the instructions you were "
+"given in this game?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_receiver.html:16
+msgid "Questionnaire (Receiver)"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_receiver.html:19
+#: FL_TG/Final_questionnaire_sender.html:18
+msgid ""
+"Thank you for playing this game. Before we proceed, we want to ask you "
+"some questions in relation to the game you played. Please answer the "
+"following questions."
+msgstr ""
+
+#: FL_TG/Final_questionnaire_receiver.html:22
+msgid "1. How much do you think the Sender will actually send?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_receiver.html:27
+msgid ""
+"2. Overall, do you think that the amounts you returned to the Sender were"
+" fair?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_sender.html:16
+msgid "Questionnaire (Sender)"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_sender.html:21
+msgid ""
+"1. Did you decide the amount you sent to the Receiver based on the "
+"expectation of a larger donation in return from your peer/Receiver, or "
+"independently from this?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_sender.html:27
+msgid "2. How much do you expect the Receiver to send back to you?"
+msgstr ""
+
+#: FL_TG/Final_questionnaire_sender.html:33
+msgid ""
+"3. How much do you think that you understood the instructions you were "
+"given in this game?"
+msgstr ""
+
+#: FL_TG/Instructions_container.html:36
+msgid "GO TO QUESTIONNAIRE"
+msgstr ""
+
+#: FL_TG/Instructions_receiver.html:2
+msgid "Instructions Receiver"
+msgstr ""
+
+#: FL_TG/Instructions_receiver.html:6
+msgid ""
+"These instructions refer to the <b>Receiver</b>. When you will be playing"
+" as a Receiver, you will receive three times the tokens sent by the "
+"Sender you have been paired  with, and you must decide what portion of "
+"these tokens (none, some or all of them) to send back. This in addition "
+"to your initial endowment of"
+msgstr ""
+
+#: FL_TG/Instructions_receiver.html:11
+msgid ""
+"Specifically, you will choose how much to return for any possible choice "
+"of the Sender, before knowing the actual choice. In total, you will make "
+"four choices, one for an amount sent of 25 (from 0 to 75), one for 50 "
+"(from 0 to 150), one for 75 (from 0 to 225), and one for 100 (from 0 to "
+"300). When the Sender chooses 0, you are forced to return 0."
+msgstr ""
+
+#: FL_TG/Instructions_receiver.html:16
+msgid ""
+"The number of tokens that you will decide to keep for yourself will "
+"contribute to your final earnings in this game if you are assigned to the"
+" role of Receiver for payment purposes. This in addition to your initial "
+"endowment of tokens."
+msgstr ""
+
+#: FL_TG/Instructions_sender.html:2
+msgid "Instructions Sender"
+msgstr ""
+
+#: FL_TG/Instructions_sender.html:5
+msgid ""
+"These intructions refer to the <b>Sender</b>. When you will be playing as"
+" a Sender, you will decide what portion of your"
+msgstr ""
+
+#: FL_TG/Instructions_sender.html:7
+msgid ""
+"to send to the person you have been paired with, which in this case is "
+"the Receiver. Specifically, you can choose to send 0, 25, 50, 75, or 100 "
+"tokens to the Receiver. Your decision is private and no one will know it."
+" Whatever amount you will decide to give to the person you have been "
+"paired with will be <i>tripled</i> before it is passed on to the "
+"Receiver."
+msgstr ""
+
+#: FL_TG/Instructions_sender.html:12
+msgid ""
+"The Receiver you have been paired with can decide to send back some, all,"
+" or none of this amount to you."
+msgstr ""
+
+#: FL_TG/Instructions_sender.html:16
+msgid ""
+"If you are assigned to the role of Sender for the payment, you will earn "
+"the tokens you have kept from your initial endowment of"
+msgstr ""
+
+#: FL_TG/Instructions_sender.html:17
+msgid "plus the tokens returned to you by the Receiver you are paired with."
+msgstr ""
+
+#: FL_TG/Instructions_sender_inst.html:16
+msgid ""
+"You will now play a variation of the game played before. This round will "
+"follow the same rules of the previous one, with the difference that now "
+"you will play only as Sender, while a"
+msgstr ""
+
+#: FL_TG/Instructions_sender_inst.html:18
+msgid "will take part in the game as the Receiver."
+msgstr ""
+
+#: FL_TG/Instructions_sender_inst.html:19
+msgid ""
+"As before, the amount you will decide to give  will be <i>tripled</i> "
+"before it is passed on to the Receiver."
+msgstr ""
+
+#: FL_TG/Instructions_sender_inst.html:20
+msgid ""
+"Only one of the choices of the participants made as senders will be "
+"finally paid to the"
+msgstr ""
+
+#: FL_TG/Instructions_sender_inst.html:29
+msgid ""
+"These are in addition to the tokens received in previous games. At the "
+"end of today session, the system will tell you the amount of tokens you "
+"will be paid at the end of the game."
+msgstr ""
+
+#: FL_TG/Instructions_welcome.html:4
+msgid "Welcome"
+msgstr ""
+
+#: FL_TG/Instructions_welcome.html:7
+msgid ""
+"This game is played in pairs of individuals. You will not be told who you"
+" have been paired with, either during or after the end of today’s "
+"session. Please remember not to speak aloud, not to communicate with "
+"other participants, and not to move from your desk."
+msgstr ""
+
+#: FL_TG/Instructions_welcome.html:11
+msgid "Each of you has"
+msgstr ""
+
+#: FL_TG/Instructions_welcome.html:13
+msgid ""
+"as an initial endowment. These are in addition to the participation "
+"stipend and the tokens possibly earned in other games. Each of you can "
+"earn some tokens based on their decision and on the decision of the "
+"person they have been paired with."
+msgstr ""
+
+#: FL_TG/Instructions_welcome.html:17
+msgid ""
+"In this game there are two roles: <i>Sender</i> and <i>Receiver</i>. You "
+"will play both roles. At the end of the experiment, only for payment "
+"purposes, the system will randomly assign you to one of the two roles and"
+" your choices will be matched with those of another participant randomly "
+"assigned to the opposite role."
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:19
+msgid ""
+"Before playing for real we will ask you to make some calculations to "
+"ensure that you have understood the instructions. If you provide a wrong "
+"answer, you will receive a message from the system telling you that there"
+" was a mistake in the way you answered. If this is the case, you can "
+"either try again or call the enumerator for further clarifications."
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:27
+msgid "1) You are playing as a Sender; you have"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:29
+msgid "Imagine that you decide to keep all the tokens for yourself."
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:34
+msgid "1a) How many tokens will you have at the end of the experiment?"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:38
+msgid "1b) How many tokens will the Receiver receive from you?"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:44
+msgid "2) You are playing as a Receiver; you have"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:46
+msgid ""
+"The Sender decides to send 25 tokens to you. You decide to send back to "
+"the Sender no tokens."
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:49
+msgid "2a) How many tokens in total will you have at the end of the experiment?"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:53
+msgid "2b) How many tokens will the Sender have?"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:59
+msgid "3) You are playing as a Sender, you have"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:61
+msgid "Imagine that you decide to send 50 tokens to the Receiver."
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:65
+msgid "3a) How much does the Receiver receive?"
+msgstr ""
+
+#: FL_TG/Questionnaire_1.html:69
+msgid "CHECK MY ANSWERS"
+msgstr ""
+
+#: FL_TG/Results.html:11
+msgid "Peer Trust"
+msgstr ""
+
+#: FL_TG/Results.html:13
+msgid "You were randomly assigned to the role of"
+msgstr ""
+
+#: FL_TG/Results.html:19
+msgid "The sender (you) sent"
+msgstr ""
+
+#: FL_TG/Results.html:21 FL_payments/Results_1.html:54
+msgid ": the other received"
+msgstr ""
+
+#: FL_TG/Results.html:23
+msgid "The receiver (the other) sent back"
+msgstr ""
+
+#: FL_TG/Results.html:28
+msgid "The sender (the other) sent"
+msgstr ""
+
+#: FL_TG/Results.html:30 FL_payments/Results_1.html:64
+msgid ": you received"
+msgstr ""
+
+#: FL_TG/Results.html:32
+msgid "The receiver (you) sent back"
+msgstr ""
+
+#: FL_TG/Results.html:36 FL_TG/Results.html:50 FL_payments/Results_1.html:70
+#: FL_payments/Results_1.html:81
+msgid "Thus, you earned"
+msgstr ""
+
+#: FL_TG/Results.html:43
+msgid "Institutional Trust"
+msgstr ""
+
+#: FL_TG/Results.html:45
+msgid "You sent to the representative of the organization"
+msgstr ""
+
+#: FL_TG/Results.html:47
+msgid "The representative of the organization sent you back"
+msgstr ""
+
+#: FL_TG/Results.html:60
+msgid "CONCLUDE"
+msgstr ""
+
+#: FL_TG/__init__.py:73 FL_TG/__init__.py:82
+msgid "I decided based on expectation of similar or larger  donation"
+msgstr ""
+
+#: FL_TG/__init__.py:73 FL_TG/__init__.py:82
+msgid ""
+"I decided the amount without expecting a larger donation in return or "
+"independently from the donation the receiver would send me in. "
+msgstr ""
+
+#: FL_TG/__init__.py:73
+msgid "Others(specify)"
+msgstr ""
+
+#: FL_TG/__init__.py:77
+msgid "Yes"
+msgstr ""
+
+#: FL_TG/__init__.py:77
+msgid "No"
+msgstr ""
+
+#: FL_TG/__init__.py:77
+msgid "I do not know"
+msgstr ""
+
+#: FL_TG/__init__.py:78 FL_TG/__init__.py:86
+msgid "Fairy Well"
+msgstr ""
+
+#: FL_TG/__init__.py:84
+msgid "Quite"
+msgstr ""
+
+#: FL_TG/__init__.py:84
+msgid "Very"
+msgstr ""
+
+#: FL_TG/__init__.py:183 FL_risk/__init__.py:225
+msgid "Please check your answer to question 1a"
+msgstr ""
+
+#: FL_TG/__init__.py:186 FL_risk/__init__.py:227
+msgid "Please check your answer to question 1b"
+msgstr ""
+
+#: FL_TG/__init__.py:189 FL_risk/__init__.py:229
+msgid "Please check your answer to question 2a"
+msgstr ""
+
+#: FL_TG/__init__.py:192 FL_risk/__init__.py:231
+msgid "Please check your answer to question 2b"
+msgstr ""
+
+#: FL_TG/__init__.py:195
+msgid "Please check your answer to question 3a"
+msgstr ""
+
+#: FL_TG/__init__.py:322
+msgid "If you chose Others in question 1 you must specify how you decided"
+msgstr ""
+
+#: FL_TG/__init__.py:337
+msgid ""
+"If you chose yes in question 1 you must specify the level of "
+"disappointment"
+msgstr ""
+
+#: FL_TG/inst_descr.html:10
+msgid "This short text box will present you the local"
+msgstr ""
+
+#: FL_TG/inst_descr.html:18
+msgid ""
+"to whom we provide technical assistance. Our project focuses on the "
+"empowerment of the local farmers and on the joint development of a"
+msgstr ""
+
+#: FL_payments/End.html:5
+msgid "Thank you!"
+msgstr ""
+
+#: FL_payments/End.html:11 FL_payments/Results_1.html:215
+#: FL_payments/Results_2.html:171
+msgid "We are now done with the games. Thank you for your time!"
+msgstr ""
+
+#: FL_payments/End.html:15 FL_payments/Results_1.html:219
+#: FL_payments/Results_2.html:175
+msgid ""
+"While we are preparing your payments, we will kindly ask you to fill in a"
+" questionnaire about your food preferences and purchasing habits. But "
+"first, we will take a break."
+msgstr ""
+
+#: FL_payments/End.html:28
+msgid "FINISH"
+msgstr ""
+
+#: FL_payments/Results_1.html:9 FL_payments/Results_2.html:9
+msgid "Payments"
+msgstr ""
+
+#: FL_payments/Results_1.html:11 FL_payments/Results_2.html:11
+msgid ""
+"Thank you again for your participation today. Here a summary of your "
+"payments."
+msgstr ""
+
+#: FL_payments/Results_1.html:21 FL_payments/Results_1.html:47
+msgid "Phase 1"
+msgstr ""
+
+#: FL_payments/Results_1.html:23 FL_payments/Results_1.html:51
+msgid "You are the <b>Sender</b> in the group."
+msgstr ""
+
+#: FL_payments/Results_1.html:24 FL_payments/Results_1.html:52
+msgid "You sent"
+msgstr ""
+
+#: FL_payments/Results_1.html:25 FL_payments/Results_1.html:29
+#: FL_payments/Results_1.html:34
+msgid "Thus, your earned"
+msgstr ""
+
+#: FL_payments/Results_1.html:27 FL_payments/Results_1.html:61
+msgid "You are the <b>Receiver</b> in the group."
+msgstr ""
+
+#: FL_payments/Results_1.html:28 FL_payments/Results_1.html:62
+msgid "The Sender in the group sent"
+msgstr ""
+
+#: FL_payments/Results_1.html:32 FL_payments/Results_1.html:72
+msgid "Phase 2"
+msgstr ""
+
+#: FL_payments/Results_1.html:33
+msgid "You sent ' }} <b>{{sent_inst}}</b> {{trans 'to"
+msgstr ""
+
+#: FL_payments/Results_1.html:36 FL_payments/Results_1.html:83
+msgid "In this game, you earned"
+msgstr ""
+
+#: FL_payments/Results_1.html:38 FL_payments/Results_1.html:85
+msgid "in total"
+msgstr ""
+
+#: FL_payments/Results_1.html:56
+msgid "The other sent back"
+msgstr ""
+
+#: FL_payments/Results_1.html:66
+msgid "You sent back"
+msgstr ""
+
+#: FL_payments/Results_1.html:74
+msgid "You sent to"
+msgstr ""
+
+#: FL_payments/Results_1.html:77
+msgid "The representative of"
+msgstr ""
+
+#: FL_payments/Results_1.html:79
+msgid "decided to send back to you"
+msgstr ""
+
+#: FL_payments/Results_1.html:101 FL_payments/Results_1.html:145
+#: FL_payments/Results_2.html:59 FL_payments/Results_2.html:104
+msgid "was randomly selected for payment."
+msgstr ""
+
+#: FL_payments/Results_1.html:102 FL_payments/Results_2.html:60
+msgid "For this choice, you chose"
+msgstr ""
+
+#: FL_payments/Results_1.html:108 FL_payments/Results_2.html:66
+msgid "in 2 weeks"
+msgstr ""
+
+#: FL_payments/Results_1.html:117 FL_payments/Results_2.html:75
+msgid "in 4 weeks"
+msgstr ""
+
+#: FL_payments/Results_1.html:123 FL_payments/Results_1.html:184
+#: FL_payments/Results_2.html:81 FL_payments/Results_2.html:143
+msgid "Thus, you earn"
+msgstr ""
+
+#: FL_payments/Results_1.html:125 FL_payments/Results_2.html:83
+msgid "that wil be paid to you in"
+msgstr ""
+
+#: FL_payments/Results_1.html:127 FL_payments/Results_1.html:131
+#: FL_payments/Results_2.html:85 FL_payments/Results_2.html:89
+msgid "weeks."
+msgstr ""
+
+#: FL_payments/Results_1.html:128 FL_payments/Results_2.html:86
+msgid ""
+"We will give you a voucher at the end of the session and you can come in "
+"2 weeks to collect your tokens in local currency. Alternatively, you can "
+"receive this money by phone payment."
+msgstr ""
+
+#: FL_payments/Results_1.html:132 FL_payments/Results_2.html:90
+msgid ""
+"We will give you a voucher at the end of the session and you can come in "
+"4 weeks to collect your tokens in local currency. Alternatively, you can "
+"receive this money by phone payment."
+msgstr ""
+
+#: FL_payments/Results_1.html:143 FL_payments/Results_2.html:102
+msgid "Choice #"
+msgstr ""
+
+#: FL_payments/Results_1.html:146 FL_payments/Results_2.html:105
+msgid "For this choice, you chose Lottery"
+msgstr ""
+
+#: FL_payments/Results_1.html:175 FL_payments/Results_2.html:134
+msgid "The following ball was randomly drawn"
+msgstr ""
+
+#: FL_payments/Results_1.html:194 FL_payments/Results_2.html:153
+msgid "Your total earnings:"
+msgstr ""
+
+#: FL_payments/Results_1.html:196 FL_payments/Results_1.html:200
+#: FL_payments/Results_1.html:211 FL_payments/Results_2.html:154
+#: FL_payments/Results_2.html:157 FL_payments/Results_2.html:167
+#: FL_welcome/Welcome.html:26
+msgid "LC"
+msgstr ""
+
+#: FL_payments/Results_1.html:198 FL_payments/Results_2.html:155
+msgid "Today, you will receive"
+msgstr ""
+
+#: FL_payments/Results_1.html:201 FL_payments/Results_2.html:158
+msgid "to thank you for your participation."
+msgstr ""
+
+#: FL_payments/Results_1.html:202 FL_payments/Results_2.html:159
+msgid "In"
+msgstr ""
+
+#: FL_payments/Results_1.html:209 FL_payments/Results_2.html:166
+msgid "weeks, you will receive"
+msgstr ""
+
+#: FL_payments/Results_2.html:18 FL_payments/Results_2.html:34
+msgid "PGG"
+msgstr ""
+
+#: FL_payments/Results_2.html:20
+msgid "Round 1"
+msgstr ""
+
+#: FL_payments/Results_2.html:21 FL_payments/Results_2.html:37
+msgid "Your initial endowment was"
+msgstr ""
+
+#: FL_payments/Results_2.html:24 FL_payments/Results_2.html:40
+msgid "Your contribution to the common project was"
+msgstr ""
+
+#: FL_payments/Results_2.html:25 FL_payments/Results_2.html:41
+msgid "Total contribution to the common project by the group was"
+msgstr ""
+
+#: FL_payments/Results_2.html:27 FL_payments/Results_2.html:43
+msgid "In this round, you earned"
+msgstr ""
+
+#: FL_payments/Results_2.html:36
+msgid "Round 2"
+msgstr ""
+
+#: FL_risk/Choices.html:14
+msgid ""
+"Now please play the game and select lottery option A or B for each of the"
+" 10 decisions. Remember, only one of the decisions will be executed in "
+"the end. If needed, an enumerator will assist you in performing this "
+"task."
+msgstr ""
+
+#: FL_risk/Choices.html:17
+msgid ""
+"Which lottery do you prefer to play – lottery A or lottery B? Please "
+"indicate your preference for each of the 10 choices. The red and white "
+"balls in the pictures symbolise your chance of randomly drawing the balls"
+" in each decision. Remember that only one of the decisions will be "
+"randomly selected for extraction."
+msgstr ""
+
+#: FL_risk/Choices.html:20
+msgid "When done, please click on the button Continue."
+msgstr ""
+
+#: FL_risk/Choices.html:23 FL_time/Choices.html:17
+msgid ""
+"After you have chosen, one row will be randomly chosen and the lottery "
+"you chose will be played. The outcome of this lottery will be paid to "
+"you. These are in addition to the participation stipend and the tokens "
+"possibly earned in other games."
+msgstr ""
+
+#: FL_risk/Example.html:12
+msgid ""
+"Before we proceed with the real decision, we will give you some examples "
+"that illustrate the possible outcomes of that game and will then ask you "
+"some questions to ensure that you have understood the instructions well."
+"  If you provide a wrong answer, you will receive a message from the "
+"system telling you that there was a mistake in the way you answered. If "
+"this is the case, you can either try again or call the enumerator for "
+"further clarifications."
+msgstr ""
+
+#: FL_risk/Example.html:21 FL_risk/Example.html:75
+msgid "Assume that the following decision was randomly drawn by the system"
+msgstr ""
+
+#: FL_risk/Example.html:28 FL_time/Choices.html:26 FL_time/Example.html:27
+#: FL_time/Example.html:72
+msgid "Your choice"
+msgstr ""
+
+#: FL_risk/Example.html:68
+msgid "Assume that a <b>white ball</b> was randomly drawn by the system."
+msgstr ""
+
+#: FL_risk/Example.html:69
+msgid ""
+"1a) If for this decision, you chose <b>Lottery A</b>, how much would you "
+"have won?"
+msgstr ""
+
+#: FL_risk/Example.html:71
+msgid ""
+"1b) If for this decision, you chose <b>Lottery B</b>, how much would you "
+"have won?"
+msgstr ""
+
+#: FL_risk/Example.html:121
+msgid "Assume that a <b>red ball</b> was randomly drawn by the system."
+msgstr ""
+
+#: FL_risk/Example.html:123
+msgid ""
+"2a) If for this decision, you chose <b>Lottery B</b>, how much would you "
+"have won?"
+msgstr ""
+
+#: FL_risk/Example.html:125
+msgid ""
+"2b) If for this decision, you chose <b>Lottery A</b>, how much would you "
+"have won?"
+msgstr ""
+
+#: FL_risk/Instructions.html:11
+msgid "In this game, you will be asked to make 10 decisions, one after the other."
+msgstr ""
+
+#: FL_risk/Instructions.html:14
+msgid ""
+"Your task is to choose between two alternative lotteries, A and B. The "
+"lotteries differ in the number of tokens that can be won in each of them."
+" Each of the 10 decisions bears a different chance of earning tokens; the"
+" number of tokens to be won also varies between lottery A and B in each "
+"of the 10 decisions."
+msgstr ""
+
+#: FL_risk/Instructions.html:18
+msgid ""
+"After you have made your decisions, the system will randomly select one "
+"of the 10 decisions to execute for real. We will drop the other 9 "
+"decisions and you will not get any cash from them. Each of the 10 "
+"decisions is equally likely to be selected. Your selected lottery (A or "
+"B) corresponding to the randomly selected decision number will be "
+"executed."
+msgstr ""
+
+#: FL_risk/Instructions.html:22
+msgid ""
+"Finally, the system will randomly pick a ball with either red or white "
+"colour. The colour of the selected ball will indicate the number of "
+"tokens you will win. These are in addition to the participation stipend "
+"and the tokens possibly earned in other games."
+msgstr ""
+
+#: FL_risk/Questionnaire.html:11
+msgid "Please answer to the following question"
+msgstr ""
+
+#: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
+#: FL_risk/__init__.py:54
+msgid "100 tokens"
+msgstr ""
+
+#: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
+#: FL_risk/__init__.py:54
+msgid "80 tokens"
+msgstr ""
+
+#: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
+#: FL_risk/__init__.py:54
+msgid "5 tokens"
+msgstr ""
+
+#: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
+#: FL_risk/__init__.py:54
+msgid "190 tokens"
+msgstr ""
+
+#: FL_risk/__init__.py:73
+msgid "Male"
+msgstr ""
+
+#: FL_risk/__init__.py:73
+msgid "Female"
+msgstr ""
+
+#: FL_time/Choices.html:12
+msgid ""
+"Now let us start the game. Please make a decision for each of the 10 "
+"questions (ticking options A or B). Remember, only one of the decisions "
+"will be executed in the end. If needed, an enumerator will assist you in "
+"performing this task."
+msgstr ""
+
+#: FL_time/Choices.html:14
+msgid "When done, please click on the button Continue "
+msgstr ""
+
+#: FL_time/Choices.html:25 FL_time/Example.html:26 FL_time/Example.html:71
+msgid "Option A: in two weeks"
+msgstr ""
+
+#: FL_time/Choices.html:27 FL_time/Example.html:28 FL_time/Example.html:73
+msgid "Option B: in 4 weeks"
+msgstr ""
+
+#: FL_time/Choices.html:35 FL_time/Choices.html:46 FL_time/Choices.html:57
+#: FL_time/Choices.html:68 FL_time/Choices.html:79 FL_time/Choices.html:90
+#: FL_time/Choices.html:101 FL_time/Choices.html:112 FL_time/Choices.html:123
+#: FL_time/Choices.html:134
+msgid "tokens in 2 weeks"
+msgstr ""
+
+#: FL_time/Choices.html:39 FL_time/Choices.html:50 FL_time/Choices.html:61
+#: FL_time/Choices.html:72 FL_time/Choices.html:83 FL_time/Choices.html:94
+#: FL_time/Choices.html:105 FL_time/Choices.html:116 FL_time/Choices.html:127
+#: FL_time/Choices.html:138
+msgid "tokens in 4 weeks"
+msgstr ""
+
+#: FL_time/Example.html:10
+msgid ""
+"Before we proceed with the real decision, we will give you some examples "
+"that illustrate the possible outcomes of that game and will then ask you "
+"some questions to ensure that you have understood the instructions well. "
+msgstr ""
+
+#: FL_time/Example.html:19
+msgid ""
+"Assume that the following decision was randomly drawn by the system: 100 "
+"tokens in 2 weeks or 105 tokens in 4 weeks."
+msgstr ""
+
+#: FL_time/Example.html:36 FL_time/Example.html:81 FL_time/__init__.py:51
+#: FL_time/__init__.py:53
+msgid "100 tokens in 2 weeks"
+msgstr ""
+
+#: FL_time/Example.html:49 FL_time/__init__.py:51
+msgid "105 tokens in 4 weeks"
+msgstr ""
+
+#: FL_time/Example.html:56
+msgid ""
+"If for this decision, you chose <b>Option A</b>, how much would you have "
+"won?"
+msgstr ""
+
+#: FL_time/Example.html:64
+msgid ""
+"Assume that the following decision was randomly drawn by the system: 100 "
+"tokens in 2 weeks or 124 tokens in 4 weeks. "
+msgstr ""
+
+#: FL_time/Example.html:96 FL_time/__init__.py:53
+msgid "124 tokens in 4 weeks"
+msgstr ""
+
+#: FL_time/Example.html:102
+msgid ""
+"If for this decision, you chose <b>Option B</b>, how much would you have "
+"won?"
+msgstr ""
+
+#: FL_time/Instructions.html:12
+msgid ""
+"We will now play another game. We will ask you to make 10 decisions. In "
+"each decision, you can choose to receive the equivalent of 100 tokens "
+"converted in local currency after <b>two weeks</b>, or you can choose to "
+"wait and receive more than 100 tokens in <b>four weeks</b>. The amount "
+"you would receive in 4 weeks will differ for each of the 10 decisions. "
+"These are in addition to the participation stipend and the tokens "
+"possibly earned in other games."
+msgstr ""
+
+#: FL_time/Instructions.html:16
+msgid ""
+"We ask you to fully consider the two options, and make your decisions "
+"carefully based only on your own preferences. Whatever the option you "
+"choose, we will give you a deposit voucher and you will come back to "
+"collect your money two or four weeks later or, if you prefer, you will "
+"have the opportunity to receive this money by phone payment. If you "
+"prefer to use this method, you will have the opportunity to provide a "
+"mobile phone number to the enumerators at the end of the session today."
+msgstr ""
+
+#: FL_time/Instructions.html:21
+msgid "Do you have questions? "
+msgstr ""
+
+#: FL_time/Instructions.html:25
+msgid ""
+"At the end of the game, we will randomly pick one of your decisions. We "
+"will pay you according to your choice in that decision. "
+msgstr ""
+
+#: FL_time/Questionnaire.html:11
+msgid "Please answer to the following questions"
+msgstr ""
+
+#: FL_time/Questionnaire.html:14
+msgid ""
+"How many tokens would you be willing to receive 6 months from now to "
+"forgo the 100 tokens today?"
+msgstr ""
+
+#: FL_time/Questionnaire.html:16
+msgid "How would you rate your understanding of the game instructions?"
+msgstr ""
+
+#: FL_time/Questionnaire.html:19
+msgid ""
+"How much do you trust that you will receive the money in 2 or 4 weeks\\' "
+"time?"
+msgstr ""
+
+#: FL_time/__init__.py:51 FL_time/__init__.py:53
+msgid "100 tokens in 4 weeks"
+msgstr ""
+
+#: FL_time/__init__.py:51
+msgid "105 tokens in 2 weeks"
+msgstr ""
+
+#: FL_time/__init__.py:53
+msgid "124 tokens in 2 weeks"
+msgstr ""
+
+#: FL_time/__init__.py:72
+msgid "Some trust"
+msgstr ""
+
+#: FL_time/__init__.py:73
+msgid "A lot of trust"
+msgstr ""
+
+#: FL_welcome/Welcome.html:8
+msgid "Introduction"
+msgstr ""
+
+#: FL_welcome/Welcome.html:11
+msgid ""
+"Thank you for coming today. We are researchers from the <i>FoodLAND "
+"project</i>. We would like to know urban consumers’ attitude towards "
+"novel local foods, and for doing so we will play a number of games. "
+"Please follow the instructions of the games onscreen carefully."
+msgstr ""
+
+#: FL_welcome/Welcome.html:14
+msgid ""
+"All the people you can see in this room will play the same games as you. "
+"We will not share information about their or your identity, even at the "
+"end of the session. If you know some of them, we ask you not to share "
+"information about their identity with other participants. We will ask "
+"each of you to make different decisions. Your decisions as well as other "
+"participants’ decisions will be <i>made in private</i>, and individual "
+"decisions <i>will not be revealed</i>, even at the end of the session."
+msgstr ""
+
+#: FL_welcome/Welcome.html:18
+msgid ""
+"Each of the games will allow you to earn real money in your <i>Local "
+"Currency (LC)</i>. And as in real life, the amount of money that you will"
+" earn depends on your decision and, for group games, on the decisions of "
+"others too. But sometimes, the amount you will earn will also depend on "
+"chance."
+msgstr ""
+
+#: FL_welcome/Welcome.html:22
+msgid ""
+"There are no wrong of right decisions; therefore, we ask you to decide on"
+" the basis of your preferences exclusively. Before each game you will be "
+"given a number of virtual tokens you can use to play the games. At the "
+"end of the session, you will get"
+msgstr ""
+
+#: FL_welcome/Welcome.html:24
+msgid ""
+"<i>for 10 units of tokens</i>. Besides the money that you will earn from "
+"the games, you will receive a stipend of"
+msgstr ""
+
+#: FL_welcome/Welcome.html:27
+msgid ""
+"to thank you for your participation today. Your total earnings will be "
+"communicated to you privately at the end of the full session today. Other"
+" participants will not know your total earnings."
+msgstr ""
+
+#: FL_welcome/Welcome.html:31
+msgid ""
+"If you have any question, please raise your hand and an enumerator will "
+"come close to you to listen and will provide an answer for everyone."
+msgstr ""
+
+#: FL_welcome/Welcome2.html:8
+msgid "Introduction (ii)"
+msgstr ""
+
+#: FL_welcome/Welcome2.html:12
+msgid ""
+"We kindly ask you not to speak aloud, and not to communicate with other "
+"participants until the end of the session. If you fail to comply with "
+"this rule, you will have to leave the session and you will not receive "
+"your earnings in the games and only get to keep the participation "
+"stipend. After having played the games, we will take a break."
+msgstr ""
+
+#: FL_welcome/Welcome2.html:16
+msgid ""
+"You will write down your answers directly on the computer. In case you "
+"need help, there are here enumerators especially trained to help you "
+"during today’s games. Feel free to ask for help and you will be assisted "
+"individually by an enumerator during the whole session."
+msgstr ""
+
+#: FL_welcome/Welcome2.html:20
+msgid ""
+"If you have any question, please raise your hand and an enumerator will "
+"come close to you to listen and will provide an answer for everyone; "
+"please do not ask your questions aloud."
+msgstr ""
+
+#: FL_welcome/Welcome2.html:26
+msgid "You will take part in"
+msgstr ""
+
+#: FL_welcome/Welcome2.html:27
+msgid ""
+"games. You will know the outcome of each game only at the end of the "
+"session. We will now proceed with the first game."
+msgstr ""
+
+#: FL_welcome/Welcome2.html:43
+msgid "Go to the first game"
+msgstr ""
+

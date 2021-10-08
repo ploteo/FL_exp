@@ -1,0 +1,83 @@
+{{ extends "global/Page.html" }}
+{{ load otree static }}
+{{ load otree i18n }}
+
+{{ block title }}
+
+
+{{ endblock }}
+
+{{ block content }}
+
+
+
+<br>
+<div class="container box">
+<h2>{{ trans 'Questionnaire' }}</h2>
+<p>{{ trans 'Now we will ask you some questions to help you understand the instructions. If you provide a wrong answer, you will receive a message from the system telling you that there was a mistake in the way you answered. If this is the case, you can either try again or call the enumerator for further clarifications.'}}
+</p>
+
+     <div class="alert alert-primary" role="alert">
+         {{ trans 'Your answers to these questions will not affect your final earnings. Please ask for clarifications if needed.'}}
+     </div>
+
+<ol>
+    <li>
+{{ trans 'As a Sender you decide to send 100 tokens to the Receiver. How many tokens will the Receiver obtain from you at the end of the game?' }}   
+{{ formfield "Q1" label=""}}
+</li>
+    <li>
+{{ trans 'As a Sender you decide to send 0 tokens to the Receiver. How many tokens will you have at the end of the game?' }}
+{{ formfield "Q2" label=""}}
+    </li>
+    <li>
+{{ trans 'You are the Receiver and the Sender sends you 50 tokens from its initial endowment. How many tokens will you have at the end of the game?' }}
+{{ formfield "Q3" label=""}}
+</li>
+</ol>
+
+<button class="nexttab btn-outline-primary btn next next">{{ trans 'Check my answers' }} </button>
+</div>
+
+<br>
+
+<button type="button" onclick="myFunction()" class="btn btn-info"> <span style="color:rgb(255, 255, 255)">{{ trans 'Click here to consult the instructions' }}</span></button><br>
+<div id="myDIV" class="container box" style="font-size: 90%; display: none">
+    {{ include "FL_DG/Instructions_welcome.html" }}
+    {{ include "FL_DG/Instructions_sender.html" }}
+</div>
+{{ endblock }}
+
+{{ block scripts }}
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+    $('input[type="range"]').on('mousemove touchmove', function () {
+
+        $val = $(this).val();
+        $thumb = $(this).siblings('.thumb');
+
+        $thumb.css('background-position-x', $val + '%');
+    });
+    // -------------------------------------//
+    // not display at first
+    // -------------------------------------//
+    $('.not-clicked').click(function (e) {
+        $(this).removeClass('not-clicked');
+        $(this).addClass('clicked');
+    });
+    </script>
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

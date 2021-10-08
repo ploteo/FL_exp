@@ -1,0 +1,76 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+
+
+{{ block content }}
+
+
+<h1> Results </h1>
+
+<div class="container box" style="font-size:14pt">
+		<p> <b>Choice #{{row}}</b> was randomly selected for payment.</p>
+		<p>For this choice, you chose Lottery {{choice}}</p>
+		{{ if choice == "A"}}
+		<table class="table table-borderless">
+		<tr>
+			<td style="font-weight: bold; text-align:right">
+				<img src="{{ static image_path }}" width="200px" />
+			</td>
+			<td style="font-weight: bold; text-align:left">
+				<img src="{{ static "FL_risk/red.png" }}" width="20px" /> = {{Constants.Ah}} <br>
+				<img src="{{ static "FL_risk/white.png" }}" width="20px" /> = {{Constants.Al}}
+			</td>
+		</tr>
+		</table>
+		{{ else }}
+				<table class="table table-borderless">
+					<tr>
+						<td style="font-weight: bold; text-align:right">
+							<img src="{{ static image_path }}" width="200px" />
+						</td>
+						<td style="font-weight: bold; text-align:left">
+							<img src="{{ static "FL_risk/red.png" }}" width="20px" /> = {{Constants.Bh}} <br>
+							<img src="{{ static "FL_risk/white.png" }}" width="20px" /> = {{Constants.Bl}}
+						</td>
+					</tr>
+				</table>
+		{{ endif }}
+
+<!-- The lottery chosen -->
+		<p>The following ball was randomly drawn
+
+		{{ if value <= row }}
+    <img src="{{ static "FL_risk/red.png" }}" width="30px" />
+		{{ else }}
+    <img src="{{ static "FL_risk/white.png" }}" width="30px" />
+		{{ endif }}
+</p>
+
+<p> Thus, you earn <b>{{payoff}}.</b></p>
+</div>
+
+
+<div class="container">
+	<div class="row">
+		&nbsp;
+	</div>
+	<div class="row" style="padding-left:130px;">
+		<div class="col-md-10">
+
+		</div>
+		<div class="col-md-2">
+			<button class="otree-btn-next btn btn-primary">
+			  <span style="font-size:18pt">Continue</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

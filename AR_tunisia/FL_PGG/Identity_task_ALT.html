@@ -1,0 +1,174 @@
+{{ block title }}
+{{ trans 'Task'}}
+{{ endblock }}
+{{ block content }}
+
+<div class="container box">
+
+
+<p>{{ trans 'Reorder now the words below to obtain the description of an object.'}}</p>
+
+{{ if treatment == "identity" }}
+
+{{if id == 1 }}
+<ul>
+  <li>{{ trans 'can be' }}</li>
+  <li>{{ trans 'It' }}</li>
+  <li>{{ trans 'warm.' }}</li>
+  <li>{{ trans 'cold or' }} </li>
+</ul>
+{{endif}}
+{{if id == 2 }}
+<ul>
+  <li>{{ trans 'can' }}</li>
+  <li>{{ trans 'It' }}</li>
+  <li>{{ trans 'transparent.' }}</li>
+  <li>{{ trans 'be' }} </li>
+</ul>
+{{endif}}
+{{if id == 3 }}
+<ul>
+  <li>{{ trans 'can' }}</li>
+  <li>{{ trans 'It' }}</li>
+  <li>{{ trans 'salty.' }}</li>
+  <li>{{ trans 'be' }} </li>
+</ul>
+{{endif}}
+{{if id == 4 }}
+<ul>
+  <li>{{ trans 'makes' }}</li>
+  <li>{{ trans 'It' }}</li>
+  <li>{{ trans 'go away.' }}</li>
+  <li>{{ trans 'thirst' }} </li>
+</ul>
+{{endif}}
+
+{{else}}
+
+{{if id == 1 }}
+<ul>
+  <li>{{ trans 'can be' }}</li>
+  <li>{{ trans 'Water' }}</li>
+  <li>{{ trans 'warm.' }}</li>
+  <li>{{ trans 'cold or' }} </li>
+</ul>
+{{endif}}
+{{if id == 2 }}
+<ul>
+  <li>{{ trans 'can' }}</li>
+  <li>{{ trans 'Water' }}</li>
+  <li>{{ trans 'transparent.' }}</li>
+  <li>{{ trans 'be' }} </li>
+</ul>
+{{endif}}
+{{if id == 3 }}
+<ul>
+  <li>{{ trans 'can' }}</li>
+  <li>{{ trans 'Water' }}</li>
+  <li>{{ trans 'salty.' }}</li>
+  <li>{{ trans 'be' }} </li>
+</ul>
+{{endif}}
+{{if id == 4 }}
+<ul>
+  <li>{{ trans 'makes' }}</li>
+  <li>{{ trans 'Water' }}</li>
+  <li>{{ trans 'go away.' }}</li>
+  <li>{{ trans 'thirst' }} </li>
+</ul>
+{{endif}}
+
+{{endif}}
+
+{{ if treatment == "identity" }}
+<p>{{ trans 'Members of your group are involved in the same task, but with a different sentence referring to the same object. All sentences put together give you an accurate description of this object.'}}</p>
+
+{{endif}}
+
+<p>{{ trans 'Put the words in the right order in the boxes below'}}</p>
+
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+{{formfield player.I1 label=""}}
+      </td>
+      <td>
+{{formfield player.I2 label=""}}
+      </td>
+            <td>
+{{formfield player.I3 label=""}}
+      </td>
+      <td>
+{{formfield player.I4 label=""}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>
+  {{ trans 'If you do a mistake just try again. When all words are correctly positioned you will continue to the next page.' }}
+</p>
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-8">
+    </div>
+    <div class="col-md-4">
+      <button class="btn btn-outline-primary btn-large" id="continue">
+        <span style="font-size:16pt">{{ trans 'Continue' }}</button>
+          </span>
+    </div>
+    </div>
+    </div>
+
+
+</div>
+
+{{ endblock }}
+
+{{block script}}
+
+{{ endblock }}
+
+{{ block styles }}
+<style>
+  #drop1,
+  #drop2,
+  #drop3,
+  #drop4 {
+    float: left;
+    width: 180px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 1px rgb(2, 2, 2);
+  }
+
+  #ans1,
+  #ans2,
+  #ans3,
+  #ans4 {
+    float: left;
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .right {
+    background: rgb(113, 255, 132);
+
+  }
+
+  .wrong {
+    background: rgb(255, 75, 114)
+  }
+</style>
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+{{ endblock }}

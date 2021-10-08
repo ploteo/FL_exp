@@ -1,0 +1,39 @@
+
+<h2>{{ trans 'Instructions' }}</h2>
+
+<p>
+  {{ trans 'Now we will play a second round of this game. This round will follow the same rules of the previous one.' }}
+</p>
+
+<p>
+    {{ trans 'You and the other members of your group will receive' }} 
+    {{Constants.endowment_medium}}. 
+    {{ trans 'You and each member of your group will have the opportunity to put as many of these tokens as you want on a common account, or to keep some or all of them for yourself. These are new tokens and the earnings from the previous round will not be affected. The tokens that you keep for yourself will remain with you and contribute to your final earnings.' }}
+</p>
+
+<p>
+  {{ trans 'After all the members of your group have chosen how much to contribute to the common account, the system will top up your group’s common account with the same amount as what was put in the common account, so that the total amount is doubled. This will then be shared equally amongst the members of your group. Each member of your group, including you, will receive the same share <b>regardless of the amount they put on the common account.</b> ' }}
+</p>
+
+
+<p>
+  {{ trans 'Again, you will make a decision on keeping your tokens or putting them, or part of them, in the common account. Once everyone has made their decision, we will count the tokens and communicate the result to everyone. Again, individual decisions won’t be communicated to anyone by the enumerators.' }}
+</p>
+
+
+<p>
+  <i>{{ trans 'Do you have any questions?' }}</i>
+</p>
+
+{{ if treatment == "identity" }}
+<p>
+  {{ trans 'Before making your decision, you will perform a group task with the remaining 3 participants of your group. Results from this task will not affect your earnings. Instructions follow.' }}
+</p>
+
+{{else}}
+<p>
+  {{ trans 'Before making your decision, you will perform a task. Results from this task will not affect your earnings. Instructions follow.' }}
+</p>
+
+
+{{endif}}

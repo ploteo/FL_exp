@@ -1,0 +1,209 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+{% load otree i18n %}
+
+{% block content %}
+
+<div class="container box">
+
+<h1>{{ trans 'Payments' }}</h1>
+
+<p>{{ trans 'Thank you again for your participation today. Here a summary of your payments.'}}
+</p>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                 <h2 class="card-title">{{ trans 'PGG'}}</h2>
+                 <!--#DG -->
+                    <h3>{{ trans 'Round 1' }}</h3>
+                    <p>{{trans 'Your initial endowment was' }}
+                                            {{endowment_1}}</p>
+
+                    <p>{{trans 'Your contribution to the common project was' }} {{own_contribution_1}}</p>
+                    <p>{{trans 'Total contribution to the common project by the group was' }}
+                        {{total_contributions_1}}.</p>
+                    <p>{{trans 'In this round, you earned' }} <b>{{payoff_PGG_1}}</b>.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">{{ trans 'PGG'}}</h2>
+                <!--#DG -->
+                <h3>{{ trans 'Round 2' }}</h3>
+                                    <p>{{trans 'Your initial endowment was' }}
+                                        {{endowment_2}}</p>
+
+                <p>{{trans 'Your contribution to the common project was' }} {{own_contribution_2}}</p>
+                <p>{{trans 'Total contribution to the common project by the group was' }}
+                    <b>{{total_contributions_2}}</b>.</p>
+                <p>{{trans 'In this round, you earned' }} <b>{{payoff_PGG_2}}</b>.</p>
+            </div>
+        </div>
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                 <h2 class="card-title">TP</h2>
+                 <!--#Time -->
+
+ <p> <b>{{ trans 'Choice' }} 
+     #{{row}}</b> 
+     {{ trans 'was randomly selected for payment.'}}</p>
+ <p>{{ trans 'For this choice, you chose' }} {{choice_time}}</p>
+ {{ if choice_time == "A"}}
+ <center>
+     <table class="table table-borderless">
+         <tr>
+             <td style="text-align:center">
+                 {{payoff_time}} {{ trans 'in 2 weeks' }}
+             </td>
+     </table>
+ </center>
+ {{ else }}
+ <center>
+     <table class="table table-borderless">
+         <tr>
+             <td style="text-align:center">
+                 {{payoff_time}} {{ trans 'in 4 weeks' }}
+             </td>
+     </table>
+ </center>
+ {{ endif }}
+
+ <p> {{ trans 'Thus, you earn' }} 
+     <b>{{payoff_time}} </b> 
+     {{ trans 'that wil be paid to you in' }} 
+     {{ if choice_time == "A"}} 
+     <b>2 {{ trans 'weeks.' }}</b> </p>
+     <p> {{ trans 'We will give you a voucher at the end of the session and you can come in 2 weeks to collect your tokens in local currency. Alternatively, you can receive this money by phone payment.' }}
+     </p>
+     {{else}} 
+     <b>4 {{ trans 'weeks.' }}</b></p>
+     <p> {{ trans 'We will give you a voucher at the end of the session and you can come in 4 weeks to collect your tokens in local currency. Alternatively, you can receive this money by phone payment.' }}
+     </p>
+         {{endif}}
+
+ </div>
+            </div>
+        </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">RP</h2> 
+                <!-- Risk -->
+        	<p> <b>{{ trans 'Choice #' }}
+                {{row_risk}}</b> 
+                {{ trans 'was randomly selected for payment.'}}</p>
+        	<p>{{ trans 'For this choice, you chose Lottery'}}
+                {{choice_risk}}</p>
+        	{{ if choice_risk == "A"}}
+        	<table class="table table-borderless">
+        	    <tr>
+        	        <td style="font-weight: bold; text-align:right">
+        	            <img src="{{ static image_path }}" width="200px" />
+        	        </td>
+        	        <td style="font-weight: bold; text-align:left">
+        	            <img src="{{ static "FL_risk/red.png" }}" width="20px" /> = {{Ah}} <br>
+        	            <img src="{{ static "FL_risk/white.png" }}" width="20px" /> = {{Al}}
+        	        </td>
+        	    </tr>
+        	</table>
+        	{{ else }}
+        	<table class="table table-borderless">
+        	    <tr>
+        	        <td style="font-weight: bold; text-align:right">
+        	            <img src="{{ static image_path }}" width="200px" />
+        	        </td>
+        	        <td style="font-weight: bold; text-align:left">
+        	            <img src="{{ static "FL_risk/red.png" }}" width="20px" /> = {{Bh}} <br>
+        	            <img src="{{ static "FL_risk/white.png" }}" width="20px" /> = {{Bl}}
+        	        </td>
+        	    </tr>
+        	</table>
+        	{{ endif }}
+
+        	<!-- The lottery chosen -->
+        	<p>{{ trans 'The following ball was randomly drawn'}}
+
+        	    {{ if value <= row_risk }}
+        	    <img src="{{ static "FL_risk/red.png" }}" width="30px" />
+        	    {{ else }}
+        	    <img src="{{ static "FL_risk/white.png" }}" width="30px" />
+        	    {{ endif }}
+        	</p>
+
+        	<p> {{ trans 'Thus, you earn' }} <b>{{Payoff_risk}}.</b></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container box">
+
+
+<h2>{{ trans 'Your total earnings:' }} {{Total_payment}} ({{Total_payment_exc}} 
+    {{ trans 'LC'}})</h2>
+<p>{{ trans 'Today, you will receive' }} {{Total_payment_now}} 
+    ({{Total_payment_now_exc}} 
+    {{ trans 'LC'}}) + {{show_up}}
+    {{ trans 'to thank you for your participation.' }}</p> 
+    <p>{{ trans 'In'}}
+        {{ if choice_time == "A"}}
+        2
+        {{ else }}
+        4
+        {{ endif }}
+    
+        {{ trans 'weeks, you will receive' }} {{payoff_time}} ({{Total_payment_late_exc}} 
+        {{ trans 'LC'}}).</p>
+    
+    <p>
+<p>
+    {{trans 'We are now done with the games. Thank you for your time!'}}&#128512;
+</p>
+
+<p>
+    {{trans 'While we are preparing your payments, we will kindly ask you to fill in a questionnaire about your food preferences and purchasing habits. But first, we will take a break.'}}
+</p>
+
+</div>
+    </div>
+
+<div class="container">
+    <div class="row">
+        &nbsp;
+    </div>
+    <div class="row" style="padding-left:135px;">
+        <div class="col-md-10">
+
+        </div>
+        <div class="col-md-2">
+            <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+                <span style="font-size:16pt">{{ trans 'Conclude'}}</span>
+            </button>
+        </div>
+
+    </div>
+</div>
+
+{{ endblock }}
+
+{{ block styles }}
+
+<style type="text/css">
+</style>
+<link href="{{ static "mystyle.css" }}" rel="stylesheet">
+
+{{ endblock }}
+
+
+

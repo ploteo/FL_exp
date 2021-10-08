@@ -1,0 +1,42 @@
+{{ extends "global/Page.html" }}
+{{ load otree static }}
+{{ load otree i18n }}
+
+{{ block title }}
+
+
+{{ endblock }}
+
+{{ block content }}
+
+
+
+<br>
+<div class="container box">
+<h2>{{ trans 'Questionnaire (Receiver)' }}</h2>
+
+<p>
+{{ trans 'Thank you for playing this game. Before we proceed, we want to ask you some questions in relation to the game you played. Please answer the following questions.'}}
+</p>
+
+<p>{{ trans '1. How much do you think the Sender will actually send?' }}</p>
+{{ formfield player.FQ_2 label=""}}
+
+
+<p>
+  {{ trans '2. Overall, do you think that the amounts you returned to the Sender were fair?' }}</i> </p>
+  
+{{ formfield player.FQ_2b label=""}}
+
+
+
+<button class="nexttab btn-outline-primary btn next next">{{ trans 'Continue' }} </button>
+</div>
+{{ endblock }}
+
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

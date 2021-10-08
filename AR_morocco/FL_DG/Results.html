@@ -1,0 +1,62 @@
+{{ extends "global/Page.html" }}
+{{ load otree static }}
+{{ load otree i18n }}
+
+{{ block content }}
+<h1>{{ trans 'Results'}} </h1>
+
+
+<div class="container box">
+    <h2>{{ trans 'Peer Dictator' }}</h2>
+    {{ if type == "sender" }}
+    <p>{{trans 'You are the <b>Sender</b> in the group' }}</p>
+  <p>{{trans 'The <b>Sender</b> in the group (you) sent' }} <b>{{sent}}</b>.</p>
+    <p>{{trans 'Your earnings are' }} {{player.payoff}}.</p>
+        <p>{{trans 'The earnings of the Receiver are' }} {{payoff_receiver}}.</p>
+    {{ else }}
+    <p>{{trans 'You are the <b>Receiver</b> in the group' }}</p>
+    <p>{{trans 'The <b>Sender</b> in the group (the other) sent' }} <b>{{sent}}</b>.</p>
+    <p>{{trans 'Your earnings are' }} {{player.payoff}}.</p>
+    <p>{{trans 'The earnings of the Sender are' }} {{payoff_receiver}}.</p>
+    {{ endif }}
+</div>
+<br>
+<div class="container box">
+    <h2>{{ trans 'Institution Dictator' }}</h2>
+    <p>{{trans 'You sent ' }} <b>{{sent_inst}}</b> to {{Constants.inst}}.</p>
+    <p>{{trans 'Thus,'}} 
+        {{Constants.inst}} 
+        {{trans 'receives' }} 
+        {{sent_inst}} 
+        {{trans 'from you'}}.</p>
+    <p>{{trans 'You earn' }} {{payoff_sender_inst}}.</p>
+</div>
+<br>
+<div class="container box">
+    <p style="text-align: center">In total you earned <b>{{payoff_tot}}</b></p>
+</div>
+
+<div class="container">
+    <div class="row">
+        &nbsp;
+    </div>
+    <div class="row" style="padding-left:135px;">
+        <div class="col-md-10">
+
+        </div>
+        <div class="col-md-2">
+            <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+                <span style="font-size:16pt">{{ trans 'Continue' }}</span>
+            </button>
+        </div>
+
+    </div>
+</div>
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}
+

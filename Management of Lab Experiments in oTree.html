@@ -1,0 +1,735 @@
+<!DOCTYPE html><html><head>
+      <title>Management of Lab Experiments in oTree</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////Users/matteo/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.6.0/node_modules/@shd101wyy/mume/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="management-of-lab-experiments-in-otree">Management of Lab Experiments in oTree</h1>
+
+<h3 class="mume-header" id="foodland-project">FoodLand Project</h3>
+
+<h2 class="mume-header" id="description">Description</h2>
+
+<p>As reported in the  opening of the project website (<a href="http://otree.org">otree.org</a>) &#x201C;oTree is an open-source platform for web-based interactive tasks&#x201D;. Otree is free (<a href="https://opensource.org/licenses/MIT">https://opensource.org/licenses/MIT</a>) and can be downloaded from <a href="https://otree.readthedocs.io/en/latest/install.html">https://otree.readthedocs.io/en/latest/install.html</a><br>
+It is rapidly becoming the reference platform for experiments in economics, both online and in the lab.<br>
+The reference languages for programming an oTree experiment are Python and HTML.<br>
+Each experiment can be thought as a web app (for live demos, see <a href="https://otree-more-demos.herokuapp.com/demo">https://otree-more-demos.herokuapp.com/demo</a>).</p>
+<h2 class="mume-header" id="serverclient-communication">Server/client communication</h2>
+
+<p>Users can interact with an oTree app through an Internet browser in a client/server infrastructure. Typically, the app is located on a server where oTree and its dependencies are installed. When a session is opened on the server, links are generated and distributed to users that will connect to the server by inserting the link in their client&#x2019;s browser. Potentially, any device with a browser can be a client and interact with the app.</p>
+<h2 class="mume-header" id="implementation-settings">Implementation settings</h2>
+
+<p>Two main environments allow users to interact with the app: <em>laboratory</em> and <em>remote</em>.</p>
+<h3 class="mume-header" id="laboratory">Laboratory</h3>
+
+<p>In a laboratory setting, users are generally present in a room with cubicles that warrant users&#x2019; privacy. Each user had access to a terminal. The server and the terminals are usually located under the same local network. Typically a lab is made of 1 Desktop PC that works as server and a number of terminals, usually Desktop PCs or Laptops, that are used Individually by participants. The number of terminals is generally between 20 and 30. When the client and server are not connected to the Internet it is important that they all inside a Local Area Network (LAN).</p>
+<p>To set up a LAN switches and cables are needed. Detailed instructions to configure one of your computers to be a server are provided in the <a href="https://otree.readthedocs.io/en/latest/server/adhoc.html">official documentation</a>.</p>
+<p>Basically,</p>
+<ol>
+<li>
+<p>Find the IP address of the computer that works as server (usually something like <em>10.0.1.3</em>, or starting with <em>172</em> or <em>192</em>)</p>
+</li>
+<li>
+<p>From this computer start the oTree server with command</p>
+<blockquote>
+<p>otree prodserver YOURIPHERE:8000</p>
+</blockquote>
+</li>
+<li>
+<p>Open a browser on your clients and follow the instructions below to <em>How to setup a session</em>.</p>
+</li>
+</ol>
+<p>It is important that the IP address of your server does not change during the session!</p>
+<h3 class="mume-header" id="remote-server">Remote server</h3>
+
+<p>In a remote setting, the app is located on a web server and it is accessed by clients via the Internet. Clients can be located anywhere, as long as they can connect to the server via the session link. An example of a remote setting is the one that relies on the cloud hosting provider Heroku (<a href="https://otree.readthedocs.io/en/latest/server/heroku.html">https://otree.readthedocs.io/en/latest/server/heroku.html</a>). The remote setting requires a stable Internet connection to avoid problems in the client/server communication.</p>
+<h1 class="mume-header" id="how-to-setup-a-room">How to setup a Room</h1>
+
+<p>In the <a href="http://settings.py">settings.py</a> file (see below) setup a room with 40 places</p>
+<pre data-role="codeBlock" data-info="python" class="language-python">ROOMS <span class="token operator">=</span> <span class="token punctuation">[</span>
+ <span class="token builtin">dict</span><span class="token punctuation">(</span>
+        name<span class="token operator">=</span><span class="token string">&apos;econ_lab&apos;</span><span class="token punctuation">,</span>
+        display_name<span class="token operator">=</span><span class="token string">&apos;Experimental Economics Lab 40s&apos;</span><span class="token punctuation">,</span>
+        participant_label_file<span class="token operator">=</span><span class="token string">&apos;_rooms/labels.txt&apos;</span><span class="token punctuation">,</span>
+	    use_secure_urls<span class="token operator">=</span><span class="token boolean">False</span>
+    <span class="token punctuation">)</span><span class="token punctuation">]</span>
+</pre><p>Each PC will then receive a specific URL with a PC identifier (PC1 ,PC2, PC2)</p>
+<p><a href="http://YOURIPHERE:8000/room/econ_lab?participant_label=PC1">http://YOURIPHERE:8000/room/econ_lab?participant_label=PC1</a><br>
+<a href="http://YOURIPHERE:8000/room/econ_lab?participant_label=PC2">http://YOURIPHERE:8000/room/econ_lab?participant_label=PC2</a><br>
+<a href="http://YOURIPHERE:8000/room/econ_lab?participant_label=PC3">http://YOURIPHERE:8000/room/econ_lab?participant_label=PC3</a><br>
+<a href="http://YOURIPHERE:8000/room/econ_lab?participant_label=PC4">http://YOURIPHERE:8000/room/econ_lab?participant_label=PC4</a><br>
+....</p>
+<ul>
+<li>From Computer 1 open the link <a href="http://YOURIPHERE:8000/room/econ_lab?participant_label=PC1">http://YOURIPHERE:8000/room/econ_lab?participant_label=PC1</a></li>
+</ul>
+<h1 class="mume-header" id="how-to-setup-a-session">How to setup a session</h1>
+
+<p>To setup a session</p>
+<ol>
+<li>Start the otree server on your server machine with command</li>
+</ol>
+<blockquote>
+<p>otree prodserver YUORIPHERE:8000</p>
+</blockquote>
+<ol start="2">
+<li>Open a broswer on your server machine and write</li>
+</ol>
+<blockquote>
+<p><a href="http://YUORIPHERE:8000/sessions">http://YUORIPHERE:8000/sessions</a></p>
+</blockquote>
+<p>Click the button <button type="button" class="btn btn-primary">Create new session</button></p>
+<ol start="3">
+<li>
+<p>Choose your app and the configuration settings from the interface that opens</p>
+</li>
+<li>
+<p>When done, click the button <button type="button" class="btn btn-primary">Create</button></p>
+</li>
+</ol>
+<p>This will create a series of links. Now the clients can connect to the server with these links.</p>
+<p>If you use Rooms (recommended), you follow a similar procedure but session is created directly from the Room</p>
+<ol>
+<li>
+<p>Ask your clients to connect to your room by writing the room address in their browser (sse above for instructions)</p>
+</li>
+<li>
+<p>Open a broswer on your server machine and write</p>
+</li>
+</ol>
+<blockquote>
+<p><a href="http://YUORIPHERE:8000/rooms">http://YUORIPHERE:8000/rooms</a></p>
+</blockquote>
+<ol start="3">
+<li>Choose your room from the list</li>
+<li>Choose your app and the configuration settings from the interface that opens</li>
+<li>When done, click the button <button type="button" class="btn btn-primary">Create</button></li>
+</ol>
+<p>Now the session is active and clients connected to the room can start the session.</p>
+<h1 class="mume-header" id="our-apps">Our apps</h1>
+
+<p>Two main experiments are developed, <em>block 1 and block 2</em>, that differ in the sequence of apps that are presented to participants</p>
+<h2 class="mume-header" id="block-1">Block 1</h2>
+
+<p>The following apps are contained in Block 1</p>
+<ol>
+<li><em>FL_welcome</em>
+<ul>
+<li>
+<p>This app must be the first in te sequence. It displays a welcoem messag eand general instructions.</p>
+</li>
+<li>
+<p>It also loads pieces iof information about organizations from external .csv files.</p>
+<p><strong>choices_inst.csv</strong></p>
+<p>Example:</p>
+<table>
+<thead>
+<tr>
+<th>Institution</th>
+<th>Choice_other_0</th>
+<th>Choice_other_30</th>
+<th>Choice_other_60</th>
+<th>Choice_other_90</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>0</td>
+<td>15</td>
+<td>80</td>
+<td>120</td>
+</tr>
+<tr>
+<td>B</td>
+<td>0</td>
+<td>20</td>
+<td>40</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<p><strong>institutions.csv</strong><br>
+Example:</p>
+<table>
+<thead>
+<tr>
+<th>Inst_Name</th>
+<th>Inst_Type</th>
+<th>Inst_Area</th>
+<th>Inst_Product</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>NGO</td>
+<td>Place X</td>
+<td>new nutrient-dense food product</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Association</td>
+<td>Place Y</td>
+<td>new water irrigation saving technology</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>&#x26A0;  These files must be filled with the correct information about local organizations  and preserving the original structure</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><em>FL_DG</em>
+<ul>
+<li>A Dictator Game: 2 phases, first with a peer then with the organization
+<ul>
+<li>Both choose as Dictators and know aftewards their actual role</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>FL_TG</em>
+<ul>
+<li>A mini-investment game: 2 phases, first with a peer then with the organization
+<ul>
+<li>Play either as Recipient or as Sender
+<ul>
+<li>Both receive th eendowment</li>
+<li>Strategy method</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><em>FL_time</em>
+<ul>
+<li>A MPL estimation of time preferences</li>
+</ul>
+</li>
+<li><em>FL_risk</em>
+<ul>
+<li>A MPL estimation of risk preferences</li>
+</ul>
+</li>
+</ul>
+<ol start="6">
+<li><em>FL_payments</em>
+<ul>
+<li>Displays all payments and feedbacks</li>
+</ul>
+</li>
+</ol>
+<p>The order of FL_DG, FL_TG, FL_time, FL_risk can be randomized in <em><a href="http://settings.py">settings.py</a></em> (see below)</p>
+<h2 class="mume-header" id="block-2">Block 2</h2>
+
+<p>The following apps are contained in Block 2</p>
+<ol>
+<li><em>FL_welcome</em>
+<ul>
+<li>This app must be the first in te sequence. It displays a welcome message and general instructions.</li>
+</ul>
+</li>
+</ol>
+<p>-FL_PGG<br>
+- A 4-player PGG over 2 rounds in a partner fashion<br>
+- Round 1: PGG<br>
+- Task: subjects are either assigned to an <em>identity task</em> (to create group identity) or to an <em>individual task</em><br>
+- Controlled from <em><a href="http://settings.py">settings.py</a></em> (see below)<br>
+- Round 2: PGG</p>
+<ul>
+<li><em>FL_time</em>
+<ul>
+<li>A MPL estimation of time preferences</li>
+</ul>
+</li>
+<li><em>FL_risk</em>
+<ul>
+<li>A MPL estimation of risk preferences</li>
+</ul>
+</li>
+</ul>
+<ol start="6">
+<li><em>FL_payments</em>
+<ul>
+<li>Displays all payments and feedbacks</li>
+</ul>
+</li>
+</ol>
+<h1 class="mume-header" id="settingspy"><a href="http://settings.py">settings.py</a></h1>
+
+<p>This file controls general settings of the experiment. It looks like this</p>
+<pre data-role="codeBlock" data-info="python" class="language-python">LANGUAGE_CODE <span class="token operator">=</span> <span class="token string">&apos;en&apos;</span> <span class="token comment"># &lt;- CHANGE GERE: it,en</span>
+
+SESSION_CONFIG_DEFAULTS <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token string">&apos;real_world_currency_per_point&apos;</span><span class="token punctuation">:</span> <span class="token number">0.00</span><span class="token punctuation">,</span>
+    <span class="token string">&apos;participation_fee&apos;</span><span class="token punctuation">:</span> <span class="token number">0.00</span><span class="token punctuation">,</span>
+    <span class="token string">&apos;doc&apos;</span><span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span>
+<span class="token punctuation">}</span>
+<span class="token comment"># e.g. EUR, GBP, CNY, JPY</span>
+REAL_WORLD_CURRENCY_CODE <span class="token operator">=</span> <span class="token string">&apos;LC&apos;</span>
+USE_POINTS <span class="token operator">=</span> <span class="token boolean">True</span>
+POINTS_CUSTOM_NAME <span class="token operator">=</span> <span class="token string">&apos;Tokens&apos;</span>
+
+SESSION_CONFIGS <span class="token operator">=</span> <span class="token punctuation">[</span>
+
+ <span class="token builtin">dict</span><span class="token punctuation">(</span>
+    name<span class="token operator">=</span><span class="token string">&apos;FL_block_1&apos;</span><span class="token punctuation">,</span> 
+    display_name<span class="token operator">=</span><span class="token string">&apos;FL_block1&apos;</span><span class="token punctuation">,</span>
+    num_demo_participants<span class="token operator">=</span><span class="token number">4</span><span class="token punctuation">,</span>
+    participation_fee<span class="token operator">=</span><span class="token builtin">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    real_world_currency_per_point<span class="token operator">=</span><span class="token number">0.01</span><span class="token punctuation">,</span>
+    block <span class="token operator">=</span> <span class="token string">&quot;block1&quot;</span><span class="token punctuation">,</span><span class="token comment">#to control the display of results</span>
+    app_sequence<span class="token operator">=</span>sequence
+ <span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token builtin">dict</span><span class="token punctuation">(</span>
+    name<span class="token operator">=</span><span class="token string">&apos;FL_block_2&apos;</span><span class="token punctuation">,</span>
+    display_name<span class="token operator">=</span><span class="token string">&apos;FL_block2&apos;</span><span class="token punctuation">,</span>
+    num_demo_participants<span class="token operator">=</span><span class="token number">4</span><span class="token punctuation">,</span>
+    participation_fee<span class="token operator">=</span><span class="token builtin">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    real_world_currency_per_point<span class="token operator">=</span><span class="token number">0.01</span><span class="token punctuation">,</span>
+    block <span class="token operator">=</span> <span class="token string">&quot;block2&quot;</span><span class="token punctuation">,</span>  <span class="token comment"># to control the display of results</span>
+    treatment <span class="token operator">=</span><span class="token string">&quot;identity&quot;</span><span class="token punctuation">,</span> <span class="token comment">#identity to have identity in the task of PGG</span>
+    app_sequence<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">&apos;FL_welcome&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_PGG&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;FL_time&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_risk&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_payments&apos;</span><span class="token punctuation">]</span>
+ <span class="token punctuation">)</span>
+<span class="token punctuation">]</span>
+<span class="token punctuation">[</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span>
+</pre><p>The following key variables can be controlled from here</p>
+<ul>
+<li>
+<p>General</p>
+<ul>
+<li><strong>LANGUAGE_CODE</strong> = &apos;en&apos;
+<ul>
+<li>The language used for system feedbacks</li>
+</ul>
+</li>
+<li><strong>REAL_WORLD_CURRENCY_CODE</strong> = &apos;LC&apos;
+<ul>
+<li>Name of the local currency</li>
+</ul>
+</li>
+<li><strong>USE_POINTS</strong> = True
+<ul>
+<li>Is the game played with points (True)</li>
+</ul>
+</li>
+<li><strong>POINTS_CUSTOM_NAME</strong> = &apos;Tokens&apos;
+<ul>
+<li>Name of Tokens (to be translated)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Block specific</p>
+<ul>
+<li><strong>participation_fee</strong>
+<ul>
+<li>Payment for participation in LC</li>
+</ul>
+</li>
+<li><strong>block</strong>
+<ul>
+<li>either <em>block1</em> or <em>block2</em>, accordingly</li>
+</ul>
+</li>
+<li><strong>real_world_currency_per_point</strong>
+<ul>
+<li>Conversion rate of Tokens into real currency</li>
+</ul>
+</li>
+<li><strong>app_sequence</strong>
+<ul>
+<li>The sequence of apps in a list
+<ul>
+<li>Can be randomized or decided ex-ante
+<ul>
+<li>&#x26A0; FL_welcome and FL_oayment must always be first and last</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>treatment</strong> (block2 only)
+<ul>
+<li>= identity -&gt; participants go through a group identity task (word game)</li>
+<li>= individual -&gt; participants go through an individual task (word game)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>This is an example of how to randomize the sequence of apps at the session level</p>
+<pre data-role="codeBlock" data-info="python" class="language-python"><span class="token keyword">from</span> os <span class="token keyword">import</span> environ
+
+<span class="token comment">#this is for block 1</span>
+<span class="token keyword">import</span> random
+
+<span class="token keyword">if</span> random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">:</span>
+    sequence <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&apos;FL_welcome&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_DG&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_TG&apos;</span><span class="token punctuation">,</span>
+                <span class="token string">&apos;FL_time&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_risk&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_payments&apos;</span><span class="token punctuation">]</span>
+<span class="token keyword">else</span><span class="token punctuation">:</span>
+    sequence <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">&apos;FL_welcome&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_TG&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_DG&apos;</span><span class="token punctuation">,</span>
+                <span class="token string">&apos;FL_time&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_risk&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_payments&apos;</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>sequence<span class="token punctuation">)</span>
+
+<span class="token comment"># if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs</span>
+<span class="token comment"># in SESSION_CONFIGS, except those that explicitly override it.</span>
+<span class="token comment"># the session config can be accessed from methods in your apps as self.session.config,</span>
+<span class="token comment"># e.g. self.session.config[&apos;participation_fee&apos;]</span>
+</pre><h1 class="mume-header" id="payments">Payments</h1>
+
+<p>Payments can be conveniently administered using the oTree interface</p>
+<p><img src="payments.png" alt></p>
+<p>Participants are displayed in order of connection (in Rooms is the label order).</p>
+<p><strong>Total</strong> is the amount to be paid today in Local Currency (show-up fee included).</p>
+<h1 class="mume-header" id="translation">Translation</h1>
+
+<p>To translate the reference app (in English) into different languages follow these steps (<em>pybabel required</em>)</p>
+<ol>
+<li><strong>Create the template</strong> from the &quot;source&quot; folder (the original app)</li>
+</ol>
+<blockquote>
+<p>pybabel extract ./ -F babel.ini -o messages.pot -k trans</p>
+</blockquote>
+<p>This will create a template <em>messages.pot</em>. This is the template that serves as starting file for all the translations.</p>
+<ol start="2">
+<li>
+<p><strong>Copy</strong> <em>messages.pot</em> to the root folder of the project to be translated</p>
+</li>
+<li>
+<p><strong>Open a terminal</strong> in the root of the project to be translated</p>
+</li>
+<li>
+<p>Create a folder in <em>_locale</em> in the root with a label identifying your &quot;destination&quot; language (<em>fr</em> in the example)</p>
+</li>
+</ol>
+<blockquote>
+<p>mkdir _locale/fr</p>
+</blockquote>
+<ol start="5">
+<li><strong>Initialize</strong> <em>messages.po</em> file (first time) from the <em>messages.pot</em> file</li>
+</ol>
+<blockquote>
+<p>pybabel init -i messages.pot -d _locale -l fr</p>
+</blockquote>
+<ol start="6">
+<li><strong>Translate</strong> <em>messages.po</em>. The file looks like this</li>
+</ol>
+<blockquote>
+<p>#:<br>
+msgid &quot;We will now play the game.&quot;<br>
+msgstr &quot;Nous allons maintenant jouer le jeu.&quot;</p>
+</blockquote>
+<p>The translated text goes into <em>msgstr &quot;&quot;</em></p>
+<ol start="7">
+<li><strong>Compile</strong> the edited <em>messages.po</em> file</li>
+</ol>
+<blockquote>
+<p>pybabel compile -i _locale/fr/LC_MESSAGES/messages.po -d _locale -l fr -f</p>
+</blockquote>
+<ol start="8">
+<li>If you need to <strong>update</strong> the <em>messages.po</em> from a new version of <em>messages.pot</em> (in case you make changes)</li>
+</ol>
+<blockquote>
+<p>pybabel update -i messages.pot -d _locale -l fr</p>
+</blockquote>
+<ol start="9">
+<li>Set the destination language in <a href="http://settings.py">settings.py</a></li>
+</ol>
+<p>LANGUAGE_CODE = &apos;fr&apos;</p>
+<h1 class="mume-header" id="download-the-data">Download the data</h1>
+
+<p>Preferred format of download is <em>.csv</em></p>
+<p>At the end of the experiment, to download your session data, follow these steps:</p>
+<ol>
+<li>
+<p>Go to the list of <em>Sessions</em> from the main navigation bar</p>
+</li>
+<li>
+<p>Click on the code of current session (7f1og28p in the example)<br>
+<img src="screen_1.png" alt></p>
+</li>
+<li>
+<p>Click on label <em>Data</em><br>
+<img src="screen_2.png" alt></p>
+</li>
+<li>
+<p>Click on Plain and download your dataset in .csv format to your local folder</p>
+</li>
+</ol>
+<p><img src="screen_3.png" alt></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
