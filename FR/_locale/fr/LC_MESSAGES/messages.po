@@ -160,7 +160,7 @@ msgid ""
 "You will have the opportunity to send to the Receiver any amount of "
 "tokens between 0 and 100"
 msgstr ""
-"Vous aurez l'occasion d'envoyer au Receveur tout montant dejetons entre 0"
+"Vous aurez l'occasion d'envoyer au Receveur tout montant de jetons entre 0"
 " et 100"
 
 #: FL_DG/Instructions_sender.html:14
@@ -237,7 +237,7 @@ msgid ""
 msgstr ""
 "Cela signifie que la quantité de jetons que vous décidez d'envoyer au "
 "récepteur à partir de votre dotation initiale sera transférée aux petits "
-"exploitants agricoles par l'intermédiaire de"
+"exploitants agricoles par l'intermédiaire qu'une"
 
 #: FL_DG/Instructions_sender_inst.html:18
 #: FL_TG/Instructions_sender_inst.html:27
@@ -354,7 +354,7 @@ msgid ""
 "endowment. How many tokens will you have at the end of the game?"
 msgstr ""
 "Vous êtes le destinataire et l'émetteur vous envoie 50 jetons de sa "
-"dotationinitiale. Combien de jetons aurez-vous à la fin du jeu ?"
+"dotation initiale. Combien de jetons aurez-vous à la fin du jeu ?"
 
 #: FL_DG/Questionnaire_1.html:39 FL_PGG/Questionnaire1.html:38
 #: FL_risk/Example.html:137 FL_time/Example.html:119
