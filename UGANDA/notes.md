@@ -1,10 +1,1 @@
-8 Luglio 2021
-
-- Implementare pseudo-randomizzazione
-  - a.       PGG – TP – RP
-  - b.       PGG – RP – TP
-  - c.       TP – RP - PGG
-  - d.       RP – TP - PGG
-
-
-- Mettere  a posto il final display quando le sequenze delle app sono casuali
+Tokens isare inverted , but this is the way it is programmed eg. 150 obugogba shoudl be obugogba 150

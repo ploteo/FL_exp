@@ -2,7 +2,12 @@
 {{ load staticfiles otree }}
 {{ load otree i18n }}
 
+
+
 {{ block content }}
+
+<html dir="rtl" lang="ar">
+
 <img src="{{ static "FOODLAND_logo-1.png" }}" width="150px" />
 
 <h1> {{ trans 'Introduction'}}</h1>
@@ -20,7 +25,7 @@
 
     <p text-align="justify">
         {{ trans 'There are no wrong of right decisions; therefore, we ask you to decide on the basis of your preferences exclusively. Before each game you will be given a number of virtual tokens you can use to play the games. At the end of the session, you will get'}}
-        <i>{{exch_rate_disp}} LC</i>
+        <i>{{exch_rate_disp}}</i>{{ trans 'LC'}}
         {{ trans '<i>for 10 units of tokens</i>. Besides the money that you will earn from the games, you will receive a stipend of' }}
         <i>{{show_up}} 
         {{ trans 'LC'}}</i>
@@ -30,9 +35,6 @@
     <p text-align="justify">
     {{ trans 'If you have any question, please raise your hand and an enumerator will come close to you to listen and will provide an answer for everyone.' }}
     </p>
- 
-
-
 
 <!---------------------------->
 <div class="container">
@@ -51,6 +53,7 @@
     </div>
 </div>
 
+</html>
 {{ endblock }}
 
 {{ block styles }}

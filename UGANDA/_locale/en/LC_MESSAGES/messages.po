@@ -69,7 +69,7 @@ msgid ""
 "following questions."
 msgstr ""
 "Webaale kuzzanya mu zzanyo guno. Nga tetunagenda mumaaso,tusaba ku buuza "
-"ebibuzzo ebyekuusa ku muzanyo gwozanye. Tusaba oddemuebibuuzo bino "
+"ebibuzzo ebyekuusa ku muzanyo gwozanye. Tusaba odemu ebibuuzo bino "
 "wamanga"
 
 #: FL_DG/Final_questionnaire.html:22
@@ -185,7 +185,7 @@ msgstr ""
 
 #: FL_DG/Instructions_sender.html:20
 msgid "Roles"
-msgstr ""
+msgstr "Obuvunayizibwa"
 
 #: FL_DG/Instructions_sender.html:22
 #, python-format
@@ -200,7 +200,7 @@ msgstr ""
 "bajjakulondebwa nga temuli kyekubila nga bwebanazanya: 50 &#37; bajja "
 "kulondebwa bazanye nga abawerezza atte 50 &#37; balondebwe bazanye nga "
 "abafuna. Buli awerezza ajjakumatchingibwa na’afuna. Okusinzzira bwonaba "
-"olondedwane ensalawo ya naba awerezza, tujja kubulila omuggatte gwobugoba"
+"olondeddwa ne ensalawo ya naba awerezza, tujja kubulila omuggatte gwobugoba"
 " bwona sasulwa"
 
 #: FL_DG/Instructions_sender_inst.html:6
@@ -213,9 +213,9 @@ msgid ""
 "follow the same rules of the previous one, with the difference that you "
 "will always be a Sender, while a"
 msgstr ""
-"kati ogenda kuzzanya omuzzanyo nga gwawuka kwogwo gwe wazanye. Ku luno "
+"kati ogenda kuzzanya omuzzanyo nga gwawuka kwo’ogwo gwe wazanye. Ku luno "
 "ojja ku gobelela amateeka go omuzanyo gwo zanye, ejjawulo  eliwo "
-"ntikuluno gwe anaba awerezza, atte nga a\""
+"ntikuluno gwe anaba awerezza, atte nga a"
 
 #: FL_DG/Instructions_sender_inst.html:11
 msgid "will be the Receiver."
@@ -227,9 +227,9 @@ msgid ""
 "Receiver from your initial endowment will be transferred to local "
 "smallholder farmers through the local"
 msgstr ""
-"kino kitegezza nti obugoba bwonaba osazzewo okuwerezza erianafuna kwobwo "
+"kino kitegezza nti obugoba bwonaba osazzewo okuwerezza eri anafuna kwo’obwo "
 "bwonaba wawereddwa mu ntandikwa, bujja kuwerwa a balimi okuyitta "
-"mukitundu kyo"
+"mu kitongole kya"
 
 #: FL_DG/Instructions_sender_inst.html:18
 #: FL_TG/Instructions_sender_inst.html:27
@@ -241,8 +241,8 @@ msgid ""
 "These are in addition to the tokens received in previous games. Your "
 "gains from previous games will not be affected in this new game."
 msgstr ""
-"Zino zijja kugatibwa ku bugoba bwewafunye okuva mu buzanya "
-"bwewazanye.zwewa wangude mu buzanyo bwewamaliliza  tebuja kukosebwa "
+"Zino zijja kugatibwa ku bugoba bwewafunye okuva mu buzanyo "
+"bwewazanye. Zze wa wangude mu buzanyo bwewamaliliza  tebuja kukosebwa "
 "kazanyo kano"
 
 #: FL_DG/Instructions_sender_inst.html:24 FL_TG/Instructions_welcome.html:20
@@ -305,8 +305,8 @@ msgid ""
 "enumerator for further clarifications."
 msgstr ""
 "kakati tugenda kubuza yo kubibuzo okuyamba okutegera ebiragiro bwona gwa "
-"ekibuzo ojakufuna ka messegi akakulabula nti okoze ensobi mungerijozemu "
-"ekibuzo. Bwekiba bwekityo,osobola ogezzako nate ela oba okiyitaomusomesa "
+"ekibuzo ojakufuna ka messegi akakulabula nti okoze ensobi mungeri jozemu "
+"ekibuzo. Bwekiba bwekityo,osobola ogezzako nate ela oba okuyita omusomesa "
 "akunyoyole"
 
 #: FL_DG/Questionnaire_1.html:21 FL_PGG/Questionnaire1.html:15
@@ -472,8 +472,8 @@ msgid ""
 "you will be playing with. Please read it carefully. Once you have read "
 "the text box, continue to the next step."
 msgstr ""
-"gwojokuba ozanya naye. Tusaba ojji some no’obwegenderezza. Bwonaba "
-"omalilizaokusoma ebigambo ebiri mukabokisi, weyongere yo kukiddako"
+"eyawano gwojokuba ozanya naye. Tusaba ojji some no’obwegenderezza. Bwonaba "
+"omaliliza okusoma ebigambo ebiri mukabokisi, weyongere yo kukiddako"
 
 #: FL_DG/inst_descr.html:16 FL_TG/inst_descr.html:16
 msgid "Hello, we are the local"
@@ -535,7 +535,7 @@ msgstr ""
 "Gurupu elimu abantu bana. Buli omu mu gurupu yo bwatekayo obugoba bwe "
 "bwona (obugoba 150) ku accounta ya gurupu ewamu, obugoba 600bwebunaba yo "
 "mu accounta eyawamu. Bwetukubisa mu emirundi ebiri(obugoba 1200) bujja "
-"kugabanaabazanyi bona mu gurupu bagabane kyenkanyi, buli omu afune "
+"kugabana abazanyi bona mu gurupu bagabane kyenkanyi, buli omu afune "
 "obugoba 300"
 
 #: FL_PGG/Examples.html:43 FL_risk/Example.html:74 FL_time/Example.html:63
@@ -550,8 +550,8 @@ msgid ""
 "your group. Each participant in your group will then earn 150 Tokens"
 msgstr ""
 "Gurupu elimu abantu bana. Buli muntu mu gurupu yo bwatereka obugoba "
-"bwe150, tewajja kuba sente mu accounta ya gurupu eyawamunolwekyo tewajja "
-"kuba sente za kugabana nga abazanyi ba gurupuBuli muzanyi mu gururpu ajja"
+"bwe150, tewajja kuba sente mu accounta ya gurupu eyawamu. Nolwekyo tewajja "
+"kuba sente za kugabana nga abazanyi ba gurupu. Buli muzanyi mu gururpu ajja"
 " kufuna bugoba 150"
 
 #: FL_PGG/Examples.html:57
@@ -656,7 +656,7 @@ msgstr "ki"
 #: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
 #: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
 msgid "warm."
-msgstr "buguma"
+msgstr "kubuguma."
 
 #: FL_PGG/Identity_task.html:43 FL_PGG/Identity_task.html:75
 #: FL_PGG/Identity_task_ALT.html:25 FL_PGG/Identity_task_ALT.html:60
@@ -815,8 +815,8 @@ msgstr ""
 
 #: FL_PGG/Instructions.html:17 FL_PGG/Instructions2.html:9
 msgid "You and the other members of your group will receive"
-msgstr " gwe nebano abali mu gurupu yo, muja funa"
-
+msgstr " gwe nebano abali mu gurupu yo, muja funa "
+ 
 #: FL_PGG/Instructions.html:19
 msgid ""
 "You and each member of your group will have the opportunity to put as "
@@ -904,7 +904,7 @@ msgid ""
 "same rules of the previous one."
 msgstr ""
 "Kati tugenda kuzanya omulundi ogwokubiri ogwa\"akazanyo. ku guno omulundi"
-" ojja gobelelaebiragiro byebimu nga kumulundi oguwedde"
+" ojja ogobelele ebiragiro byebimu nga kumulundi oguwedde"
 
 #: FL_PGG/Instructions2.html:11
 msgid ""
@@ -930,10 +930,10 @@ msgid ""
 " account.</b> "
 msgstr ""
 "Abazanyi mugurupu bwebana ba bamazze okusalawo obugoba bumeka "
-"obwokuwayoku account eyawamu, system ejja kudila obugoba ebu kubyemu "
+"obwokuwayo ku accounta eyawamu, system ejja kudila obugoba ebu kubyemu "
 "emirundi ebiri sente ezzo zija okugabana aba gurupu yo kyenkanyi, Buli "
 "muntu mu gurupu yo ajja kugabana kyankanyi<b> nga tebatunulidde "
-"zebawaddeyo ku accounta eyawamu"
+"zebawaddeyo ku accounta eyawamu</b>"
 
 #: FL_PGG/Instructions2.html:20
 msgid ""
@@ -943,8 +943,8 @@ msgid ""
 "everyone. Again, individual decisions won’t be communicated to anyone by "
 "the enumerators."
 msgstr ""
-"Nate ela, okugenda kusalawo nti weterekele obugoba byo oba obuweyooha "
-"oweyo obumu kubo ku accounta eyawamu. Buli omu bwanamala okukolaokusalawo"
+"Nate ela, okugenda kusalawo nti weterekele obugoba bwo oba obuweyo bwona oba "
+"oweyo obumu kubo ku accounta eyawamu. Buli omu bwanamala okukola okusalawo"
 " kwe, tujja kubala omugatte tubabulile mwenawabula abasomessa baffe "
 "tebajja kwogela Okusala kwomuntu yena"
 
@@ -964,7 +964,7 @@ msgid ""
 "task will not affect your earnings. Instructions follow."
 msgstr ""
 "nga tobana kola kusalawo kwo, ojja kubako nekyokola. Ebinaba "
-"bivuddemutebiyina webikwatila ku sente zonawangula. Ebiragiro byebidako"
+"bivuddemu tebiyina webikwatila ku sente zonawangula. Ebiragiro byebidako"
 
 #: FL_PGG/MyResultsWaitPage.html:5
 msgid " Please Wait"
@@ -1008,8 +1008,8 @@ msgid ""
 "the case, you can either try again or call the enumerator for further "
 "clarifications."
 msgstr ""
-"Kati tugenda kubazayo ku bibuzo okuyamba oketegera akazanyo.Bwodamu "
-"ekiffu, ojja kufuna ka messegi okuva mu systemekugamba nti okozze ensobi "
+"Kati tugenda kubazayo ku bibuzo okuyamba oketegera akazanyo. Bwodamu "
+"ekiffu, ojja kufuna ka messegi okuva mu system e kugamba nti okozze ensobi "
 "mungeri jozemu ekibuzo. Bwikiba nga bwekiri osobola okudamu nate oba "
 "oyitte omu kubasomesa baffe akunyonyole"
 
@@ -1067,7 +1067,7 @@ msgstr "zo nfunyemu"
 
 #: FL_PGG/__init__.py:57
 msgid "Fairly "
-msgstr "wotyo wotyo"
+msgstr "nkakasa mu ko"
 
 #: FL_PGG/__init__.py:73 FL_risk/__init__.py:61 FL_time/__init__.py:62
 msgid "Fairly well"
@@ -1135,15 +1135,15 @@ msgstr "olonze nga <b>awerezza</b>."
 
 #: FL_TG/Final_questionnaire_inst.html:16
 msgid "Final Questionnaire"
-msgstr "Ebibuuzo ebibyenkomeredde"
+msgstr "Ebibuuzo ebye’enkomeredde"
 
 #: FL_TG/Final_questionnaire_inst.html:23
 msgid "1. According to the information provided, what is the field in which"
-msgstr "1. Okusinzila ku bigambo bino ebikuweredwa, obukuggu buli muki"
+msgstr "1. Okusinzila ku bigambo bino ebikuweredwa, obukuggu bwe ekitongole kya "
 
 #: FL_TG/Final_questionnaire_inst.html:24
 msgid "operates?"
-msgstr "bakolela"
+msgstr "buli muki"
 
 #: FL_TG/Final_questionnaire_inst.html:32
 #: FL_TG/Final_questionnaire_inst.html:55
@@ -1177,7 +1177,7 @@ msgstr "oba kino tekirina ngeri yona gyekya kossezza kuku salawo kwo"
 
 #: FL_TG/Final_questionnaire_inst.html:82
 msgid "3. How important do you think is the development of"
-msgstr "olowoza enkulakulana egasa etya"
+msgstr "olowoza enkulakulana nga ye emere enongose mu ejjudde ekiriisa egasa etya"
 
 #: FL_TG/Final_questionnaire_inst.html:86
 msgid ""
@@ -1223,7 +1223,7 @@ msgid ""
 "independently from this?"
 msgstr ""
 "Engeri gyewasazewo obugoba bweasindisse eri afuna, wasinzidde kukusubila "
-"sente nyingi okuva eri oyo afuna oroba okusalawo kwo kwabadde te kwekusa "
+"sente nyingi okuva eri oyo afuna oba okusalawo kwo kwabadde te kwekusa "
 "kwe kyo?"
 
 #: FL_TG/Final_questionnaire_sender.html:27
@@ -1252,9 +1252,9 @@ msgid ""
 "these tokens (none, some or all of them) to send back. This in addition "
 "to your initial endowment of"
 msgstr ""
-"Ebiragiro bya <b>Afuna</>.Bwonaba ozanyanga Afuna, ojja kufuna obugoba "
+"Ebiragiro bya <b>Afuna</>. Bwonaba ozanyanga Afuna, ojja kufuna obugoba "
 "okuva eri awerezza gwo zanya naye,  naye nga bukubidwamu emirundi "
-"esatuoyina okusalawo ku bwofunye onazzayo bumeka(tozzeyo wade nakamu, "
+"esatu. Oyina okusalawo ku bwofunye onazzayo bumeka(tozzeyo wade nakamu, "
 "ozeyo obumu oba ozeyo bwona). Buno bujja kugatibwa kubwe wawereddwa "
 "muntadikwa ezzabadde"
 
@@ -1267,7 +1267,7 @@ msgid ""
 "300). When the Sender chooses 0, you are forced to return 0."
 msgstr ""
 "Naddala, ojja kusalawo meka ezzo okuzzayo buli lusalawolwa awerezza, nga "
-"tonamanya ekisalidwawo. Omugatte,ojja kusalawo emirundi enaemmu ku lwa "
+"tonamanya ekisalidwawo. Wamu, ojja kusalawo emirundi ena. Emu ku lwa "
 "sente ezza 25 (kuva 0 okutuuka ku 75), ku lwa 50(okuva ku 0 okutuuka 150)"
 " kulwa 75(okuva ku 0 okutukka ku 225), kulwa 100(okuva ku 0 okutuuka ku "
 "300). Awerezza  bwalonda 0 oyina kuzzayo 0 lwakampaka"
@@ -1292,7 +1292,7 @@ msgid ""
 "These intructions refer to the <b>Sender</b>. When you will be playing as"
 " a Sender, you will decide what portion of your"
 msgstr ""
-"Ebiragiro bino bya <b> awerezza</>. Bwona’aba ozanya ngaawerezza, ojja "
+"Ebiragiro bino bya <b> awerezza</b>. Bwona’aba ozanya ngaawerezza, ojja "
 "salawo kitundu ki ku zizo"
 
 #: FL_TG/Instructions_sender.html:7
@@ -1305,7 +1305,7 @@ msgid ""
 "Receiver."
 msgstr ""
 "okuwerezza  omuntu gwozanya naye,  ajja kubaya’afuna. Naddala, osobola "
-"okusalawo okuwerezza 0,25,50,75 oba 100obugoba bwa afunna. Okusalawo kwo "
+"okusalawo okuwerezza obugoba 0, 25, 50, 75 oba 100 bwa afunna. Okusalawo kwo "
 "kwa kyama era teli anamanya kyo wadeyo kyona kyonaba osazewo okuwerezza "
 "kija <i>kubyamu emirundi esatu</i> zilyoke ziwerezebwe eri afuna"
 
@@ -1314,7 +1314,7 @@ msgid ""
 "The Receiver you have been paired with can decide to send back some, all,"
 " or none of this amount to you."
 msgstr ""
-" Anaba afuna gwozanya naye ayinza okusalawo okuwerezza ezimu, zona or "
+"Anaba afuna gwozanya naye ayinza okusalawo okuwerezza ezimu, zona or "
 "obutakuwerezza yadde"
 
 #: FL_TG/Instructions_sender.html:16
@@ -1378,9 +1378,9 @@ msgid ""
 "session. Please remember not to speak aloud, not to communicate with "
 "other participants, and not to move from your desk."
 msgstr ""
-"Guno omuzzanyo guzanyibwa abantu babiri babiri. Tojja kugambibwaani "
-"gwonaba ozanya naye, nga ekitundu kigenda mumaso oba nga kiweddetusaba "
-"ojukile obutogerera wagulu, no’obutogera na’abazanyi abalalano’obutava "
+"Guno omuzzanyo guzanyibwa abantu babiri babiri. Tojja kugambibwa ani "
+"gwonaba ozanya naye, nga ekitundu kigenda mumaso oba nga kiwedde. Tusaba "
+"ojukile obutogerera wagulu, no’obutogera na’abazanyi abalala no’obutava "
 "wotudde"
 
 #: FL_TG/Instructions_welcome.html:11
@@ -1394,8 +1394,8 @@ msgid ""
 "earn some tokens based on their decision and on the decision of the "
 "person they have been paired with."
 msgstr ""
-"nge’eziwereddwa muntandikwa. Zino zijja kugatibwa sente zonawebwa no ezzo"
-" zonaba ojje mu buzanyo obulalabuli omu kumwe asobola okufuna obugoba "
+"nge’eziwereddwa muntandikwa. Zino zijja kugatibwa sente zonawebwa ne ezzo"
+" zonaba ojje mu buzanyo obulala. Buli omu kumwe asobola okufuna obugoba "
 "okusinzila ku nsalawo yo muntu gwazanye naye"
 
 #: FL_TG/Instructions_welcome.html:17
@@ -1407,10 +1407,10 @@ msgid ""
 "assigned to the opposite role."
 msgstr ""
 "Mu kano akazanyo osobola okuzanya nga: <i>awerezza</i> and <i>afuna</i>. "
-"Gweojja kuzanya nga byombi.Akazanyo bwekanaba kawedde, ku nsonga eyo "
-"kusasulasystem ejja kulondela wo Kuba awerezza oba afunaokusalwo kwo "
+"Gwe oja kuzanya nga byombi. Akazanyo bwekanaba kawedde, ku nsonga eyo "
+"kusasula, system ejja kulondela wo okuba awerezza oba afuna. Okusalawo kwo "
 "kujja  ku matchingibwa no’okusalawo kwo omuzanyi omulala  azanya mu kiti "
-"ekilal"
+"ekilala"
 
 #: FL_TG/Questionnaire_1.html:19
 msgid ""
@@ -1564,7 +1564,7 @@ msgstr "bulungi ko"
 
 #: FL_TG/__init__.py:84
 msgid "Quite"
-msgstr "bwekutyo bwekutyo"
+msgstr "egasa mu"
 
 #: FL_TG/__init__.py:84
 msgid "Very"
@@ -1606,7 +1606,7 @@ msgstr ""
 
 #: FL_TG/inst_descr.html:10
 msgid "This short text box will present you the local"
-msgstr "kano akabokisi akalimu ebigambo, ka kwanjulila eyawano"
+msgstr "kano akabokisi akalimu ebigambo, ka kwanjulila akikiridde"
 
 #: FL_TG/inst_descr.html:18
 msgid ""
@@ -1632,8 +1632,8 @@ msgid ""
 " questionnaire about your food preferences and purchasing habits. But "
 "first, we will take a break."
 msgstr ""
-"tugenda tegeka obyokubasasula, tugenda kusaba ojjuzze ebibuzoebikwata ku "
-"engeri jogula mu emere yo ne emere gyo singa okwagala. Nayetusoke "
+"tugenda tegeka obyokubasasula, tugenda kusaba ojjuzze ebibuuzo ebikwata ku "
+"engeri jogula mu emere yo ne emere gyo singa okwagala. Naye tusoke "
 "tuwumulemu"
 
 #: FL_payments/End.html:28
@@ -1648,7 +1648,7 @@ msgstr "ebyensasula"
 msgid ""
 "Thank you again for your participation today. Here a summary of your "
 "payments."
-msgstr "webale kwetaba mu ntegeka yaffe eya leero. Eno yenegeri josasudwamu"
+msgstr "webale kwetaba mu ntegeka yaffe eya leero. Eno ye engeri josasudwamu"
 
 #: FL_payments/Results_1.html:21 FL_payments/Results_1.html:47
 msgid "Phase 1"
@@ -1877,9 +1877,9 @@ msgid ""
 msgstr ""
 "Nga tetunaba kweyongera yo kukola kusalawo, tujja kuwayo ebyokulabila "
 "kookwongela okunyonyola ebisoboka okuvaamu mukazanyo, atte tukubuuze yo "
-"ebibuuzo okakasa nti ebiragiro obinyonyoseBwonadamu ekibuuzo bubi, ojja "
+"ebibuuzo okakasa nti ebiragiro obinyonyose. Bwonadamu ekibuuzo bubi, ojja "
 "funa message okuva mu system ekulaga nti okzze ensobi  mungeri "
-"jozzemubaffe  ayongele okunyonyola"
+"jozzemu. Omu ku basomessa baffe  ayongele okunyonyola"
 
 #: FL_risk/Example.html:21 FL_risk/Example.html:75
 msgid "Assume that the following decision was randomly drawn by the system"
@@ -1904,7 +1904,7 @@ msgstr "Bwoba nga kukusalawo kuno, walonze <b> kazanyo A</b>, oba owangudde meka
 msgid ""
 "1b) If for this decision, you chose <b>Lottery B</b>, how much would you "
 "have won?"
-msgstr "Bwoba ku kusalawo kuno, walonze <bkazanyo B<b/>, oba owangudde meka"
+msgstr "Bwoba ku kusalawo kuno, walonze <b>kazanyo B<b/>, oba owangudde meka"
 
 #: FL_risk/Example.html:121
 msgid "Assume that a <b>red ball</b> was randomly drawn by the system."
@@ -1916,7 +1916,7 @@ msgstr ""
 msgid ""
 "2a) If for this decision, you chose <b>Lottery B</b>, how much would you "
 "have won?"
-msgstr "Bwoba kukusalawo kuno olonze <bkazanyo B</b>, oba owangudde meka"
+msgstr "Bwoba kukusalawo kuno olonze <b>kazanyo B</b>, oba owangudde meka"
 
 #: FL_risk/Example.html:125
 msgid ""
@@ -1936,9 +1936,9 @@ msgid ""
 " number of tokens to be won also varies between lottery A and B in each "
 "of the 10 decisions."
 msgstr ""
-"omulimu gwo kulonda wakati wakazanyo A ne B. Obuzanyo bwawuka mu  bugoba "
+"omulimu gwo kulonda wakati wakazanyo A ne B. Obuzanyo bwawuka mu bugoba "
 "bwosobola kuwangula mu buli kazanyo. Bull kusalawo okwe mirundi e 10, "
-"buli kumu omukisa gwawuka ogwo’okuwangulaobugoba. No’omuwendo gwobugoba "
+"buli kumu omukisa gwawuka ogwo okuwangula obugoba. No’omuwendo gwobugoba "
 "gwawuka mu kazanyo A ne B mu buli mulundigwo ‘okusalawo egyo e 10"
 
 #: FL_risk/Instructions.html:18
@@ -1952,7 +1952,7 @@ msgid ""
 msgstr ""
 "Bwonaba omaliliza okola okusalawo, system ejja ku londa okusalawo "
 "kwamulundi gumuku emirundi e 10, gwe gujja okuzanyibwa. Emirundi gili "
-"emilala o 9zijja kuva mumu zanyo era toja zifunamu sente zona. Buli "
+"emilala o 9 zijja kuva mumu zanyo era toja zifunamu sente zona. Buli "
 "kusalawo okwe mirundi e 10 gyona gyenkanya omukisa ogwo’okulondebwa. "
 "Akazanyo ko (A oba B) akakwata kukusalawo okuba kulondedwa nga tewali "
 "kyekubila neku zanyibwa"
@@ -2102,10 +2102,10 @@ msgid ""
 msgstr ""
 "kati tugenda kuzzanya akazanyo akalala. Tugenda kusaba osalewo emirundi "
 "kumi. Mubulikusalawo , osobola kusalawo ofune sente ezijja mu bugoba 100 "
-"nag sikyusidwa ne zidda mu zaffa ewano oluvanyuma lwa <b>wiki biri</b>, "
+"nga sikyusidwa ne zidda mu zaffe eza wano oluvanyuma lwa <b>wiki biri</b>, "
 "oba oyinza okusalawo olinde ofune ezisinga ku obugoba 100 mu <b>wiki "
 "nya</b>. Sente zewandibadde ofuna mu wiki 4 zijja kuba zanjawufu ku buli "
-"mulundi e 10 byoba osalawo Zink zijja kuba zongerwa kuzonaba oweredwa  ne"
+"mulundi e 10 gyoba osazewo Zink zijja kuba zongerwa kuzonaba oweredwa  ne"
 " zo anaba wobolywa wo’owangudde mu buzanyo obulala"
 
 #: FL_time/Instructions.html:16
