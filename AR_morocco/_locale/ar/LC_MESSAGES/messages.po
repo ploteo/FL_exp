@@ -36,7 +36,7 @@ msgstr ".سنلعب الآن اللعبة"
 
 #: FL_DG/Choice_sender.html:14
 msgid "You are now choosing as <b>Sender</b>"
-msgstr "<b>المرسل</ b> أنت تختار الآن كـ "
+msgstr "<b>المرسل</b> أنت تختار الآن كـ "
 
 #: FL_DG/Choice_sender.html:16 FL_DG/Choice_sender_inst.html:11
 msgid "How many of your"
@@ -973,7 +973,7 @@ msgstr ""
 "تمت مضاعفة إجمالي المبلغ. سيتم بعد ذلك تقاسم هذا المبلغ بالتساوي بين"
 "أعضاء مجموعتك. كل عضو في مجموعتك ، بما فيهم أنت "
 "سيتلقى نفس الحصة <b> بغض النظر عن المبلغ الذي يضعه في الحساب "
-"</ b>  .التي وضعت في الحساب المشترك"
+"</b>  .التي وضعت في الحساب المشترك"
 
 #: FL_PGG/Instructions2.html:20
 msgid ""
@@ -1131,7 +1131,7 @@ msgstr "خيار المستقبل"
 
 #: FL_TG/Choice_receiver.html:10
 msgid "You will now play the game as a <b>Receiver</b>."
-msgstr " <b>المستقبل</ b> سنلعب الان لعبة بصفتك"
+msgstr " <b>المستقبل</b> سنلعب الان لعبة بصفتك"
 
 #: FL_TG/Choice_receiver.html:12
 msgid ""
@@ -1164,7 +1164,7 @@ msgstr "خيار المرسل"
 
 #: FL_TG/Choice_sender.html:12
 msgid "You will now play the game as a <b>Sender</b>"
-msgstr " <b> المرسل </ b> ستلعب الان بصفتك"
+msgstr " <b> المرسل </b> ستلعب الان بصفتك"
 
 #: FL_TG/Choice_sender.html:14 FL_TG/Choice_sender_inst.html:13
 msgid "How much of your endowment of"
@@ -1180,7 +1180,7 @@ msgstr ".يمكنك فقط اختيار خيار واحد"
 
 #: FL_TG/Choice_sender_inst.html:11
 msgid " You are choosing as <b>Sender</b>"
-msgstr " <b> المرسل </ b> ستختار ك"
+msgstr " <b> المرسل </b> ستختار ك"
 
 #: FL_TG/Final_questionnaire_inst.html:16
 msgid "Final Questionnaire"
@@ -1305,7 +1305,7 @@ msgid ""
 "these tokens (none, some or all of them) to send back. This in addition "
 "to your initial endowment of"
 msgstr ""
-"عند اللعب .<b> المتلقي </ b>  تشير هذه التعليمات الى"
+"عند اللعب .<b> المتلقي </b>  تشير هذه التعليمات الى"
 "بصفتك مستقبل ، ستتلقى ثلاثة أضعاف الرموز التي تم إرسالها بواسطة"
 "المرسل الذي تم إقرانك به ، وتحتاج إلى تحديد أي جزء منه"
 "سيتم إرجاع تلك الرموز (لا شيء ، بعض أو كل). هذا بالإضافة إلى"
@@ -1716,7 +1716,7 @@ msgstr "المرحلة 1"
 
 #: FL_payments/Results_1.html:23 FL_payments/Results_1.html:51
 msgid "You are the <b>Sender</b> in the group."
-msgstr "في المجموعة <b> المرسل </ b> انت"
+msgstr "في المجموعة <b> المرسل </b> انت"
 
 #: FL_payments/Results_1.html:24 FL_payments/Results_1.html:52
 msgid "You sent"
@@ -1729,7 +1729,7 @@ msgstr "لذا أرباحك"
 
 #: FL_payments/Results_1.html:27 FL_payments/Results_1.html:61
 msgid "You are the <b>Receiver</b> in the group."
-msgstr "في المجموعة <b> المتلقي </ b> انت"
+msgstr "في المجموعة <b> المتلقي </b> انت"
 
 #: FL_payments/Results_1.html:28 FL_payments/Results_1.html:62
 msgid "The Sender in the group sent"
@@ -1956,14 +1956,14 @@ msgstr "قرارك"
 
 #: FL_risk/Example.html:68
 msgid "Assume that a <b>white ball</b> was randomly drawn by the system."
-msgstr ".تم اخدها عشوائيا بواسطة النظام <b> كرة بيضاء </ b> لنفترض"
+msgstr ".تم اخدها عشوائيا بواسطة النظام <b> كرة بيضاء </b> لنفترض"
 
 #: FL_risk/Example.html:69
 msgid ""
 "1a) If for this decision, you chose <b>Lottery A</b>, how much would you "
 "have won?"
 msgstr ""
-" فكم <b> يانصيب أ </ b> اذا اخترت"
+" فكم <b> يانصيب أ </b> اذا اخترت"
 "ستربح؟"
 
 #: FL_risk/Example.html:71
@@ -1977,7 +1977,7 @@ msgstr ""
 #: FL_risk/Example.html:121
 msgid "Assume that a <b>red ball</b> was randomly drawn by the system."
 msgstr "Supposons qu'une <b>boule rouge</b> ait été tirée au hasard par le système."
-"تم سحبها عشوائيا بولسطة النظام <b> كرة حمراء </ b> لنفترض ان"
+"تم سحبها عشوائيا بولسطة النظام <b> كرة حمراء </b> لنفترض ان"
 
 #: FL_risk/Example.html:123
 msgid ""
@@ -1994,7 +1994,7 @@ msgid ""
 msgstr ""
 "2b) Si pour cette décision, vous avez choisi la <b>Loterie A</b>, combien auriez-vous "
 "gagné ?"
-"فكم <b> يانصيب أ </ b> لهذا القرار اذا اخترت"
+"فكم <b> يانصيب أ </b> لهذا القرار اذا اخترت"
 "ستربح؟"
 
 #: FL_risk/Instructions.html:11
@@ -2146,7 +2146,7 @@ msgid ""
 "If for this decision, you chose <b>Option A</b>, how much would you have "
 "won?"
 msgstr ""
-"فكم <b> الخيار أ </ b> لهذا القرار اذا اخترت"
+"فكم <b> الخيار أ </b> لهذا القرار اذا اخترت"
 "ستربح؟"
 
 #: FL_time/Example.html:64
@@ -2167,7 +2167,7 @@ msgid ""
 "If for this decision, you chose <b>Option B</b>, how much would you have "
 "won?"
 msgstr ""
-"فكم <b> الخيار ب </ b> لهذا القرار اخترت"
+"فكم <b> الخيار ب </b> لهذا القرار اخترت"
 "ستربح؟"
 
 #: FL_time/Instructions.html:12
@@ -2182,8 +2182,8 @@ msgid ""
 msgstr ""
 "سنلعب الآن لعبة أخرى. سنطلب منك اتخاذ 10 قرارات. في"
 "كل قرار يمكنك اختيار تلقي ما يعادل 100 توكن"
-"تم التحويل إلى العملة المحلية بعد <b> أسبوعين </ b> ، أو يمكنك الاختيار"
-"توقع واستلام أكثر من 100 رمز مميز في <b> أربعة أسابيع </ b>. المبلغ"
+"تم التحويل إلى العملة المحلية بعد <b> أسبوعين </b> ، أو يمكنك الاختيار"
+"توقع واستلام أكثر من 100 رمز مميز في <b> أربعة أسابيع </b>. المبلغ"
 ".التي تتلقاها خلال 4 أسابيع ستكون مختلفة لكل قرار من القرارات العشرة"
 "هذه بالإضافة إلى بدل المشاركة والعمل الرمزية التي"
 ".ربما فازت بها في اللعب الأخرى"

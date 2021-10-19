@@ -1,14 +1,15 @@
+
 {{ extends "global/Page.html" }}
 {{ load otree static }}
 {{ load otree i18n }}
 
 {{ block title }}
 
-
-
 {{ endblock }}
 
 {{ block content }}
+<html dir="rtl" lang="ar">
+
 <input type="hidden" name="count" id="id_count">
 
 <div id="instr_1">
@@ -32,6 +33,8 @@
 
 <br>
 <br>
+
+</html>
 
 {{ endblock }}
 {{ form.errors }}

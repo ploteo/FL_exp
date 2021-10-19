@@ -16,7 +16,7 @@ print(sequence)
 # the session config can be accessed from methods in your apps as self.session.config,
 # e.g. self.session.config['participation_fee']
 
-LANGUAGE_CODE = 'ar' # <- CHANGE GERE: it,en
+LANGUAGE_CODE = 'ar' # <- CHANGE GERE: it,en, ar
 
 SESSION_CONFIG_DEFAULTS = {
     'real_world_currency_per_point': 0.00,
@@ -24,7 +24,7 @@ SESSION_CONFIG_DEFAULTS = {
     'doc': ""
 }
 # e.g. EUR, GBP, CNY, JPY
-REAL_WORLD_CURRENCY_CODE = 'LC'
+REAL_WORLD_CURRENCY_CODE = 'ML'
 USE_POINTS = True
 POINTS_CUSTOM_NAME = 'النقاط'
 
