@@ -54,7 +54,7 @@ msgstr "Confirmer"
 
 #: FL_DG/Choice_sender_inst.html:13 FL_TG/Choice_sender_inst.html:15
 msgid "do you send to the"
-msgstr "envoyez-vous à la"
+msgstr "envoyez-vous à l'"
 
 #: FL_DG/Final_questionnaire.html:16 FL_DG/Questionnaire_1.html:16
 #: FL_PGG/Questionnaire1.html:7 FL_PGG/Questionnaire2.html:7
@@ -77,7 +77,7 @@ msgstr ""
 #: FL_DG/Final_questionnaire.html:22
 msgid "Of all the people in this room, how many do you know personally?"
 msgstr ""
-"De toutes les personnes présentes dans cette salle, combien en "
+"De toutes les personnes présentes dans cette salle, combien "
 "connaissez-vous personnellement ?"
 
 #: FL_DG/Final_questionnaire.html:26
@@ -223,7 +223,7 @@ msgid ""
 msgstr ""
 "Vous allez maintenant jouer une variante du jeu joué précédemment. Ce "
 "tour va suivre les mêmes règles que la précédent, avec la différence que "
-"vous serez toujours un expéditeur, alors qu'un"
+"vous serez toujours un expéditeur, alors qu'une"
 
 #: FL_DG/Instructions_sender_inst.html:11
 msgid "will be the Receiver."
@@ -249,7 +249,7 @@ msgid ""
 "These are in addition to the tokens received in previous games. Your "
 "gains from previous games will not be affected in this new game."
 msgstr ""
-"Ceux-ci s'ajoutent aux jetons reçus lors des jeux précédents. Vos gains"
+". Ceux-ci s'ajoutent aux jetons reçus lors des jeux précédents. Vos gains"
 " des jeux précédents ne seront pas affectés dans ce nouveau jeu."
 
 #: FL_DG/Instructions_sender_inst.html:24 FL_TG/Instructions_welcome.html:20
@@ -478,7 +478,7 @@ msgstr "Description"
 
 #: FL_DG/inst_descr.html:10
 msgid "This short text box will present you the"
-msgstr "cette courte zone de texte vous présentera le"
+msgstr "cette courte zone de texte vous présentera l'"
 
 #: FL_DG/inst_descr.html:11 FL_TG/inst_descr.html:11
 msgid ""
@@ -490,7 +490,7 @@ msgstr ""
 
 #: FL_DG/inst_descr.html:16 FL_TG/inst_descr.html:16
 msgid "Hello, we are the local"
-msgstr "Bonjour, nous sommes la locale"
+msgstr "Bonjour, nous sommes l' "
 
 #: FL_DG/inst_descr.html:17 FL_TG/inst_descr.html:17
 msgid "Our organization works with the smallholder farmers in the area of"
@@ -505,7 +505,7 @@ msgid ""
 msgstr ""
 "à qui nous fournissons une assistance technique. Grâce à votre soutien, "
 "nous serons en mesure de responsabiliser les agriculteurs locaux et de "
-"développer conjointement de"
+"développer conjointement"
 
 #: FL_DG/inst_descr.html:23 FL_PGG/Instructions_container_2.html:16
 #: FL_TG/Instructions_sender_inst.html:33
@@ -577,7 +577,7 @@ msgid ""
 "common account."
 msgstr ""
 "Rappelez-vous que vous pouvez mettre n'importe quel montant entre 0 et "
-"150 Tokens dans le compte commun."
+"150 Jetons dans le compte commun."
 
 #: FL_PGG/Examples.html:59 FL_PGG/Instructions.html:26
 #: FL_PGG/Instructions2.html:25 FL_PGG/Pregame.html:17
@@ -635,7 +635,7 @@ msgstr "Réessayer"
 #: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
 #: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
 msgid "can be"
-msgstr "Peut être"
+msgstr "peut être"
 
 #: FL_PGG/Identity_task.html:31 FL_PGG/Identity_task.html:32
 #: FL_PGG/Identity_task.html:63 FL_PGG/Identity_task.html:64
@@ -648,7 +648,7 @@ msgstr "Peut être"
 #: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
 #: FL_PGG/__init__.py:160
 msgid "can"
-msgstr "Peut"
+msgstr "peut"
 
 #: FL_PGG/Identity_task.html:33 FL_PGG/Identity_task.html:65
 #: FL_PGG/Identity_task_ALT.html:39 FL_PGG/Identity_task_ALT.html:74
@@ -677,7 +677,7 @@ msgstr "Ça "
 #: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
 #: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
 msgid "warm."
-msgstr "chaud."
+msgstr "chaude."
 
 #: FL_PGG/Identity_task.html:43 FL_PGG/Identity_task.html:75
 #: FL_PGG/Identity_task_ALT.html:25 FL_PGG/Identity_task_ALT.html:60
@@ -685,7 +685,7 @@ msgstr "chaud."
 #: FL_PGG/__init__.py:116 FL_PGG/__init__.py:128 FL_PGG/__init__.py:137
 #: FL_PGG/__init__.py:149 FL_PGG/__init__.py:158
 msgid "transparent."
-msgstr "transparent"
+msgstr "transparente."
 
 #: FL_PGG/Identity_task.html:44 FL_PGG/Identity_task.html:76
 #: FL_PGG/Identity_task_ALT.html:33 FL_PGG/Identity_task_ALT.html:68
@@ -701,7 +701,7 @@ msgstr "salé."
 #: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
 #: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
 msgid "go away."
-msgstr "disparaître."
+msgstr "disparaître"
 
 #: FL_PGG/Identity_task.html:48 FL_PGG/Identity_task.html:80
 #: FL_PGG/Identity_task_ALT.html:18 FL_PGG/Identity_task_ALT.html:53
@@ -709,7 +709,7 @@ msgstr "disparaître."
 #: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
 #: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
 msgid "cold or"
-msgstr "froid ou"
+msgstr "froide ou"
 
 #: FL_PGG/Identity_task.html:49 FL_PGG/Identity_task.html:50
 #: FL_PGG/Identity_task.html:81 FL_PGG/Identity_task.html:82
@@ -730,7 +730,7 @@ msgstr "être"
 #: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
 #: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
 msgid "thirst"
-msgstr "soif"
+msgstr "la soif."
 
 #: FL_PGG/Identity_task.html:68 FL_PGG/Identity_task.html:69
 #: FL_PGG/Identity_task.html:70 FL_PGG/Identity_task.html:71
@@ -743,7 +743,7 @@ msgstr "soif"
 #: FL_PGG/__init__.py:156 FL_PGG/__init__.py:158 FL_PGG/__init__.py:160
 #: FL_PGG/__init__.py:162
 msgid "Water"
-msgstr "l'eau"
+msgstr "L'eau"
 
 #: FL_PGG/Identity_task_ALT.html:9
 msgid "Reorder now the words below to obtain the description of an object."
@@ -801,7 +801,7 @@ msgstr "L'eau peut être froide ou chaude."
 
 #: FL_PGG/Identity_task_feedback.html:38
 msgid "Water can be transparent."
-msgstr "L'eau peut être transparent."
+msgstr "L'eau peut être transparente."
 
 #: FL_PGG/Identity_task_feedback.html:41
 msgid "Water can be salty."
@@ -867,11 +867,11 @@ msgid ""
 msgstr ""
 "Après que tous les membres de votre groupe aient décidé du montant de "
 "leur contribution au compte commun, le système va recharger le compte "
-"commun de votre groupeavec le même montant que le total qui a été mis "
-"dans le compte commun, de sorte quele montant soit doublé. Ce montant "
+"commun de votre groupe avec le même montant que le total qui a été mis "
+"dans le compte commun, de sorte gue le montant soit doublé. Ce montant "
 "sera ensuite partagé équitablement entre les membres de votre groupe. "
 "Chaque membre de votre groupe, y compris vous-même, recevra la même part,"
-" quel que soit le montant qu'il a mis dans lecompte commun."
+" quel que soit le montant qu'il a mis dans le compte commun."
 
 #: FL_PGG/Instructions.html:29
 msgid ""
@@ -964,12 +964,12 @@ msgid ""
 " account.</b> "
 msgstr ""
 "Après que tous les membres de votre groupe aient choisi le montant de "
-"leur contribution dansle compte commun, le système complètera le compte "
+"leur contribution dans le compte commun, le système complètera le compte "
 "commun de votre groupe avec le même montant que celui versé dans le "
 "compte commun, de sorte que le montant total soit doublé. Ce montant sera"
 " ensuite partagé équitablement entre les membres de votre groupe. Chaque "
 "membre de votre groupe, y compris vous, recevra la même part <b>peu "
-"importe le montant qu'il a mis dans le comptecommun.</b> "
+"importe le montant qu'il a mis dans le compte commun.</b> "
 
 #: FL_PGG/Instructions2.html:20
 msgid ""
@@ -993,7 +993,7 @@ msgid ""
 msgstr ""
 "Avant de prendre votre décision, vous effectuerez une tâche collective "
 "avec les trois autres participants de votre groupe. Les résultats de "
-"cette tâche ne vont pas affecter vos gains. Suivre les instructions."
+"cette tâche ne vont pas affecter vos gains. Suivez les instructions."
 
 #: FL_PGG/Instructions2.html:35
 msgid ""
@@ -1343,7 +1343,7 @@ msgid ""
 " a Sender, you will decide what portion of your"
 msgstr ""
 "Ces instructions se réfèrent à <b>l'expéditeur</b>. Lorsque vous jouerez "
-"en tantqu'um expéditeur, vous déciderez quelle partie de votre"
+"en tant qu'um expéditeur, vous déciderez quelle partie de votre"
 
 #: FL_TG/Instructions_sender.html:7
 msgid ""
@@ -1391,7 +1391,7 @@ msgid ""
 msgstr ""
 " Vous allez maintenant jouer une variante du jeu joué précédemment. Ce "
 "tour va suivre les mêmes règles que le précédent, à la différence que "
-"maintenant vous jouerez uniquement en tant qu'expéditeur, tandis qu'un"
+"maintenant vous jouerez uniquement en tant qu'expéditeur, tandis qu'une"
 
 #: FL_TG/Instructions_sender_inst.html:18
 msgid "will take part in the game as the Receiver."
@@ -1666,7 +1666,7 @@ msgstr ""
 
 #: FL_TG/inst_descr.html:10
 msgid "This short text box will present you the local"
-msgstr "Cette courte boîte de texte vous présentera la locale"
+msgstr "Cette courte boîte de texte vous présentera la"
 
 #: FL_TG/inst_descr.html:18
 msgid ""
@@ -1803,7 +1803,7 @@ msgstr "qui vous sera versé en"
 #: FL_payments/Results_1.html:127 FL_payments/Results_1.html:131
 #: FL_payments/Results_2.html:85 FL_payments/Results_2.html:89
 msgid "weeks."
-msgstr "emaines."
+msgstr "semaine."
 
 #: FL_payments/Results_1.html:128 FL_payments/Results_2.html:86
 msgid ""
@@ -2255,8 +2255,7 @@ msgid ""
 "How much do you trust that you will receive the money in 2 or 4 weeks\\' "
 "time?"
 msgstr ""
-"A quel point pensez-vous que vous recevrez l'argent dans une période de 2"
-" ou 4 semaines ?"
+"Dans quelle mesure pensez-vous que vous recevrez l'argent dans 2 ou 4 semaines ?"
 
 #: FL_time/__init__.py:51 FL_time/__init__.py:53
 msgid "100 tokens in 4 weeks"

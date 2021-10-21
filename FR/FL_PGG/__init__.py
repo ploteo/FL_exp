@@ -87,7 +87,7 @@ def I1_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,gettext('makes')], [1,gettext('It')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French
     else:
         if player.id_in_group==1:
            choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
@@ -96,7 +96,7 @@ def I1_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,gettext('makes')], [1,gettext('Water')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French
     return choices
 
 def I2_choices(player):
@@ -108,7 +108,7 @@ def I2_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,gettext('makes')], [1,gettext('It')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French
     else:
         if player.id_in_group==1:
            choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
@@ -117,7 +117,7 @@ def I2_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]] 
+           choices = [[2,gettext('makes')], [1,gettext('Water')], [3,gettext('go away.')],[4,gettext('thirst')]] #adapted to French
     return choices
 
 def I3_choices(player):
@@ -129,7 +129,7 @@ def I3_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,gettext('makes')], [1,gettext('It')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French
     else:
         if player.id_in_group==1:
            choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
@@ -138,7 +138,7 @@ def I3_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]] 
+           choices = [[2,gettext('makes')], [1,gettext('Water')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French 
     return choices
 
 def I4_choices(player):
@@ -150,7 +150,7 @@ def I4_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,gettext('makes')], [1,gettext('It')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French 
     else:
         if player.id_in_group==1:
            choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
@@ -159,7 +159,7 @@ def I4_choices(player):
         if player.id_in_group==3:
             choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,gettext('makes')], [1,gettext('Water')], [3,gettext('go away.')],[4,gettext('thirst')]]#adapted to French
     return choices
 
 def creating_session(subsession: Subsession):
