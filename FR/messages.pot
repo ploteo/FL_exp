@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-08 10:22+0200\n"
+"POT-Creation-Date: 2021-10-08 10:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1469,7 +1469,7 @@ msgid "Phase 2"
 msgstr ""
 
 #: FL_payments/Results_1.html:33
-msgid "You sent ' }} <b>{{sent_inst}}</b> {{trans 'to"
+msgid "You sent ' }} <b>{{sent_inst}}</b> {{trans 'to "
 msgstr ""
 
 #: FL_payments/Results_1.html:36 FL_payments/Results_1.html:83
@@ -1656,8 +1656,8 @@ msgstr ""
 msgid "Assume that the following decision was randomly drawn by the system"
 msgstr ""
 
-#: FL_risk/Example.html:28 FL_time/Choices.html:26 FL_time/Example.html:27
-#: FL_time/Example.html:72
+#: FL_risk/Example.html:28 FL_risk/Example.html:81 FL_time/Choices.html:26
+#: FL_time/Example.html:27 FL_time/Example.html:72
 msgid "Your choice"
 msgstr ""
 
