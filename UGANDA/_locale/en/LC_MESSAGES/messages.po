@@ -188,7 +188,6 @@ msgid "Roles"
 msgstr "Obuvunayizibwa"
 
 #: FL_DG/Instructions_sender.html:22
-#, python-format
 msgid ""
 "At the end of today’s session, the system will randomly pick all "
 "participants’ role: 50 &#37; of the participants will be picked as Senders, "
@@ -737,7 +736,7 @@ msgid ""
 "If you do a mistake just try again. When all words are correctly "
 "positioned you will continue to the next page."
 msgstr ""
-"Bwobo okola ensobi ddamu ogezeko. Wigambo bwonabaobitadde awatufuu "
+"Bwoba okola ensobi ddamu ogezeko. Ebigambo bwonabaobitadde awatufuu "
 "weyongere yo awaddako"
 
 #: FL_PGG/Identity_task_feedback.html:2
@@ -1252,7 +1251,7 @@ msgid ""
 "these tokens (none, some or all of them) to send back. This in addition "
 "to your initial endowment of"
 msgstr ""
-"Ebiragiro bya <b>Afuna</>. Bwonaba ozanyanga Afuna, ojja kufuna obugoba "
+"Ebiragiro bya <b>Afuna</b>. Bwonaba ozanyanga Afuna, ojja kufuna obugoba "
 "okuva eri awerezza gwo zanya naye,  naye nga bukubidwamu emirundi "
 "esatu. Oyina okusalawo ku bwofunye onazzayo bumeka(tozzeyo wade nakamu, "
 "ozeyo obumu oba ozeyo bwona). Buno bujja kugatibwa kubwe wawereddwa "
@@ -1431,7 +1430,7 @@ msgstr "ozanya nga awerezza"
 
 #: FL_TG/Questionnaire_1.html:29
 msgid "Imagine that you decide to keep all the tokens for yourself."
-msgstr "gezza ni osazewo kwetelekera obugoba bwo bwona"
+msgstr "gezza nti osazewo kwetelekera obugoba bwo bwona"
 
 #: FL_TG/Questionnaire_1.html:34
 msgid "1a) How many tokens will you have at the end of the experiment?"
@@ -1459,7 +1458,7 @@ msgstr "onaba na bugoba bumeka nga akanzanyo kawedde"
 
 #: FL_TG/Questionnaire_1.html:53
 msgid "2b) How many tokens will the Sender have?"
-msgstr "aderenza anaba na bugoba bumeka"
+msgstr "awerezza anaba na bugoba bumeka"
 
 #: FL_TG/Questionnaire_1.html:59
 msgid "3) You are playing as a Sender, you have"
@@ -2088,7 +2087,7 @@ msgstr "obugoba 124 mu wiki nya"
 msgid ""
 "If for this decision, you chose <b>Option B</b>, how much would you have "
 "won?"
-msgstr "ku kusalawo kuno, bwolonda <b>option B</>, onaba owangudde meka"
+msgstr "ku kusalawo kuno, bwolonda <b>option B</b>, onaba owangudde meka"
 
 #: FL_time/Instructions.html:12
 msgid ""
@@ -2155,9 +2154,9 @@ msgstr "gerageranya entegera yo eye biragiro byomuzanyo"
 
 #: FL_time/Questionnaire.html:19
 msgid ""
-"How much do you trust that you will receive the money in 2 or 4 weeks\\' "
+"How much do you trust that you will receive the money in 2 or 4 weeks "
 "time?"
-msgstr "wesiga kyenkana kki nti onafuna sente mu wiki biri oba nya"
+msgstr "okakasa kyenkana kki nti ojja kufuna sente zzo mu wiki 2 oba 4?"
 
 #: FL_time/__init__.py:51 FL_time/__init__.py:53
 msgid "100 tokens in 4 weeks"
@@ -2243,7 +2242,7 @@ msgid ""
 "<i>for 10 units of tokens</i>. Besides the money that you will earn from "
 "the games, you will receive a stipend of"
 msgstr ""
-"<i> kulwo’obugoba 10</>. Nga ojje ko sente zojja okuwangula okuva "
+"<i> kulwo’obugoba 10</i>. Nga ojje ko sente zojja okuwangula okuva "
 "mumizzanyo, ojja kuwebwa sente endaala"
 
 #: FL_welcome/Welcome.html:27
