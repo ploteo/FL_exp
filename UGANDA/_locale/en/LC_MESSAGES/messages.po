@@ -36,7 +36,7 @@ msgstr "kati tuzzanye akazanyo"
 
 #: FL_DG/Choice_sender.html:14
 msgid "You are now choosing as <b>Sender</b>"
-msgstr "kati olonda okuzanya nga <b>awerezza"
+msgstr "kati olonda okuzanya nga <b>awerezza</b>"
 
 #: FL_DG/Choice_sender.html:16 FL_DG/Choice_sender_inst.html:11
 msgid "How many of your"

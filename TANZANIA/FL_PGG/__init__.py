@@ -81,85 +81,85 @@ class Player(BasePlayer):
 def I1_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('It')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
     else:
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def I2_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('It')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
     else:
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]] 
+           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def I3_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('It')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
     else:
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]] 
+           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def I4_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('It')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('It')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('It')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
     else:
         if player.id_in_group==1:
-           choices = [[2,gettext('can be')], [1,gettext('Water')], [4,gettext('warm.')],[3,gettext('cold or')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
-           choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('transparent.')],[3,gettext('be')]]
+           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,gettext('can')], [1,gettext('Water')], [4,gettext('salty.')],[3,gettext('be')]]
+            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,gettext('makes')], [1,gettext('Water')], [4,gettext('go away.')],[3,gettext('thirst')]]
+           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def creating_session(subsession: Subsession):

@@ -123,8 +123,8 @@ The following apps are contained in Block 1
 
         | Inst_Name | Inst_Type | Inst_Area | Inst_Product  |
         |-------------|----------------|-----------------|-----------------|-----------------|
-        | A           | NGO              |Place X              | new nutrient-dense food product                  |
-        | B           | Association              | Place Y              | new water irrigation saving technology           |
+        | A           | local NGO              |Place X              | new nutrient-dense food product                  |
+        | B           | local Farmers' Association              | Place Y              | new water irrigation saving technology           |
 
         - &#9888;  These files must be filled with the correct information about local organizations  and preserving the original structure
   

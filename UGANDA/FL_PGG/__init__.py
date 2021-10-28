@@ -81,85 +81,85 @@ class Player(BasePlayer):
 def I1_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'okuba'], [1,'Kisobola'], [4,'olunyonyo'],[3,'ekyo']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiletela'], [1,'Kyo'], [4,'okuvawo'],[3,'enyonta']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'oba okubuguma'],[3,'okunyogoga']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'nga gatangaala'],[3,'okuba']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'gasobola'], [1,'Amazzi'], [4,'ago olunyonyo'],[3,'okuba']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'galetela'], [1,'Amazzi'], [4,'okuvawo'],[3,'enyonta']]
     return choices
 
 def I2_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'okuba'], [1,'Kisobola'], [4,'olunyonyo'],[3,'ekyo']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiletela'], [1,'Kyo'], [4,'okuvawo'],[3,'enyonta']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'oba okubuguma'],[3,'okunyogoga']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'nga gatangaala'],[3,'okuba']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'gasobola'], [1,'Amazzi'], [4,'ago olunyonyo'],[3,'okuba']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'galetela'], [1,'Amazzi'], [4,'okuvawo'],[3,'enyonta']]
     return choices
 
 def I3_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'okuba'], [1,'Kisobola'], [4,'olunyonyo'],[3,'ekyo']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiletela'], [1,'Kyo'], [4,'okuvawo'],[3,'enyonta']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'oba okubuguma'],[3,'okunyogoga']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'nga gatangaala'],[3,'okuba']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'gasobola'], [1,'Amazzi'], [4,'ago olunyonyo'],[3,'okuba']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'galetela'], [1,'Amazzi'], [4,'okuvawo'],[3,'enyonta']]
     return choices
 
 def I4_choices(player):
     if player.session.config['treatment'] == "identity":
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'okuba'], [1,'Kisobola'], [4,'olunyonyo'],[3,'ekyo']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiletela'], [1,'Kyo'], [4,'okuvawo'],[3,'enyonta']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'oba okubuguma'],[3,'okunyogoga']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'gasobola'], [1,'Amazzi'], [4,'nga gatangaala'],[3,'okuba']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'gasobola'], [1,'Amazzi'], [4,'ago olunyonyo'],[3,'okuba']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'galetela'], [1,'Amazzi'], [4,'okuvawo'],[3,'enyonta']]
     return choices
 
 def creating_session(subsession: Subsession):
