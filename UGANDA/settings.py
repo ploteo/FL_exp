@@ -13,14 +13,6 @@ else:
                 'FL_time', 'FL_risk', 'FL_payments']
 print(sequence)
 
-# randomize also treatment identity in Block 2
-if random.randint(0, 1) == 1:
-    treat_identity = 'no_identity'
-else:
-    treat_identity = 'identity'
-
-print(treat_identity)
-
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
 # in SESSION_CONFIGS, except those that explicitly override it.
@@ -57,7 +49,6 @@ SESSION_CONFIGS = [
      participation_fee=int(4),
      real_world_currency_per_point=0.01,
      block = "block2",  # to control the display of results
-     treatment = treat_identity, #"identity" to have identity in the task of PGG or "no_identity" to have no identity (Water = it)
      app_sequence=['FL_welcome', 'FL_PGG',
                    'FL_time', 'FL_risk', 'FL_payments']
   ),
