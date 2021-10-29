@@ -42,7 +42,7 @@ SESSION_CONFIGS = [
     dict(
      name='FL_block_2',
      display_name='FL_block2',
-     num_demo_participants=4,
+     num_demo_participants=8,
      participation_fee=int(4),
      real_world_currency_per_point=0.01,
      block = "block2",  # to control the display of results

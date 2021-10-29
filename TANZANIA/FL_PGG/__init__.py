@@ -1,16 +1,11 @@
 from otree.api import *
 from gettext import gettext
-
+import random
 
 doc = """
 pgg_standard
 - 2 rounds partner matching
-    - Round 1: Same endowment: medium
-    - Round 2: Same endowment: medium
-For translation EN -> IT
-edit django.po
-django-admin makemessages -l it
-django-admin compilemessages
+- treatment identity randomized at the group level
 """
 
 
@@ -33,8 +28,8 @@ class Group(BaseGroup):
     individual_share = models.CurrencyField()
     total_earnings = models.CurrencyField()
 
-
 class Player(BasePlayer):
+    identity_treatment = models.CharField() #NOTE: added thsi to randomize at the group level
     endowment = models.CurrencyField()
     contribution = models.CurrencyField(min=0, max=Constants.endowment_medium)
     #identity task
@@ -79,7 +74,7 @@ class Player(BasePlayer):
 
 # FUNCTIONS
 def I1_choices(player):
-    if player.session.config['treatment'] == "identity":
+    if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
            choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
@@ -100,7 +95,7 @@ def I1_choices(player):
     return choices
 
 def I2_choices(player):
-    if player.session.config['treatment'] == "identity":
+    if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
            choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
@@ -121,7 +116,7 @@ def I2_choices(player):
     return choices
 
 def I3_choices(player):
-    if player.session.config['treatment'] == "identity":
+    if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
            choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
@@ -142,7 +137,7 @@ def I3_choices(player):
     return choices
 
 def I4_choices(player):
-    if player.session.config['treatment'] == "identity":
+    if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
            choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
         if player.id_in_group==2:
@@ -171,7 +166,13 @@ def creating_session(subsession: Subsession):
     else:
         subsession.group_like_round(1)
         for g in subsession.get_groups():
+            if random.randint(0, 1) == 1:#NOTE: added this to randomize at group level
+                treatment = 'no_identity'
+            else:
+                treatment = 'identity'
+            print(treatment)
             for p in g.get_players():
+                p.identity_treatment = treatment #NOTE: added this to randomize at group level
                 p.endowment = Constants.endowment_medium
         # to play outside blocks
                 try:
@@ -206,6 +207,8 @@ def set_payoffs(group: Group):
 def update_counter(group: Group):
     for p in group.get_players():
         p.participant.vars['game_count'] += 1
+
+
 # PAGES
 
 class ChoiceWaitPageInit(WaitPage):
@@ -255,7 +258,7 @@ class Instructions_container_2(Page):
             'total_surplus': Constants.players_per_group * Constants.endowment_medium * 2,
             'individual_share': Constants.endowment_medium * 2,
             'count':1,
-            'treatment': player.session.config['treatment']
+            'treatment': player.identity_treatment #NOTE:changed here to randomize at group level
         }
 
 class Examples(Page):
@@ -329,7 +332,7 @@ class Identity_task(Page):
     def vars_for_template(player: Player):
         # retrieve values from constants and store them in a dictionary
         return {
-            'treatment': player.session.config['treatment'],
+            'treatment': player.identity_treatment, #NOTE:changed here to randomize at group level
             'id': player.id_in_group
         }
 
@@ -355,7 +358,7 @@ class Identity_task_ALT(Page):
     def vars_for_template(player: Player):
         # retrieve values from constants and store them in a dictionary
         return {
-            'treatment': player.session.config['treatment'],
+            'treatment': player.identity_treatment,#NOTE:changed here to randomize at group level
             'id': player.id_in_group
         }        
 
@@ -368,7 +371,7 @@ class Identity_task_feedback(Page):
     def vars_for_template(player: Player):
         # retrieve values from constants and store them in a dictionary
         return {
-            'treatment': player.session.config['treatment'],
+            'treatment': player.identity_treatment,#NOTE:changed here to randomize at group level
             'id': player.id_in_group
         }
 

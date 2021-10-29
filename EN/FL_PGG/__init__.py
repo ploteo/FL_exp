@@ -259,7 +259,6 @@ class Instructions_container_2(Page):
             'individual_share': Constants.endowment_medium * 2,
             'count':1,
             'treatment': player.identity_treatment #NOTE:changed here to randomize at group level
-
         }
 
 class Examples(Page):
