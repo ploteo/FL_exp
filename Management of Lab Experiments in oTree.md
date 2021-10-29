@@ -76,6 +76,9 @@ Click the button <button type="button" class="btn btn-primary">Create new sessio
 
 3) Choose your app and the configuration settings from the interface that opens
 
+
+<img src="create_session.png">
+
 4) When done, click the button <button type="button" class="btn btn-primary">Create</button>
 
 This will create a series of links. Now the clients can connect to the server with these links. 
