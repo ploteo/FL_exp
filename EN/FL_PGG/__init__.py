@@ -27,7 +27,7 @@ class Group(BaseGroup):
     total_contributions = models.CurrencyField()
     individual_share = models.CurrencyField()
     total_earnings = models.CurrencyField()
-
+    
 class Player(BasePlayer):
     identity_treatment = models.CharField() #NOTE: added thsi to randomize at the group level
     endowment = models.CurrencyField()
