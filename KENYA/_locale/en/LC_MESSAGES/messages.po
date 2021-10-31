@@ -27,7 +27,7 @@ msgstr "Chaguo"
 #: FL_DG/Choice_sender.html:10 FL_PGG/Choices.html:12
 #: FL_TG/Choice_sender.html:10 FL_risk/Choices.html:11 FL_time/Choices.html:9
 msgid "Your answers to the previous understanding questions were all correct."
-msgstr "Majibu yako kwa maswali ya awali ya ufahamu wote yalikuwa sahihi."
+msgstr "Majibu yako kwa maswali ya awali ya kupima ufahamu wako wa mchezo yalikuwa sahihi."
 
 #: FL_DG/Choice_sender.html:12 FL_PGG/Choices.html:15
 #: FL_TG/Choice_sender_inst.html:10
@@ -44,7 +44,7 @@ msgstr "Je, ni ngapi zako"
 
 #: FL_DG/Choice_sender.html:18
 msgid "do you choose to send to the Receiver?"
-msgstr "Je, unachagua kutumtumia Mpokeaji?"
+msgstr "Je, unachagua kutumtumia Mpokeaji ngapi?"
 
 #: FL_DG/Choice_sender.html:33 FL_DG/Choice_sender_inst.html:30
 msgid "Confirm"
@@ -52,7 +52,7 @@ msgstr "Thibitisha"
 
 #: FL_DG/Choice_sender_inst.html:13 FL_TG/Choice_sender_inst.html:15
 msgid "do you send to the"
-msgstr "Je, utatuma kwa mpokeaji?"
+msgstr "utatuma kwa mpokeaji?"
 
 #: FL_DG/Final_questionnaire.html:16 FL_DG/Questionnaire_1.html:16
 #: FL_PGG/Questionnaire1.html:7 FL_PGG/Questionnaire2.html:7
@@ -68,9 +68,7 @@ msgid ""
 "you some questions in relation to the game you played. Please answer the "
 "following questions."
 msgstr ""
-"Asante sana kwa kucheza mchezo huu. Kabla ya kuendelea, tunataka "
-"kuulizawewe maswali kadhaa kuhusiana na mchezo uliocheza. Tafadhali "
-"jibumaswali ya fuatayo."
+"Asante sana kwa kucheza mchezo huu, Kabla ya kuendelea, tunataka tukuulize maswali kadhaa kuhusiana na mchezo uliocheza. Tafadhali jibu maswali yafuatayo."
 
 #: FL_DG/Final_questionnaire.html:22
 msgid "Of all the people in this room, how many do you know personally?"
@@ -85,7 +83,7 @@ msgid ""
 "How much do you think that you understood the instructions you were given"
 " in this game?"
 msgstr ""
-"Je, unafikiria ni kiwango ngani umeelewa maagizo uliyopewakatika mchezo "
+"Je, unafikiria ni kiwango gani umeelewa maagizo uliyopewa katika mchezo "
 "huu?"
 
 #: FL_DG/Final_questionnaire.html:36 FL_payments/Results_1.html:236
@@ -112,7 +110,7 @@ msgstr "Endelea"
 #: FL_DG/Instructions_container.html:25 FL_PGG/Instructions.html:2
 #: FL_PGG/Instructions2.html:2 FL_TG/Instructions_sender_inst.html:13
 msgid "Instructions"
-msgstr "Mahagizo"
+msgstr "Maagizo"
 
 #: FL_DG/Instructions_container.html:27 FL_PGG/Instructions_container_2.html:15
 #: FL_TG/Instructions_container.html:26 FL_TG/Instructions_container.html:35
@@ -134,7 +132,7 @@ msgid ""
 "endowment of tokens you want to keep for yourself, and how much of it you"
 " want to send to another participant (the Receiver)."
 msgstr ""
-"Maagizo haya yanataja jukumu la <i> Mtumaji </i>.Kama Mtumaji, utapata "
+"Maagizo haya yanataja jukumu la <i>Mtumaji</i>. Kama Mtumaji, utapata "
 "fursa ya kuamua ni kiasi gani cha Token yako ya mwanzo unayotaka "
 "kujiwekea, na je, ni kiasi gani wewe unataka kutuma kwa mshiriki mwingine"
 " (ambaye ni Mpokeaji)."
@@ -188,7 +186,7 @@ msgstr ""
 
 #: FL_DG/Instructions_sender.html:20
 msgid "Roles"
-msgstr ""
+msgstr "Majukumu"
 
 #: FL_DG/Instructions_sender.html:22
 #, fuzzy, python-format
@@ -200,8 +198,8 @@ msgid ""
 "Sender we will tell you the total number of tokens you will be paid."
 msgstr ""
 "Mwisho wa kikao hiki, Mtambo huu wenyewe utachagua jukumu la washiriki "
-"wote: 50 &#37; ya washiriki watachaguliwa kama Watumaji,na 50 &#37; "
-"iliyobaki itachukuliwa kama Wapokeaji. kwa hivyo, Kila Mtumaji atakuwa "
+"wote: Asilimia 50 ya washiriki watachaguliwa kama Watumaji, na asilimia 50 "
+"iliyobaki itachukuliwa kama Wapokeaji. Kwa hivyo, Kila Mtumaji atakuwa "
 "analingana na Mpokeaji. Kulingana na jukumu lako lililochaguliwa na "
 "mtambo na uhamuzi wa Mtumaji tutakueleza jumla ya Tokeni utakazolipwa."
 
@@ -215,9 +213,7 @@ msgid ""
 "follow the same rules of the previous one, with the difference that you "
 "will always be a Sender, while a"
 msgstr ""
-"Sasa utacheza mchezo tofauti uliuchezwa hapo awali. Mara hii fuata "
-"maagizo ya hapo awali, tofauti sasa ni kwamba wewe wakati wote utakuwa "
-"Mtumaji, ilhali ule mwingine"
+"Sasa utacheza mchezo tofauti na uliocheza hapo awali. Mara hii, maagizo ni kwamba, wewe wakati wote utakuwa Mtumaji, ilhali Mpokeaji atakuwa "
 
 #: FL_DG/Instructions_sender_inst.html:11
 msgid "will be the Receiver."
@@ -231,7 +227,7 @@ msgid ""
 msgstr ""
 "Hii inamaanisha kuwa idadi ya Tokeni ambazo unaamua kutuma kwa Mpokeaji "
 "kutoka kwa ifadhi yako ya awali zitahamishiwa kwa wakulima wadogo mtaani "
-"kupitia shirika ndogo hapa mtaani"
+"kupitia shirika ndogo hapa mjini ambalo ni "
 
 #: FL_DG/Instructions_sender_inst.html:18
 #: FL_TG/Instructions_sender_inst.html:27
@@ -268,7 +264,7 @@ msgstr "Endelea"
 
 #: FL_DG/Instructions_welcome.html:4
 msgid "General Instructions"
-msgstr "Maagizo ya Jumla"
+msgstr "Maagizo ya Jumla ya Upokeaji na Utumaji wa Pesa"
 
 #: FL_DG/Instructions_welcome.html:7
 msgid ""
@@ -293,7 +289,7 @@ msgid ""
 msgstr ""
 "Katika mchezo huu utashirikiana na mshiriki mwingine kwa kutumia mtambo "
 "wa kompyuta. Katika mchezo huu kuna majukumu mawili: <i> Mtumaji </i> na "
-"<i> Mpokeaji </i>. Utagundua jukumu lako halisi mwisho wa kikao "
+"<i> Mpokeaji </i>. Utagundua jukumu lako halisi mwisho wa kikao. "
 "Hutaambiwa ni nani umeunganishwa na yeye, wakati mchezo unapoendelea hata"
 " baada ya kumalizika kwa kikao cha leo. Mshiriki utakaye unganishwa naye "
 "sio lazima awe ule wa michezo mingine."
@@ -319,7 +315,7 @@ msgid ""
 "Please ask for clarifications if needed."
 msgstr ""
 "Majibu yako kwa maswali haya hayataathiri mapato yako ya mwisho. "
-"Tafadhali uliza ufafanuzi ikiwa inahitajika."
+"Tafadhali uliza ufafanuzi ikiwa itahitajika."
 
 #: FL_DG/Questionnaire_1.html:26
 msgid ""
@@ -438,7 +434,7 @@ msgstr "Wastani"
 
 #: FL_DG/__init__.py:45 FL_DG/__init__.py:48
 msgid "Fairly Well"
-msgstr "Zaidi ya wastani"
+msgstr "Zaidi"
 
 #: FL_DG/__init__.py:45 FL_PGG/__init__.py:58
 msgid "Completely"
@@ -447,7 +443,7 @@ msgstr "Yote"
 #: FL_DG/__init__.py:48 FL_PGG/__init__.py:74 FL_TG/__init__.py:78
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:62 FL_time/__init__.py:63
 msgid "Very well"
-msgstr "yote zaidi sana"
+msgstr "Zaidi sana"
 
 #: FL_DG/__init__.py:115 FL_PGG/__init__.py:299 FL_time/__init__.py:187
 msgid "Please check your answer to question 1"
@@ -491,7 +487,7 @@ msgid ""
 "to whom we provide technical assistance. Through your support we will be "
 "able to empower the local farmers and to jointly develop a"
 msgstr ""
-"ambaye tunampa msaada wa kiufundi. Kupitia msaada wako tutakuwa na uwezo "
+"ambalo linapeana msaada wa kiufundi. Kupitia msaada wako tutakuwa na uwezo "
 "wa kuwawezesha wakulima wa eneo hili na kwa pamoja kukuza "
 
 #: FL_DG/inst_descr.html:23 FL_PGG/Instructions_container_2.html:16
@@ -520,8 +516,8 @@ msgid ""
 "Before we proceed with your choice, we will give you some examples that "
 "illustrate the possible outcomes of the game."
 msgstr ""
-"Kabla ya kuendelea na chaguo lako, tutakupa mifano ambayoinaonyesha "
-"matokeo yanayowezekana ya mchezo."
+"Kabla ya kuendelea na chaguo lako, tutakupa mifano ambayo inaonyesha "
+"matokeo yanayowezekana kwa mchezo."
 
 #: FL_PGG/Examples.html:28 FL_risk/Example.html:20 FL_time/Example.html:18
 msgid "Example 1"
@@ -535,11 +531,11 @@ msgid ""
 "among all the participants in your group, so that each of you will earn "
 "300 Tokens"
 msgstr ""
-"Kikundi chako kimeundwa na watu 4. Ikiwa kila mtu kutoka kwa kikundi "
-"chako anaweka ifadhi yao yote (Tokeni 150) katika akaunti ya kikundi, "
-"Tokeni 600 itakuwa pale. Fanya mara mbili ya jumla hio (Tokeni 1200) "
+"Kikundi chako kimeundwa na watu Wannw (4). Ikiwa kila mtu kutoka kwa kikundi "
+"chako anaweka hifadhi yao yote (Tokeni 150) katika akaunti ya kikundi, basi, "
+"Tokeni 600 itakuwa pale. Kisha fanya mara mbili ya jumla hio ni (Tokeni 1200) ambapo"
 "itagawanywa sawa kwa kila mmoja kati ya washiriki wote katika kikundi "
-"chako, ili kila mmoja wenu apate mapato Tokeni 300"
+"chako, ili kila mmoja wenu apata mapato ya Tokeni 300"
 
 #: FL_PGG/Examples.html:43 FL_risk/Example.html:74 FL_time/Example.html:63
 msgid "Example 2"
@@ -552,11 +548,11 @@ msgid ""
 "account, thus leaving no money to be divided between the participants in "
 "your group. Each participant in your group will then earn 150 Tokens"
 msgstr ""
-"Kikundi chako kimeundwa na watu wanne 4. Ikiwa kila mtu kutoka kwa "
-"kikundi chako anaendelea kujiwekeaTokeni zao 150 kwao wenyewe, hakuna "
-"pesa itakayowekwa kwa pamoja kwenya akaunti, sawa na hivyo kuacha bila "
-"pesa yoyote ya kugawanywa kati ya washiriki katika kikundi chako. Kila "
-"mshiriki katika kikundi chako basi atapata Tokeni 150"
+"Kikundi chako kimeundwa na watu Wanne (4). Ikiwa kila mtu kutoka kwa "
+"kikundi chako anaendelea kujiwekea Tokeni zao 150 kwao wenyewe, hakuna "
+"pesa itakayowekwa kwa pamoja kwenye akaunti, sawa na hivyo kuacha bila "
+"pesa yoyote ya kugawanywa kati ya washiriki katika kikundi chako. Basi, kila "
+"mshiriki katika kikundi chako atapata Tokeni 150"
 
 #: FL_PGG/Examples.html:57
 msgid ""
@@ -564,7 +560,7 @@ msgid ""
 "common account."
 msgstr ""
 "Kumbuka kwamba unaweza kuweka kiasi chochote kati ya Tokeni 0 na 150 "
-"katikaakaunti ya kikundi."
+"katika akaunti ya kikundi."
 
 #: FL_PGG/Examples.html:59 FL_PGG/Instructions.html:26
 #: FL_PGG/Instructions2.html:25 FL_PGG/Pregame.html:17
@@ -574,7 +570,7 @@ msgstr "Je, una maswali yoyote?"
 
 #: FL_PGG/Identity_task.html:2 FL_PGG/Identity_task_ALT.html:2
 msgid "Task"
-msgstr "Jukumu/kazi"
+msgstr "Jukumu/Zoezi la pili"
 
 #: FL_PGG/Identity_task.html:9
 msgid ""
@@ -733,7 +729,7 @@ msgstr "Maji"
 
 #: FL_PGG/Identity_task_ALT.html:9
 msgid "Reorder now the words below to obtain the description of an object."
-msgstr "Panga tena maneno hapa chini ili upate maelezo ya kitu."
+msgstr "Panga tena maneno yalipo hapa chini ili upate maelezo ya kitu."
 
 #: FL_PGG/Identity_task_ALT.html:88
 msgid "Put the words in the right order in the boxes below"
@@ -744,8 +740,7 @@ msgid ""
 "If you do a mistake just try again. When all words are correctly "
 "positioned you will continue to the next page."
 msgstr ""
-"Ukikosea jaribu tena. Wakati maneno yote ni sawanafasi nzuri utaendelea "
-"kwenye ukurasa unaofuata."
+"Ukikosea jaribu tena. Wakati maneno yote ni sawa, utakuwa na nafasi nzuri yakuendelea kwenye ukurasa ufuatao."
 
 #: FL_PGG/Identity_task_feedback.html:2
 msgid "Task: results"
@@ -804,10 +799,7 @@ msgid ""
 "prohibited, and if you talk with one of the other participants, you will "
 "be asked to leave the room."
 msgstr ""
-"Asante tena kwa kuja leo. Sasa tutacheza mchezo. Tafadhali bakikama "
-"umeketi kwenye dawati lako. Mchezo huu unaendelea kwa kimya; kuzungumza "
-"nimarufuku, na ikiwa unazungumza na mmoja wa washiriki wengine, "
-"utafanyauulizwe uondoke kwenye chumba, sawa."
+"Asante tena kwa kuja kwako leo. Sasa tutacheza mchezo wa uwekezaji wa pesa zako kwa vikundi vya maendeleo. Tafadhali, baki kama umeketi kwenye dawati lako. Mchezo huu utaendelea kwa kimya, kuzungumza ni marufuku, na ikiwa unazungumza na mmoja wa washiriki wengine, utauulizwe uondoke kwenye chumba."
 
 #: FL_PGG/Instructions.html:9
 msgid ""
@@ -815,7 +807,7 @@ msgid ""
 "<i>four participants each.</i>"
 msgstr ""
 "Katika mchezo huu, washiriki waliopo leo watagawanywa katika vikundi vya "
-"<i> washiriki wanne wanne. </i>"
+"<i> washiriki wanne. </i>"
 
 #: FL_PGG/Instructions.html:13
 msgid ""
@@ -838,7 +830,7 @@ msgid ""
 msgstr ""
 "Wewe na kila mshiriki wa kikundi chako mtapata nafasi ya kuweka kama "
 "Tokeni kiwango chochote kama mnavyotaka kwenye akaunti ya kikundi, au pia"
-" zote niwe ni zako mwenyewe. Tokeni ambazo unajiwekea mwenyewe zinabaki "
+" Tokeni zote niwe ni zako mwenyewe. Tokeni ambazo unajiwekea mwenyewe zinabaki "
 "ni zako na zitachangia mapato yako."
 
 #: FL_PGG/Instructions.html:23
@@ -852,7 +844,7 @@ msgid ""
 "account."
 msgstr ""
 "Baada ya wanachama wote wa kikundi chako kuamua kiasi cha kuchangia kwa "
-"akaunti yenu ya kikundi, mtambo (computer) utaongeza akaunti ya kikundi "
+"akaunti yenu ya kikundi, mtambo (kompyuta) utaongeza kwa akaunti ya kikundi "
 "chako na kiwango sawa na jumla ambayo iliwekwa kwenye akaunti ya Kikundi,"
 " kwa hivyo kwamba kiasi kimeongezwa maradufu. Hii itagawanywa kwa usawa "
 "kati ya wanachama wa kikundi chako. Kila mshiriki wa kikundi chako, "
@@ -865,7 +857,7 @@ msgid ""
 "that illustrate the possible outcomes of that game."
 msgstr ""
 "Kabla ya kuendelea na uamuzi halisi, tutakupa mifano ile inaonyesha "
-"matokeo yanayowezekana ya mchezo huo."
+"matokeo yanayowezekana ya mchezo huu."
 
 #: FL_PGG/Instructions.html:34
 msgid "If everyone puts everything in the common account,"
@@ -931,11 +923,7 @@ msgid ""
 "previous round will not be affected. The tokens that you keep for "
 "yourself will remain with you and contribute to your final earnings."
 msgstr ""
-"Wewe na kila mshiriki wa kikundi chako mtapata nafasi ya kuweka "
-"kamanyingi za Tokeni hizi kama unavyotaka kwenye akaunti ya kikundi, au "
-"kuweka zingine auzote ni zako. Hizi ni Tokeni mpya na mapato kutoka "
-"kwaraundi ya awali haitaathiriwa. Tokeni unazotunzamwenyewe utabaki na "
-"wewe na utachangia mapato yako ya mwisho."
+"Wewe na kila mshiriki wa kikundi chako mtapata nafasi ya kuweka kama nyingi za Tokeni hizi kama unavyotaka kwenye akaunti ya kikundi, au kuweka zingine au zote ni zako. Hizi ni Tokeni mpya na mapato kutoka kwa raundi ya awali haita athiriwa. Usipotoa tokeni zozote kwa kikundi, Tokeni ambazo unabaki nazo zitachangia mapato yako ya mwisho."
 
 #: FL_PGG/Instructions2.html:15
 msgid ""
@@ -947,13 +935,8 @@ msgid ""
 "receive the same share <b>regardless of the amount they put on the common"
 " account.</b> "
 msgstr ""
-"Baada ya wanachama wote wa kikundi chako kuchagua kiasi cha "
-"kuchangiaakaunti ya kikundi, mtambo utaongeza akaunti ya kikundi ya "
-"kikundi chakona kiwango sawa na kile kilichowekwa kwenye akaunti ya "
-"kikundi, ilijumla ya jumla imeongezeka maradufu. Hii itagawanywa kwa "
-"usawa kati yawanachama wa kikundi chako. Kila mshiriki wa kikundi chako, "
-"pamoja na wewe, atafanyapokea sehemu sawa <b> bila kujali kiwango "
-"walichoweka kwenye akauntiya kikundi. </b>"
+"Baada ya wanachama wote wa kikundi chako kuchagua kiasi cha kuchangia akaunti ya kikundi, mtambo wa komputa  utaongeza akaunti ya kikundi chako na kiwango sawa na kile kilichowekwa kwenye akaunti ya kikundi ili jumla ya ifadhi imeongezeka maradufu. Hii itagawanywa kwa usawa kati ya wanachama wa kikundi chako. Kila mshiriki wa kikundi chako pamoja na wewe atapokea sehemu sawa <b> bila kujali kiwango "
+"walichoweka kwenye akauntiya kikundi </b>"
 
 #: FL_PGG/Instructions2.html:20
 msgid ""
@@ -963,10 +946,7 @@ msgid ""
 "everyone. Again, individual decisions won’t be communicated to anyone by "
 "the enumerators."
 msgstr ""
-"Tena, utafanya uamuzi juu ya kutunza Tokeni zako au kuweka,au sehemu yao,"
-" katika akaunti ya kikundi. Mara tu kila mtu ametengenezauamuzi, "
-"tutahesabu Tokeni na kuwasiliana na matokeokila mtu. Tena, maamuzi ya "
-"kibinafsi hayatawasilishwa kwa mtu yeyote namsahidizi."
+"Tena, utafanya uamuzi juu ya kutunza Tokeni zako au kuweka au sehemu yake, katika akaunti ya kikundi. Mara tu kila mtu amefanya uamuzi, tutahesabu Tokeni na kuwasilisha matokeo kwa kila mtu. Tena, maamuzi ya kibinafsi hayatawasilishwa kwa mtu yeyote na msaidizi."
 
 #: FL_PGG/Instructions2.html:30
 msgid ""
@@ -983,8 +963,7 @@ msgid ""
 "Before making your decision, you will perform a task. Results from this "
 "task will not affect your earnings. Instructions follow."
 msgstr ""
-"Kabla ya kufanya uamuzi wako, utafanya kazi. Matokeo kutoka kwa hiikazi "
-"haitaathiri mapato yako. Maagizo yanafuata."
+"Kabla ya kufanya uamuzi wako, utafanya zoezi. Matokeo kutoka kwa hili zoezi halita athiri mapato yako. Maagizo yatafuata"
 
 #: FL_PGG/MyResultsWaitPage.html:5
 msgid " Please Wait"
@@ -1030,10 +1009,7 @@ msgid ""
 "the case, you can either try again or call the enumerator for further "
 "clarifications."
 msgstr ""
-"Sasa tutakuuliza maswali kadhaa kukusaidia kuelewa mchezo. Ikiwaunatoa "
-"jibu lisilo sahihi, utapokea ujumbe kutoka kwa mtambokukuambia kuwa "
-"kulikuwa na makosa katika njia uliyojibu. Ikiwa hii nikesi hiyo, unaweza "
-"kujaribu tena au piga simu kwa msahidizi zaidiufafanuzi."
+"Sasa tutakuuliza maswali kadhaa kukusaidia kuelewa mchezo. Ikiwa unatoa jibu lisilo sahihi, utapokea ujumbe kutoka kwa mtambo wa komputa kukuambia kuwa kulikuwa na makosa katika njia uliyojibu. Ikiwa hii ni kesi hiyo, unaweza kujaribu tena utauliza usaidizi kwa msahidizi akufafanulie zaidi."
 
 #: FL_PGG/Questionnaire1.html:19
 msgid ""
@@ -1050,15 +1026,14 @@ msgid ""
 "members, how much will each member of the group earn from the common "
 "account after the tokens are doubled?"
 msgstr ""
-"Ikiwa Tokeni 600 zinawekwa kwenye akaunti ya kikundi na wewe na kikundi "
-"chakowanachama, kila mshiriki wa kikundi atapata kiasi gani kutoka kwa "
+"Ikiwa Tokeni 600 zinawekwa kwenye akaunti ya kikundi na wewe na wanachama wa kikundi, kila mshiriki wa kikundi atapata kiasi gani kutoka kwa "
 "akaunti ya kikundi baada ya Tokeni kuongezeka mara mbili?"
 
 #: FL_PGG/Questionnaire2.html:13 FL_risk/Questionnaire.html:14
 msgid ""
 "How would you rate your understanding of the instructions you were given "
 "in this game?"
-msgstr "Je! Ungepimaje uelewa wako wa maagizo uliyopewakatika mchezo huu?"
+msgstr "Je! Ungepimaje kuelewa kwako kwa maagizo uliyopewa katika mchezo huu?"
 
 #: FL_PGG/Questionnaire2.html:18
 msgid ""
@@ -1094,7 +1069,7 @@ msgstr "Vizuri"
 
 #: FL_PGG/__init__.py:73 FL_risk/__init__.py:61 FL_time/__init__.py:62
 msgid "Fairly well"
-msgstr "Vizuri zaidi"
+msgstr "Zaidi"
 
 #: FL_PGG/__init__.py:344 FL_PGG/__init__.py:346 FL_PGG/__init__.py:348
 #: FL_PGG/__init__.py:350
@@ -1115,7 +1090,7 @@ msgid ""
 "the other"
 msgstr ""
 "Tafadhali ripoti uchaguzi wako kwa mawasiliano kwa kila chaguo "
-"linalowezekana laingine"
+"linalowezekana"
 
 #: FL_TG/Choice_receiver.html:18
 msgid "When the other sends"
@@ -1164,7 +1139,7 @@ msgstr "Hojaji ya Mwisho"
 
 #: FL_TG/Final_questionnaire_inst.html:23
 msgid "1. According to the information provided, what is the field in which"
-msgstr "1. Kulingana na habari iliyotolewa, ni uwanja gani ambao"
+msgstr "Kulingana na habari iliyotolewa, ni kazi gani ambayo "
 
 #: FL_TG/Final_questionnaire_inst.html:24
 msgid "operates?"
@@ -1202,19 +1177,18 @@ msgstr "au kwa kujitegemea kutoka kwa hii"
 
 #: FL_TG/Final_questionnaire_inst.html:82
 msgid "3. How important do you think is the development of"
-msgstr "3. Je! Unafikiria maendeleo ya muhimu ni nini"
+msgstr "Je, ni kwa kiasi gani unafikiria maendeleo ya"
 
 #: FL_TG/Final_questionnaire_inst.html:86
 msgid ""
 "4. How would you rate your understanding of the instructions you were "
 "given in this game?"
 msgstr ""
-"4. Je! Unawezaje kupima uelewa wako wa maagizo uliyokuwaaliyopewa katika "
-"mchezo huu?"
+"4. . Je! Unawezaje kupima kuelewa kwako kwa maagizo uliyokuwa umepewa katika mchezo huu?"
 
 #: FL_TG/Final_questionnaire_receiver.html:16
 msgid "Questionnaire (Receiver)"
-msgstr "Hojaji (Mpokeaji)"
+msgstr "Maswali kwa Mtumaji"
 
 #: FL_TG/Final_questionnaire_receiver.html:19
 #: FL_TG/Final_questionnaire_sender.html:18
@@ -1223,9 +1197,7 @@ msgid ""
 "some questions in relation to the game you played. Please answer the "
 "following questions."
 msgstr ""
-"Asante kwa kucheza mchezo huu. Kabla ya kuendelea, tunataka "
-"kukuulizamaswali kadhaa kuhusiana na mchezo uliocheza. Tafadhali "
-"jibukufuatia maswali."
+"Asante kwa kucheza mchezo huu. Kabla ya kuendelea, tunataka kukuuliza maswali kadhaa kuhusiana na mchezo uliocheza. Tafadhali jibu maswali yafuatayo."
 
 #: FL_TG/Final_questionnaire_receiver.html:22
 msgid "1. How much do you think the Sender will actually send?"
@@ -1235,11 +1207,11 @@ msgstr "1. Unafikiri ni kiasi gani Mtumaji atatuma?"
 msgid ""
 "2. Overall, do you think that the amounts you returned to the Sender were"
 " fair?"
-msgstr "2. Kwa jumla, unafikiri kwamba pesa ulizomrudishia Mtumaji zilikuwahaki?"
+msgstr "2. Kwa jumla, unafikiri kwamba pesa ulizomrudishia Mtumaji zilikuwa za haki?"
 
 #: FL_TG/Final_questionnaire_sender.html:16
 msgid "Questionnaire (Sender)"
-msgstr "Hojaji (Mtumaji)"
+msgstr "Maswali kwa Mpokeaji"
 
 #: FL_TG/Final_questionnaire_sender.html:21
 msgid ""
@@ -1248,7 +1220,7 @@ msgid ""
 "independently from this?"
 msgstr ""
 "1. Je! Uliamua kiasi ulichotuma kwa Mpokeaji kulingana namatarajio ya "
-"mchango mkubwa zaidi kutoka kwa mwenzako / Mpokeaji, aukwa kujitegemea "
+"mchango mkubwa zaidi kutoka kwa mwenzako / Mpokeaji, au kwa kujitegemea "
 "kutoka kwa hili?"
 
 #: FL_TG/Final_questionnaire_sender.html:27
@@ -1260,7 +1232,7 @@ msgid ""
 "3. How much do you think that you understood the instructions you were "
 "given in this game?"
 msgstr ""
-"3. Unafikiri ni kiasi gani umeelewa maagizo uliyokuwaaliyopewa katika "
+"3. Unafikiri ni kiasi gani umeelewa maagizo uliyopewa katika "
 "mchezo huu?"
 
 #: FL_TG/Instructions_container.html:36
@@ -1279,10 +1251,7 @@ msgid ""
 "these tokens (none, some or all of them) to send back. This in addition "
 "to your initial endowment of"
 msgstr ""
-"Maagizo haya yanarejelea <b> Mpokeaji </b>. Wakati utachezakama Mpokeaji,"
-" utapokea mara tatu Tokeni zilizotumwa naMtumaji umeunganishwa na, na "
-"lazima uamue ni sehemu gani yaTokeni hizi (hakuna, zingine au zote) "
-"kutuma tena. Hii kwa kuongezakwa ifadhi yako ya awali ya"
+"Maagizo haya yanarejelea <b>Mpokeaji</b>. Wakati utacheza kama Mpokeaji, utapokea kwa mara tatu Tokeni zilizotumwa na Mtumaji umeunganishwa naye na lazima uamue ni sehemu gani ya Tokeni hizi (Sufuri, sehemu Fulani au zote) utatuma ili indio hesabu hiongezwe kwa ifadhi yako ya awali ya"
 
 #: FL_TG/Instructions_receiver.html:11
 msgid ""
@@ -1292,12 +1261,7 @@ msgid ""
 "(from 0 to 150), one for 75 (from 0 to 225), and one for 100 (from 0 to "
 "300). When the Sender chooses 0, you are forced to return 0."
 msgstr ""
-"Hasa, utachagua ni kiasi gani cha kurudi kwa chaguo lolote "
-"linalowezekanaya Mtumaji, kabla ya kujua chaguo halisi. Kwa jumla, "
-"utafanyachaguzi nne, moja kwa kiasi kilichotumwa cha 25 (kutoka 0 hadi "
-"75), moja kwa 50(kutoka 0 hadi 150), moja kwa 75 (kutoka 0 hadi 225), na "
-"moja kwa 100 (kutoka 0 hadi300). Wakati Sender anachagua 0, unalazimika "
-"kurudi 0."
+"Hasa, utachagua ni kiasi gani cha kurudi kwa chaguo lolote linalowezekana ya Mtumaji, kabla ya kujua chaguo halisi. Kwa jumla, utafanya chaguzi nne, moja kwa kiasi kilichotumwa cha 25 (kutoka 0 hadi 75), moja kwa 50 (kutoka 0 hadi 150), moja kwa 75 (kutoka 0 hadi 225), na moja kwa 100 (kutoka 0 hadi 300). Wakati mtumaji anachagua 0, unalazimika kurudi 0."
 
 #: FL_TG/Instructions_receiver.html:16
 msgid ""
@@ -1306,9 +1270,7 @@ msgid ""
 " role of Receiver for payment purposes. This in addition to your initial "
 "endowment of tokens."
 msgstr ""
-"Idadi ya Tokeni ambazo utaamua kujiwekea itakuwachangia mapato yako ya "
-"mwisho katika mchezo huu ikiwa umepewa jukumu la jukumu la Mpokeaji kwa "
-"sababu za malipo. Hii ikiwa ni pamoja na ile ifadhi ya awali ya Tokeni."
+"Idadi ya Tokeni ambazo utaamua kujiwekea itachangia kwa mapato yako ya mwisho katika mchezo huu ikiwa umepewa jukumu la jukumu la Mpokeaji kwa sababu za malipo. Hii ikiwa ni pamoja na ile ifadhi ya awali ya Tokeni."
 
 #: FL_TG/Instructions_sender.html:2
 msgid "Instructions Sender"
@@ -1332,7 +1294,7 @@ msgid ""
 "Receiver."
 msgstr ""
 "kutuma kwa mtu ambaye umeunganishwa naye, ambayo katika kesi hii "
-"ni Mpokeaji. Hasa, unaweza kuchagua kutuma 0, 25, 50, 75, au Tokeni 100 kwa"
+"ni Mpokeaji. Hasa, unaweza kuchagua kutuma 0, 25, 50, 75, au Tokeni zote 100 kwa"
 " Mpokeaji. Uamuzi wako ni wa siri na hakuna mtu atakayeijua. Kiasi "
 "chochote utakachoamua kumpa mtu uliyeunganishwa naye kitakuwa <i> "
 "mara tatu </i> kabla ya kupitishwa kwa Mpokeaji."
@@ -1362,13 +1324,11 @@ msgid ""
 "follow the same rules of the previous one, with the difference that now "
 "you will play only as Sender, while a"
 msgstr ""
-"Sasa utacheza mchezo tofauti uliochezwa hapo awali. Raundi hiifuata "
-"sheria zile zile za ile ya awali, na tofauti hiyo sasautacheza tu kama "
-"Sender, wakati"
+"Sasa utacheza mchezo tofauti na uliochezwa hapo awali. Raundi hii, fuata sheria zile zile za michezo ya awali, na tofauti na hiyo, sasa utacheza tu kama Mtumaji, iliwali shirika lisilola serikali la"
 
 #: FL_TG/Instructions_sender_inst.html:18
 msgid "will take part in the game as the Receiver."
-msgstr "atashiriki katika mchezo kama Mpokeaji."
+msgstr "litashiriki katika mchezo kama Mpokeaji."
 
 #: FL_TG/Instructions_sender_inst.html:19
 msgid ""
@@ -1393,8 +1353,8 @@ msgid ""
 "will be paid at the end of the game."
 msgstr ""
 "Hizi ni pamoja na Tokeni zilizopokelewa katika michezo iliyopita. "
-"Kwenyemwisho wa kikao cha leo, mtambo utakuambia idadi ya Tokeni "
-"zakoatalipwa mwisho wa mchezo."
+"Kwenye mwisho wa kikao cha leo, mtambo utakuambia idadi ya Tokeni "
+"zako utalipwa mwisho wa mchezo."
 
 #: FL_TG/Instructions_welcome.html:4
 msgid "Welcome"
@@ -1408,7 +1368,7 @@ msgid ""
 "other participants, and not to move from your desk."
 msgstr ""
 "Mchezo huu unachezwa kwa washiriki wawili kama kitengo. Hutaambiwa ni nani "
-"umeunganishwa naye wakati mchezo unaendelea au baada ya kikao cha leg. "
+"umeunganishwa naye wakati mchezo unaendelea au baada ya kikao cha le0. "
 "Tafadhali kumbuka kutosema kwa sauti, kutowasiliana nawashiriki "
 "wengine, na kutokuhama kutoka dawati lako."
 
@@ -1423,10 +1383,7 @@ msgid ""
 "earn some tokens based on their decision and on the decision of the "
 "person they have been paired with."
 msgstr ""
-"kama ifadhi ya awali. Hizi ni pamoja na malipo ya kushiriki kwako "
-"mchezoni huu na Tokeni zinazopatikana katika michezo mingine. Kila mmoja "
-"wenu anaweza pata Tokeni kadhaa kulingana na uamuzi wake na uamuzi wa mtu "
-"ambaye wameunganishwa naye."
+"kama ifadhi yako ya kwanza. Hizi ni pamoja na malipo ya kushiriki kwako mchezoni huu na Tokeni zinazopatikana katika michezo mingine. Kila mmoja wenu anaweza pata Tokeni kadhaa kulingana na uamuzi wake na uamuzi wa mtu ambaye wameunganishwa naye."
 
 #: FL_TG/Instructions_welcome.html:17
 msgid ""
@@ -1436,10 +1393,9 @@ msgid ""
 " your choices will be matched with those of another participant randomly "
 "assigned to the opposite role."
 msgstr ""
-"Katika mchezo huu kuna majukumu mawili: <i> Mtumaji </i> na <i> Mpokeaji</i>. "
+"Katika mchezo huu kuna majukumu mawili: <i>Mtumaji</i> na <i>Mpokeaji</i>. "
 "Wewe utacheza majukumu yote mawili. Mwisho wa jaribio, kwa madhumuni ya "
-"malipo tu, mtambo utakupa jukumu moja wapo kati ya majukumu hayo mawili "
-"Uchaguzi wako utalingana na ule wa mshiriki mwingine na bila mpangilio "
+"malipo tu, mtambo utakupa jukumu moja wapo kati ya majukumu hayo mawili. Uchaguzi wako utalingana na ule wa mshiriki mwingine na bila mpangilio "
 "atapewa jukumu tofauti na lile lako."
 
 #: FL_TG/Questionnaire_1.html:19
@@ -1458,7 +1414,7 @@ msgstr ""
 
 #: FL_TG/Questionnaire_1.html:27
 msgid "1) You are playing as a Sender; you have"
-msgstr "1) Unacheza kama Mtumaji; unayo"
+msgstr "1) Unacheza kama Mtumaji; Unayo"
 
 #: FL_TG/Questionnaire_1.html:29
 msgid "Imagine that you decide to keep all the tokens for yourself."
@@ -1573,7 +1529,7 @@ msgid ""
 "independently from the donation the receiver would send me in. "
 msgstr ""
 "Niliamua kiasi hicho bila kutarajia mchango mkubwa zaidi wa kurudishiwa "
-"aubila kujali mchango nitakao pokea kutokana na hiari ya mpokeaji."
+"au bila kujali mchango nitakao pokea kutokana na hiari ya mpokeaji."
 
 #: FL_TG/__init__.py:73
 msgid "Others(specify)"
@@ -1593,15 +1549,15 @@ msgstr "Sijui"
 
 #: FL_TG/__init__.py:78 FL_TG/__init__.py:86
 msgid "Fairy Well"
-msgstr "kidogo tu"
+msgstr "Zaidi"
 
 #: FL_TG/__init__.py:84
 msgid "Quite"
-msgstr "Kabisa"
+msgstr "Kubwa"
 
 #: FL_TG/__init__.py:84
 msgid "Very"
-msgstr "Sana"
+msgstr "Kubwa zaidi"
 
 #: FL_TG/__init__.py:183 FL_risk/__init__.py:225
 msgid "Please check your answer to question 1a"
@@ -1637,14 +1593,14 @@ msgstr ""
 
 #: FL_TG/inst_descr.html:10
 msgid "This short text box will present you the local"
-msgstr "Sanduku hili fupi la maandishi litakuwasilisha eneo lako"
+msgstr "Sanduku hili fupi la maandishi linakueleza shirika lisilo la serikali la"
 
 #: FL_TG/inst_descr.html:18
 msgid ""
 "to whom we provide technical assistance. Our project focuses on the "
 "empowerment of the local farmers and on the joint development of a"
 msgstr ""
-"ambaye tunampa msaada wa Kukuelimisha. Mradi wetu unazingatiauwezeshaji "
+"ambaye tunampa msaada wa Kukuelimisha. Mradi wetu unazingatia uwezeshaji "
 "wa wakulima wa eneo hili na maendeleo ya pamoja ya"
 
 #: FL_payments/End.html:5
@@ -1663,8 +1619,8 @@ msgid ""
 " questionnaire about your food preferences and purchasing habits. But "
 "first, we will take a break."
 msgstr ""
-"Wakati tunaandaa malipo yako, tutakuuliza ujazemaswali juu ya upendeleo "
-"wako wa chakula na tabia ya ununuzi. Lakinikwanza, tutapumzika."
+"Wakati tunaandaa malipo yako, tutakuuliza ujaze maswali juu ya upendeleo "
+"wako wa chakula na tabia ya ununuzi. Lakini kwanza, tutapumzika."
 
 #: FL_payments/End.html:28
 msgid "FINISH"
@@ -1896,9 +1852,9 @@ msgid ""
 "possibly earned in other games."
 msgstr ""
 "Baada ya kuchagua, safu moja wa zile kumi itachaguliwa na bahati nasibu "
-"ambayo ndio itachezwa. Matokeo ya bahati nasibu hii yatalipwa kwako.Hii "
+"ambayo ndio itachezwa. Matokeo ya bahati nasibu hii yatalipwa kwako. Hii "
 "ni pamoja na malipo ya ushiriki kwenye michezo pamoja na "
-"Tokenizilizopatikana katika michezo mingine ya awali."
+"Tokeni zilizopatikana katika michezo mingine ya awali."
 
 #: FL_risk/Example.html:12
 msgid ""
@@ -1937,15 +1893,14 @@ msgid ""
 "1a) If for this decision, you chose <b>Lottery A</b>, how much would you "
 "have won?"
 msgstr ""
-"1a) Ikiwa kwa uamuzi huu, umechagua <b> Bahati Nasibu A </b>, ni kiasi "
-"gani weweumeshinda?"
+"1a) Ikiwa kwa uamuzi huu, umechagua <b>Bahati Nasibu A</b>, ungekuwa umeshinda kiasi gani?"
 
 #: FL_risk/Example.html:71
 msgid ""
 "1b) If for this decision, you chose <b>Lottery B</b>, how much would you "
 "have won?"
 msgstr ""
-"1b) Ikiwa kwa uamuzi huu, umechagua <b> Bahati Nasibu B </b>, ni kiasi "
+"1b) Ikiwa kwa uamuzi huu, umechagua <b>Bahati Nasibu B</b>, ni kiasi "
 "gani weweumeshinda?"
 
 #: FL_risk/Example.html:121
@@ -1970,7 +1925,7 @@ msgstr ""
 
 #: FL_risk/Instructions.html:11
 msgid "In this game, you will be asked to make 10 decisions, one after the other."
-msgstr "Katika mchezo huu, utaulizwa kufanya maamuzi 10, moja baada ya nyingine."
+msgstr "Katika mchezo huu, utaulizwa kufanya maamuzi 10, moja baada ya nyingine kuhusu hatari katika uwekezaji.."
 
 #: FL_risk/Instructions.html:14
 msgid ""
@@ -1999,7 +1954,7 @@ msgstr ""
 "maamuzi 10 ambayo umeyafanya. Tutaacha maamuzi mengine 9 na hautapata "
 "pesa yoyote kutoka kwao. Kila moja kati ya maamuzi 10 yana uwezekano sawa"
 " wa kuchaguliwa. Bahati nasibu yako uliyochagua (A au B) inayolingana na "
-"nambari ya uamuzi amboyo ilichaguliwa kwa nasibu itatekelezwa."
+"nambari ya uamuzi ambayo ilichaguliwa kwa nasibu itatekelezwa."
 
 #: FL_risk/Instructions.html:22
 msgid ""
@@ -2008,14 +1963,14 @@ msgid ""
 "tokens you will win. These are in addition to the participation stipend "
 "and the tokens possibly earned in other games."
 msgstr ""
-"Mwishowe, mtambo utachagua mpira kwa rangi nyekundu au nyeupe Rangi ya "
-"mpira uliochaguliwa idadi ya Tokeni utakazoshinda itaonyesha. Hizi ni "
+"Mwishowe, mtambo utachagua mpira kwa rangi nyekundu au nyeupe. Rangi ya "
+"mpira uliochaguliwa utaonyesha idadi ya Tokeni utakazoshinda.. Hizi ni "
 "pamoja na malipo ya ushiriki na Tokeni ambazo zilipatikana katika michezo"
 " mingine."
 
 #: FL_risk/Questionnaire.html:11
 msgid "Please answer to the following question"
-msgstr "Tafadhali jibu kwa swali lifuatalo"
+msgstr "Tafadhali jibu swali lifuatalo"
 
 #: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
 #: FL_risk/__init__.py:54
@@ -2053,9 +2008,9 @@ msgid ""
 "performing this task."
 msgstr ""
 "Sasa wacha tuanze mchezo. Tafadhali fanya uamuzi kwa kila mmoja ya "
-"mawswali ya chaguzi 10 (kuashiria chaguo A au B). Kumbuka, moja tu ya "
+"maswali ya chaguzi 10 (kuashiria chaguo A au B). Kumbuka, moja tu ya "
 "maamuzi itatekelezwa mwishowe. Ikihitajika, msahidizi atakusaidia "
-"katikakutekeleza kazi hii."
+"katika kutekeleza kazi hii."
 
 #: FL_time/Choices.html:14
 msgid "When done, please click on the button Continue "
@@ -2089,16 +2044,14 @@ msgid ""
 "that illustrate the possible outcomes of that game and will then ask you "
 "some questions to ensure that you have understood the instructions well. "
 msgstr ""
-"Kabla ya kuendelea na uamuzi halisi, tutakupa mifano inazoonyesha matokeo"
-" yanayowezekana ya mchezo huo na kisha tutakuuliza maswali kadhaa ili "
-"kuhakikisha kuwa umeelewa na maagizo vizuri."
+"Kabla ya kuendelea na uamuzi halisi, tutakupa mifano inayoonyesha matokeo yanayowezekana katika mchezo huo na kisha tutakuuliza maswali kadhaa ili kuhakikisha kuwa umeelewa maagizo vizuri."
 
 #: FL_time/Example.html:19
 msgid ""
 "Assume that the following decision was randomly drawn by the system: 100 "
 "tokens in 2 weeks or 105 tokens in 4 weeks."
 msgstr ""
-"Fikiria kuwa uamuzi ufuatao ulitolewa kwa nasibu na mtambo: Tokeni 100 "
+"Fikiria kuwa uamuzi ufuatao ulitolewa kwa bahati nasibu na mtambo: Tokeni 100 "
 "katika wiki 2 au Tokeni 105 kwa wiki 4."
 
 #: FL_time/Example.html:36 FL_time/Example.html:81 FL_time/__init__.py:51
@@ -2123,7 +2076,7 @@ msgid ""
 "Assume that the following decision was randomly drawn by the system: 100 "
 "tokens in 2 weeks or 124 tokens in 4 weeks. "
 msgstr ""
-"Fikiria kuwa uamuzi ufuatao ulitolewa kwa nasibu na mtambo: Tokeni 100 "
+"Fikiria kuwa uamuzi ufuatao ulitolewa kwa bahati nasibu na mtambo: Tokeni 100 "
 "katika wiki 2 au Tokeni 124 kwa wiki 4."
 
 #: FL_time/Example.html:96 FL_time/__init__.py:53
@@ -2135,8 +2088,7 @@ msgid ""
 "If for this decision, you chose <b>Option B</b>, how much would you have "
 "won?"
 msgstr ""
-"Ikiwa kwa uamuzi wako, ulichagua <b> Chaguo B </b>, ungekuwa na kiasi "
-"gani alishinda?"
+"Ikiwa kwa uamuzi wako, ulichagua <b> Chaguo B </b>, ungekuwa umeshinda kiasi gani?"
 
 #: FL_time/Instructions.html:12
 msgid ""
@@ -2148,12 +2100,12 @@ msgid ""
 "These are in addition to the participation stipend and the tokens "
 "possibly earned in other games."
 msgstr ""
-"Sasa tutacheza mchezo mwingine. Tutakuuliza ufanye maamuzi 10. Katika "
-"kila uamuzi, unaweza kuchagua kupokea sawa na Tokeni 100 imebadilishwa "
-"kwa pesa za Kenya baada ya <b> wiki 2 </b>, au unaweza kuchagua kusubiri "
-"na upokee zaidi ya Tokeni 100 katika <b> wiki 4 </b>. Kiasi cha "
-"pesaungepokea katika wiki 4 kitatofautiana kwa kila uamuzi wa maswali 10."
-" Kukumbuka, hizi ni pamoja na malipo ya ushiriki na Tokeni ambozo "
+"Sasa tutacheza mchezo mwingine wa uwekezaji wa pesa zako kwa muda. Tutakuuliza ufanye maamuzi 10. Katika "
+"kila uamuzi, unaweza kuchagua kupokea sawa na Tokeni 100 zilizobadilishwa "
+"kwa pesa za Kenya baada ya <b>wiki 2</b>, au unaweza kuchagua kusubiri "
+"na upokee zaidi ya Tokeni 100 katika <b>wiki 4</b>. Kiasi cha "
+"pesa ungepokea katika wiki 4 kitatofautiana kwa kila uamuzi wa maswali 10."
+" Kumbuka, hizi ni pamoja na malipo ya ushiriki na Tokeni ambazo "
 "umejishindia katika michezo mingine."
 
 #: FL_time/Instructions.html:16
@@ -2182,7 +2134,7 @@ msgid ""
 "At the end of the game, we will randomly pick one of your decisions. We "
 "will pay you according to your choice in that decision. "
 msgstr ""
-"Mwisho wa mchezo, tutachagua moja wapo ya maamuzi yako. Sisi tutakulipa "
+"Mwisho wa mchezo, tutachagua mojawapo ya maamuzi yako. Sisi tutakulipa "
 "kulingana na chaguo lako katika uamuzi huo."
 
 #: FL_time/Questionnaire.html:11
@@ -2206,8 +2158,7 @@ msgid ""
 "How much do you trust that you will receive the money in 2 or 4 weeks\\' "
 "time?"
 msgstr ""
-"Je! Unaamini kiasi gani kwamba utapokea pesa hizo kwa wakati wa wiki 2 au"
-" 4?"
+"Kwa kiwango gani unaimani kwamba utapokea hela hizo kwa wiki 2 au 4, baada ya mchezo huu?"
 
 #: FL_time/__init__.py:51 FL_time/__init__.py:53
 msgid "100 tokens in 4 weeks"
@@ -2357,14 +2308,14 @@ msgstr ""
 
 #: FL_welcome/Welcome2.html:26
 msgid "You will take part in"
-msgstr "Utashiriki"
+msgstr "Utashiriki michezo"
 
 #: FL_welcome/Welcome2.html:27
 msgid ""
 "games. You will know the outcome of each game only at the end of the "
 "session. We will now proceed with the first game."
 msgstr ""
-"michezo. Utajua matokeo ya kila mchezo mwisho wakikao. Sasa tutaendelea "
+". Utajua matokeo ya kila mchezo mwisho wakikao. Sasa tutaendelea "
 "na mchezo wa kwanza."
 
 #: FL_welcome/Welcome2.html:43

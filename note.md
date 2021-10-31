@@ -16,6 +16,7 @@
   - change init.py for PGG
   - change settings.py
     - see NOTE: in the demo dev
+- Check "Your Choice" and "Continue" in FL_risk, the % sign in DG instructions and "Choice #" in FL_trust
 
 # Translation
 
@@ -82,7 +83,7 @@ Water makes thirst go away.
 (1) Maji (2) hufanya (3) kiu (4) kuondoka.
 
 - Implement grammar corrections @TODO:
-  - Check "Your Choice" and the % sign in DG instructions
+  - Check "Your Choice" and "Continue" in FL_risk,  the % sign in DG instructions and "Choice #" in FL_trust
   
 ## 2) Tanzania (TZ)
 
