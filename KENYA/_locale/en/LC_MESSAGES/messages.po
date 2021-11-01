@@ -1184,7 +1184,7 @@ msgid ""
 "4. How would you rate your understanding of the instructions you were "
 "given in this game?"
 msgstr ""
-"4. . Je! Unawezaje kupima kuelewa kwako kwa maagizo uliyokuwa umepewa katika mchezo huu?"
+"Je! Unawezaje kupima kuelewa kwako kwa maagizo uliyokuwa umepewa katika mchezo huu?"
 
 #: FL_TG/Final_questionnaire_receiver.html:16
 msgid "Questionnaire (Receiver)"

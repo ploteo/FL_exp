@@ -29,7 +29,7 @@ class Group(BaseGroup):
     total_earnings = models.CurrencyField()
     
 class Player(BasePlayer):
-    identity_treatment = models.CharField() #NOTE: added thsi to randomize at the group level
+    identity_treatment = models.CharField() #NOTE: added this to randomize at the group level
     endowment = models.CurrencyField()
     contribution = models.CurrencyField(min=0, max=Constants.endowment_medium)
     #identity task

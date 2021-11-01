@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-08 10:58+0200\n"
-"PO-Revision-Date: 2021-10-08 10:29+0200\n"
+"POT-Creation-Date: 2021-10-22 09:14+0200\n"
+"PO-Revision-Date: 2021-11-01 06:13+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -171,13 +171,13 @@ msgid "Roles"
 msgstr ""
 
 #: FL_DG/Instructions_sender.html:22
-#, python-format
 msgid ""
 "At the end of today’s session, the system will randomly pick all "
-"participants’ role: 50% of the participants will be picked as Senders, "
-"while the remaining 50% will be picked as Receivers. Each Sender will be "
-"matched with a Receiver. According to the role drawn and choices of the "
-"Sender we will tell you the total number of tokens you will be paid."
+"participants’ role: 50&#37; of the participants will be picked as "
+"Senders, while the remaining 50&#37; will be picked as Receivers. Each "
+"Sender will be matched with a Receiver. According to the role drawn and "
+"choices of the Sender we will tell you the total number of tokens you "
+"will be paid."
 msgstr ""
 
 #: FL_DG/Instructions_sender_inst.html:6
@@ -1565,7 +1565,7 @@ msgstr ""
 #: FL_payments/Results_1.html:196 FL_payments/Results_1.html:200
 #: FL_payments/Results_1.html:211 FL_payments/Results_2.html:154
 #: FL_payments/Results_2.html:157 FL_payments/Results_2.html:167
-#: FL_welcome/Welcome.html:26
+#: FL_welcome/Welcome.html:23 FL_welcome/Welcome.html:26
 msgid "LC"
 msgstr ""
 
@@ -2007,7 +2007,4 @@ msgstr ""
 #: FL_welcome/Welcome2.html:43
 msgid "Go to the first game"
 msgstr ""
-
-#~ msgid "You sent ' }} <b>{{sent_inst}}</b> {{trans 'to"
-#~ msgstr ""
 

@@ -12,7 +12,7 @@
 
 # General 
 
-- Implement a version that does the randomization at the group level @REVIEW:
+- Implement a version that does the randomization at the group level @DONE:
   - change init.py for PGG
   - change settings.py
     - see NOTE: in the demo dev
@@ -49,7 +49,8 @@
 ## 3) Kenya (KE)
 
 - [ ] Ultimi cambi per Kenya (solo nel onedrive in KE/2 round perché troppo pesanti da allegare). 
-  - [ ] Trovi i cambi richiesti ed inviati nello scorso giro formattati in word (più screenshot) in maniera che sia più semplice inserirli. @TODO:
+  - [ ] Trovi i cambi richiesti ed inviati nello scorso giro formattati in word (più screenshot) in maniera che sia più semplice inserirli. @DONE:
+    - [ ] Still some issue when info about organizations is imported @TODO:
 - Implement new rando at group level @DONE:
 - Implement identity task @DONE:
   - Identity_task_feedback.html
