@@ -1,1 +1,0 @@
-Tokens isare inverted , but this is the way it is programmed eg. 150 obugogba shoudl be obugogba 150
