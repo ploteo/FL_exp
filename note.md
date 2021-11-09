@@ -27,7 +27,7 @@
 - Ask to translate basic oTree recevied from the developer 
 - Set a meeting to understand the issue with Arabic (ltr)
   - Proposed a solution to partners https://foodland-demo-ar-morocco.herokuapp.com/demo @WAIT
-- Implement new rando at group level @TODO:
+- Implement new rando at group level @DONE:
   
 ### French
 
@@ -35,7 +35,7 @@
   - Changed the wording of the identity task to accommodate translation @DONE
   - Still some problem with the article of the institution (check when real names are available) @DONE:
 - Revised version available on https://foodland-demo-fr.herokuapp.com/demo  @WAIT
-- Implement new rando at group level @TODO:
+- Implement new rando at group level @DONE:
 
 ## Tunisia (TN)
 
@@ -56,6 +56,7 @@
   - Identity_task_feedback.html
   - Identity_task_ALT.html
   - init.py
+- Minor changes, conversion rate @TODO:
 
 
 It can be cold or warm.
@@ -83,7 +84,7 @@ Water can be salty.
 Water makes thirst go away.
 (1) Maji (2) hufanya (3) kiu (4) kuondoka.
 
-- Implement grammar corrections @TODO:
+- Implement grammar corrections @DONE:
   - Check "Your Choice" and "Continue" in FL_risk,  the % sign in DG instructions and "Choice #" in FL_trust
   
 ## 2) Tanzania (TZ)

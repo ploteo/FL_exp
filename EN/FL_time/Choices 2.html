@@ -1,0 +1,170 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+
+{{ block content }}
+
+<h1> {{ trans 'Choice' }} </h1>
+
+<div class="container box">
+<p>{{ trans 'Your answers to the previous understanding questions were all correct.'}}</p>
+
+ <p>
+   {{ trans 'Now let us start the game. Please make a decision for each of the 10 questions (ticking options A or B). Remember, only one of the decisions will be executed in the end. If needed, an enumerator will assist you in performing this task.' }}</p>
+
+   <p> {{ trans 'When done, please click on the button Continue '}} </p>
+
+  <p>
+    {{ trans 'After you have chosen, one row will be randomly chosen and the lottery you chose will be played. The outcome of this lottery will be paid to you. These are in addition to the participation stipend and the tokens possibly earned in other games.' }}</p>
+
+
+  <center>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col" colspan="1" style="text-align:center">{{ trans 'Option A: in two weeks'}}</th>
+        <th scope="col" style="text-align:center">{{ trans 'Your choice'}}</th>
+        <th scope="col" colspan="1" style="text-align:center">{{ trans 'Option B: in 4 weeks'}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Row 1 -->
+      <tr>
+        <th scope="row">1</th>
+        <td style="text-align:center">
+          {{A}} {{ trans 'tokens in 2 weeks' }}
+        </td>
+        <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_1 }}</td>
+        <td style="text-align:center">
+          {{B_1}} {{ trans 'tokens in 4 weeks'}} 
+        </td>
+      </tr>
+      <!-- Row 2 -->
+     <tr>
+       <th scope="row">2</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_2 }}</td>
+       <td style="text-align:center">
+         {{B_2}} {{ trans 'tokens in 4 weeks'}}
+       </td>
+     </tr>
+      <!-- Row 3 -->
+     <tr>
+       <th scope="row">3</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_3 }}</td>
+       <td style="text-align:center">
+         {{B_3}} {{ trans 'tokens in 4 weeks'}}
+       </td>
+     </tr>
+      <!-- Row 4 -->
+     <tr>
+       <th scope="row">4</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_4 }}</td>
+       <td style="text-align:center">
+         {{B_4}} {{ trans 'tokens in 4 weeks'}}
+       </td>
+     </tr>
+      <!-- Row 5 -->
+     <tr>
+       <th scope="row">5</th>
+       <td style="text-align:center">
+         {{A}}{{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_5 }}</td>
+       <td style="text-align:center">
+         {{B_5}} {{ trans 'tokens in 4 weeks'}}
+       </td>
+     </tr>
+      <!-- Row 6 -->
+     <tr>
+       <th scope="row">6</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_6 }}</td>
+       <td style="text-align:center">
+         {{B_6}} {{ trans 'tokens in 4 weeks'}}
+       </td>
+     </tr>
+      <!-- Row 7 -->
+     <tr>
+       <th scope="row">7</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_7 }}</td>
+       <td style="text-align:center">
+         {{B_7}} {{ trans 'tokens in 4 weeks'}}
+       </td>
+     </tr>
+      <!-- Row 8 -->
+     <tr>
+       <th scope="row">8</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_8 }}</td>
+       <td style="text-align:center">
+         {{B_8}} {{ trans 'tokens in 4 weeks' }}
+       </td>
+     </tr>
+      <!-- Row 9 -->
+     <tr>
+       <th scope="row">9</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_9 }}</td>
+       <td style="text-align:center">
+         {{B_9}} {{ trans 'tokens in 4 weeks' }}
+       </td>
+     </tr>
+      <!-- Row 10 -->
+     <tr>
+       <th scope="row">10</th>
+       <td style="text-align:center">
+         {{A}} {{ trans 'tokens in 2 weeks' }}
+       </td>
+       <td style="font-weight: bold; text-align:center; background-color: rgb(248, 248, 248);">{{ form.C_10 }}</td>
+       <td style="text-align:center">
+         {{B_10}} {{ trans 'tokens in 4 weeks' }}
+       </td>
+     </tr>
+    </tbody>
+  </table>
+</center>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-10">
+
+    </div>
+    <div class="col-md-2">
+      <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+        <span style="font-size:16pt">{{ trans 'Continue'}}</span>
+      </button>
+    </div>
+
+  </div>
+</div>
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

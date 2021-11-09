@@ -1,0 +1,31 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+
+<h1> {{ trans 'Choice'}}</h1>
+
+<div class="container box">
+  <p>{{ trans 'We will now play the game.' }}
+  <p>{{ trans ' You are choosing as <b>Sender</b>'}}</p>
+
+   <p> {{ trans 'How much of your endowment of' }}  
+     {{Constants.endowment}} 
+     {{ trans 'do you send to the'}}
+     {{Type}}
+     <b>{{Institution}}</b>?
+ {{ formfield player.trust_inst label="" }}
+</p>
+<button class="btn-outline-primary btn">{{ trans 'SEND' }}</button>
+</div>
+
+
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

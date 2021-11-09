@@ -1,0 +1,56 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+</html>
+
+  <h1>{{ trans 'Game'}} {{counter}} (RP)</h1>
+
+<div class="container box">
+
+<p>{{ trans 'In this game, you will be asked to make 10 decisions, one after the other.' }} </p>
+
+<p>
+  {{ trans 'Your task is to choose between two alternative lotteries, A and B. The lotteries differ in the number of tokens that can be won in each of them. Each of the 10 decisions bears a different chance of earning tokens; the number of tokens to be won also varies between lottery A and B in each of the 10 decisions.'}}
+</p>
+
+<p>
+  {{ trans 'After you have made your decisions, the system will randomly select one of the 10 decisions to execute for real. We will drop the other 9 decisions and you will not get any cash from them. Each of the 10 decisions is equally likely to be selected. Your selected lottery (A or B) corresponding to the randomly selected decision number will be executed.'}}
+</p>
+
+<p>
+  {{ trans 'Finally, the system will randomly pick a ball with either red or white colour. The colour of the selected ball will indicate the number of tokens you will win. These are in addition to the participation stipend and the tokens possibly earned in other games.'}}
+</p>
+
+
+</div>
+
+
+<div class="container" style="font-size:18pt">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-10">
+
+    </div>
+    <div class="col-md-2">
+      <button name="btn_submit" value="True" class="btn btn-primary btn-large">
+         <span style="font-size:18pt">{{ trans 'Continue'}}</span>
+     </button>
+    </div>
+  </div>
+</div>
+
+
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

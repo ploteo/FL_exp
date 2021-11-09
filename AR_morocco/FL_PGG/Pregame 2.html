@@ -1,0 +1,47 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+
+<div class="container box">
+<p>
+  {{ trans 'Now we will play the game. The result will be communicated to you at the end of the session.'}}
+</p>
+<!-- <p>
+    {{ trans 'Once everyone in the room has made their decisions, we will count the total number of tokens put in the common account, the enumerators will add the same amount as the total put in your group’s common account, so that the amount is doubled. This amount will be shared equally between your and all members of your group. The result will be communicated to you at the end of the session.' }}
+  </p> 
+
+<p><i>{{ trans 'Do you have any questions?' }}</i></p>
+
+<p>{{ trans 'Now we will play for this round: please go to the next page. An enumerator will assist you.' }}</p> --> 
+
+
+</div>
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-10">
+    </div>
+    <div class="col-md-2">
+      <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+        <span style="font-size:16pt">{{ trans 'Continue' }}</span>
+      </button>
+    </div>
+
+  </div>
+
+
+{{ endblock }}
+
+{{ block styles }}
+<style type="text/css">
+</style>
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

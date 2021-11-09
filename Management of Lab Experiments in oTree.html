@@ -492,7 +492,7 @@ Example:</p>
 - A 4-player PGG over 2 rounds in a partner fashion<br>
 - Round 1: PGG<br>
 - Task: subjects are either assigned to an <em>identity task</em> (to create group identity) or to an <em>individual task</em><br>
-- Controlled from <em><a href="http://settings.py">settings.py</a></em> (see below)<br>
+- Random at the group level<br>
 - Round 2: PGG</p>
 <ul>
 <li><em>FL_time</em>
@@ -546,7 +546,6 @@ SESSION_CONFIGS <span class="token operator">=</span> <span class="token punctua
     participation_fee<span class="token operator">=</span><span class="token builtin">int</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
     real_world_currency_per_point<span class="token operator">=</span><span class="token number">0.01</span><span class="token punctuation">,</span>
     block <span class="token operator">=</span> <span class="token string">&quot;block2&quot;</span><span class="token punctuation">,</span>  <span class="token comment"># to control the display of results</span>
-    treatment <span class="token operator">=</span><span class="token string">&quot;identity&quot;</span><span class="token punctuation">,</span> <span class="token comment">#identity to have identity in the task of PGG</span>
     app_sequence<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">&apos;FL_welcome&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_PGG&apos;</span><span class="token punctuation">,</span><span class="token string">&apos;FL_time&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_risk&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;FL_payments&apos;</span><span class="token punctuation">]</span>
  <span class="token punctuation">)</span>
 <span class="token punctuation">]</span>
@@ -602,17 +601,11 @@ SESSION_CONFIGS <span class="token operator">=</span> <span class="token punctua
 <ul>
 <li>Can be randomized or decided ex-ante
 <ul>
-<li>&#x26A0; FL_welcome and FL_oayment must always be first and last</li>
+<li>&#x26A0; FL_welcome and FL_payment must always be first and last</li>
 </ul>
 </li>
 </ul>
 </li>
-</ul>
-</li>
-<li><strong>treatment</strong> (block2 only)
-<ul>
-<li>= identity -&gt; participants go through a group identity task (word game)</li>
-<li>= individual -&gt; participants go through an individual task (word game)</li>
 </ul>
 </li>
 </ul>

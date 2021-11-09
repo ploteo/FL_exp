@@ -1,0 +1,48 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+<h1> {{ trans 'Choice (Round' }} {{Round}})</h1>
+
+<div class="container box">
+
+  {{ if Round == 1 }}
+  <p>{{ trans 'Your answers to the previous understanding questions were all correct.'}}</p>
+  {{ endif }}
+
+  <p>{{ trans 'We will now play the game.'}}</p>
+  <p> {{ trans 'Your endowment is' }} <b>{{Endowment}}</b> </p>
+
+   <p> {{ trans 'How much do you contribute to the common group account?' }}
+
+ {{ formfield player.contribution label="" }}
+</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-10">
+    </div>
+    <div class="col-md-2">
+      <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+        <span style="font-size:16pt">{{ trans 'Continue' }}</span>
+      </button>
+    </div>
+
+  </div>
+
+
+{{ endblock }}
+
+{{ block styles }}
+<style type="text/css">
+</style>
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

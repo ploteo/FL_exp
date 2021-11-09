@@ -1,0 +1,33 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+<h2>{{ trans 'Description' }}</h2>
+
+<div class="container box">
+<p>
+{{ trans 'This short text box will present you the local'}} {{Type}}
+{{ trans 'you will be playing with. Please read it carefully. Once you have read the text box, continue to the next step.'}}</p>
+
+<div class="card" style="width: 44rem;">
+    <div class="card-body">
+        <h5 class="card-title">{{Institution}}</h5>
+        <p class="card-text">{{ trans 'Hello, we are the local'}} {{Type}} {{Institution}}. 
+            {{ trans 'Our organization works with the smallholder farmers in the area of' }} {{Area}}  
+            {{ trans 'to whom we provide technical assistance. Our project focuses on the empowerment of the local farmers and on the joint development of a' }}
+        {{Product}}</p>
+    </div>
+</div>
+
+<button class="nexttab btn-outline-primary btn next next">{{ trans 'Continue' }} </button>
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}
+
+

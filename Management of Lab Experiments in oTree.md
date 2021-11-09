@@ -160,7 +160,7 @@ The following apps are contained in Block 2
     - A 4-player PGG over 2 rounds in a partner fashion
       - Round 1: PGG
       - Task: subjects are either assigned to an *identity task* (to create group identity) or to an *individual task*
-        - Controlled from *settings.py* (see below)
+          - Random at the group level
       - Round 2: PGG
 
 - *FL_time*
@@ -208,7 +208,6 @@ SESSION_CONFIGS = [
     participation_fee=int(4),
     real_world_currency_per_point=0.01,
     block = "block2",  # to control the display of results
-    treatment ="identity", #identity to have identity in the task of PGG
     app_sequence=['FL_welcome', 'FL_PGG','FL_time', 'FL_risk', 'FL_payments']
  )
 ]
@@ -237,10 +236,8 @@ The following key variables can be controlled from here
    - **app_sequence**
      - The sequence of apps in a list
        - Can be randomized or decided ex-ante 
-         - &#9888; FL_welcome and FL_oayment must always be first and last
-   - **treatment** (block2 only)
-     - = identity -> participants go through a group identity task (word game)
-     - = individual -> participants go through an individual task (word game)
+         - &#9888; FL_welcome and FL_payment must always be first and last
+
 
 This is an example of how to randomize the sequence of apps at the session level
 

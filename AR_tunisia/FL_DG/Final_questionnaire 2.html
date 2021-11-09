@@ -1,0 +1,49 @@
+{{ extends "global/Page.html" }}
+{{ load otree static }}
+{{ load otree i18n }}
+
+{{ block title }}
+
+
+{{ endblock }}
+
+{{ block content }}
+
+
+
+<br>
+<div class="container box">
+<h2>{{ trans 'Questionnaire' }}</h2>
+<p>{{ trans 'Thank you again for playing this game. Before we proceed, we want to ask you some questions in relation to the game you played. Please answer the following questions.'}}
+</p>
+
+<ol>
+    <li>
+{{ trans 'Of all the people in this room, how many do you know personally?' }}   
+{{ formfield "FQ1" label=""}}
+</li>
+    <li>
+        {{ trans 'How well do you know' }} {{Institution}}?
+        {{ formfield "FQ3" label=""}}
+    </li>
+    <li>
+{{ trans 'How much do you think that you understood the instructions you were given in this game?' }}
+{{ formfield "FQ2" label=""}}
+    </li>
+
+</ol>
+
+<button class="nexttab btn-outline-primary btn next next">{{ trans 'Conclude' }} </button>
+</div>
+
+<br>
+
+
+{{ endblock }}
+
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

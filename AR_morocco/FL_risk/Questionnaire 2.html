@@ -1,0 +1,49 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+
+
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+</html>
+
+<h1> {{ trans 'Questionnaire' }} </h1>
+
+<div class="container box">
+	<p>{{ trans 'Please answer to the following question' }}</p>
+
+<ol>
+<li>{{ trans 'How would you rate your understanding of the instructions you were given in this game?' }}
+	{{ formfield player.Q_1  label="" }}
+</li>
+
+	<!-- <input type="range" class="form-range" min="1" max="4" step="1" id="Q_4" name="Q_4"> -->
+</ol>
+<!-- <i>Code: 1 = Very little; 2 = Little 3 = Average; 4 = Good; 5 = Very good.</i> -->
+	</div>
+
+	<div class="container">
+		<div class="row">
+			&nbsp;
+		</div>
+		<div class="row" style="padding-left:135px;">
+			<div class="col-md-10">
+
+			</div>
+			<div class="col-md-2">
+				<button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+						<span style="font-size:16pt">{{ trans 'Continue' }}</span>
+			 </button>
+			</div>
+		</div>
+
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}
+

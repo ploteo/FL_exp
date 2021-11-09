@@ -1,0 +1,81 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+
+<h1> {{ trans 'Choice Receiver'}}</h1>
+
+<div class="container box">
+<p>{{ trans 'You will now play the game as a <b>Receiver</b>.'}}</p>
+
+<p>{{ trans 'Please report your choice in correspondence to each possible choice of the other' }} </p>
+
+<table class="table" style="font-size:12pt">
+  <thead>
+    <tr>
+      <th scope="col">Choix #</th>
+      <th scope="col">{{ trans 'When the other sends' }}</th>
+      <th scope="col">{{ trans 'You receive' }}</th>
+      <th scope="col">{{ trans 'How much do you send back?' }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="vertical-align: middle">
+      <th scope="row">1</th>
+      <td>{{trustor_0}}</td>
+      <td>{{trustor_0_received}}</td>
+      <td>{{player.recipr_0}}</td>
+    </tr>
+    <tr style="vertical-align: middle">
+      <th scope="row">2</th>
+      <td>{{trustor_1}}</td>
+      <td>{{trustor_1_received}}</td>
+      <td>{{ formfield player.recipr_1 label="" }}</td>
+    </tr>
+    <tr style="vertical-align: middle">
+      <th scope="row">3</th>
+      <td>{{trustor_2}}</td>
+      <td>{{trustor_2_received}}</td>
+      <td>{{ formfield player.recipr_2 label="" }}</td>
+    </tr>
+        <tr style="vertical-align: middle">
+          <th scope="row">4</th>
+          <td>{{trustor_3}}</td>
+          <td>{{trustor_3_received}}</td>
+          <td>{{ formfield player.recipr_3 label="" }}</td>
+        </tr>
+        <tr style="vertical-align: middle">
+          <th scope="row">5</th>
+          <td>{{trustor_4}}</td>
+          <td>{{trustor_4_received}}</td>
+          <td>{{ formfield player.recipr_4 label="" }}</td>
+        </tr>
+  </tbody>
+</table>
+</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-10">
+    </div>
+    <div class="col-md-2">
+      <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+        <span style="font-size:16pt">{{ trans 'SEND' }}</span>
+      </button>
+    </div>
+
+  </div>
+
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

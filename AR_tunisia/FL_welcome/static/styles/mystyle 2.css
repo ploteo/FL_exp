@@ -1,0 +1,58 @@
+
+.box {
+	border-style: solid;
+	border-color: #0275d8;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-top: 40px;
+    padding-right: 40px;
+}
+
+.table {
+    width: 90%;
+    border: 1px solid;
+    text-align:center;
+    font-size: 120%;
+    border-color: #686868;
+}
+
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24pt;
+	font-weight: bold;
+	color:#d80242;
+	text-align: center;
+    width: 100%;
+    margin: 0px 0 10px 0;
+}
+
+h2 {
+    font-size: 18pt;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	color: #0275d8;
+	text-align: left;
+    width: 100%;
+    margin: 40px 0 10px 0;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 140%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+li {
+    font-size: 12pt;
+}
+
+input[type=radio] {
+    transform: scale(1);
+    margin: 5px 0px 5px 0px;
+}
+
+.otree-body {
+    max-width: 1200px
+}

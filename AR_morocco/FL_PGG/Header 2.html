@@ -1,0 +1,28 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+
+<div class="container box">
+<h2>
+  <center>{{ trans 'You are about to start game '}} {{counter}}</center>
+</h2>
+
+  </div>
+
+{{ endblock }}
+
+{{ block styles }}
+
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+<style>
+  .otree-timer {
+    display: none;
+  }
+</style>
+
+{{ endblock }}

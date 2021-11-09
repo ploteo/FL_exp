@@ -1,0 +1,139 @@
+{{ extends "global/Page.html" }}
+{{ load otree static }}
+{{ load otree i18n }}
+
+{{ block title }}
+
+{{ endblock }}
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+
+<input type="hidden" name="count" id="id_count">
+
+<div id="instr_1">
+  <div class="container box">
+    {{ include "./FL_PGG/Instructions2.html" }}<br>
+    <!-- <button type="button" onclick="previous()" class="prevtab btn-outline-primary btn back">< {{ trans 'PREVIOUS' }}</button>  -->
+    <button class="nexttab btn-outline-primary btn next">{{ trans 'CONTINUE' }} ></button>
+  </div>
+
+</div>
+<br>
+<br>
+
+{{ endblock }}
+{{ form.errors }}
+
+{{ block scripts }}
+  
+<script>
+
+//      $(document).ready(function () {
+//       $("#errore_1").hide();
+//       $("#errore_2").hide();
+//       $("#errore_3").hide();
+//       $("#errore_4").hide();
+//       $("#errore_5").hide();
+//      });
+
+//      $("#btn_submit").click( function () {
+//       $("#errore_1").hide();
+//       $("#errore_2").hide();
+//       $("#errore_3").hide();
+//       $("#errore_4").hide();
+//       $("#errore_5").hide();
+//      //----------------------------------------------
+//      valore_1 = $('input[name=Q1_1]:checked').val();
+//      valore_2 = $('input[name=Q1_2]:checked').val();
+//      valore_3 = $('input[name=Q2_1]:checked').val();
+//      valore_4 = $('input[name=Q2_2]:checked').val();
+//      valore_5 = $('input[name=Q3_1]:checked').val();
+
+//  if ( String(valore_1) == String(100) ){ // #solution quest 1
+//     if ( String(valore_2) == String(0) ){
+//       if ( String(valore_3) == String(200) ){
+//         if ( String(valore_4) == String(200) ){
+//           if ( String(valore_5) == String(150) ){
+//           $("#form").submit();
+//           }else {
+//           $("#errore_5").show();
+//           }
+//         }else {
+//         $("#errore_4").show();
+//         }
+//       }else {
+//       $("#errore_3").show();
+//       }
+//     }else {
+//           $("#errore_2").show();
+//     }
+//   }else {
+//      $("#errore_1").show();
+//   }
+
+//      //----------------------------------------------
+//      });
+     </script>
+
+     <script>
+       var count = 1;
+
+       $("#id_count").val(1);
+       $("#count").html("(" + $("#id_count").val() + " of 5)");
+
+       function next() {
+         count++;
+         console.log(count);
+         if (count > 6) {
+           count = 6;
+         }
+
+         document.getElementById("instr_" + (count - 1)).style.display = "none";
+         document.getElementById("instr_" + count).style.display = "block";
+
+         $("#id_count").val(count);
+         $("#count").html("(" + $("#id_count").val() + " of 5)");
+       }
+
+       function previous() {
+         count--;
+         if (count < 1) {
+           count = 1;
+         }
+
+         document.getElementById("instr_" + (count + 1)).style.display = "none";
+         document.getElementById("instr_" + count).style.display = "block";
+
+         $("#id_count").val(count);
+         $("#count").html($("#id_count").val());
+       }
+     </script>
+
+     <script>
+       MathJax = {
+         tex: {
+           inlineMath: [
+             ['$', '$'],
+             ['\\(', '\\)']
+           ]
+         },
+         svg: {
+           fontCache: 'global'
+         }
+       };
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+{{ endblock }}
+
+{{ block styles }}
+<style type="text/css">
+</style>
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+<style type="text/css">
+</style>
+{{ endblock }}

@@ -1,0 +1,86 @@
+{{ extends "global/Page.html" }}
+{{ load staticfiles otree }}
+{{ load otree i18n }}
+
+{{ block content }}
+<html dir="rtl" lang="ar">
+
+<h1> {{ trans 'Questionnaire' }}</h1>
+
+<div class="container box">
+
+  <p>
+      {{ trans 'Now we will ask you some questions to help you understand the game. If you provide a wrong answer, you will receive a message from the system telling you that there was a mistake in the way you answered. If this is the case, you can either try again or call the enumerator for further clarifications.'}} </p>
+      
+  <div class="alert alert-primary" role="alert">
+    {{ trans 'Your answers to these questions will not affect your final earnings. Please ask for clarifications if needed.'}} </div>
+ 
+  <ol>
+<li>
+{{ trans 'How much will your total earnings be if you put nothing into the common account and the other members of your group put 400 in total?' }} </li>
+{{formfield player.Q1_1 label=""}}
+</li>
+<li>
+{{ trans 'If 600 Tokens are put in the common account by you and your group members, how much will each member of the group earn from the common account after the tokens are doubled?' }}
+</li> 
+{{formfield player.Q1_2 label=""}}
+</ol>
+</div>
+
+<div class="container">
+  <div class="row">
+    &nbsp;
+  </div>
+  <div class="row" style="padding-left:135px;">
+    <div class="col-md-8">
+    </div>
+    <div class="col-md-4">
+      <button name="btn_submit" value="True" class="btn btn-outline-primary btn-large">
+        <span style="font-size:14pt">{{ trans 'Check my answers' }}</span>
+      </button>
+    </div>
+
+  </div>
+
+
+<button type="button" onclick="myFunction()" class="btn btn-info"> <span
+    style="color:rgb(255, 255, 255)">{{ trans 'Click here to consult the instructions' }}</span></button><br>
+<div id="myDIV" class="container box" style="font-size: 90%; display: none">
+  {{ include "FL_PGG/Instructions.html" }}
+</div>
+{{ endblock }}
+
+{{ block scripts }}
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+
+  $('input[type="range"]').on('mousemove touchmove', function () {
+
+    $val = $(this).val();
+    $thumb = $(this).siblings('.thumb');
+
+    $thumb.css('background-position-x', $val + '%');
+  });
+  // -------------------------------------//
+  // not display at first
+  // -------------------------------------//
+  $('.not-clicked').click(function (e) {
+    $(this).removeClass('not-clicked');
+    $(this).addClass('clicked');
+  });
+</script>
+{{ endblock }}
+
+{{ block styles }}
+<style type="text/css">
+</style>
+<link href="{{ static 'mystyle.css' }}" rel="stylesheet">
+
+{{ endblock }}

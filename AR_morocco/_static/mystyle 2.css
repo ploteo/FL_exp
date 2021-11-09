@@ -1,0 +1,84 @@
+
+.box {
+	border-style: solid;
+	border-color: #0275d8;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+    padding-right: 40px;
+     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+     0 12.5px 10px rgba(0, 0, 0, 0.06),
+     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+     0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.table {
+    width: 90%;
+    border: 1px solid;
+    text-align:center;
+    font-size: 120%;
+    border-color: #686868;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24pt;
+	font-weight: bold;
+	color:#0275d8;
+	text-align: center;
+    width: 100%;
+    margin: 0px 0 10px 0;
+}
+
+h2 {
+    font-size: 18pt;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	color: #0275d8;
+	text-align: left;
+    width: 100%;
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    font-size: 14pt;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #0275d8;
+    text-align: left;
+    width: 100%;
+    margin: 0px 0 10px 0;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 130%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+ol {
+    font-size: 110%;
+}
+
+input[type=radio] {
+    transform: scale(1);
+    margin: 5px 0px 5px 0px;
+}
+
+.otree-body {
+    max-width: 1400px
+}
+
+.next {
+    float: right;
+    margin: -10px 0px 80px 0px;
+}
+
+.back {
+    float: left;
+      margin: -10px 0px 80px 0px;
+
+}
