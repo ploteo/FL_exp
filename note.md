@@ -17,6 +17,7 @@
   - change settings.py
     - see NOTE: in the demo dev
 - Check "Your Choice" and "Continue" in FL_risk, the % sign in DG instructions and "Choice #" in FL_trust
+- Check 'How much do you trust that you will receive the money in 2 or 4 weeks\' time?' 
 
 # Translation
 
