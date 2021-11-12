@@ -118,7 +118,7 @@ def I2_choices(player):
 def I3_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           cchoices = [[2,'okuba'], [1,'Kisobola'], [4,'oba kibuguma'],[3,'kinyigoga']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'oba kibuguma'],[3,'kinyigoga']]
         if player.id_in_group==2:
            choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
