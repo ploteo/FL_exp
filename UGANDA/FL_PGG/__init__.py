@@ -76,7 +76,7 @@ class Player(BasePlayer):
 def I1_choices(player):
     if player.identity_treatment == "identity": 
         if player.id_in_group==1:
-           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'oba kibuguma'],[3,'kinyigoga']]
         if player.id_in_group==2:
            choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
@@ -97,7 +97,7 @@ def I1_choices(player):
 def I2_choices(player):
     if player.identity_treatment == "identity": 
         if player.id_in_group==1:
-           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'oba kibuguma'],[3,'kinyigoga']]
         if player.id_in_group==2:
            choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
@@ -118,7 +118,7 @@ def I2_choices(player):
 def I3_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
+           cchoices = [[2,'okuba'], [1,'Kisobola'], [4,'oba kibuguma'],[3,'kinyigoga']]
         if player.id_in_group==2:
            choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
@@ -139,7 +139,7 @@ def I3_choices(player):
 def I4_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           choices = [[2,'okunyogoga'], [1,'Kisobola'], [4,'okubuguma'],[3,'oba']]
+           choices = [[2,'okuba'], [1,'Kisobola'], [4,'oba kibuguma'],[3,'kinyigoga']]
         if player.id_in_group==2:
            choices = [[2,'okuba'], [1,'Kisobola'], [4,'kitangaala'],[3,'nga']]
         if player.id_in_group==3:
