@@ -28,6 +28,7 @@
 - Ask to translate basic oTree recevied from the developer 
 - Set a meeting to understand the issue with Arabic (ltr)
   - Proposed a solution to partners https://foodland-demo-ar-morocco.herokuapp.com/demo @WAIT
+    - Added a new translation DONE 23/11/21
 - Implement new rando at group level @DONE:
   
 ### French

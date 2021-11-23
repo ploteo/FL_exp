@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-22 09:14+0200\n"
+"POT-Creation-Date: 2021-11-23 15:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,9 +225,10 @@ msgstr ""
 #: FL_TG/Final_questionnaire_inst.html:93
 #: FL_TG/Final_questionnaire_receiver.html:33
 #: FL_TG/Final_questionnaire_sender.html:37 FL_TG/inst_descr.html:23
-#: FL_risk/Instructions.html:39 FL_risk/Questionnaire.html:33
-#: FL_time/Choices.html:157 FL_time/Instructions.html:43
-#: FL_time/Questionnaire.html:37 FL_welcome/Welcome.html:47
+#: FL_risk/Choices.html:243 FL_risk/Instructions.html:39
+#: FL_risk/Questionnaire.html:33 FL_time/Choices.html:157
+#: FL_time/Instructions.html:43 FL_time/Questionnaire.html:37
+#: FL_welcome/Welcome.html:47
 msgid "Continue"
 msgstr ""
 
@@ -358,22 +359,22 @@ msgstr ""
 msgid "You earn"
 msgstr ""
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:54
-#: FL_PGG/__init__.py:70 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:49
+#: FL_PGG/__init__.py:65 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:58 FL_time/__init__.py:59
 #: FL_time/__init__.py:69
 msgid "Not at all"
 msgstr ""
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:55
-#: FL_PGG/__init__.py:71 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:50
+#: FL_PGG/__init__.py:66 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:59 FL_time/__init__.py:60
 #: FL_time/__init__.py:70
 msgid "Little"
 msgstr ""
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:56
-#: FL_PGG/__init__.py:72 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:51
+#: FL_PGG/__init__.py:67 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:60 FL_time/__init__.py:61
 #: FL_time/__init__.py:71
 msgid "Average"
@@ -383,20 +384,20 @@ msgstr ""
 msgid "Fairly Well"
 msgstr ""
 
-#: FL_DG/__init__.py:45 FL_PGG/__init__.py:58
+#: FL_DG/__init__.py:45 FL_PGG/__init__.py:53
 msgid "Completely"
 msgstr ""
 
-#: FL_DG/__init__.py:48 FL_PGG/__init__.py:74 FL_TG/__init__.py:78
+#: FL_DG/__init__.py:48 FL_PGG/__init__.py:69 FL_TG/__init__.py:78
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:62 FL_time/__init__.py:63
 msgid "Very well"
 msgstr ""
 
-#: FL_DG/__init__.py:115 FL_PGG/__init__.py:299 FL_time/__init__.py:187
+#: FL_DG/__init__.py:115 FL_PGG/__init__.py:302 FL_time/__init__.py:187
 msgid "Please check your answer to question 1"
 msgstr ""
 
-#: FL_DG/__init__.py:117 FL_PGG/__init__.py:301 FL_time/__init__.py:190
+#: FL_DG/__init__.py:117 FL_PGG/__init__.py:304 FL_time/__init__.py:190
 msgid "Please check your answer to question 2"
 msgstr ""
 
@@ -531,9 +532,9 @@ msgstr ""
 
 #: FL_PGG/Identity_task.html:30 FL_PGG/Identity_task.html:62
 #: FL_PGG/Identity_task_ALT.html:15 FL_PGG/Identity_task_ALT.html:50
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "can be"
 msgstr ""
 
@@ -541,20 +542,20 @@ msgstr ""
 #: FL_PGG/Identity_task.html:63 FL_PGG/Identity_task.html:64
 #: FL_PGG/Identity_task_ALT.html:23 FL_PGG/Identity_task_ALT.html:31
 #: FL_PGG/Identity_task_ALT.html:58 FL_PGG/Identity_task_ALT.html:66
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
-#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
-#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
-#: FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:83 FL_PGG/__init__.py:90
+#: FL_PGG/__init__.py:92 FL_PGG/__init__.py:102 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:113 FL_PGG/__init__.py:123
+#: FL_PGG/__init__.py:125 FL_PGG/__init__.py:132 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:146 FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:155
 msgid "can"
 msgstr ""
 
 #: FL_PGG/Identity_task.html:33 FL_PGG/Identity_task.html:65
 #: FL_PGG/Identity_task_ALT.html:39 FL_PGG/Identity_task_ALT.html:74
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "makes"
 msgstr ""
 
@@ -562,52 +563,52 @@ msgstr ""
 #: FL_PGG/Identity_task.html:38 FL_PGG/Identity_task.html:39
 #: FL_PGG/Identity_task_ALT.html:16 FL_PGG/Identity_task_ALT.html:24
 #: FL_PGG/Identity_task_ALT.html:32 FL_PGG/Identity_task_ALT.html:40
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:86 FL_PGG/__init__.py:88
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:105 FL_PGG/__init__.py:107
-#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:111 FL_PGG/__init__.py:126
-#: FL_PGG/__init__.py:128 FL_PGG/__init__.py:130 FL_PGG/__init__.py:132
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:149 FL_PGG/__init__.py:151
-#: FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:81 FL_PGG/__init__.py:83
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:100 FL_PGG/__init__.py:102
+#: FL_PGG/__init__.py:104 FL_PGG/__init__.py:106 FL_PGG/__init__.py:121
+#: FL_PGG/__init__.py:123 FL_PGG/__init__.py:125 FL_PGG/__init__.py:127
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:144 FL_PGG/__init__.py:146
+#: FL_PGG/__init__.py:148
 msgid "It"
 msgstr ""
 
 #: FL_PGG/Identity_task.html:42 FL_PGG/Identity_task.html:74
 #: FL_PGG/Identity_task_ALT.html:17 FL_PGG/Identity_task_ALT.html:52
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "warm."
 msgstr ""
 
 #: FL_PGG/Identity_task.html:43 FL_PGG/Identity_task.html:75
 #: FL_PGG/Identity_task_ALT.html:25 FL_PGG/Identity_task_ALT.html:60
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:95 FL_PGG/__init__.py:107
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:128 FL_PGG/__init__.py:137
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:158
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:90 FL_PGG/__init__.py:102
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:123 FL_PGG/__init__.py:132
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:153
 msgid "transparent."
 msgstr ""
 
 #: FL_PGG/Identity_task.html:44 FL_PGG/Identity_task.html:76
 #: FL_PGG/Identity_task_ALT.html:33 FL_PGG/Identity_task_ALT.html:68
-#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:97 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:130 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:83 FL_PGG/__init__.py:92 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:113 FL_PGG/__init__.py:125 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:146 FL_PGG/__init__.py:155
 msgid "salty."
 msgstr ""
 
 #: FL_PGG/Identity_task.html:45 FL_PGG/Identity_task.html:77
 #: FL_PGG/Identity_task_ALT.html:41 FL_PGG/Identity_task_ALT.html:76
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "go away."
 msgstr ""
 
 #: FL_PGG/Identity_task.html:48 FL_PGG/Identity_task.html:80
 #: FL_PGG/Identity_task_ALT.html:18 FL_PGG/Identity_task_ALT.html:53
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "cold or"
 msgstr ""
 
@@ -615,20 +616,20 @@ msgstr ""
 #: FL_PGG/Identity_task.html:81 FL_PGG/Identity_task.html:82
 #: FL_PGG/Identity_task_ALT.html:26 FL_PGG/Identity_task_ALT.html:34
 #: FL_PGG/Identity_task_ALT.html:61 FL_PGG/Identity_task_ALT.html:69
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
-#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
-#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
-#: FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:83 FL_PGG/__init__.py:90
+#: FL_PGG/__init__.py:92 FL_PGG/__init__.py:102 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:113 FL_PGG/__init__.py:123
+#: FL_PGG/__init__.py:125 FL_PGG/__init__.py:132 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:146 FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:155
 msgid "be"
 msgstr ""
 
 #: FL_PGG/Identity_task.html:51 FL_PGG/Identity_task.html:83
 #: FL_PGG/Identity_task_ALT.html:42 FL_PGG/Identity_task_ALT.html:77
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "thirst"
 msgstr ""
 
@@ -636,12 +637,12 @@ msgstr ""
 #: FL_PGG/Identity_task.html:70 FL_PGG/Identity_task.html:71
 #: FL_PGG/Identity_task_ALT.html:51 FL_PGG/Identity_task_ALT.html:59
 #: FL_PGG/Identity_task_ALT.html:67 FL_PGG/Identity_task_ALT.html:75
-#: FL_PGG/__init__.py:93 FL_PGG/__init__.py:95 FL_PGG/__init__.py:97
-#: FL_PGG/__init__.py:99 FL_PGG/__init__.py:114 FL_PGG/__init__.py:116
-#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:120 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:137 FL_PGG/__init__.py:139 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:156 FL_PGG/__init__.py:158 FL_PGG/__init__.py:160
-#: FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:90 FL_PGG/__init__.py:92
+#: FL_PGG/__init__.py:94 FL_PGG/__init__.py:109 FL_PGG/__init__.py:111
+#: FL_PGG/__init__.py:113 FL_PGG/__init__.py:115 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:132 FL_PGG/__init__.py:134 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:153 FL_PGG/__init__.py:155
+#: FL_PGG/__init__.py:157
 msgid "Water"
 msgstr ""
 
@@ -922,16 +923,16 @@ msgstr ""
 msgid "Your payoff"
 msgstr ""
 
-#: FL_PGG/__init__.py:57
+#: FL_PGG/__init__.py:52
 msgid "Fairly "
 msgstr ""
 
-#: FL_PGG/__init__.py:73 FL_risk/__init__.py:61 FL_time/__init__.py:62
+#: FL_PGG/__init__.py:68 FL_risk/__init__.py:61 FL_time/__init__.py:62
 msgid "Fairly well"
 msgstr ""
 
-#: FL_PGG/__init__.py:344 FL_PGG/__init__.py:346 FL_PGG/__init__.py:348
-#: FL_PGG/__init__.py:350
+#: FL_PGG/__init__.py:347 FL_PGG/__init__.py:349 FL_PGG/__init__.py:351
+#: FL_PGG/__init__.py:353
 msgid "The sequence is not correct, please Retry"
 msgstr ""
 
@@ -947,6 +948,11 @@ msgstr ""
 msgid ""
 "Please report your choice in correspondence to each possible choice of "
 "the other"
+msgstr ""
+
+#: FL_TG/Choice_receiver.html:17 FL_payments/Results_1.html:143
+#: FL_payments/Results_2.html:102
+msgid "Choice #"
 msgstr ""
 
 #: FL_TG/Choice_receiver.html:18
@@ -1545,10 +1551,6 @@ msgid ""
 "receive this money by phone payment."
 msgstr ""
 
-#: FL_payments/Results_1.html:143 FL_payments/Results_2.html:102
-msgid "Choice #"
-msgstr ""
-
 #: FL_payments/Results_1.html:146 FL_payments/Results_2.html:105
 msgid "For this choice, you chose Lottery"
 msgstr ""
@@ -1641,6 +1643,11 @@ msgid ""
 "possibly earned in other games."
 msgstr ""
 
+#: FL_risk/Choices.html:31 FL_risk/Example.html:28 FL_risk/Example.html:81
+#: FL_time/Choices.html:26 FL_time/Example.html:27 FL_time/Example.html:72
+msgid "Your choice"
+msgstr ""
+
 #: FL_risk/Example.html:12
 msgid ""
 "Before we proceed with the real decision, we will give you some examples "
@@ -1654,11 +1661,6 @@ msgstr ""
 
 #: FL_risk/Example.html:21 FL_risk/Example.html:75
 msgid "Assume that the following decision was randomly drawn by the system"
-msgstr ""
-
-#: FL_risk/Example.html:28 FL_risk/Example.html:81 FL_time/Choices.html:26
-#: FL_time/Example.html:27 FL_time/Example.html:72
-msgid "Your choice"
 msgstr ""
 
 #: FL_risk/Example.html:68
@@ -1882,7 +1884,7 @@ msgstr ""
 
 #: FL_time/Questionnaire.html:19
 msgid ""
-"How much do you trust that you will receive the money in 2 or 4 weeks\\' "
+"How much do you trust that you will receive the money in 2 or 4 weeks "
 "time?"
 msgstr ""
 

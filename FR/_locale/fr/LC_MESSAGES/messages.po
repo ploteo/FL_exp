@@ -22,7 +22,7 @@ msgstr ""
 #: FL_TG/Choice_sender_inst.html:7 FL_payments/Results_1.html:99
 #: FL_payments/Results_2.html:57 FL_risk/Choices.html:7 FL_time/Choices.html:6
 msgid "Choice"
-msgstr "Choix"
+msgstr "Tour"
 
 #: FL_DG/Choice_sender.html:10 FL_PGG/Choices.html:12
 #: FL_TG/Choice_sender.html:10 FL_risk/Choices.html:11 FL_time/Choices.html:9
@@ -173,7 +173,7 @@ msgstr ""
 "Les jetons que vous envoyez sont soustraits de votre dotation initiale et"
 " le destinataire les reçoit, sans prendre de décision. Elles sont en plus"
 " de l'allocation de participation et des jetons éventuellement gagnés "
-"dans d'autres jeux."
+"dans les autres jeux."
 
 #: FL_DG/Instructions_sender.html:16
 msgid "Receiver"
@@ -298,7 +298,7 @@ msgid ""
 "paired with is not necessarily the same of other games. "
 msgstr ""
 "Dans ce jeu, vous allez intéragir avec un autre participant en utilisant "
-"l'ordinateur terminal. Dans ce jeu, il y a deux rôles : <i>Émetteur</i> "
+"l'ordinateur. Dans ce jeu, il y a deux rôles : <i>Émetteur</i> "
 "et <i>récepteur</i>. Vous ne découvrirez votre rôle réel qu'à la fin de "
 "la session. On ne vous dira pas avec qui vous avez été jumelé, que ce "
 "soit pendant ou après la fin de la session d'aujourd'hui. Le participant "
@@ -818,7 +818,7 @@ msgid ""
 "be asked to leave the room."
 msgstr ""
 "Merci encore d'être venus aujourd'hui. Nous allons maintenant jouer à un "
-"jeu. Veuillez rester assis à votre bureau. Le jeu doit se dérouler en "
+"jeu. Veuillez rester assis à votre place. Le jeu doit se dérouler en "
 "silence ; parler est interdit, et si vous parlez avec l'un des autres "
 "participants, il vous sera demandé de quitter la salle."
 
@@ -1176,7 +1176,7 @@ msgstr "Vous ne pouvez choisir qu'une seule option."
 
 #: FL_TG/Choice_sender_inst.html:11
 msgid " You are choosing as <b>Sender</b>"
-msgstr "Vous choisissez comme <b>Expéditeur</b>."
+msgstr "Vous jouez comme <b>Expéditeur</b>."
 
 #: FL_TG/Final_questionnaire_inst.html:16
 msgid "Final Questionnaire"
@@ -1331,8 +1331,8 @@ msgid ""
 "endowment of tokens."
 msgstr ""
 "Le nombre de jetons que vous déciderez de garder pour vous contribuera à "
-"vos gains finaux dans ce jeu si vous êtes assigné au rôle de Receveur à "
-"des fins de paiement. Ceci en plus de votre dotation initiale de jetons."
+"vos gains finaux dans ce jeu si vous êtes assigné au rôle de Receveur. "
+"Ceci en plus de votre dotation initiale de jetons."
 
 #: FL_TG/Instructions_sender.html:2
 msgid "Instructions Sender"
@@ -1359,7 +1359,7 @@ msgstr ""
 "cas est le destinataire. Plus précisément, vous pouvez choisir d'envoyer "
 "0, 25, 50, 75, ou 100 jetons au destinataire. Votre décision est privée "
 "et personne ne la connaîtra. Quel que soit le montant que vous déciderez "
-"de donner à la personne avec laquelle vous avez été jumelé sera "
+"d'envoyer à la personne avec laquelle vous avez été jumelé sera "
 "<i>triplé</i> avant d'être transmis au  Receveur. "
 
 #: FL_TG/Instructions_sender.html:12
@@ -1376,13 +1376,13 @@ msgid ""
 "the tokens you have kept from your initial endowment of"
 msgstr ""
 "Si vous êtes affecté au rôle d'expéditeur pour le paiement, vous gagnerez"
-" les jetons que vous avez conservés de votre dotation initiale de"
+"les jetons que vous avez conservés de votre dotation initiale de"
 
 #: FL_TG/Instructions_sender.html:17
 msgid "plus the tokens returned to you by the Receiver you are paired with."
 msgstr ""
-"plus les jetons qui vous sont rendus par le receveur avec lequel vous "
-"êtes jumelé."
+"plus les jetons qui ont été rendus par le receveur avec lequel vous "
+"avez été jumelé."
 
 #: FL_TG/Instructions_sender_inst.html:16
 msgid ""
@@ -1439,7 +1439,7 @@ msgstr ""
 "avez été jumelé, que ce soit pendant ou après la fin de la session "
 "d'aujourd'hui. N'oubliez pas de ne pas parler à voix haute, de ne pas "
 "communiquer avec les autres participants, et de ne pas bouger de votre "
-"bureau."
+"place."
 
 #: FL_TG/Instructions_welcome.html:11
 msgid "Each of you has"
@@ -1453,7 +1453,7 @@ msgid ""
 "person they have been paired with."
 msgstr ""
 "à titre de dotation initiale. Ils s'ajoutent à la participation et aux "
-"jetons éventuellement gagnés dans d'autres jeux. Chacun d'entre vous peut"
+"jetons éventuellement gagnés dans les autres jeux. Chacun d'entre vous peut"
 " gagner des jetons en fonction de sa décision et de celle de la personne "
 "avec laquelle il a été jumelé."
 
@@ -1482,7 +1482,7 @@ msgstr ""
 "Avant de jouer pour de vrai, nous vous demanderons de faire quelques "
 "calculs pour s'assurer que vous avez compris les instructions. Si vous "
 "donnez une mauvaise réponse, vous recevrez un message du système vous "
-"indiquant qu'il y a eu une erreur dans la façon dont vous avez répondu. "
+"indiquant qu'il y a eu une erreur dans la façon avec laquelle vous avez répondue. "
 "Si c'est le cas, vous pouvez soit réessayer, soit appeler l'agent "
 "recenseur pour obtenir des précisions supplémentaires."
 
@@ -1629,7 +1629,7 @@ msgstr "Assez"
 
 #: FL_TG/__init__.py:84
 msgid "Very"
-msgstr "Très"
+msgstr "Très important"
 
 #: FL_TG/__init__.py:183 FL_risk/__init__.py:225
 msgid "Please check your answer to question 1a"
@@ -1667,7 +1667,7 @@ msgstr ""
 
 #: FL_TG/inst_descr.html:10
 msgid "This short text box will present you the local"
-msgstr "Cette courte boîte de texte vous présentera l'"
+msgstr "Cette courte description vous présentera l'"
 
 #: FL_TG/inst_descr.html:18
 msgid ""
@@ -1685,7 +1685,7 @@ msgstr "Merci !"
 #: FL_payments/End.html:11 FL_payments/Results_1.html:215
 #: FL_payments/Results_2.html:171
 msgid "We are now done with the games. Thank you for your time!"
-msgstr "Nous avons maintenant terminé avec les jeux. Merci pour votre temps !"
+msgstr "Nous avons maintenant terminé avec les jeux. Merci pour le temps consacré !"
 
 #: FL_payments/End.html:15 FL_payments/Results_1.html:219
 #: FL_payments/Results_2.html:175
@@ -1830,7 +1830,7 @@ msgstr ""
 
 #: FL_payments/Results_1.html:143 FL_payments/Results_2.html:102
 msgid "Choice #"
-msgstr "Choix #"
+msgstr "Tour #"
 
 #: FL_payments/Results_1.html:146 FL_payments/Results_2.html:105
 msgid "For this choice, you chose Lottery"
@@ -1932,10 +1932,10 @@ msgid ""
 "you. These are in addition to the participation stipend and the tokens "
 "possibly earned in other games."
 msgstr ""
-"Après votre choix, une rangée sera choisie au hasard et la loterie que "
+"Après votre choix, une ligne sera choisie au hasard et la loterie que "
 "vous avez choisie sera jouée. Le résultat de cette loterie vous sera "
 "versé. Ils s'ajoutent à l'allocation de participation et aux jetons "
-"éventuellement gagnés dans d'autres jeux."
+"éventuellement gagnés dans les autres jeux."
 
 #: FL_risk/Example.html:12
 msgid ""
@@ -2055,7 +2055,7 @@ msgstr ""
 "Enfin, le système choisira au hasard une balle de couleur rouge ou "
 "blanche. La couleur de la boule choisie indiquera le nombre de jetons que"
 " vous gagnerez. Ceux-ci s'ajoutent à l'allocation de participation et aux"
-" jetons éventuellement gagnés dans d'autres jeux."
+" jetons éventuellement gagnés dans les autres jeux."
 
 #: FL_risk/Questionnaire.html:11
 msgid "Please answer to the following question"
@@ -2099,7 +2099,7 @@ msgstr ""
 "Maintenant, nous allons commencer le jeu. Veuillez prendre une décision "
 "pour chacune des 10 questions (en cochant les options A ou B). Rappelez-"
 "vous, seule une des décisions sera exécutée à la fin. Si nécessaire, un "
-"agent recenseur vous aidera à l'exécution de cette tâche."
+"agent recenseur vous aidera à la réalisation de cette tâche."
 
 #: FL_time/Choices.html:14
 msgid "When done, please click on the button Continue "
@@ -2200,7 +2200,7 @@ msgstr ""
 "de 100 jetons dans <b>quatre semaines</b>. Le montant que vous recevrez "
 "dans 4 semaines sera différent pour chacune des 10 décisions. Ceux-ci "
 "s'ajoutent à l'allocation de participation et aux jetons éventuellement "
-"gagnés dans d'autres jeux."
+"gagnés dans les autres jeux."
 
 #: FL_time/Instructions.html:16
 msgid ""
@@ -2217,9 +2217,9 @@ msgstr ""
 "propres préférences. Quelle que soit l'option que vous choisissez, nous "
 "vous donnerons un bon de dépôt et vous reviendrez pour récupérer votre "
 "argent deux ou quatre semaines plus tard ou, si vous préférez, vous aurez"
-" la possibilité de recevoir cet argent par paiement téléphonique. Si vous"
-" préférez utiliser cette méthode, vous aurez la possibilité de fournir un"
-" numéro de téléphone portable aux enquêteurs à la fin de la session "
+"la possibilité de recevoir cet argent par paiement éléctronique. Si vous"
+"préférez utiliser cette méthode, vous aurez la possibilité de fournir votre"
+"numéro de compte, votre CIN et votre numéro de téléphone portable aux enquêteurs à la fin de la session "
 "d'aujourd'hui."
 
 #: FL_time/Instructions.html:21
@@ -2252,8 +2252,7 @@ msgstr "Comment évaluez-vous votre compréhension des instructions du jeu ?"
 
 #: FL_time/Questionnaire.html:19
 msgid ""
-"How much do you trust that you will receive the money in 2 or 4 weeks "
-"time?"
+"How much do you trust that you will receive the money in 2 or 4 weeks time?"
 msgstr ""
 "Dans quelle mesure pensez-vous que vous recevrez l'argent dans 2 ou 4 "
 "semaines ?"
@@ -2324,7 +2323,7 @@ msgid ""
 "chance."
 msgstr ""
 "Chacun des jeux vous permettra de gagner de l'argent réel dans votre "
-"<i>Monnaie locale (ML)</i>. Et comme dans la vie réelle, la quantité "
+"<i>Monnaie locale (Dirhams)</i>. Et comme dans la vie réelle, la somme "
 "d'argent que vous allez gagner dépendra de votre décision et, pour les "
 "jeux de groupe, des décisions des autres aussi. Mais parfois, le montant "
 "que vous gagnerez dépendra aussi du hasard."
@@ -2367,7 +2366,7 @@ msgid ""
 "come close to you to listen and will provide an answer for everyone."
 msgstr ""
 "Si vous avez une question, veuillez lever la main et un agent recenseur "
-"s'approchera de vous pour vous écouter et apportera une réponse à chacun."
+"s'approchera de vous pour vous écouter et fournira une réponse."
 
 #: FL_welcome/Welcome2.html:8
 msgid "Introduction (ii)"
@@ -2408,8 +2407,8 @@ msgid ""
 "please do not ask your questions aloud."
 msgstr ""
 "Si vous avez des questions, levez la main et un agent recenseur "
-"s'approchera de vous pour vous écouter et fournira une réponse à chacun ;"
-" merci de ne pas poser vos questions à haute voix\""
+"s'approchera de vous pour vous écouter et fournira une réponse ;"
+"Merci de ne pas poser vos questions à haute voix.""
 
 #: FL_welcome/Welcome2.html:26
 msgid "You will take part in"
