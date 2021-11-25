@@ -1,10 +1,12 @@
-8 Luglio 2021
+**To be inputed before starting**
 
-- Implementare pseudo-randomizzazione
-  - a.       PGG – TP – RP
-  - b.       PGG – RP – TP
-  - c.       TP – RP - PGG
-  - d.       RP – TP - PGG
+- Name and place of the organizations - > institutions.csv in FL_Welcome
+- Choices of organizations in TG - > choices_inst.csv in FL_Welcome
+- Conversion rate of tokens in Local Currency -> settings.py -> "real_world_currency_per_point=0.01"
+    - \# Tokens * real_world_currency_per_point = LC
+- Show up fee (ein LC) -> settings.py -> participation_fee=int(4)
+- Number of participants -> settings.py
 
-
-- Mettere  a posto il final display quando le sequenze delle app sono casuali
+# Randomizations
+- The randomization of block 1 is at the session level 
+- The randomization of ientity in block 2 at the group level (to be developed @TODO:)

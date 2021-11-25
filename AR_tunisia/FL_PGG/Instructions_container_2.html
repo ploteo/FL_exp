@@ -4,42 +4,24 @@
 
 {{ block title }}
 
-
-
 {{ endblock }}
 
 {{ block content }}
+<html dir="rtl" lang="ar">
+
 <input type="hidden" name="count" id="id_count">
 
 <div id="instr_1">
-<div class="container box">
-  <h1>{{ trans 'Game'}} {{counter}} (TG)</h1>
-{{ include "FL_TG/Instructions_welcome.html" }}
-  <button type="button" onclick="next()" class="nexttab btn-outline-primary btn next">{{ trans 'NEXT' }} ></button>
-</div>
-
-</div>
-
-<div id="instr_2" style="display:none;">
-<div class="container box">
-{{ include "./FL_TG/Instructions_sender.html" }}<br>
- <button type="button" onclick="previous()" class="prevtab btn-outline-primary btn back"> < {{ trans 'PREVIOUS' }}</button>
-
- <button type="button" onclick="next()" class="nexttab btn-outline-primary btn next">{{ trans 'NEXT' }} ></button>
-</div>
- </div>
- 
-<div id="instr_3" style="display:none;">
   <div class="container box">
-    {{ include "./FL_TG/Instructions_receiver.html" }}<br>
-    <button type="button" onclick="previous()" class="prevtab btn-outline-primary btn back">< {{ trans 'PREVIOUS' }}</button> 
-    <button class="nexttab btn-outline-primary btn next">{{ trans 'GO TO QUESTIONNAIRE' }} ></button>
+    {{ include "./FL_PGG/Instructions2.html" }}<br>
+    <!-- <button type="button" onclick="previous()" class="prevtab btn-outline-primary btn back">< {{ trans 'PREVIOUS' }}</button>  -->
+    <button class="nexttab btn-outline-primary btn next">{{ trans 'CONTINUE' }} ></button>
   </div>
 
 </div>
 <br>
 <br>
-
+</html>
 {{ endblock }}
 {{ form.errors }}
 
@@ -152,19 +134,5 @@
 </style>
 <link href="{{ static 'mystyle.css' }}" rel="stylesheet">
 <style type="text/css">
-
-/* input {
-display: inline-block;
-width: 6em;
-position: relative;
-top: -3em;
-}
-
-label {
-display: inline-block;
-width: 6em;
-margin-right: .5em;
-padding-top: 1.5em;
-} */
 </style>
 {{ endblock }}

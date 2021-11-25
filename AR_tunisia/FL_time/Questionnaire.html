@@ -4,6 +4,7 @@
 
 
 {{ block content }}
+<html dir="rtl" lang="ar">
 
 <h1> {{ trans 'Questionnaire' }} </h1>
 
@@ -16,7 +17,7 @@
 <li>{{ trans 'How would you rate your understanding of the game instructions?'}} 
 	{{ formfield player.Q_3  label="" }}
 </li>
-<li>{{ trans 'How much do you trust that you will receive the money in 2 or 4 weeks\' time?' }} 
+<li>{{ trans 'How much do you trust that you will receive the money in 2 or 4 weeks time?' }} 
 	{{ formfield player.Q_4  label="" }}
 </li>
 	<!-- <input type="range" class="form-range" min="1" max="4" step="1" id="Q_4" name="Q_4"> -->
@@ -39,7 +40,8 @@
 			</div>
 		</div>
 
-
+</div>
+</html>
 {{ endblock }}
 
 {{ block styles }}

@@ -3,6 +3,7 @@
 {{ load otree i18n }}
 
 {{ block content }}
+<html dir="rtl" lang="ar">
 
 <h1> {{ trans 'Choice Receiver'}}</h1>
 
@@ -14,7 +15,7 @@
 <table class="table" style="font-size:12pt">
   <thead>
     <tr>
-      <th scope="col">Choice #</th>
+      <th scope="col">{{ trans 'Choice #'}}</th>
       <th scope="col">{{ trans 'When the other sends' }}</th>
       <th scope="col">{{ trans 'You receive' }}</th>
       <th scope="col">{{ trans 'How much do you send back?' }}</th>
@@ -71,7 +72,8 @@
 
   </div>
 
-
+</div>
+</html>
 {{ endblock }}
 
 {{ block styles }}

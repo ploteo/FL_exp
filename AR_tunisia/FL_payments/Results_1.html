@@ -3,6 +3,7 @@
 {% load otree i18n %}
 
 {% block content %}
+<html dir="rtl" lang="ar">
 
 <div class="container box">
 
@@ -30,7 +31,7 @@
                     {{ endif }}
                     <br>
                     <h3>{{ trans 'Phase 2' }}</h3>
-                    <p>{{trans 'You sent ' }} <b>{{sent_inst}}</b> to {{Institution}}.</p>
+                    <p>{{trans 'You sent ' }} <b>{{sent_inst}}</b> {{trans 'to '}} {{Institution}}.</p>
                     <p>{{trans 'Thus, your earned' }} <b>{{payoff_sender_inst}}</b>.</p>
                     <br>
                     <p>{{trans 'In this game, you earned'}} 
@@ -239,7 +240,7 @@
 
     </div>
 </div>
-
+</html>
 {{ endblock }}
 
 {{ block styles }}
