@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-22 09:14+0200\n"
+"POT-Creation-Date: 2021-11-23 15:11+0100\n"
 "PO-Revision-Date: 2021-09-27 13:39+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -36,7 +36,7 @@ msgstr ".سنلعب الآن اللعبة"
 
 #: FL_DG/Choice_sender.html:14
 msgid "You are now choosing as <b>Sender</b>"
-msgstr "<b>كالمرسل</b> أنت تختار الآن "
+msgstr "<b>المرسل</b> أنت تختار الآن ـ "
 
 #: FL_DG/Choice_sender.html:16 FL_DG/Choice_sender_inst.html:11
 msgid "How many of your"
@@ -44,7 +44,7 @@ msgstr "كم من"
 
 #: FL_DG/Choice_sender.html:18
 msgid "do you choose to send to the Receiver?"
-msgstr " تختار إرسالها إلى المستلم؟"
+msgstr "التي تختار إرسالها إلى المستلم؟"
 
 #: FL_DG/Choice_sender.html:33 FL_DG/Choice_sender_inst.html:30
 msgid "Confirm"
@@ -69,23 +69,23 @@ msgid ""
 "following questions."
 msgstr ""
 "شكرًا مرة أخرى على لعب هذه اللعبة. قبل أن نواصل ، نريد أن نسألك بعض "
-" :الأسئلة المتعلقة باللعبة التي لعبتها. الرجاء الإجابة على الأسئلة التالية"
+"الأسئلة المتعلقة باللعبة التي لعبتها. الرجاء الإجابة على.الأسئلة التالية"
 
 #: FL_DG/Final_questionnaire.html:22
 msgid "Of all the people in this room, how many do you know personally?"
 msgstr ""
-"من بين كل الأشخاص الموجودين في هذه الغرفة ، كم عدد الأشخاص الذين تعرفهم شخصيا؟ "
+"من بين كل الأشخاص الموجودين في هذه الغرفة ، كم عدد الأشخاص الذين تعرفهم "
+"شخصيًا؟"
 
 #: FL_DG/Final_questionnaire.html:26
 msgid "How well do you know"
-msgstr "الى اى مدى تعرف"
+msgstr "الى اى مدى"
 
 #: FL_DG/Final_questionnaire.html:30
 msgid ""
 "How much do you think that you understood the instructions you were given"
 " in this game?"
-msgstr ""
-"إلى أي مدى تعتقد أنك فهمت التعليمات المعطاة لك في هذه اللعبة؟"
+msgstr "إلى أي مدى تعتقد أنك فهمت التعليمات المعطاة لك في هذه اللعبة؟"
 
 #: FL_DG/Final_questionnaire.html:36 FL_payments/Results_1.html:236
 #: FL_payments/Results_2.html:191
@@ -106,17 +106,17 @@ msgstr "لعبة"
 #: FL_DG/Instructions_container.html:18 FL_PGG/Instructions_container.html:18
 #: FL_TG/Instructions_container.html:18 FL_TG/Instructions_container.html:28
 msgid "NEXT"
-msgstr "تابع"
+msgstr "التالية"
 
 #: FL_DG/Instructions_container.html:25 FL_PGG/Instructions.html:2
 #: FL_PGG/Instructions2.html:2 FL_TG/Instructions_sender_inst.html:13
 msgid "Instructions"
-msgstr "التعليمات"
+msgstr "تعليمات"
 
 #: FL_DG/Instructions_container.html:27 FL_PGG/Instructions_container_2.html:15
 #: FL_TG/Instructions_container.html:26 FL_TG/Instructions_container.html:35
 msgid "PREVIOUS"
-msgstr "سابقا"
+msgstr "السابق"
 
 #: FL_DG/Instructions_container.html:29 FL_PGG/Examples.html:73
 msgid "Go to questionnaire"
@@ -133,15 +133,15 @@ msgid ""
 "endowment of tokens you want to keep for yourself, and how much of it you"
 " want to send to another participant (the Receiver)."
 msgstr ""
-" .تتعلق هذه التعليمات بالمرسل "
-"بصفتك المرسل يمكن لك اختيار كم من عملة رمزية تريد الاحتفاظ بها و كم تريد ارسال "
-" .الى مشارك آخر (المستلم)"
+" بصفة المرسل  تتعلق هذه التعليمات التي ستتاح  لك الفرصة للاختيار نصيب "
+"وفقك الأولي كم عدد الرموز التي تريد الاحتفاظ بها و كم.تريد الإرسال إلى "
+"مشارك آخر (المستلم)"
 
 #: FL_DG/Instructions_sender.html:5
 msgid ""
 "Every participant will decide as a Sender before knowing her/his actual "
 "role."
-msgstr "سيقرر كل مشارك كمرسلًا قبل معرفة وظيفته الحقيقية"
+msgstr "سيقرر كل مشارك أن يكون مرسلًا قبل معرفة حقيقته و وظيفته"
 
 #: FL_DG/Instructions_sender.html:10
 msgid "Your initial endowment is"
@@ -151,7 +151,7 @@ msgstr "تبرعك الأولي هو"
 msgid ""
 "You will have the opportunity to send to the Receiver any amount of "
 "tokens between 0 and 100"
-msgstr "ستتاح لك الفرصة لإرسال أي مبلغ إلى المستلم من العمل الرمزية بين 0 و 100"
+msgstr "ستتاح لك الفرصة لإرسال أي مبلغ إلى المستلم العملة الرمزية بين 0 و 100"
 
 #: FL_DG/Instructions_sender.html:14
 msgid ""
@@ -160,10 +160,9 @@ msgid ""
 " addition to the participation stipend and the tokens possibly earned in "
 "other games."
 msgstr ""
-" العمل الرمزية التي ترسلها ستاخد من مجموع العمل التي تملكها و المستلم يحصل عليها"
-" .دون اخد اي قرار اخر "
-"وهاذا بالاظافة الى مبلغ الذي يعطى للحضور و العمل الرمزية التي من الممكن الحضول عليها"
-" .في الالعاب الاخرى"
+" العملة الرمزية التي تم طرحها من مساهمتك الاولى و التي . يحصل عليها "
+"المستلم بدون اخد اي قرار اخربالإضافة إلى بدل المشاركة وأي رموز مكتسبة "
+"في.ألعاب أخرى"
 
 #: FL_DG/Instructions_sender.html:16
 msgid "Receiver"
@@ -176,31 +175,32 @@ msgid ""
 "receive from the Sender a varying amount of tokens between 0 and 100. No "
 "further action is needed from your side."
 msgstr ""
-"هذه التعليمات تتعلق بدور المتلقي. وهبتك الأولي هو 0 عملة رمزية. بصفتك متلقي"
-" ، ستتاح لك الفرصة  ان تتلقي من المرسل كمية متغيرة من العمل الرمزية بين 0 "
-" .و 100. لا يلزم اتخاذ أي إجراء آخر من طرفك"
+"هذه التعليمات تتعلق بدور المتلقي. وهبتك الأولي هو 0 رمز مميز. بصفتك "
+"متلقيا ، ستتاح لك الفرصة لـتتلقي من المرسل كمية متغيرة من الرموز المميزة "
+"بين 0 و 100.لا يلزم اتخاذ أي إجراء آخر من طرفك"
 
 #: FL_DG/Instructions_sender.html:20
 msgid "Roles"
 msgstr "الأدوار"
 
 #: FL_DG/Instructions_sender.html:22
+#, fuzzy
 msgid ""
 "At the end of today’s session, the system will randomly pick all "
-"participants’ role: 50 &#37; of the participants will be picked as "
-"Senders, while the remaining 50 &#37; will be picked as Receivers. Each "
+"participants’ role: 50&#37; of the participants will be picked as "
+"Senders, while the remaining 50&#37; will be picked as Receivers. Each "
 "Sender will be matched with a Receiver. According to the role drawn and "
 "choices of the Sender we will tell you the total number of tokens you "
 "will be paid."
 msgstr ""
 "في نهاية جلسة اليوم ، سيختار النظام بشكل عشوائي دور جميع المشاركين: سيتم "
-" .اختيار نصف المشاركين كمرسلين و النصف الاخر كمستقبلين  "
-"اعتمادا على الادوار المختارة و الخيارات سنخبركم بمجموع العمل الرمزية التي "
-" .ستتلقاها"
+"اختيار 50 &#37; من المشاركين كمرسلين ،بينما سيتم اختيار الـ 50 &#37; "
+"المتبقية كجهات استقبال. سيكون كل مرسل مقترن بجهاز استقبال. اعتمادًا على "
+"الدور المرسوم وخيارات.المرسل ، سنخبرك بإجمالي عدد الرموز التي ستتلقاها"
 
 #: FL_DG/Instructions_sender_inst.html:6
 msgid "Instructions "
-msgstr "التعليمات"
+msgstr "تعليمات"
 
 #: FL_DG/Instructions_sender_inst.html:10
 msgid ""
@@ -208,12 +208,12 @@ msgid ""
 "follow the same rules of the previous one, with the difference that you "
 "will always be a Sender, while a"
 msgstr ""
-"ستلعب الآن مجموعة متنوعة من الألعاب التي لعبت سابقًا. هذه"
-"الجولة ستتبع نفس القواعد السابقة ، مع اختلاف أنك ستكون دائما مرسلا بينما"
+"ستلعب الآن مجموعة متنوعة من الألعاب التي لعبت سابقًا. ستلعب هذه "
+"الجولةاتبع نفس القواعد السابقة ، مع اختلاف أنك ستكون دائما مرسلا بينما"
 
 #: FL_DG/Instructions_sender_inst.html:11
 msgid "will be the Receiver."
-msgstr " .سيكون المستلم"
+msgstr ".سيكون المستلم"
 
 #: FL_DG/Instructions_sender_inst.html:13
 msgid ""
@@ -221,8 +221,8 @@ msgid ""
 "Receiver from your initial endowment will be transferred to local "
 "smallholder farmers through the local"
 msgstr ""
-"هذا يعني أن مقدار  العمل الرمزية التي قررت إرسالها إلى المستلم سيتم تحويلها الى  "
-" .جمعية محلية للفلاحين"
+"هذا يعني أن مقدار الرموز التي قررت إرسالها إلى المستلم سيتم تحويلها من "
+"مساهمتك الاولى الى صغار المزارعين من خلال"
 
 #: FL_DG/Instructions_sender_inst.html:18
 #: FL_TG/Instructions_sender_inst.html:27
@@ -234,14 +234,14 @@ msgid ""
 "These are in addition to the tokens received in previous games. Your "
 "gains from previous games will not be affected in this new game."
 msgstr ""
-" هذه الارباح ستضاف إلى العمل الرمزية التي تم تلقيها في الألعاب السابقة "
-"  .ارباحك في الالعاب السابقة لن تاثر على هذه العبةالجديدة"
+" بالإضافة إلى الرموز المميزة التي تم تلقيها في الألعاب السابقة، هذه "
+"الأرباح من الألعاب السابقة لن تتأثر في هذه اللعبة الجديدة"
 
 #: FL_DG/Instructions_sender_inst.html:24 FL_TG/Instructions_welcome.html:20
 msgid ""
 "At the end of today’s session, we will tell you the total number of "
 "tokens you will be paid."
-msgstr " .في نهاية جلسة اليوم سنخبرك بمجموع العمل الرمزية التي ستتلقاها"
+msgstr "في نهاية جلسة اليوم سنخبرك بالعدد الإجمالي.الرموز التي ستتلقاها"
 
 #: FL_DG/Instructions_sender_inst.html:28 FL_DG/Results.html:49
 #: FL_PGG/Choices.html:33 FL_PGG/Identity_task.html:120
@@ -250,9 +250,10 @@ msgstr " .في نهاية جلسة اليوم سنخبرك بمجموع العم
 #: FL_TG/Final_questionnaire_inst.html:93
 #: FL_TG/Final_questionnaire_receiver.html:33
 #: FL_TG/Final_questionnaire_sender.html:37 FL_TG/inst_descr.html:23
-#: FL_risk/Instructions.html:39 FL_risk/Questionnaire.html:33
-#: FL_time/Choices.html:157 FL_time/Instructions.html:43
-#: FL_time/Questionnaire.html:37 FL_welcome/Welcome.html:47
+#: FL_risk/Choices.html:243 FL_risk/Instructions.html:39
+#: FL_risk/Questionnaire.html:33 FL_time/Choices.html:157
+#: FL_time/Instructions.html:43 FL_time/Questionnaire.html:37
+#: FL_welcome/Welcome.html:47
 msgid "Continue"
 msgstr "استمرار"
 
@@ -267,8 +268,8 @@ msgid ""
 "of one other participant. Your final payoff will depend on your own "
 "decisions and the decisions of other participants. "
 msgstr ""
-"في هذه اللعبة ، سيتعين على كل منكم اتخاذ قرار بشأن استخدام عملة رمزية التي"
-" ستؤثر على كل من أرباحك ومكاسبك من مشارك آخر. سيعتمد فوزك النهائي على "
+"في هذه اللعبة ، سيتعين على كل منكم اتخاذ قرار بشأن استخدام عملة رمزية "
+"التي ستؤثر على كل من أرباحك ومكاسبك من مشارك آخر. سيعتمد فوزك النهائي على"
 " .قراراتك و تلك الخاصة بالاخرين"
 
 #: FL_DG/Instructions_welcome.html:11
@@ -280,11 +281,11 @@ msgid ""
 "during or after the end of today’s session. The participant you will be "
 "paired with is not necessarily the same of other games. "
 msgstr ""
-" في هذه العبة ستتفاعل مع مشارك اخر باستعمال"
-"الكمبيوتر. في هذه اللعبة هناك نوعان من الأدوار المرسل و المستقبل ، لن تكتشف دورك الحقيقي ولو"
-" بعد نهاية الجلسة. لن تكشف لك هوية المشارك الاخر خلال او"
-"بعد نهاية جلسة اليوم.المشارك الذي معاك"
-" .لن يكون هو نفسه الذي مع الاخرين"
+"في هذه اللعبة ، ستتفاعل مع مشارك آخر باستخدام<i>المرسل<i> :محطة "
+"الكمبيوتر. في هذه اللعبة هناك نوعان من الأدوار  لن تكتشف دورك الحقيقي حتى"
+" نهاية .<i>المتلقي<i> والجلسة. لن يتم إخبارك بمن تم التطابق معه "
+"أيضًاأثناء أو بعد نهاية جلسة اليوم. ستكون مع المشارك الدي سيتم.اقرانك به "
+"هو نفس الدي مع الاخرين"
 
 #: FL_DG/Questionnaire_1.html:17
 msgid ""
@@ -294,10 +295,10 @@ msgid ""
 "answered. If this is the case, you can either try again or call the "
 "enumerator for further clarifications."
 msgstr ""
-"سنطرح عليك الآن بعض الأسئلة لمساعدتك على فهم التعليمات. إذا أعطيت إجابة "
-"خاطئة ، فستتلقى رسالة من النظام الذي يخبرك بوجود خطأ في الطريقة التي تم "
-"الرد بها. إذا كان الأمر كذلك ، يمكنك إما المحاولة مرة أخرى أو "
-" .الاتصال بالباحث للمزيد من التفاصيل"
+"سنطرح عليك الآن بعض الأسئلة لمساعدتك في فهم التعليمات. إذا أعطيت إجابة "
+"خاطئة ، فستتلقى رسالة.من النظام الذي يخبرك بحدوث خطأ بالطريقة التي تم "
+"الرد بهاإذا كان الأمر كذلك ، يمكنك إما المحاولة مرة أخرى أو "
+"الاتصال.بالباحث لمزيد من التفاصيل"
 
 #: FL_DG/Questionnaire_1.html:21 FL_PGG/Questionnaire1.html:15
 #: FL_TG/Questionnaire_1.html:23 FL_risk/Example.html:16
@@ -306,15 +307,15 @@ msgid ""
 "Your answers to these questions will not affect your final earnings. "
 "Please ask for clarifications if needed."
 msgstr ""
-" .اجاباتك لهذه الاسالة لن تاثر على ارباحك النهائية"
-" .يرجى طلب توضيحاتت اذا كنت بحاجة لذالك"
+".إجاباتك على هذه الأسئلة لن تؤثر على تعويضك النهائي.يرجى طلب التوضيح إذا "
+"لزم الأمر"
 
 #: FL_DG/Questionnaire_1.html:26
 msgid ""
 "As a Sender you decide to send 100 tokens to the Receiver. How many "
 "tokens will the Receiver obtain from you at the end of the game?"
 msgstr ""
-" بصفتك المرسل ، قررت إرسال 100 عملة رمزية إلى المستلم. كم عدد العمل الرمزية التي"
+".بصفتك المرسل ، قررت إرسال 100 رمز مميز إلى المستلم كم عدد الرموز التي "
 "سيتلقاها المستلم في نهاية اللعبة؟"
 
 #: FL_DG/Questionnaire_1.html:30
@@ -322,15 +323,15 @@ msgid ""
 "As a Sender you decide to send 0 tokens to the Receiver. How many tokens "
 "will you have at the end of the game?"
 msgstr ""
-"بصفتك المرسل ، قررت إرسال 0 عملة رمزية إلى المستلم. كم عدد العمل الرمزية"
-"التي ستحصل عليها في نهاية اللعبة؟"
+"بصفتك المرسل ، قررت إرسال 0 رمز مميز إلى المستلم. كم عدد العملات "
+"الرمزيةالتي ستحصل عليها في نهاية اللعبة؟"
 
 #: FL_DG/Questionnaire_1.html:34
 msgid ""
 "You are the Receiver and the Sender sends you 50 tokens from its initial "
 "endowment. How many tokens will you have at the end of the game?"
 msgstr ""
-"أنت المستلم والمرسل يرسل لك 50 عملة رمزية من منحته الأولي. كم عدد العمل الرمزية"
+"أنت المستلم والمرسل يرسل لك 50 عملة رمزية من منحته الأولي. كم عدد الرموز "
 "التي ستحصل عليها في نهاية اللعبة؟"
 
 #: FL_DG/Questionnaire_1.html:39 FL_PGG/Questionnaire1.html:38
@@ -345,7 +346,7 @@ msgstr "اضغط هنا للحصول على التعليمات"
 
 #: FL_DG/Results.html:6
 msgid "Results"
-msgstr "النتائج"
+msgstr "نتائج"
 
 #: FL_DG/Results.html:10
 msgid "Peer Dictator"
@@ -358,7 +359,8 @@ msgstr "في المجموعة </b>المرسل</b> انت"
 #: FL_DG/Results.html:13
 msgid "The <b>Sender</b> in the group (you) sent"
 msgstr ""
-"في المجموعة ارسل لك </b>المرسل</b>"
+"L'<b>Expéditeur</b> dans le groupe (vous) a envoyé في المجموعة ارسل لك  "
+"</b>المرسل</b> "
 
 #: FL_DG/Results.html:14 FL_DG/Results.html:19
 msgid "Your earnings are"
@@ -366,7 +368,7 @@ msgstr "أرباحك هي"
 
 #: FL_DG/Results.html:15
 msgid "The earnings of the Receiver are"
-msgstr "ارباح المتلقي هي"
+msgstr "دخل المتلقي هو"
 
 #: FL_DG/Results.html:17
 msgid "You are the <b>Receiver</b> in the group"
@@ -374,7 +376,7 @@ msgstr "في المجموعة </b>المتلقي</b> انت"
 
 #: FL_DG/Results.html:18
 msgid "The <b>Sender</b> in the group (the other) sent"
-msgstr "في المجموعة ارسل  </b>المتلفي</b>"
+msgstr " في المجموعة الاخرى ارسل </b>المتلقي</b> "
 
 #: FL_DG/Results.html:20
 msgid "The earnings of the Sender are"
@@ -404,22 +406,22 @@ msgstr "منك"
 msgid "You earn"
 msgstr "لقد ربحت"
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:54
-#: FL_PGG/__init__.py:70 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:49
+#: FL_PGG/__init__.py:65 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:58 FL_time/__init__.py:59
 #: FL_time/__init__.py:69
 msgid "Not at all"
 msgstr "لا على الاطلاق"
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:55
-#: FL_PGG/__init__.py:71 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:50
+#: FL_PGG/__init__.py:66 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:59 FL_time/__init__.py:60
 #: FL_time/__init__.py:70
 msgid "Little"
 msgstr "قليلا"
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:56
-#: FL_PGG/__init__.py:72 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:51
+#: FL_PGG/__init__.py:67 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:60 FL_time/__init__.py:61
 #: FL_time/__init__.py:71
 msgid "Average"
@@ -429,20 +431,20 @@ msgstr "معتدل"
 msgid "Fairly Well"
 msgstr "لاباس به"
 
-#: FL_DG/__init__.py:45 FL_PGG/__init__.py:58
+#: FL_DG/__init__.py:45 FL_PGG/__init__.py:53
 msgid "Completely"
 msgstr "تماما"
 
-#: FL_DG/__init__.py:48 FL_PGG/__init__.py:74 FL_TG/__init__.py:78
+#: FL_DG/__init__.py:48 FL_PGG/__init__.py:69 FL_TG/__init__.py:78
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:62 FL_time/__init__.py:63
 msgid "Very well"
 msgstr "جيد جدا"
 
-#: FL_DG/__init__.py:115 FL_PGG/__init__.py:299 FL_time/__init__.py:187
+#: FL_DG/__init__.py:115 FL_PGG/__init__.py:302 FL_time/__init__.py:187
 msgid "Please check your answer to question 1"
 msgstr "يرجى التحقق من إجابتك على السؤال 1"
 
-#: FL_DG/__init__.py:117 FL_PGG/__init__.py:301 FL_time/__init__.py:190
+#: FL_DG/__init__.py:117 FL_PGG/__init__.py:304 FL_time/__init__.py:190
 msgid "Please check your answer to question 2"
 msgstr "يرجى التحقق من إجابتك على السؤال 2"
 
@@ -464,15 +466,15 @@ msgid ""
 "the text box, continue to the next step."
 msgstr ""
 "التي ستلعب بها. يرجى قراءتها بعناية. بمجرد قراءة مربع النص ، انتقل إلى "
-" .الخطوة التالية"
+"الخطوة التالية."
 
 #: FL_DG/inst_descr.html:16 FL_TG/inst_descr.html:16
 msgid "Hello, we are the local"
-msgstr "مرحبا نحن الباحثون"
+msgstr "مرحبا نحن المحليين"
 
 #: FL_DG/inst_descr.html:17 FL_TG/inst_descr.html:17
 msgid "Our organization works with the smallholder farmers in the area of"
-msgstr " :تعمل منظمتنا مع المزارعين الصغار في المجالات التالية"
+msgstr "تعمل منظمتنا مع صغار المزارعين في المجالات التالية"
 
 #: FL_DG/inst_descr.html:18
 msgid ""
@@ -508,8 +510,8 @@ msgid ""
 "Before we proceed with your choice, we will give you some examples that "
 "illustrate the possible outcomes of the game."
 msgstr ""
-"قبل الشروع في اختيارك ، سندم لك بعض الأمثلة التي توضح النتائج المحتملة "
-" .للعبة"
+"قبل الشروع في اختيارك ، سنقدم لك بعض الأمثلة .التي توضح النتائج المحتملة "
+"للعبة"
 
 #: FL_PGG/Examples.html:28 FL_risk/Example.html:20 FL_time/Example.html:18
 msgid "Example 1"
@@ -523,9 +525,9 @@ msgid ""
 "among all the participants in your group, so that each of you will earn "
 "300 Tokens"
 msgstr ""
-"تتكون مجموعتك من 4 أفراد. إذا وضع جميع أعضاء مجموع تك(كل أوقافهم (150) في "
-"الحساب المشترك (600)ضعف هذا المقدار (1200) يوزع بالتساوي بين جميع "
-" .المشاركين في مجموعتك ، بحيث يفوز كل واحد منكم 300 عملة رمزية  "
+"تتكون مجموعتك من 4 أفراد. إذا وضع جميع أعضاء مجموعتك(كل أوقافهم (150) في "
+"الحساب المشترك (600)ضعف هذا المقدار (1200) يوزع بالتساويبين جميع "
+"المشاركين في مجموعتك ، بحيث يفوز كل واحد منكمغملة رمزية 300 "
 
 #: FL_PGG/Examples.html:43 FL_risk/Example.html:74 FL_time/Example.html:63
 msgid "Example 2"
@@ -538,17 +540,15 @@ msgid ""
 "account, thus leaving no money to be divided between the participants in "
 "your group. Each participant in your group will then earn 150 Tokens"
 msgstr ""
-"تتكون مجموعتك من 4 أفراد. إذا احتفظ جميع أعضاء مجموعتك ب رموزهم 150 "
-"لأنفسهم ، لن يتم وضع أي أموال في الحساب المشترك و لذالك لن يكون هناك اي مبلغ للتوزيع  "
-" .المشاركين في مجموعتك. سيكسب كل مشارك في مجموعتك 150 عملة رمزية"
+"تتكون مجموعتك من 4 أفراد. إذا احتفظ جميع أعضاء مجموعتكرموزهم الـ 150 "
+"لأنفسهم ، لن يتم وضع أي أموال فيالمشتركة التي لا تترك أموالا لتوزيعها على"
+" المشاركين فيمجموعتك. سيكسب كل مشارك في مجموعتك 150 عملة رمزية"
 
 #: FL_PGG/Examples.html:57
 msgid ""
 "Remember that you can put any amount between 0 and 150 Tokens in the "
 "common account."
-msgstr ""
-"تذكر أنه يمكنك وضع أي مبلغ يتراوح بين 0 و 150 عملة رمزية في "
-" .الحساب المشترك"
+msgstr "تذكر أنه يمكنك وضع أي مبلغ يتراوح بين 0 و 150 عملة رمزية في.الحساب المشترك"
 
 #: FL_PGG/Examples.html:59 FL_PGG/Instructions.html:26
 #: FL_PGG/Instructions2.html:25 FL_PGG/Pregame.html:17
@@ -564,7 +564,7 @@ msgstr "مهمة"
 msgid ""
 "Reorder now the words in the boxes below to obtain the description of an "
 "object."
-msgstr ".الآن أعد ترتيب الكلمات في المربعات أدناه للحصول على وصف شيء ما"
+msgstr "الآن أعد ترتيب الكلمات في المربعات أدناه للحصول على وصف.شيء"
 
 #: FL_PGG/Identity_task.html:12 FL_PGG/Identity_task_ALT.html:84
 msgid ""
@@ -572,8 +572,8 @@ msgid ""
 " sentence referring to the same object. All sentences put together give "
 "you an accurate description of this object."
 msgstr ""
-"يشارك أعضاء مجموعتك في نفس المهمة ، لكن بجملة مختلفة في اشارة الى نفس "
-" .الشيء. كل الجملة مجتمعة تمنحك وصف دقيق لهذا الشيء"
+"يشارك أعضاء مجموعتك في نفس المهمة ، لكن بجملة مختلفةفي اشارة الى نفس "
+"الشيء. كل الجمل مجتمعة تمنحك.وصف دقيق لهذا الشيء"
 
 #: FL_PGG/Identity_task.html:17
 msgid ""
@@ -589,7 +589,7 @@ msgid ""
 "correctly positioned a button will appear: click on it to continue."
 msgstr ""
 "إذا أخطأت ، فقط اضغط على الزر\" حاول مرة أخرى \". عندما تكون كل "
-" .الكلمات في الوضع الصحيح ، سيظهر زر: اضغط فوقه للمتابعة"
+"الكلمات.في الوضع الصحيح ، سيظهر زر: اضغط فوقه للمتابعة"
 
 #: FL_PGG/Identity_task.html:22
 msgid "Retry"
@@ -597,9 +597,9 @@ msgstr "حاول مجددا"
 
 #: FL_PGG/Identity_task.html:30 FL_PGG/Identity_task.html:62
 #: FL_PGG/Identity_task_ALT.html:15 FL_PGG/Identity_task_ALT.html:50
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "can be"
 msgstr "يمكن ان يكون"
 
@@ -607,20 +607,20 @@ msgstr "يمكن ان يكون"
 #: FL_PGG/Identity_task.html:63 FL_PGG/Identity_task.html:64
 #: FL_PGG/Identity_task_ALT.html:23 FL_PGG/Identity_task_ALT.html:31
 #: FL_PGG/Identity_task_ALT.html:58 FL_PGG/Identity_task_ALT.html:66
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
-#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
-#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
-#: FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:83 FL_PGG/__init__.py:90
+#: FL_PGG/__init__.py:92 FL_PGG/__init__.py:102 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:113 FL_PGG/__init__.py:123
+#: FL_PGG/__init__.py:125 FL_PGG/__init__.py:132 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:146 FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:155
 msgid "can"
 msgstr "يمكن"
 
 #: FL_PGG/Identity_task.html:33 FL_PGG/Identity_task.html:65
 #: FL_PGG/Identity_task_ALT.html:39 FL_PGG/Identity_task_ALT.html:74
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "makes"
 msgstr "يجعل"
 
@@ -628,52 +628,52 @@ msgstr "يجعل"
 #: FL_PGG/Identity_task.html:38 FL_PGG/Identity_task.html:39
 #: FL_PGG/Identity_task_ALT.html:16 FL_PGG/Identity_task_ALT.html:24
 #: FL_PGG/Identity_task_ALT.html:32 FL_PGG/Identity_task_ALT.html:40
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:86 FL_PGG/__init__.py:88
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:105 FL_PGG/__init__.py:107
-#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:111 FL_PGG/__init__.py:126
-#: FL_PGG/__init__.py:128 FL_PGG/__init__.py:130 FL_PGG/__init__.py:132
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:149 FL_PGG/__init__.py:151
-#: FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:81 FL_PGG/__init__.py:83
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:100 FL_PGG/__init__.py:102
+#: FL_PGG/__init__.py:104 FL_PGG/__init__.py:106 FL_PGG/__init__.py:121
+#: FL_PGG/__init__.py:123 FL_PGG/__init__.py:125 FL_PGG/__init__.py:127
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:144 FL_PGG/__init__.py:146
+#: FL_PGG/__init__.py:148
 msgid "It"
 msgstr "انه "
 
 #: FL_PGG/Identity_task.html:42 FL_PGG/Identity_task.html:74
 #: FL_PGG/Identity_task_ALT.html:17 FL_PGG/Identity_task_ALT.html:52
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "warm."
 msgstr ".ساخنا"
 
 #: FL_PGG/Identity_task.html:43 FL_PGG/Identity_task.html:75
 #: FL_PGG/Identity_task_ALT.html:25 FL_PGG/Identity_task_ALT.html:60
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:95 FL_PGG/__init__.py:107
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:128 FL_PGG/__init__.py:137
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:158
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:90 FL_PGG/__init__.py:102
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:123 FL_PGG/__init__.py:132
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:153
 msgid "transparent."
 msgstr ".شفاف"
 
 #: FL_PGG/Identity_task.html:44 FL_PGG/Identity_task.html:76
 #: FL_PGG/Identity_task_ALT.html:33 FL_PGG/Identity_task_ALT.html:68
-#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:97 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:130 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:83 FL_PGG/__init__.py:92 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:113 FL_PGG/__init__.py:125 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:146 FL_PGG/__init__.py:155
 msgid "salty."
 msgstr ".مالح"
 
 #: FL_PGG/Identity_task.html:45 FL_PGG/Identity_task.html:77
 #: FL_PGG/Identity_task_ALT.html:41 FL_PGG/Identity_task_ALT.html:76
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "go away."
-msgstr " يزيل"
+msgstr ".يزيل"
 
 #: FL_PGG/Identity_task.html:48 FL_PGG/Identity_task.html:80
 #: FL_PGG/Identity_task_ALT.html:18 FL_PGG/Identity_task_ALT.html:53
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "cold or"
 msgstr "باردا او"
 
@@ -681,33 +681,33 @@ msgstr "باردا او"
 #: FL_PGG/Identity_task.html:81 FL_PGG/Identity_task.html:82
 #: FL_PGG/Identity_task_ALT.html:26 FL_PGG/Identity_task_ALT.html:34
 #: FL_PGG/Identity_task_ALT.html:61 FL_PGG/Identity_task_ALT.html:69
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
-#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
-#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
-#: FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:83 FL_PGG/__init__.py:90
+#: FL_PGG/__init__.py:92 FL_PGG/__init__.py:102 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:113 FL_PGG/__init__.py:123
+#: FL_PGG/__init__.py:125 FL_PGG/__init__.py:132 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:146 FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:155
 msgid "be"
 msgstr "يكون"
 
 #: FL_PGG/Identity_task.html:51 FL_PGG/Identity_task.html:83
 #: FL_PGG/Identity_task_ALT.html:42 FL_PGG/Identity_task_ALT.html:77
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "thirst"
-msgstr " .العطش"
+msgstr "العطش"
 
 #: FL_PGG/Identity_task.html:68 FL_PGG/Identity_task.html:69
 #: FL_PGG/Identity_task.html:70 FL_PGG/Identity_task.html:71
 #: FL_PGG/Identity_task_ALT.html:51 FL_PGG/Identity_task_ALT.html:59
 #: FL_PGG/Identity_task_ALT.html:67 FL_PGG/Identity_task_ALT.html:75
-#: FL_PGG/__init__.py:93 FL_PGG/__init__.py:95 FL_PGG/__init__.py:97
-#: FL_PGG/__init__.py:99 FL_PGG/__init__.py:114 FL_PGG/__init__.py:116
-#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:120 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:137 FL_PGG/__init__.py:139 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:156 FL_PGG/__init__.py:158 FL_PGG/__init__.py:160
-#: FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:90 FL_PGG/__init__.py:92
+#: FL_PGG/__init__.py:94 FL_PGG/__init__.py:109 FL_PGG/__init__.py:111
+#: FL_PGG/__init__.py:113 FL_PGG/__init__.py:115 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:132 FL_PGG/__init__.py:134 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:153 FL_PGG/__init__.py:155
+#: FL_PGG/__init__.py:157
 msgid "Water"
 msgstr "الماء"
 
@@ -724,8 +724,8 @@ msgid ""
 "If you do a mistake just try again. When all words are correctly "
 "positioned you will continue to the next page."
 msgstr ""
-"إذا أخطأت ، حاول مرة أخرى. عندما تكون كل الكلمات صحيحة في موضعها ، ستنتقل"
-" .إلى الصفحة التالية"
+"إذا أخطأت ، حاول مرة أخرى. عندما تكون كل الكلمات صحيحة.في موضعها ، ستنتقل"
+" إلى الصفحة التالية "
 
 #: FL_PGG/Identity_task_feedback.html:2
 msgid "Task: results"
@@ -761,11 +761,11 @@ msgstr ".احسنت ! فيما يلي بعض العبارات التي تصف ا
 
 #: FL_PGG/Identity_task_feedback.html:35
 msgid "Water can be cold or warm."
-msgstr ".يمكن أن يكون الماء باردًا أو ساخنًا "
+msgstr ".يمكن أن يكون الماء باردًا أو ساخنًا."
 
 #: FL_PGG/Identity_task_feedback.html:38
 msgid "Water can be transparent."
-msgstr ".يمكن أن يكون الماء شفافا"
+msgstr ".يمكن أن تكون الماء شفافا"
 
 #: FL_PGG/Identity_task_feedback.html:41
 msgid "Water can be salty."
@@ -782,25 +782,25 @@ msgid ""
 "prohibited, and if you talk with one of the other participants, you will "
 "be asked to leave the room."
 msgstr ""
-" .نشكركم مرة أخرى على حضوركم اليوم. سنلعب الآن لعبة. يرجى الجلوس على مكتبك"
+"أشكركم مرة أخرى على حضوركم اليوم. سنلعب الآن لعبة. يرجى الجلوس على مكتبك."
 " اللعبة يجب أن تلعب في صمت ؛ الحديث ممنوع ، وإذا تحدثت مع أحد المشاركين "
-" .الآخرين. سيُطلب منك مغادرة الغرفة"
+"الآخرين  .سيُطلب منك مغادرة الغرفة"
 
 #: FL_PGG/Instructions.html:9
 msgid ""
 "In this game, the participants present today will be split in groups of "
 "<i>four participants each.</i>"
 msgstr ""
-"في هذه اللعبة ، سيتم تقسيم المشاركين الحاضرين اليوم إلى مجموعات من "
-"</ i>.أربعة مشاركين لكل منهم </ i>"
+"في هذه اللعبة ، سيتم تقسيم المشاركين الحاضرين اليوم إلى مجموعات من<i> "
+".أربعة مشاركين لكل منهم </ i>"
 
 #: FL_PGG/Instructions.html:13
 msgid ""
 "Each of you will be asked to make a decision that will influence both "
 "your earnings, and the earnings of the other members of your group."
 msgstr ""
-"سيتعين على كل منكما اتخاذ قرار من شأنه التأثير على كل من أرباحك ، ومكاسب "
-" .الأعضاء الآخرين في مجموعتك"
+"سيتعين على كل منكما اتخاذ قرار من شأنه التأثير على كل منأرباحك ، ومكاسب "
+"الأعضاء الآخرين في حزبك"
 
 #: FL_PGG/Instructions.html:17 FL_PGG/Instructions2.html:9
 msgid "You and the other members of your group will receive"
@@ -813,9 +813,9 @@ msgid ""
 "all of them for yourself. The tokens that you keep for yourself will "
 "remain with you and will contribute to your earnings."
 msgstr ""
-"ستتاح لك ولكل عضو في مجموعتك الفرصة لوضع العدد الذي تريده من هذه العمل "
-" .المميزة في حساب مشترك ، أو للاحتفاظ بالكل أو جزء من العمل الرمزية لنفسك"
-" .الرموز التي تحتفظ بها لنفسك ستبقى معك وستساهم في ارباحك"
+"ستتاح لك ولكل عضو في مجموعتك الفرصة لوضعالعدد الذي تريده من هذه الرموز "
+"المميزة في حساب مشترك ، أو للاحتفاظ بالكل أو جزء منالرموز المميزة لنفسك. "
+"الرموز التي تحتفظ بها لنفسك.سيبقى معك وستساهم في ارباحك"
 
 #: FL_PGG/Instructions.html:23
 msgid ""
@@ -827,19 +827,19 @@ msgid ""
 "receive the same share regardless of the amount they put on the common "
 "account."
 msgstr ""
-"بعد أن يقرر جميع أعضاء مجموعتك مقدار مساهمتهم في الحساب المشترك ، سيقوم "
-"النظام بتعبئة الحساب المشترك لمجموعتك بنفس المبلغ الذي تم وضعه في الحساب "
-"المشترك ، بحيث تمت مضاعفة المبلغ. سيتم بعد ذلك تقاسم هذا المبلغ بالتساوي "
-"بين اعضاء مجموعتك. كل عضو في مجموعتك ، بما في ذلك أنت سيحصل على نفس الحصة ،"
-" .بغض النظر عن المبلغ الذي وضعه في الحساب المشترك"
+"بعد أن يقرر جميع أعضاء مجموعتك مقدار مساهمتهمإلى الحساب المشترك ، سيقوم "
+"النظام بتعبئة الحساب المشترك لمجموعتكبنفس المبلغ الذي تم وضعه في الحساب "
+"المشترك ، بحيثتمت مضاعفة المبلغ. سيتم بعد ذلك تقاسم هذا المبلغ بالتساوي "
+"بينأعضاء مجموعتك. كل عضو في مجموعتك ، بما في ذلك أنتسيحصل على نفس الحصة ،"
+" بغض النظر عن المبلغ الذي وضعه في.الحساب المشترك"
 
 #: FL_PGG/Instructions.html:29
 msgid ""
 "Before we proceed with the real decision, we will give you some examples "
 "that illustrate the possible outcomes of that game."
 msgstr ""
-"قبل أن نصل إلى القرار الحقيقي ، سنقدم لك بعض الأمثلة التي توضح النتائج "
-" .المحتملة لهذه اللعبة"
+"قبل أن نصل إلى القرار الحقيقي ، سنقدم لك بعض الأمثلة.التي توضح النتائج "
+"المحتملة لهذه اللعبة"
 
 #: FL_PGG/Instructions.html:34
 msgid "If everyone puts everything in the common account,"
@@ -867,17 +867,15 @@ msgid ""
 "common account, thus leaving no money to be divided equally. Each "
 "participant will then earn their initial endowment of 100 or 200 tokens."
 msgstr ""
-"إذا احتفظ الجميع بالعمل الرمزية لأنفسهم ، فلن يكون هناك أموال في الحساب "
-"المشترك الذي لا يترك أي أموال يتم تقاسمها بالتساوي. سيحصل كل مشارك بعد "
-" .ذلك علي المبلغ الأولي البالغ 100 أو 200 عملة رمزية"
+"إذا احتفظ الجميع بالعمل الرمزية لأنفسهم ، فلن يكون هناك أموال فيالحساب "
+"المشترك الذي لا يترك أي أموال يتم تقاسمها بالتساوي. كلسيحصل المشارك بعد "
+"ذلك على وقفه الأولي البالغ 100 أو 200 عملة رمزية"
 
 #: FL_PGG/Instructions.html:44
 msgid ""
 "Remember that you can put any amount between 0 and 100 or 200 tokens in "
 "the common account."
-msgstr ""
-"تذكر أنه يمكنك وضع أي مبلغ بين 0 و 100 أو 200 عملة رمزية في "
-"الحساب المشترك"
+msgstr "تذكر أنه يمكنك وضع أي مبلغ بين 0 و 100 أو 200 عملة رمزية في.الحساب المشترك"
 
 #: FL_PGG/Instructions.html:49
 msgid ""
@@ -885,16 +883,16 @@ msgid ""
 "Please go to the next page and fill the questionnaire. An enumerator will"
 " assist you in case of need."
 msgstr ""
-"الآن سنطرح عليك بعض الأسئلة لمساعدتك على فهم اللعبة. يرجى الانتقال إلى "
-" .الصفحة التالية وإكمال الاستبيان. سيقوم الباحث بمساعدتك عند الحاجة"
+"الآن سنطرح عليك بعض الأسئلة لمساعدتك على فهم اللعبةيرجى الانتقال إلى "
+"الصفحة التالية وإكمال الاستبيان. سيقوم الباحت.بمساعدتك عند الحاجة"
 
 #: FL_PGG/Instructions2.html:5
 msgid ""
 "Now we will play a second round of this game. This round will follow the "
 "same rules of the previous one."
 msgstr ""
-"الآن سنلعب دورًا ثانيًا من هذه اللعبة. هذه الجولة ستتبع نفس القواعد "
-" .السابقة"
+"الآن سنلعب دورًا ثانيًا من هذه اللعبة. هذه الجولة ستتبع.نفس القواعد "
+"السابقة"
 
 #: FL_PGG/Instructions2.html:11
 msgid ""
@@ -904,10 +902,10 @@ msgid ""
 "previous round will not be affected. The tokens that you keep for "
 "yourself will remain with you and contribute to your final earnings."
 msgstr ""
-"ستتاح لك ولكل عضو من مجموعتك الفرصة لوضع الكثير من هذه العمل الرمزية كما يحلو لك "
-"في حساب مشترك ، أو للاحتفاظ بكاملها أو جزء منها لنفسك. هذه رموز جديدة "
-"ومكاسبك لن تتأثر على الجولة السابقة. العمل الرمزية التي تحتفظ بها ستبقى معك "
-" .وستساهم في أرباحك النهائية"
+"ستتاح لك ولكل عضو في مجموعتك الفرصة لوضع الكثيرمن هذه الرموز كما يحلو لك "
+"في حساب مشترك ، أو للاحتفاظ بكاملها أو جزء منهالنفسك. هذه رموز جديدة "
+"ومكاسبلن تتأثر الجولة السابقة. الرموز المميزة التي تحتفظ بها .ستبقى معك "
+"وستساهم في أرباحك النهائية"
 
 #: FL_PGG/Instructions2.html:15
 msgid ""
@@ -919,12 +917,12 @@ msgid ""
 "receive the same share <b>regardless of the amount they put on the common"
 " account.</b> "
 msgstr ""
-"بعد أن يختار جميع أعضاء مجموعتك مقدار مساهمتهم في الحساب المشترك ، سيقوم "
-"النظام بإكمال الحساب المشترك لمجموعتك بنفس المبلغ المدفوع في الحساب "
-"المشترك ، بحيث تمت مضاعفة المبلغ الاجمالي. سيتم بعد ذلك تقاسم هذا  المبلغ "
-"بالتساوي بين أعضاء مجموعتك. كل عضو في مجموعتك ، بما فيهم أنت سيتلقى نفس "
-" بغض النظر عن المبلغ الذي يضعه في  </b> الحصة"
-" <b>.الحساب المشترك"
+"بعد أن يختار جميع أعضاء مجموعتك مقدار مساهمتهم فيالحساب المشترك ، سيقوم "
+"النظام بإكمال الحساب المشترك لمجموعتكبنفس المبلغ المدفوع في الحساب "
+"المشترك ، بحيثتمت مضاعفة إجمالي المبلغ. سيتم بعد ذلك تقاسم هذا المبلغ "
+"بالتساوي بينأعضاء مجموعتك. كل عضو في مجموعتك ، بما فيهم أنت سيتلقى نفس "
+"الحصة <b> بغض النظر عن المبلغ الذي يضعه في الحساب </b>  .التي وضعت في "
+"الحساب المشترك"
 
 #: FL_PGG/Instructions2.html:20
 msgid ""
@@ -935,9 +933,9 @@ msgid ""
 "the enumerators."
 msgstr ""
 "مرة أخرى ، ستقرر الاحتفاظ بعملك الرمزية أو وضعها ،أو جزء منها ، في الحساب"
-" المشترك. بمجرد أن يأخذ الجميع القرار ، سنحصي العمل الرمزية وسنبلغ النتيجة"
-" إلى الكل. مرة أخرى ، لن يتم إبلاغ القرارات الفردية إلى أي شخص من "
-" .طرف الباحثين"
+" المشترك. بمجرد أن يأخذ الجميعالقرار ، سنحصي العمل الرمزية وسنبلغ النتيجة"
+" إلىالكل. مرة أخرى ، لن يتم إبلاغ القرارات الفردية إلى أي شخص من "
+"طرف.الباحثين"
 
 #: FL_PGG/Instructions2.html:30
 msgid ""
@@ -945,16 +943,16 @@ msgid ""
 "remaining 3 participants of your group. Results from this task will not "
 "affect your earnings. Instructions follow."
 msgstr ""
-" .قبل اتخاذ قرارك ، ستؤدي مهمة جماعية مع ثلاثة مشاركين آخرين في مجموعتك"
-" .نتائج هذه المهمة لن تؤثر على أرباحك. اتبع التعليمات "
+"قبل اتخاذ قرارك ، ستؤدي مهمة جماعية معثلاثة مشاركين آخرين في مجموعتك. "
+"نتائج هذه المهمة لا تعمل.تؤثر على أرباحك. اتبع التعليمات\""
 
 #: FL_PGG/Instructions2.html:35
 msgid ""
 "Before making your decision, you will perform a task. Results from this "
 "task will not affect your earnings. Instructions follow."
 msgstr ""
-"قبل أن تتخذ قرارك ، ستؤدي مهمة. نتائج هذه المهمة لن تؤثر على دخلك. اتبع "
-" .التعليمات"
+"قبل أن تتخذ قرارك ، ستؤدي مهمة. نتائج هذا.المهمة لن تؤثر على دخلك. اتبع "
+"التعليمات"
 
 #: FL_PGG/MyResultsWaitPage.html:5
 msgid " Please Wait"
@@ -964,7 +962,7 @@ msgstr "المرجو الانتظار"
 msgid ""
 "Now we will play the game. The result will be communicated to you at the "
 "end of the session."
-msgstr " .الآن سنلعب المباراة. سيتم إبلاغك بالنتيجة في نهاية الجلسة"
+msgstr "الآن سنلعب المباراة. سيتم إبلاغك بالنتيجة في.نهاية الجلسة"
 
 #: FL_PGG/Pregame.html:14
 msgid ""
@@ -975,19 +973,19 @@ msgid ""
 "your and all members of your group. The result will be communicated to "
 "you at the end of the session."
 msgstr ""
-"بمجرد أن يتخذ كل فرد في الغرفة قراره ، سنحسب العدد الإجمالي للرموز "
-"الموضوعة في الحساب المشترك ، سوف يقوم العدادون بأضافة نفس المبلغ الذي تم "
-"وضعه في الحساب المشترك لمجموعتك ، بحيت أن يتضاعف المبلغ. سيتم تقاسم هذا "
-"المبلغ بالتساوي بينك أنت وجميع أعضاء مجموعتك. سيتم إبلاغك بالنتيجة في "
-" .نهاية الجلسة"
+"بمجرد أن يتخذ كل فرد في الغرفة قراره ، سنحسبالعدد الإجمالي للرموز "
+"الموضوعة في الحساب المشترك ، سوف يقوم العدادونبأضافت نفس المبلغ الذي تم "
+"وضعه في الحساب المشترك لمجموعتك ، بحيتأن يتضاعف المبلغ. سيتم تقاسم هذا "
+"المبلغ بالتساوي بينكأنت وجميع أعضاء مجموعتك. سيتم إبلاغك بالنتيجة.في "
+"نهاية الجلسة"
 
 #: FL_PGG/Pregame.html:19
 msgid ""
 "Now we will play for this round: please go to the next page. An "
 "enumerator will assist you."
 msgstr ""
-"سنلعب الآن في هذه الجولة: يرجى الانتقال إلى الصفحة التالية. الباحث سوف "
-" .يساعدك"
+"سنلعب الآن في هذه الجولة: يرجى الانتقال إلى الصفحة التالية..الباحث سوف "
+"يساعدك"
 
 #: FL_PGG/Questionnaire1.html:12
 msgid ""
@@ -998,16 +996,16 @@ msgid ""
 "clarifications."
 msgstr ""
 "الآن سنطرح عليك بعض الأسئلة لمساعدتك في فهم اللعبة. إذاأنت تعطي إجابة "
-"خاطئة ، ستتلقى رسالة من النظام يخبرك بوجود خطأ في طريقة إجابتك. إذا كان "
+"خاطئة ، ستتلقى رسالة من النظاميخبرك بوجود خطأ في طريقة إجابتك. إذا كان "
 "الأمر كذلك يمكنك إما المحاولة مرة أخرى أو الاتصال بالباحث للحصول على "
-" .المزيد من التوضيحات"
+"المزيد.من التوضيحات"
 
 #: FL_PGG/Questionnaire1.html:19
 msgid ""
 "How much will your total earnings be if you put nothing into the common "
 "account and the other members of your group put 400 in total?"
 msgstr ""
-"ما هو المبلغ الإجمالي لأرباحك إذا لم تضع أي شيء في الحساب المشترك وأن يرسل"
+"ما هو المبلغ الإجمالي لأرباحك إذا لم تضع أي شيء في الحساب المشتركوأن يرسل"
 " الأعضاء الآخرون في مجموعتك 400 إجمالاً؟"
 
 #: FL_PGG/Questionnaire1.html:23
@@ -1016,8 +1014,8 @@ msgid ""
 "members, how much will each member of the group earn from the common "
 "account after the tokens are doubled?"
 msgstr ""
-"إذا تم وضع 600 عملة رمزية في الحساب المشترك بواسطتك أنت والأعضاء من "
-"مجموعتك ، كم سيكسب كل عضو في المجموعة من الحساب بعد مضاعفة العمل الرمزية؟"
+"إذا تم وضع 600 عملة رمزية في الحساب المشترك بواسطتك أنت والأعضاءمن "
+"مجموعتك ، كم سيكسب كل عضو في المجموعة من الحساببعد مضاعفة العمل الرمزية؟"
 
 #: FL_PGG/Questionnaire2.html:13 FL_risk/Questionnaire.html:14
 msgid ""
@@ -1037,7 +1035,7 @@ msgstr "دور"
 
 #: FL_PGG/Results.html:16
 msgid "Your endowment"
-msgstr "مساهمتك"
+msgstr "هبتك"
 
 #: FL_PGG/Results.html:17
 msgid "Your contribution"
@@ -1051,16 +1049,16 @@ msgstr "مجموع المساهمات في الحساب المشترك"
 msgid "Your payoff"
 msgstr "ربحك"
 
-#: FL_PGG/__init__.py:57
+#: FL_PGG/__init__.py:52
 msgid "Fairly "
 msgstr "إلى حد كاف"
 
-#: FL_PGG/__init__.py:73 FL_risk/__init__.py:61 FL_time/__init__.py:62
+#: FL_PGG/__init__.py:68 FL_risk/__init__.py:61 FL_time/__init__.py:62
 msgid "Fairly well"
 msgstr "لاباس به"
 
-#: FL_PGG/__init__.py:344 FL_PGG/__init__.py:346 FL_PGG/__init__.py:348
-#: FL_PGG/__init__.py:350
+#: FL_PGG/__init__.py:347 FL_PGG/__init__.py:349 FL_PGG/__init__.py:351
+#: FL_PGG/__init__.py:353
 msgid "The sequence is not correct, please Retry"
 msgstr "التسلسل غير صحيح ، يرجى المحاولة مرة أخرى"
 
@@ -1076,7 +1074,12 @@ msgstr " <b>المستقبل</b> سنلعب الان لعبة بصفتك"
 msgid ""
 "Please report your choice in correspondence to each possible choice of "
 "the other"
-msgstr " .يرجى الإشارة إلى خيار ك بالتطابق مع كل خيار محتمل للأخر"
+msgstr "يرجى الإشارة إلى اختيارك في المراسلات مع كل خيار محتمل لـالأخرى"
+
+#: FL_TG/Choice_receiver.html:17 FL_payments/Results_1.html:143
+#: FL_payments/Results_2.html:102
+msgid "Choice #"
+msgstr "خيار #"
 
 #: FL_TG/Choice_receiver.html:18
 msgid "When the other sends"
@@ -1105,7 +1108,7 @@ msgstr " <b> المرسل </b> ستلعب الان بصفتك"
 
 #: FL_TG/Choice_sender.html:14 FL_TG/Choice_sender_inst.html:13
 msgid "How much of your endowment of"
-msgstr "كم من مساهماتك"
+msgstr "كم من هباتك"
 
 #: FL_TG/Choice_sender.html:16
 msgid "do you send to the Receiver?"
@@ -1117,7 +1120,7 @@ msgstr ".يمكنك فقط اختيار خيار واحد"
 
 #: FL_TG/Choice_sender_inst.html:11
 msgid " You are choosing as <b>Sender</b>"
-msgstr " <b> كالمرسل </b> ستختار "
+msgstr " <b> المرسل </b> ستختار "
 
 #: FL_TG/Final_questionnaire_inst.html:16
 msgid "Final Questionnaire"
@@ -1151,7 +1154,7 @@ msgstr "التمويل الصغير"
 
 #: FL_TG/Final_questionnaire_inst.html:75
 msgid "2. Did you decide the amount of tokens you sent to the"
-msgstr "2. هل قررت مقد ار الرموز التي أرسلتها إلى"
+msgstr "2. هل قررت مقدار الرموز التي أرسلتها إلى"
 
 #: FL_TG/Final_questionnaire_inst.html:76
 msgid "based on the expectation of a larger donation in return from the"
@@ -1183,7 +1186,7 @@ msgid ""
 "following questions."
 msgstr ""
 "شكرًا لك على لعب هذه اللعبة. قبل أن نواصل ، نريد أن نسألك بعض الأسئلة "
-" :المتعلقة باللعبة التي لعبتها. الرجاء الإجابة على الأسئلة التالية"
+"المتعلقة باللعبة التي لعبتها. الرجاء الإجابة على.الأسئلة التالية"
 
 #: FL_TG/Final_questionnaire_receiver.html:22
 msgid "1. How much do you think the Sender will actually send?"
@@ -1193,7 +1196,7 @@ msgstr "1. كم تعتقد أن المرسل سيرسل بالفعل؟"
 msgid ""
 "2. Overall, do you think that the amounts you returned to the Sender were"
 " fair?"
-msgstr "2. بشكل عام ، هل تعتقد أن المبالغ التي أعدت إلى المرسل كانت عادلة؟"
+msgstr "2. بشكل عام ، هل تعتقد أن المبالغ التي أعيدت إلى المرسل كانت عادلة؟"
 
 #: FL_TG/Final_questionnaire_sender.html:16
 msgid "Questionnaire (Sender)"
@@ -1205,7 +1208,7 @@ msgid ""
 "expectation of a larger donation in return from your peer/Receiver, or "
 "independently from this?"
 msgstr ""
-"1. هل قررت المبلغ الذي أرسلته إلى المستلم بناءً على تتوقع تبرع أكبر في "
+"1. هل قررت المبلغ الذي أرسلته إلى المستلم بناءً علىه لتتوقع تبرع أكبر في "
 "المقابل من نظيرك / متلقيك ، أوبغض النظر عن ذلك؟"
 
 #: FL_TG/Final_questionnaire_sender.html:27
@@ -1234,11 +1237,10 @@ msgid ""
 "these tokens (none, some or all of them) to send back. This in addition "
 "to your initial endowment of"
 msgstr ""
-"عند اللعب .<b> المتلقي </b>  تشير هذه التعليمات بصفتك مستقبل "
-"ستحصل على ثلاثة اضعاف العمل الرمزية المرسلة من طرف"
-" المرسل الذي يلعب معك و"
-" .تحتاج  إلى تحديد أي جزء منها سيتم إرجاع تلك الرموز (لا شيء ، بعض أو كل) "
-" .هذا بالإضافة إلى الرموز الأولي الخاصة بك"
+"عند اللعب .<b> المتلقي </b>  تشير هذه التعليمات بصفتك مستقبل ، ستتلقى "
+"ثلاثة أضعاف الرموز التي تم إرسالها بواسطةالمرسل الذي تم إقرانك به ، "
+"وتحتاج إلى تحديد أي جزء منه سيتم إرجاع تلك الرموز (لا شيء ، بعض أو كل). "
+"هذا بالإضافة إلى الرموز الأولي الخاصة بك"
 
 #: FL_TG/Instructions_receiver.html:11
 msgid ""
@@ -1248,11 +1250,11 @@ msgid ""
 "(from 0 to 150), one for 75 (from 0 to 225), and one for 100 (from 0 to "
 "300). When the Sender chooses 0, you are forced to return 0."
 msgstr ""
-"بتعبير أدق ، ستختار المبلغ الذي تريد إرجاعه لأي خيار محتمل من المرسل ، قبل"
-" معرفة الخيار الحقيقي. في المجموع ، ستفعل أربعة اختيارات ، واحد مقابل "
+"بتعبير أدق ، ستختار المبلغ الذي تريد إرجاعه لأي خيار محتمل من المرسل ، "
+"قبل معرفة الخيار الحقيقي. في المجموع ، ستفعل أربعة اختيارات ، واحد مقابل "
 "زيادة قدرها 25 (من 0 إلى 75) ، وواحد مقابل 50(من 0 إلى 150) ، وواحد مقابل"
 " 75 (من 0 إلى 225) ، وواحد مقابل 100 (من 0 إلى300). عندما يختار المرسل 0 "
-"  .تضطر إلى اختيار 0"
+"، تضطر إلى اختيار 0"
 
 #: FL_TG/Instructions_receiver.html:16
 msgid ""
@@ -1263,7 +1265,7 @@ msgid ""
 msgstr ""
 "عدد الرموز التي قررت الاحتفاظ بها لنفسك ستساهم في أرباحك النهائية في هذه "
 "اللعبة إذا تم تعيينك دور المستلم في أغراض الدفع. هذا بالإضافة إلى الوقف "
-" .الخاص بك من العملة الرمزية الأولي"
+"الخاص بك.من العملة الرمزية الأولي"
 
 #: FL_TG/Instructions_sender.html:2
 msgid "Instructions Sender"
@@ -1273,7 +1275,7 @@ msgstr "إرشادات المرسل"
 msgid ""
 "These intructions refer to the <b>Sender</b>. When you will be playing as"
 " a Sender, you will decide what portion of your"
-msgstr "تشير هذه التعليمات إلى المرسل. عندما تلعب كمرسل ، ستقرر أي جزء من"
+msgstr "تشير هذه التعليمات إلى المرسل\". عندما تلعب كمرسل ، ستقرر أي جزء من"
 
 #: FL_TG/Instructions_sender.html:7
 msgid ""
@@ -1285,25 +1287,25 @@ msgid ""
 "Receiver."
 msgstr ""
 "لإرسالها إلى الشخص الذي تمت مطابقتك معه ، وهو في هذه الحالةالمستلم. على "
-"وجه التحديد ، يمكنك اختيار إرسال 0 أو 25 أو 50 أو 75 أو 100 رموز للمستلم"
-" قرارك خاص ولن يعرفه أحدمهم كا ن المبلغ الذي تقرر منحه للشخص الذي كنت مطابق معه "
-" .قبل ارسالها الى المستقبل </i>.مطابق ستضاعف ثلاثة مرات</i>"
+"وجه التحديد ، يمكنك اختيار إرسال 0 أو 25 أو 50 أو 75 أو 100.رموز للمستلم."
+" قرارك خاص ولن يعرفه أحدمهما كان المبلغ الذي تقرر منحه للشخص الذي كنت معه"
+" قبل ارسالها الى </ i> .مطابق ستضاعف ثلاثة مرات"
 
 #: FL_TG/Instructions_sender.html:12
 msgid ""
 "The Receiver you have been paired with can decide to send back some, all,"
 " or none of this amount to you."
 msgstr ""
-"قد يختار المتلقي الذي تم اقرانك به ان يرسل كل او لاشيء من "
-" .هذا المبالغ لك"
+"متلقي، قد يختار المتلقي الذي تم إقرانك به إعادة بعضه أو كله إليك ،.أو لا "
+"شيء من هذه المبالغ"
 
 #: FL_TG/Instructions_sender.html:16
 msgid ""
 "If you are assigned to the role of Sender for the payment, you will earn "
 "the tokens you have kept from your initial endowment of"
 msgstr ""
-"إذا تم تعيين دور المرسل للدفع ، فستكسب الرموز التي احتفظت بها من المساهمة "
-".الأولي الخاص بك"
+"إذا تم تعيين دور المرسل للدفع ، فستكسب الرموز التي احتفظت بها من الوقف "
+"الأولي الخاص بك"
 
 #: FL_TG/Instructions_sender.html:17
 msgid "plus the tokens returned to you by the Receiver you are paired with."
@@ -1315,8 +1317,8 @@ msgid ""
 "follow the same rules of the previous one, with the difference that now "
 "you will play only as Sender, while a"
 msgstr ""
-"ستلعب الآن مجموعة متنوعة من اللعبة التي تم لعبها سابقًا. هذا الدور "
-"سوف يتبع نفس القواعد السابقة ، ما عدا الآن ستلعب فقط كمرسل ، بينما"
+"ستلعب الآن مجموعة متنوعة من اللعبة التي تم لعبها سابقًا. هذا الدور سوف "
+"تتبع نفس القواعد السابقة ، ما عدا الآن ستلعب فقط كمرسل ، بينما"
 
 #: FL_TG/Instructions_sender_inst.html:18
 msgid "will take part in the game as the Receiver."
@@ -1327,16 +1329,14 @@ msgid ""
 "As before, the amount you will decide to give  will be <i>tripled</i> "
 "before it is passed on to the Receiver."
 msgstr ""
-" </i>سيضاعف ثلاث مرات</i> كما من قبل المبلغ الذي قررت التبرع به"
-" .قبل ارساله إلى المتلقي"
+" </i>سيضاعف ثلاث مرات</i> كما من قبل المبلغ الذي قررت التبرع به.قبل نقلها"
+" إلى المتلقي"
 
 #: FL_TG/Instructions_sender_inst.html:20
 msgid ""
 "Only one of the choices of the participants made as senders will be "
 "finally paid to the"
-msgstr ""
-"فقط خيار واحد من طرف المشاركون الذين شاركوا كمرسلين"
-" .سوف يتم دفعه في النهاية"
+msgstr "سيكون خيارًا واحدًا فقط من اختيارات المشاركين كمرسلين دفعت أخيرا إلى"
 
 #: FL_TG/Instructions_sender_inst.html:29
 msgid ""
@@ -1344,9 +1344,9 @@ msgid ""
 "end of today session, the system will tell you the amount of tokens you "
 "will be paid at the end of the game."
 msgstr ""
-" .هذه بالإضافة إلى العمل الرمزية التي تم تلقيها في الألعاب السابقة "
-"بعد نهاية جلسة اليوم النظام سيخبرك بمجموع العمل الرمزية"
-" .التي ستدفع لك بعد نهاية اللعبة"
+"هذه بالإضافة إلى العمل الرمزية التي تم تلقيها في الألعاب السابقةنهاية "
+"جلسة اليوم ، سيخبرك النظام بعدد العمل الرمزية التي تستخدمهاستدفع في نهاية"
+" المباراة\""
 
 #: FL_TG/Instructions_welcome.html:4
 msgid "Welcome"
@@ -1359,9 +1359,9 @@ msgid ""
 "session. Please remember not to speak aloud, not to communicate with "
 "other participants, and not to move from your desk."
 msgstr ""
-"يتم لعب هذه اللعبة في أزواج من الأفراد. ولن نخبرك بمن تم إقرانك معه ، سواء"
-" أثناء أو بعد نهاية جلسة اليوم. تذكر ألا تتحدث بصوت عالٍ ، ولا تتواصل "
-" .مع المشاركين الآخرين ، وعدم الانتقال من مكتبك"
+"يتم لعب هذه اللعبة في أزواج من الأفراد. ولن نخبرك بمن تم إقرانك معه ، "
+"سواء أثناء أو بعد نهايةجلسة اليوم. تذكر ألا تتحدث بصوت عالٍ ، ولا تتواصل "
+"مع المشاركين الآخرين ، وعدم الانتقال من مكتبك\""
 
 #: FL_TG/Instructions_welcome.html:11
 msgid "Each of you has"
@@ -1374,9 +1374,9 @@ msgid ""
 "earn some tokens based on their decision and on the decision of the "
 "person they have been paired with."
 msgstr ""
-"كمساهمة اولية. بالاضافة الى مبلغ المشاركة و العمل الرمزية التي من المحتمل أن تربحها "
-"في ألعاب أخرى. يستطيع كل واحد منكم ان يكسب الرموز وفقًا لقرارك وقرار  الشخص "
-" .الذي تم إقرانك معه"
+"كوقف اولي. بالاضافة الى المشاركة\"و العمل الرمزية التي من المحتمل أن بها "
+"في ألعاب أخرى. يستطيع كل واحد منكماكسب الرموز وفقًا لقرارك وقرار.الشخص "
+"الذي تم إقرانك معه"
 
 #: FL_TG/Instructions_welcome.html:17
 msgid ""
@@ -1386,10 +1386,10 @@ msgid ""
 " your choices will be matched with those of another participant randomly "
 "assigned to the opposite role."
 msgstr ""
-"انت <i> المرسل </ i> و <i> المتلقي </ i> :يوجد في هذه اللعبة دوران تلعب  "
-"ستلعب كلا الدورين. في نهاية التجربة ، لأغراض الدفع فقط سيعينك النظام بشكل عشوائي"
-" لأحد الدورين وستتم مقارنة اختياراتك بخيارات مشارك آخرتم تعيينه بشكل "
-" .عشوائي إلى الدور المقابل"
+"انت <i> المرسل </ i> و <i> المتلقي </ i> :يوجد في هذه اللعبة دوران تلعب "
+"كلا الدورين. في نهاية التجربة ، لأغراض الدفع فقط سيعينك النظام بشكل "
+"عشوائي لأحد الدورين وستتم مقارنة اختياراتك بخيارات مشارك آخرتم تعيينه "
+"بشكل عشوائي إلى الدور المقابل\""
 
 #: FL_TG/Questionnaire_1.html:19
 msgid ""
@@ -1399,10 +1399,10 @@ msgid ""
 " was a mistake in the way you answered. If this is the case, you can "
 "either try again or call the enumerator for further clarifications."
 msgstr ""
-"قبل أن تلعب بشكل حقيقي ، سنطلب منك إجراء بعض العمليات الحسابية من أجل التأكد"
-" من أنك تفهم التعليمات. إذا أعطيت اجابة خاطئة، ستتلقى رسالة من النظام "
-"يخبرك بحدوث خطأ في طريقة إجابتك. إذا كان الأمر كذلك ، يمكنك المحاولة مرة "
-" .أخرى أو اتصل بالباحث للمزيد من التوضيح"
+"قبل أن تلعب بشكل حقيقي ، سنطلب منك إجراء بعض العمليات الحسابية من أجل "
+"التأكد من أنك تفهم التعليمات. إذا أعطيت اجابةخاطئة، ستتلقى رسالة من "
+"النظام يخبرك بحدوث خطأ في طريقة إجابتك. إذا كان الأمر كذلك ، "
+"يمكنك.المحاولة مرة أخرى أو اتصل بالباحث للمزيد من التوضيح"
 
 #: FL_TG/Questionnaire_1.html:27
 msgid "1) You are playing as a Sender; you have"
@@ -1429,8 +1429,8 @@ msgid ""
 "The Sender decides to send 25 tokens to you. You decide to send back to "
 "the Sender no tokens."
 msgstr ""
-"قرر المرسل إرسال 25 عملة رمزية إليك. قررت  عدم إعادة الإرسال إلى المرسل "
-" .اية عملة رمزية"
+"قرر المرسل إرسال 25 عملة رمزية إليك. قررت  عدم إعادة الإرسال إلى.المرسل "
+"اية عملة رمزية"
 
 #: FL_TG/Questionnaire_1.html:49
 msgid "2a) How many tokens in total will you have at the end of the experiment?"
@@ -1470,7 +1470,7 @@ msgstr "المرسل (أنت) ارسل"
 
 #: FL_TG/Results.html:21 FL_payments/Results_1.html:54
 msgid ": the other received"
-msgstr " :تلقى الآخر"
+msgstr " تلقى الآخر :"
 
 #: FL_TG/Results.html:23
 msgid "The receiver (the other) sent back"
@@ -1482,7 +1482,7 @@ msgstr "المرسل (الآخر) أرسل"
 
 #: FL_TG/Results.html:30 FL_payments/Results_1.html:64
 msgid ": you received"
-msgstr " :استلمت"
+msgstr " استلمت :"
 
 #: FL_TG/Results.html:32
 msgid "The receiver (you) sent back"
@@ -1535,7 +1535,7 @@ msgstr "لا"
 
 #: FL_TG/__init__.py:77
 msgid "I do not know"
-msgstr " لا أعرف"
+msgstr ".لا أعرف"
 
 #: FL_TG/__init__.py:78 FL_TG/__init__.py:86
 msgid "Fairy Well"
@@ -1577,7 +1577,7 @@ msgstr "إذا اخترت الآخرين في السؤال 1 ، فيجب علي�
 msgid ""
 "If you chose yes in question 1 you must specify the level of "
 "disappointment"
-msgstr "إذا اخترت نعم للسؤال 1 ، يجب عليك تحديد مستوى خيبة الامل "
+msgstr "إذا اخترت نعم للسؤال 1 ، يجب عليك تحديد مستوىخيبة الامل "
 
 #: FL_TG/inst_descr.html:10
 msgid "This short text box will present you the local"
@@ -1588,8 +1588,8 @@ msgid ""
 "to whom we provide technical assistance. Our project focuses on the "
 "empowerment of the local farmers and on the joint development of a"
 msgstr ""
-"لمن نقدم المساعدة التقنية. مشروعنا يركز على تمكين المزارعين المحليين "
-" .والتنمية المشتركة"
+"لمن نقدم المساعدة التقنية. مشروعنا يركز علىتمكين المزارعين المحليين "
+"والتنمية المشتركة"
 
 #: FL_payments/End.html:5
 msgid "Thank you!"
@@ -1608,7 +1608,7 @@ msgid ""
 "first, we will take a break."
 msgstr ""
 "أثناء تحضيرنا لمدفوعاتك ، سنطلب منك ملءاستفتاء حول تفضيلاتك الغذائية "
-" .وعاداتك الشرائية. لكن أولا ، سنأخذ استراحة"
+"وعاداتك الشرائية. لكن.أولا ، سنأخذ استراحة"
 
 #: FL_payments/End.html:28
 msgid "FINISH"
@@ -1622,9 +1622,7 @@ msgstr "المدفوعات"
 msgid ""
 "Thank you again for your participation today. Here a summary of your "
 "payments."
-msgstr ""
-"شكرًا لك مرة أخرى على المشاركة اليوم. إليك ملخصًا "
-".لمضفوعاتك"
+msgstr "شكرًا لك مرة أخرى على المشاركة اليوم. إليك ملخصًا لكالمدفوعات\""
 
 #: FL_payments/Results_1.html:21 FL_payments/Results_1.html:47
 msgid "Phase 1"
@@ -1658,7 +1656,6 @@ msgstr "المرحلة 2"
 #: FL_payments/Results_1.html:33
 msgid "You sent ' }} <b>{{sent_inst}}</b> {{trans 'to "
 msgstr ""
-"الى }} <b>{{sent_inst}}</b> }}  ارسلت "
 
 #: FL_payments/Results_1.html:36 FL_payments/Results_1.html:83
 msgid "In this game, you earned"
@@ -1686,7 +1683,7 @@ msgstr "ممثل"
 
 #: FL_payments/Results_1.html:79
 msgid "decided to send back to you"
-msgstr "قرر إعادت لك"
+msgstr "قررت إعادت لك"
 
 #: FL_payments/Results_1.html:101 FL_payments/Results_1.html:145
 #: FL_payments/Results_2.html:59 FL_payments/Results_2.html:104
@@ -1726,8 +1723,8 @@ msgid ""
 "receive this money by phone payment."
 msgstr ""
 "سنمنحك قسيمة في نهاية الجلسة ويمكنك الحضورأسبوعان لجمع العملات الرمزية "
-"بالعملة المحلية. أو يمكنك بدلاً من ذلك تلقي هذه الأموال عن طريق الدفع عبر"
-" .الهاتف"
+"بالعملة المحلية. أو يمكنك بدلاً من ذلك.تلقي هذه الأموال عن طريق الدفع عبر"
+" الهاتف"
 
 #: FL_payments/Results_1.html:132 FL_payments/Results_2.html:90
 msgid ""
@@ -1736,12 +1733,8 @@ msgid ""
 "receive this money by phone payment."
 msgstr ""
 "سنمنحك قسيمة في نهاية الجلسة ويمكنك الحضور4 أسابيع لجمع الرموز المميزة "
-"بعملتك المحلية. أو يمكنك بدلاً من ذلك تلقي هذه الأموال عن طريق الدفع عبر "
-" .الهاتف"
-
-#: FL_payments/Results_1.html:143 FL_payments/Results_2.html:102
-msgid "Choice #"
-msgstr "خيار #"
+"بعملتك المحلية. أو يمكنك بدلاً من ذلكتلقي هذه الأموال عن طريق الدفع عبر "
+"الهات"
 
 #: FL_payments/Results_1.html:146 FL_payments/Results_2.html:105
 msgid "For this choice, you chose Lottery"
@@ -1760,7 +1753,7 @@ msgstr ":مجموع أرباحك"
 #: FL_payments/Results_2.html:157 FL_payments/Results_2.html:167
 #: FL_welcome/Welcome.html:23 FL_welcome/Welcome.html:26
 msgid "LC"
-msgstr "درهم"
+msgstr "ML"
 
 #: FL_payments/Results_1.html:198 FL_payments/Results_2.html:155
 msgid "Today, you will receive"
@@ -1788,7 +1781,7 @@ msgstr "الجولة 1"
 
 #: FL_payments/Results_2.html:21 FL_payments/Results_2.html:37
 msgid "Your initial endowment was"
-msgstr "كانت مساهمتك الأولي"
+msgstr "كان وقفك الأولي"
 
 #: FL_payments/Results_2.html:24 FL_payments/Results_2.html:40
 msgid "Your contribution to the common project was"
@@ -1813,9 +1806,9 @@ msgid ""
 "the end. If needed, an enumerator will assist you in performing this "
 "task."
 msgstr ""
-"الآن العب اللعبة واختر إما خياري اليانصيب\" أ \"أو\" ب \"لكل منهما 10 "
-"قرارات. تذكر ، سيتم تنفيذ قرار واحد فقط في النهاية. إذا لزم الأمر "
-" .سيساعدك الباحث على تحقيق هذه المهمة"
+"الآن العب اللعبة واختر إما خياري اليانصيب\" أ \"أو\" ب \"لكل منهما10 "
+"قرارات. تذكر ، سيتم تنفيذ قرار واحد فقط في النهاية. إذا لزم الأمر ، "
+"سيساعدك الباحث على تحقيق هذه.المهمة"
 
 #: FL_risk/Choices.html:17
 msgid ""
@@ -1825,14 +1818,14 @@ msgid ""
 " in each decision. Remember that only one of the decisions will be "
 "randomly selected for extraction."
 msgstr ""
-"أي يانصيب تفضل أن تلعبه - اليانصيب أ أم اليانصيب ب؟ المرجو تحديد تفضيلك "
-"لكل من الخيارات العشرة. الكرات الحمراء والبيضاء في الصور ترمز  إلى فرصتك في"
+"أي يانصيب تفضل أن تلعبه - اليانصيب أ أم اليانصيب ب؟ المرجوتحديد تفضيلك "
+"لكل من الخيارات العشرة. الكرات الحمراء والبيضاءفي الصور ترمز إلى فرصتك في"
 " الحصول على الكرات بشكل عشوائي في كل قرار. تذكر أن قرارًا واحدًا فقط "
-" .سيتم اختياره عشوائيا لاستخراجه"
+"سيتم.اختياره عشوائيا لاستخراجه"
 
 #: FL_risk/Choices.html:20
 msgid "When done, please click on the button Continue."
-msgstr ".عندما تنتهي، يرجى الضغط على الزر متابعة"
+msgstr ".عندما تنتهي، يرجى الضغط على الزر \"متابعة\""
 
 #: FL_risk/Choices.html:23 FL_time/Choices.html:17
 msgid ""
@@ -1841,9 +1834,14 @@ msgid ""
 "you. These are in addition to the participation stipend and the tokens "
 "possibly earned in other games."
 msgstr ""
-"بعد اختيارك ، سيتم اختيار صف عشوائيًا و نتيجة"
-" هذا اليانصيب ستدفع لك بالإضافة إلى بدل المشاركة والعمل الرمزية التي ربما"
-" .فزت بها في اللعب الأخرى"
+"بعد اختيارك ، سيتم اختيار صف عشوائيًا واليانصيب.التي اخترتها ستلعب. نتيجة"
+" هذا اليانصيب ستدفع لك بالإضافة إلى بدل المشاركة والعمل الرمزية.التي ربما"
+" فازت بها في اللعب الأخرى"
+
+#: FL_risk/Choices.html:31 FL_risk/Example.html:28 FL_risk/Example.html:81
+#: FL_time/Choices.html:26 FL_time/Example.html:27 FL_time/Example.html:72
+msgid "Your choice"
+msgstr "قرارك"
 
 #: FL_risk/Example.html:12
 msgid ""
@@ -1856,58 +1854,46 @@ msgid ""
 "further clarifications."
 msgstr ""
 "قبل اتخاذ القرار الحقيقي ، سنقدم لك بعض الأمثلةالتي توضح النتائج المحتملة"
-" لهذه اللعبة وسنسالك بعد ذلك بضعة أسئلة للتأكد من فهمك للإرشادات بشكل "
-"صحيح. إذا أعطيت إجابة خاطئة ، فستتلقى رسالة من النظام الذي يخبرك بحدوث خطأ "
-"في طريقة إجابتك. إذا نعم ، يمكنك إما المحاولة مرة أخرى أو الاتصال بالباحث "
+" لهذه اللعبة وسنسالك بعد ذلك.بضعة أسئلة للتأكد من فهمك للإرشادات بشكل "
+"صحيح إذا أعطيت إجابة خاطئة ، فستتلقى رسالةمن النظام الذي يخبرك بحدوث خطأ "
+"في طريقة إجابتك. إذانعم ، يمكنك إما المحاولة مرة أخرى أو الاتصال بالباحث "
 ".للمزيد من التوضيحات"
 
 #: FL_risk/Example.html:21 FL_risk/Example.html:75
 msgid "Assume that the following decision was randomly drawn by the system"
 msgstr "لنفترض أن القرار التالي قد تم اتخاذه عشوائيًا بواسطة النظام"
 
-#: FL_risk/Example.html:28 FL_risk/Example.html:81 FL_time/Choices.html:26
-#: FL_time/Example.html:27 FL_time/Example.html:72
-msgid "Your choice"
-msgstr "قرارك"
-
 #: FL_risk/Example.html:68
 msgid "Assume that a <b>white ball</b> was randomly drawn by the system."
-msgstr " .لنفترض ان كرة بيضاء تم اخذها عشوائيا بواسطة النظام"
+msgstr "لنفترض ان كرة بيضاء تم اخذها عشوائيا بواسطة النظام"
 
 #: FL_risk/Example.html:69
 msgid ""
 "1a) If for this decision, you chose <b>Lottery A</b>, how much would you "
 "have won?"
-msgstr " فكم <b> يانصيب أ </b> لهاذا القرار اخترت "
+msgstr " فكم <b> يانصيب أ </b> اذا اخترتستربح؟"
 
 #: FL_risk/Example.html:71
 msgid ""
 "1b) If for this decision, you chose <b>Lottery B</b>, how much would you "
 "have won?"
-msgstr ""
-"فكم <b> بانصيب ب </b> لهاذا القرار اخترت "
-"ستربح؟"
+msgstr "فكم <b> Lottery B </b> فكم من عملة رمزية ستحصل عليه ؟"
 
 #: FL_risk/Example.html:121
 msgid "Assume that a <b>red ball</b> was randomly drawn by the system."
-msgstr ""
-".تم سحبها عشوائيا بولسطة النظام <b> كرة حمراء </b> لنفترض ان"
+msgstr ".تم سحبها عشوائيا بولسطة النظام <b> كرة حمراء </b> لنفترض ان"
 
 #: FL_risk/Example.html:123
 msgid ""
 "2a) If for this decision, you chose <b>Lottery B</b>, how much would you "
 "have won?"
-msgstr ""
-"فكم <b> بانصيب ب </b> لهاذا القرار اخترت"
-"ستربح؟"
+msgstr "فكم <b> Lottery B </b> فكم من عملة رمزية ستحصل عليها ؟"
 
 #: FL_risk/Example.html:125
 msgid ""
 "2b) If for this decision, you chose <b>Lottery A</b>, how much would you "
 "have won?"
-msgstr ""
-"2b) فكم <b> يانصيب أ </b> لهاذا القرار اخترت "
-"ستربح؟"
+msgstr "2b) فكم من عملة رمزية ستحصل عليها اذا اخترت اليانصيب أ ؟"
 
 #: FL_risk/Instructions.html:11
 msgid "In this game, you will be asked to make 10 decisions, one after the other."
@@ -1921,10 +1907,10 @@ msgid ""
 " number of tokens to be won also varies between lottery A and B in each "
 "of the 10 decisions."
 msgstr ""
-"مهمتك هي الاختيار بين يانصيبين بديلين ، أ و ب. تختلف اليانصيب في عدد "
-"الرموز التي يمكن ربحها في كل واحدة لكل من القرارات العشرة فرصة مختلفة "
-" للفوز بعمل رمزية. عدد الرموز التي سيتم ربحها يختلف أيضًا بين اليانصيب "
-" .في كل من 10 قرارات"
+".مهمتك هي الاختيار بين يانصيبين بديلين ، أ و ب.تختلف اليانصيب في عدد "
+"الرموز التي يمكن ربحها في كل واحدةلكل من القرارات العشرة فرصة مختلفة "
+"للفوز بعمل رمزية عدد الرموز التي سيتم ربحها يختلف أيضًا بين اليانصيب A و "
+"B في كل.من 10 قرارات"
 
 #: FL_risk/Instructions.html:18
 msgid ""
@@ -1935,10 +1921,11 @@ msgid ""
 "B) corresponding to the randomly selected decision number will be "
 "executed."
 msgstr ""
-"بعد اتخاذ قراراتك ، سيختار النظام أحداها بشكل عشوائي 10 قرارات سيتم اتخاذها"
+"بعد اتخاذ قراراتك ، سيختار النظام أحدها بشكل عشوائي10 قرارات سيتم اتخاذها"
 " على أرض الواقع. سوف نتخلى عن قرارات التسعة الأخرى ولن تتلقى أي أموال "
 "منها. كل من الـ 10من المرجح أن يتم تحديد القرارات بشكل متساوٍ. اليانصيب "
-" .الذي اخترته (أ أو ب) المقابلة لرقم القرار المختار عشوائيًا سيتم تحقيقه اخيرا"
+"الذي اخترته (أ أوب) المقابلة لرقم القرار المختار عشوائيًا سيتم تحقيقه "
+"اخيرا"
 
 #: FL_risk/Instructions.html:22
 msgid ""
@@ -1947,18 +1934,18 @@ msgid ""
 "tokens you will win. These are in addition to the participation stipend "
 "and the tokens possibly earned in other games."
 msgstr ""
-" .سيختار النظام بشكل عشوائي كرة حمراء أو بيضاء اللون"
-"اللون المختار سيشير إلى رقم الرموز التي ستربحها بالإضافة إلى بدل المشاركة"
-" .و عمل رمزية ربما فزت بها في ألعاب أخرى"
+". سيختار النظام بشكل عشوائي كرة حمراء أو بيضاء اللون لون الكرة المختارة "
+"سيشير إلى رقم الرموز التي ستربحها بالإضافة إلى بدل المشاركة.ورموز ربما "
+"فزت بها في ألعاب أخرى"
 
 #: FL_risk/Questionnaire.html:11
 msgid "Please answer to the following question"
-msgstr " :يرجى الإجابة على السؤال التالي"
+msgstr "يرجى الإجابة على السؤال التالي"
 
 #: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
 #: FL_risk/__init__.py:54
 msgid "100 tokens"
-msgstr "عملة رمزية 100"
+msgstr "100 عملة رمزية"
 
 #: FL_risk/__init__.py:48 FL_risk/__init__.py:50 FL_risk/__init__.py:52
 #: FL_risk/__init__.py:54
@@ -1991,12 +1978,12 @@ msgid ""
 "performing this task."
 msgstr ""
 "الآن سنبدأ اللعبة. يرجى اتخاذ قرار لكل من الـ 10أسئلة (عن طريق التحقق من "
-"الخيارين أ أو ب). تذكر ، واحدًا فقط من القرارات سيتم تنفيذه في النهاية"
-" .إذا لزم الأمر ، سيساعدك الباحث لأداء هذه المهمة"
+"الخيارين أ أو ب). تذكر ، واحدًا فقط من القرارات سيتم تنفيذه في النهاية. "
+"إذا لزم الأمر ، سيساعدك الباحث.لأداء هذه المهمة"
 
 #: FL_time/Choices.html:14
 msgid "When done, please click on the button Continue "
-msgstr "عندما تنتهي، يرجى الضغط على الزر متابعة"
+msgstr "عندما تنتهي، يرجى الضغط على الزر \"متابعة"
 
 #: FL_time/Choices.html:25 FL_time/Example.html:26 FL_time/Example.html:71
 msgid "Option A: in two weeks"
@@ -2004,7 +1991,7 @@ msgstr "الخيار أ: في غضون أسبوعين"
 
 #: FL_time/Choices.html:27 FL_time/Example.html:28 FL_time/Example.html:73
 msgid "Option B: in 4 weeks"
-msgstr "الخيار ب: في غضون 4 أسابيع"
+msgstr "الخيار ب: في 4 أسابيع"
 
 #: FL_time/Choices.html:35 FL_time/Choices.html:46 FL_time/Choices.html:57
 #: FL_time/Choices.html:68 FL_time/Choices.html:79 FL_time/Choices.html:90
@@ -2027,16 +2014,16 @@ msgid ""
 "some questions to ensure that you have understood the instructions well. "
 msgstr ""
 "قبل اتخاذ القرار الحقيقي ، سنقدم لك بعض الأمثلةالتي توضح النتائج المحتملة"
-" لهذه اللعبة وسنطلب منك الاجابة على بضعة أسئلة للتأكد من فهمك للإرشادات بشكل "
-" .صحيح"
+" لهذه اللعبة وسنطلب منك بعد ذلك.بضعة أسئلة للتأكد من فهمك للإرشادات بشكل "
+"صحيح"
 
 #: FL_time/Example.html:19
 msgid ""
 "Assume that the following decision was randomly drawn by the system: 100 "
 "tokens in 2 weeks or 105 tokens in 4 weeks."
 msgstr ""
-"لنفترض أن النظام اتخذ عشوائيًا: 100 عملة رمزية في أسبوعين أو 105 في اربعة"
-" .أسابيع"
+"لنفترض أن النظام اتخذ عشوائيًا: 100.عملة رمزية في أسبوعين أو 105 في اربعة"
+" أسابيع"
 
 #: FL_time/Example.html:36 FL_time/Example.html:81 FL_time/__init__.py:51
 #: FL_time/__init__.py:53
@@ -2051,9 +2038,7 @@ msgstr "105 عملة رمزية في اربع أسابيع"
 msgid ""
 "If for this decision, you chose <b>Option A</b>, how much would you have "
 "won?"
-msgstr ""
-"فكم <b> الخيار أ </b> لهاذا القرار اذا اخترت "
-"ستربح؟"
+msgstr "فكم <b> الخيار أ </b> لهذا القرار اذا اخترتستربح؟"
 
 #: FL_time/Example.html:64
 msgid ""
@@ -2061,7 +2046,7 @@ msgid ""
 "tokens in 2 weeks or 124 tokens in 4 weeks. "
 msgstr ""
 "لنفترض أن النظام اتخذ عشوائيًا: 100عملة رمزية في أسبوعين أو 124 عملة "
-" .رمزية في اربع أسابيع"
+"رمزية في اربع أسابيع"
 
 #: FL_time/Example.html:96 FL_time/__init__.py:53
 msgid "124 tokens in 4 weeks"
@@ -2071,9 +2056,7 @@ msgstr "124 عملة رمزية في اربع أسابيع"
 msgid ""
 "If for this decision, you chose <b>Option B</b>, how much would you have "
 "won?"
-msgstr ""
-"فكم <b> الخيار ب </b> لهاذا القرار اذا اخترت "
-"ستربح؟"
+msgstr "فكم <b> الخيار ب </b> لهذا القرار اخترتستربح؟"
 
 #: FL_time/Instructions.html:12
 msgid ""
@@ -2086,11 +2069,11 @@ msgid ""
 "possibly earned in other games."
 msgstr ""
 "سنلعب الآن لعبة أخرى. سنطلب منك اتخاذ 10 قرارات. في كل قرار يمكنك اختيار "
-"تلقي ما يعادل 100 عملة رمزية يمكنكم التحويل إلى العملة المحلية بعد <b> أسبوعين </b> "
-" أو يمكنك الاختيار توقع واستلام أكثر من 100 رمز مميز في <b> أربعة أسابيع</b> "
-". المبلغ الذي تتلقاها خلال 4 أسابيع ستكون مختلفة لكل قرار من القرارات"
-" العشرة هذه بالإضافة إلى بدل المشاركة والعمل الرمزية التي ربما فازت بها في"
-" .اللعب الأخرى"
+"تلقي ما يعادل 100 عملة رمزية يمكنكم التحويل إلى العملة المحلية بعد <b> "
+"أسبوعين </b> ، أو يمكنك الاختيارتوقع واستلام أكثر من 100 رمز مميز في <b> "
+"أربعة أسابيع </b>. المبلغ الذي تتلقاها خلال 4 أسابيع ستكون مختلفة لكل "
+"قرار من القرارات العشرةهذه بالإضافة إلى بدل المشاركة والعمل الرمزية "
+"التي.ربما فازت بها في اللعب الأخرى"
 
 #: FL_time/Instructions.html:16
 msgid ""
@@ -2104,10 +2087,10 @@ msgid ""
 msgstr ""
 "نطلب منك التفكير الكامل في كلا الخيارين واتخاذ قراراتك يعتمد بعناية فقط "
 "على تفضيلاتك الخاصة. أيًا كان الخيار الذي تريده ، سنمنحك قسيمة إيداع "
-"وستعود من أجل استراد أموالك بعد أسبوعين أو أربعة أسابيع ، أو إذا كنت تفضل "
-"ذلك ، فستحصل على إمكانية تلقي هذه الأموال عن طريق الدفع عبر الهاتف. إذا "
+"وستعود من أجل استراد أموالك بعد أسبوعين أو أربعة أسابيع ، أو إذا كنت تفضل"
+" ذلك ، فستحصل على إمكانية تلقي هذه الأموال عن طريق الدفع عبر الهاتف. إذا "
 "كنت تفضل استخدام هذه الطريقة ، سيكون لديك خيار توفير.رقم الهاتف الخليوي "
-" .للمحققين  عند نهاية جلسة اليوم"
+"للمحققين  عند نهاية جلسة اليوم"
 
 #: FL_time/Instructions.html:21
 msgid "Do you have questions? "
@@ -2118,12 +2101,12 @@ msgid ""
 "At the end of the game, we will randomly pick one of your decisions. We "
 "will pay you according to your choice in that decision. "
 msgstr ""
-"عند نهاية اللعبة ، سنختار عشوائيًا أحد قراراتك  الذي سيدفع لك حسب خيارك في "
-".هذا القرار"
+".عند نهاية اللعبة ، سنختار عشوائيًا أحد قراراتك.ستدفع لك حسب اختيارك في "
+"هذا القرار"
 
 #: FL_time/Questionnaire.html:11
 msgid "Please answer to the following questions"
-msgstr " :الرجاء الإجابة على الأسئلة التالية"
+msgstr "الرجاء الإجابة على الأسئلة التالية"
 
 #: FL_time/Questionnaire.html:14
 msgid ""
@@ -2139,8 +2122,7 @@ msgstr "كيف تقيم فهمك لتعليمات اللعبة؟"
 
 #: FL_time/Questionnaire.html:19
 msgid ""
-"How much do you trust that you will receive the money in 2 or 4 weeks' "
-"time?"
+"How much do you trust that you will receive the money in 2 or 4 weeks time?"
 msgstr "إلى أي مدى تعتقد أنك ستتلقى المال في فترة 2 أو 4 أسابيع؟"
 
 #: FL_time/__init__.py:51 FL_time/__init__.py:53
@@ -2174,10 +2156,10 @@ msgid ""
 "novel local foods, and for doing so we will play a number of games. "
 "Please follow the instructions of the games onscreen carefully."
 msgstr ""
-"شكرا لقدومك اليوم. نحن باحثون في مشروع، نود أن نعرف موقف "
-" المستهلكين في المناطق الحضرية تجاه الاطعمة المحلية الجديدة و للقيام بذالك"
-" سنلعب عددًا من الألعاب. يرجى اتباع تعليمات اللعبة التي تظهر على الشاشة "
-" .بعناية"
+"</i>FoodLAND</i> شكرا لقدومك اليوم. نحن باحثون في مشروع نود أن نعرف موقف "
+"المستهلكين في المناطق الحضرية تجاه.الأطعمة المحلية الجديدة ، وللقيام بذلك"
+" ، سنلعب عددًا من الألعاب.يرجى اتباع تعليمات اللعبة التي تظهر على الشاشة "
+"بعناية"
 
 #: FL_welcome/Welcome.html:14
 msgid ""
@@ -2189,11 +2171,11 @@ msgid ""
 "participants’ decisions will be <i>made in private</i>, and individual "
 "decisions <i>will not be revealed</i>, even at the end of the session."
 msgstr ""
-" كل شخص الذي يمكنك رؤيته في هذه الغرفة سيلعب نفس الألعاب مثلك لن نشارك معلومات "
-"عنه أو عن هويتك ، ولو حتى في نهاية الجلسة. إذا كنت تعرف أيًا منهم ، فنحن نطلب"
-" منك عدم مشاركة معلومات عن هويتهم مع المشاركين الآخرين. سوف نسأل كل واحد "
-"منكم اتخاذ قرارات مختلفة على انفراد. لن يتم كشف عن قراراتك اوقرارات الاخرين "
-".حتى ولو في نهاية الجلسة "
+".كل شخص يمكنك رؤيته في هذه الغرفة سيلعب نفس الألعاب مثلك لن نشارك معلومات"
+" عنهم أو عن هويتك ، حتى في نهاية الجلسة. إذا كنت تعرف أيًا منهم ، فنحن "
+"نطلب منك عدم مشاركةمعلومات عن هويتهم مع المشاركين الآخرين. سوف نسأل كل "
+"واحد منكم اتخاذ قرارات مختلفة. قراراتك وقرارات الآخرين <i> على انفراد </ "
+"i> سيتم اخذها حتى في نهاية الجلسة <i> لن يتم الكشف </ i> "
 
 #: FL_welcome/Welcome.html:18
 msgid ""
@@ -2203,10 +2185,10 @@ msgid ""
 "others too. But sometimes, the amount you will earn will also depend on "
 "chance."
 msgstr ""
-"ستسمح لك كل لعبة بربح أموال حقيقية على شكل عمل رمزية و مثلما هو الحال في الحياة "
-" المبلغ الدي ستفوز به سيعتمد على قراراتك و القرارات الجماعية"
-" او سيعتمد على قرارات الاخرين أيضًا. ولكن في بعض الأحيان سيعتمد المبلغ"
-".الذي ستربحه أيضًا على الصدفة"
+"ستسمح لك كل لعبة بربح أموال حقيقية بعملة  و مثلما هو الحال في الحياة "
+"الواقعية</i>محلية (ML) </i> ستفوز به يعتمد على قرارك ، وبالنسبة للمباريات"
+" الجماعية ، يعتمد على قرارات آخرون أيضًا. ولكن في بعض الأحيان يعتمد "
+"المبلغ الذي تربحه أيضًا على الصدفة"
 
 #: FL_welcome/Welcome.html:22
 msgid ""
@@ -2215,17 +2197,17 @@ msgid ""
 "given a number of virtual tokens you can use to play the games. At the "
 "end of the session, you will get"
 msgstr ""
-"لا توجد قرارات سيئة أو جيدة ، لذلك نطلب منك أن تقرر بناءً على ما تفضله"
-"حصريًا. قبل كل لعبة ستتلقى عدد من العمل الرمزية التي يمكنك استخدامها "
-" .في الالعاب"
+"لا توجد قرارات سيئة أو جيدة ، لذلك نطلب منك أن تقرربناءً على تفضيلاتك "
+"حصريًا. قبل كل لعبة ستتلقى.عدد من الرموز الافتراضية التي يمكنك استخدامها "
+"لتشغيل الألعاب ستحصل على نهاية الجلسة"
 
 #: FL_welcome/Welcome.html:24
 msgid ""
 "<i>for 10 units of tokens</i>. Besides the money that you will earn from "
 "the games, you will receive a stipend of"
 msgstr ""
-" .في نهاية الحصة ستحصل علي مبلغ محدد مقابل 10 عمل رمزية "
-" .بالاضافة الى الاموال التي ستحصل عليها في الالعاب ستحصل على مبلغ خاص بالحضور "
+" بالاضافة الى الاموال التي ستكسبها باسخدام <i> مقابل 10 وحدات من العمل "
+"الرمزية </ i> ألعاب ، ستحصل على بدل"
 
 #: FL_welcome/Welcome.html:27
 msgid ""
@@ -2233,21 +2215,20 @@ msgid ""
 "communicated to you privately at the end of the full session today. Other"
 " participants will not know your total earnings."
 msgstr ""
-" .شكرا على مشاركتك اليوم"
-".سنكشف لك مجموع ارباحك اليوم علي انفراد في اخر الحصة"
-".المشاركين الاخرين لن نخبرهم عن ارباحك"
+"شكراً لمشاركتك اليوم. سيكون مجموع أرباحك أُرسلت سرا في نهاية جلسة اليوم "
+"الكاملة. الآخرين.لن يعرف المشاركون مجموع أرباحك"
 
 #: FL_welcome/Welcome.html:31
 msgid ""
 "If you have any question, please raise your hand and an enumerator will "
 "come close to you to listen and will provide an answer for everyone."
 msgstr ""
-"إذا كان لديك سؤال ، يرجى رفع يدك والباحث سوف يقترب منك للاستماع إليك "
-" .وإعطاء إجابة للجميع"
+"إذا كان لديك سؤال ، يرجى رفع يدك والباحث.سوف يقترب منك للاستماع إليك "
+"وإعطاء إجابة للجميع"
 
 #: FL_welcome/Welcome2.html:8
 msgid "Introduction (ii)"
-msgstr "(2) مقدمة "
+msgstr "مقدمة (2)"
 
 #: FL_welcome/Welcome2.html:12
 msgid ""
@@ -2257,9 +2238,9 @@ msgid ""
 "your earnings in the games and only get to keep the participation "
 "stipend. After having played the games, we will take a break."
 msgstr ""
-"نطلب منك عدم التحدث بصوت عال وعدم التواصل مع الآخرين حتى نهاية الجلسة. إذا"
-" كنت لا تحترم هذه القاعدة ستضطر لمغادرة الجلسة ولن تتلقى أرباحك في الألعاب"
-"  .وستحتفظ فقط بمبلغ المشاركة. بعد أن ننته الالعاب ، سنأخذ استراحة"
+"نطلب منك عدم التحدث بصوت عال وعدم التواصل مع الآخرين حتى نهاية الجلسة. "
+"إذا كنت لا تحترم هذه القاعدة ستضطر لمغادرة الجلسة ولن تتلقى.أرباحك في "
+"الألعاب وستحتفظ فقط ببدل المشاركة.بعد أن لعبنا المباريات ، سنأخذ استراحة"
 
 #: FL_welcome/Welcome2.html:16
 msgid ""
@@ -2268,9 +2249,9 @@ msgid ""
 "during today’s games. Feel free to ask for help and you will be assisted "
 "individually by an enumerator during the whole session."
 msgstr ""
-"ستكتب إجاباتك مباشرة على الكمبيوتر. في حالة كنت بحاجة إلى مساعدة ، يوجد هنا"
-" باحثون مدربون تدريباً خاصاً لمساعدتك خلال العاب اليوم. لا تتردد في طلب "
-" .المساعدة ، ستتم مساعدتك بشكل فردي بواسطة الباحث طوال مدة الجلسة"
+"ستكتب إجاباتك مباشرة على الكمبيوتر. في حال كنت بحاجة إلى مساعدة ، يوجد "
+"هنا باحثون مدربون تدريباً خاصاً لمساعدتك خلال مباريات اليوم. لا تتردد في "
+"طلب المساعدة ، ستتم مساعدتك.بشكل فردي بواسطة الباحث طوال مدة الجلسة"
 
 #: FL_welcome/Welcome2.html:20
 msgid ""
@@ -2278,22 +2259,22 @@ msgid ""
 "come close to you to listen and will provide an answer for everyone; "
 "please do not ask your questions aloud."
 msgstr ""
-"إذا كان لديك أي أسئلة ، ارفع يدك  والباحث سوف يقترب منك للاستماع إليك وتقديم"
-" .إجابة للجميع. من فضلك لا تطرح أسئلتك بصوت عال"
+"إذا كان لديك أي أسئلة ، ارفع يدك للباحث سوف يقترب منك للاستماع إليك "
+"وتقديم إجابة للجميع.من فضلك لا تطرح أسئلتك بصوت عال"
 
 #: FL_welcome/Welcome2.html:26
 msgid "You will take part in"
-msgstr " .سوف تشارك في العاب"
+msgstr "سوف تشارك في"
 
 #: FL_welcome/Welcome2.html:27
 msgid ""
 "games. You will know the outcome of each game only at the end of the "
 "session. We will now proceed with the first game."
 msgstr ""
-" لن تعرف نتيجة كل مبارة حتى نهاية الجلسة. ننتقل الآن إلى المبارة "
+"ألعاب لن تعرف نتيجة كل مبارة حتى نهاية.الجلسة. ننتقل الآن إلى المبارة "
 "الأولى"
 
 #: FL_welcome/Welcome2.html:43
 msgid "Go to the first game"
-msgstr "انتقال إلى المبارة الأولى"
+msgstr "الذهاب إلى المبارة الأولى"
 
