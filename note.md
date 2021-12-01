@@ -101,8 +101,20 @@ Water makes thirst go away.
   - [ ] See messages-Tanzania-3.docx @DONE:
   - [ ] revise identity task @DONE:
   - [ ] New randomization at group level #DONE:
+ 
+- New sentence break DONE
+English	Swahili
+It can be cold or warm.	(1)Kinaweza (2)kuwa  (3)baridi (4)au joto
+It can be transparent.	(1)Kinaweza (2)kuwa (3)chenye (4)uangavu
+It can be salty.	(1)Kinaweza (2)kuwa (3)na (4)chumvi
+It makes thirst go away.	(1)Kinafanya (2)kiu (3)iweze (4)kuondoka
+	
+Water can be cold or warm.	(1)Maji yanaweza (2)kuwa (3)ya baridi (4)au ya joto
+Water can be transparent.	(1)Maji (2)yanaweza (3)kuwa (4)na uangavu
+Water can be salty.	(1)Maji (2)yanaweza (3)kuwa (4)ya chumvi
+Water makes thirst go away.	(1)Maji (2)yanafanya (3)kiu (4)iondoke
 
--
+OLD ones
       It can be cold or warm.
       (1)kina(2)weza (3)kuwa (4)baridi au ya moto
 
@@ -126,7 +138,30 @@ Water makes thirst go away.
 
       Water makes thirst go away.
       (1)maji (2)yanafanya (3)kiu (4)iondoke
-      
+
+- NEW changes in translation DONE
+
+1. use "kete" instead of "Tokeni".DONE
+2. put the number after the word. e.g. "kete 100" instead of "100 Tokeni" (Please effect this in all tokens)
+
+
+Specific corrections
+
+1. use "Chama cha Msingi cha Wakulima" instead of "Local Farmers Association"DONE
+2. use " TAJA JINA HAPA" instead of "MANE HERE"
+3. use "Mazingira mapya rafiki kiikolojia" instead of "new eco-friendly solutions"DONE
+4. use "WEKA HAPA" instead of "PLACE HERE"
+5. use "nne" instead of "knne" (typographic error at Mchezo 3 (TP)) DONE
+6. use "chaguo" instead of "machaguo"DONE
+7. use "uangalifu" instead of "ufangalifu" (typographic error at Mchezo 3 (TP))DONE
+8. use "kutegemeana" instead of "kutegemana"
+9. Question not translated at all: How much do you trust that you will receive the money in 2 or 4 weeks time"
+ "Je! Unaamini ni kwa kiasi gani kwamba utapokea pesa kwa muda wa wiki 2 au 4"DONE
+10. use " sehemu mbili" instead of "sehemu mawili"   DONE
+11. use "umejipatia" instead of "umejipatika"DONE
+12. use "Chaguo lako" instead of "your choice" (currently not translated in the installed version)DONE
+13. use "Endelea" instead of "Continue" (currently not translated in the installed version)DONE
+14. use "Sarafu (pesa) za ndani" instead of "Fedha za Kenya" DONE
 
 ## 1) Uganda (UG)
 

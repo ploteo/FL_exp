@@ -1611,7 +1611,7 @@ msgid ""
 " 10 decisions. Remember, only one of the decisions will be executed in "
 "the end. If needed, an enumerator will assist you in performing this "
 "task."
-msgstr "Sasa shiriki katika mchezo na chagua sehemu A au B kwa kila mojawapo ya maamuzi/machaguo 10. Kumbuka ni uamuzi mmoja tu utatekelezwa. Endapo itahitajika, Msaili atakusaidia kufanya kazi hiyo."
+msgstr "Sasa shiriki katika mchezo na chagua sehemu A au B kwa kila mojawapo ya maamuzi/chaguo 10. Kumbuka ni uamuzi mmoja tu utatekelezwa. Endapo itahitajika, Msaili atakusaidia kufanya kazi hiyo."
 
 #: FL_risk/Choices.html:17
 msgid ""
@@ -1620,7 +1620,7 @@ msgid ""
 "balls in the pictures symbolise your chance of randomly drawing the balls"
 " in each decision. Remember that only one of the decisions will be "
 "randomly selected for extraction."
-msgstr "Ni sehemu gani unapendelea kucheza, A au B? Tafadhali onyesha unachopenda kwa kila mojawapo ya machaguo/machaguo 10.  Mipira myeupe na myekundu iliyopo pichani inaonyesha nafasi yako ya kuchagua mpira katika kila uamuzi. Kumbuka kuwa ni uamuzi mmoja tu utafanyiwa kazi."
+msgstr "Ni sehemu gani unapendelea kucheza, A au B? Tafadhali onyesha unachopenda kwa kila mojawapo ya chaguo/chaguo 10.  Mipira myeupe na myekundu iliyopo pichani inaonyesha nafasi yako ya kuchagua mpira katika kila uamuzi. Kumbuka kuwa ni uamuzi mmoja tu utafanyiwa kazi."
 
 #: FL_risk/Choices.html:20
 msgid "When done, please click on the button Continue."
@@ -1697,7 +1697,7 @@ msgid ""
 " Each of the 10 decisions bears a different chance of earning tokens; the"
 " number of tokens to be won also varies between lottery A and B in each "
 "of the 10 decisions."
-msgstr "Kazi yako ni kuchagua kwa bahati nasibu kati ya sehemu mawili, A na B. Machaguo hayo yanatofautiana kwa idadi ya tokeni unazoweza kushinda katika kila mojawapo. Kila moja ya maamuzi hayo 10 yana nafasi tofauti ya kushinda tokeni; idadi ya tokeni za kuwania zinatofautiana kati ya A na B kwa kila uamuzi kati ya maamuzi hayo 10."
+msgstr "Kazi yako ni kuchagua kwa bahati nasibu kati ya sehemu mbili, A na B. Chaguo hayo yanatofautiana kwa idadi ya tokeni unazoweza kushinda katika kila mojawapo. Kila moja ya maamuzi hayo 10 yana nafasi tofauti ya kushinda tokeni; idadi ya tokeni za kuwania zinatofautiana kati ya A na B kwa kila uamuzi kati ya maamuzi hayo 10."
 
 #: FL_risk/Instructions.html:18
 msgid ""
@@ -1715,7 +1715,7 @@ msgid ""
 "colour. The colour of the selected ball will indicate the number of "
 "tokens you will win. These are in addition to the participation stipend "
 "and the tokens possibly earned in other games."
-msgstr "Mwisho, mfumo utachagua kwa nasibu mpira wenye rangi nyekundu au nyeupe. Rangi ya mpira utakaochaguliwa itaonyesha idadi ya tokeni utakazoshinda. Hizi ni nyongeza ya posho yako na tokeni ambazo utakuwa umefanikiwa umejipatika katika michezo mingine."
+msgstr "Mwisho, mfumo utachagua kwa nasibu mpira wenye rangi nyekundu au nyeupe. Rangi ya mpira utakaochaguliwa itaonyesha idadi ya tokeni utakazoshinda. Hizi ni nyongeza ya posho yako na tokeni ambazo utakuwa umefanikiwa umejipatia katika michezo mingine."
 
 #: FL_risk/Questionnaire.html:11
 msgid "Please answer to the following question"
@@ -1836,7 +1836,7 @@ msgid ""
 "you would receive in 4 weeks will differ for each of the 10 decisions. "
 "These are in addition to the participation stipend and the tokens "
 "possibly earned in other games."
-msgstr "Sasa tutacheza mchezo mwingine. Tunakuomba ufanye maamuzi 10. Kwa kila uamuzi, unaweza kuchagua kupata kiasi cha fedha za Kitanzania ambacho ni sawa na tokeni 100 baada ya wiki mbili, au unaweza kuchagua kusubiri na kupata fedha ambazo zitazidi thamani ya tokeni 100. Kiasi utakachopata baada ya wiki knne kitatofautiana kwa kila uamuzi utakaofanya kati ya yale maamuzi 10. Hiyo ni nyongeza kwenye posho yako ya ushiriki na tokeni utakazaobahatika kupata katika michezo mingine."
+msgstr "Sasa tutacheza mchezo mwingine. Tunakuomba ufanye maamuzi 10. Kwa kila uamuzi, unaweza kuchagua kupata kiasi cha fedha za Kitanzania ambacho ni sawa na tokeni 100 baada ya wiki mbili, au unaweza kuchagua kusubiri na kupata fedha ambazo zitazidi thamani ya tokeni 100. Kiasi utakachopata baada ya wiki nne kitatofautiana kwa kila uamuzi utakaofanya kati ya yale maamuzi 10. Hiyo ni nyongeza kwenye posho yako ya ushiriki na tokeni utakazaobahatika kupata katika michezo mingine."
 
 #: FL_time/Instructions.html:16
 msgid ""
@@ -1847,7 +1847,7 @@ msgid ""
 "have the opportunity to receive this money by phone payment. If you "
 "prefer to use this method, you will have the opportunity to provide a "
 "mobile phone number to the enumerators at the end of the session today."
-msgstr "Tunakuomba uzingatie machaguo mawili, na ufanye maamuzi kwa ufangalifu kutegemana na mapendekezo yako. Chochote utakachochagua tutakupatia vocha utakayorudi nayo kuchukulia fedha zako baada ya wiki mbili au nne, au ukipenda, unaweza kupata malipo kwa njia ya simu. Ukipenda kutumia njia hii, utapata nafasi ya kutoa namba yako ya simu kwa wawezeshaji mwishoni mwa zoezi la leo."
+msgstr "Tunakuomba uzingatie chaguo mawili, na ufanye maamuzi kwa uangalifu kutegemeana na mapendekezo yako. Chochote utakachochagua tutakupatia vocha utakayorudi nayo kuchukulia fedha zako baada ya wiki mbili au nne, au ukipenda, unaweza kupata malipo kwa njia ya simu. Ukipenda kutumia njia hii, utapata nafasi ya kutoa namba yako ya simu kwa wawezeshaji mwishoni mwa zoezi la leo."
 
 #: FL_time/Instructions.html:21
 msgid "Do you have questions? "

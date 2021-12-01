@@ -76,85 +76,85 @@ class Player(BasePlayer):
 def I1_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'au joto'],[3,'baridi']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'uangavu'],[3,'chenye']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'chumvi'],[3,'na']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiu'], [1,'Kinafanya'], [4,'kuondoka'],[3,'iweze']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Maji yanaweza'], [4,'au ya joto'],[3,'ya baridi']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'yanaweza'], [1,'Maji'], [4,'na uangavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'yanaweza'], [1,'Maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'yanafanya'], [1,'Maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def I2_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'au joto'],[3,'baridi']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'uangavu'],[3,'chenye']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'chumvi'],[3,'na']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiu'], [1,'Kinafanya'], [4,'kuondoka'],[3,'iweze']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Maji yanaweza'], [4,'au ya joto'],[3,'ya baridi']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'yanaweza'], [1,'Maji'], [4,'na uangavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'yanaweza'], [1,'Maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'yanafanya'], [1,'Maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def I3_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'au joto'],[3,'baridi']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'uangavu'],[3,'chenye']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'chumvi'],[3,'na']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiu'], [1,'Kinafanya'], [4,'kuondoka'],[3,'iweze']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Maji yanaweza'], [4,'au ya joto'],[3,'ya baridi']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'yanaweza'], [1,'Maji'], [4,'na uangavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'yanaweza'], [1,'Maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'yanafanya'], [1,'Maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def I4_choices(player):
     if player.identity_treatment == "identity": #NOTE:changed here to randomize at group level
         if player.id_in_group==1:
-           choices = [[2,'weza'], [1,'kina'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'au joto'],[3,'baridi']]
         if player.id_in_group==2:
-           choices = [[2,'weza'], [1,'kina'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'uangavu'],[3,'chenye']]
         if player.id_in_group==3:
-            choices = [[2,'weza'], [1,'kina'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'kuwa'], [1,'Kinaweza'], [4,'chumvi'],[3,'na']]
         if player.id_in_group==4:
-           choices = [[2,'fanya'], [1,'ina'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'kiu'], [1,'Kinafanya'], [4,'kuondoka'],[3,'iweze']]
     else:
         if player.id_in_group==1:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'baridi au ya moto'],[3,'kuwa']]
+           choices = [[2,'kuwa'], [1,'Maji yanaweza'], [4,'au ya joto'],[3,'ya baridi']]
         if player.id_in_group==2:
-           choices = [[2,'yanaweza'], [1,'maji'], [4,'angavu'],[3,'kuwa']]
+           choices = [[2,'yanaweza'], [1,'Maji'], [4,'na uangavu'],[3,'kuwa']]
         if player.id_in_group==3:
-            choices = [[2,'yanaweza'], [1,'maji'], [4,'ya chumvi'],[3,'kuwa']]
+            choices = [[2,'yanaweza'], [1,'Maji'], [4,'ya chumvi'],[3,'kuwa']]
         if player.id_in_group==4:
-           choices = [[2,'yanafanya'], [1,'maji'], [4,'iondoke'],[3,'kiu']]
+           choices = [[2,'yanafanya'], [1,'Maji'], [4,'iondoke'],[3,'kiu']]
     return choices
 
 def creating_session(subsession: Subsession):
