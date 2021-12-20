@@ -33,7 +33,9 @@
   - copy messages.pot from EN 
   - update messages.po 
   - compile messages.po
-
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
 
 ## Morocco (MO)
 

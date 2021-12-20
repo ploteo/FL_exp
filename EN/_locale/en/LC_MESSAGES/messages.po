@@ -1179,6 +1179,7 @@ msgid ""
 "before it is passed on to the Receiver."
 msgstr ""
 
+#: FL_DG/Instructions_sender_inst.html:17
 #: FL_TG/Instructions_sender_inst.html:20
 msgid ""
 "Only one of the choices of the participants made as senders will be "
