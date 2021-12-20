@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-10-08 10:58+0200\n"
+"POT-Creation-Date: 2021-12-20 06:14+0100\n"
 "PO-Revision-Date: 2021-09-27 13:39+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -196,12 +196,14 @@ msgid "Roles"
 msgstr ""
 
 #: FL_DG/Instructions_sender.html:22
+#, fuzzy
 msgid ""
 "At the end of today’s session, the system will randomly pick all "
-"participants’ role: 50 &#37; of the participants will be picked as Senders, "
-"while the remaining 50 &#37; will be picked as Receivers. Each Sender will be "
-"matched with a Receiver. According to the role drawn and choices of the "
-"Sender we will tell you the total number of tokens you will be paid."
+"participants’ role: 50&#37; of the participants will be picked as "
+"Senders, while the remaining 50&#37; will be picked as Receivers. Each "
+"Sender will be matched with a Receiver. According to the role drawn and "
+"choices of the Sender we will tell you the total number of tokens you "
+"will be paid."
 msgstr ""
 "A la fin de la session d'aujourd'hui, le système choisira aléatoirement "
 "le rôle de tous les participants : 50 &#37; des participants seront "
@@ -238,20 +240,29 @@ msgstr ""
 "récepteur à partir de votre dotation initiale sera transférée aux petits "
 "exploitants agricoles par l'intermédiaire d'une"
 
-#: FL_DG/Instructions_sender_inst.html:18
+#: FL_DG/Instructions_sender_inst.html:17
+#: FL_TG/Instructions_sender_inst.html:20
+msgid ""
+"Only one of the choices of the participants made as senders will be "
+"finally paid to the"
+msgstr ""
+"Seul un des choix des participants faits en tant qu'expéditeurs sera "
+"finalement payé à "
+
+#: FL_DG/Instructions_sender_inst.html:24
 #: FL_TG/Instructions_sender_inst.html:27
 msgid "Your new initial endowment is"
 msgstr "Votre nouvelle dotation initiale est de"
 
-#: FL_DG/Instructions_sender_inst.html:20
+#: FL_DG/Instructions_sender_inst.html:26
 msgid ""
 "These are in addition to the tokens received in previous games. Your "
 "gains from previous games will not be affected in this new game."
 msgstr ""
-"Ceux-ci s'ajoutent aux jetons reçus lors des jeux précédents. Vos gains"
-" des jeux précédents ne seront pas affectés dans ce nouveau jeu."
+"Ceux-ci s'ajoutent aux jetons reçus lors des jeux précédents. Vos gains "
+"des jeux précédents ne seront pas affectés dans ce nouveau jeu."
 
-#: FL_DG/Instructions_sender_inst.html:24 FL_TG/Instructions_welcome.html:20
+#: FL_DG/Instructions_sender_inst.html:30 FL_TG/Instructions_welcome.html:20
 msgid ""
 "At the end of today’s session, we will tell you the total number of "
 "tokens you will be paid."
@@ -259,16 +270,17 @@ msgstr ""
 "A la fin de la session d'aujourd'hui, nous vous dirons le nombre total de"
 " jetons que vous recevrez."
 
-#: FL_DG/Instructions_sender_inst.html:28 FL_DG/Results.html:49
+#: FL_DG/Instructions_sender_inst.html:34 FL_DG/Results.html:49
 #: FL_PGG/Choices.html:33 FL_PGG/Identity_task.html:120
 #: FL_PGG/Identity_task_ALT.html:123 FL_PGG/Identity_task_feedback.html:62
 #: FL_PGG/Pregame.html:33 FL_PGG/Questionnaire2.html:35
 #: FL_TG/Final_questionnaire_inst.html:93
 #: FL_TG/Final_questionnaire_receiver.html:33
 #: FL_TG/Final_questionnaire_sender.html:37 FL_TG/inst_descr.html:23
-#: FL_risk/Instructions.html:39 FL_risk/Questionnaire.html:33
-#: FL_time/Choices.html:157 FL_time/Instructions.html:43
-#: FL_time/Questionnaire.html:37 FL_welcome/Welcome.html:47
+#: FL_risk/Choices.html:243 FL_risk/Instructions.html:39
+#: FL_risk/Questionnaire.html:33 FL_time/Choices.html:157
+#: FL_time/Instructions.html:43 FL_time/Questionnaire.html:37
+#: FL_welcome/Welcome.html:47
 msgid "Continue"
 msgstr "Continuer"
 
@@ -298,12 +310,12 @@ msgid ""
 "paired with is not necessarily the same of other games. "
 msgstr ""
 "Dans ce jeu, vous allez intéragir avec un autre participant en utilisant "
-"l'ordinateur. Dans ce jeu, il y a deux rôles : <i>Émetteur</i> "
-"et <i>récepteur</i>. Vous ne découvrirez votre rôle réel qu'à la fin de "
-"la session. On ne vous dira pas avec qui vous avez été jumelé, que ce "
-"soit pendant ou après la fin de la session d'aujourd'hui. Le participant "
-"avec lequel vous serez jumelé n'est pas nécessairement le même que celui "
-"des autres parties. "
+"l'ordinateur. Dans ce jeu, il y a deux rôles : <i>Émetteur</i> et "
+"<i>récepteur</i>. Vous ne découvrirez votre rôle réel qu'à la fin de la "
+"session. On ne vous dira pas avec qui vous avez été jumelé, que ce soit "
+"pendant ou après la fin de la session d'aujourd'hui. Le participant avec "
+"lequel vous serez jumelé n'est pas nécessairement le même que celui des "
+"autres parties. "
 
 #: FL_DG/Questionnaire_1.html:17
 msgid ""
@@ -425,22 +437,22 @@ msgstr "de vous"
 msgid "You earn"
 msgstr "Vous gagnez"
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:54
-#: FL_PGG/__init__.py:70 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:49
+#: FL_PGG/__init__.py:65 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:58 FL_time/__init__.py:59
 #: FL_time/__init__.py:69
 msgid "Not at all"
 msgstr "Pas du tout"
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:55
-#: FL_PGG/__init__.py:71 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:50
+#: FL_PGG/__init__.py:66 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:59 FL_time/__init__.py:60
 #: FL_time/__init__.py:70
 msgid "Little"
 msgstr "Un peu"
 
-#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:56
-#: FL_PGG/__init__.py:72 FL_TG/__init__.py:78 FL_TG/__init__.py:84
+#: FL_DG/__init__.py:45 FL_DG/__init__.py:48 FL_PGG/__init__.py:51
+#: FL_PGG/__init__.py:67 FL_TG/__init__.py:78 FL_TG/__init__.py:84
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:60 FL_time/__init__.py:61
 #: FL_time/__init__.py:71
 msgid "Average"
@@ -450,20 +462,20 @@ msgstr "Moyen"
 msgid "Fairly Well"
 msgstr "Assez bien"
 
-#: FL_DG/__init__.py:45 FL_PGG/__init__.py:58
+#: FL_DG/__init__.py:45 FL_PGG/__init__.py:53
 msgid "Completely"
 msgstr "Complètement"
 
-#: FL_DG/__init__.py:48 FL_PGG/__init__.py:74 FL_TG/__init__.py:78
+#: FL_DG/__init__.py:48 FL_PGG/__init__.py:69 FL_TG/__init__.py:78
 #: FL_TG/__init__.py:86 FL_risk/__init__.py:62 FL_time/__init__.py:63
 msgid "Very well"
 msgstr "Très bien"
 
-#: FL_DG/__init__.py:115 FL_PGG/__init__.py:299 FL_time/__init__.py:187
+#: FL_DG/__init__.py:115 FL_PGG/__init__.py:302 FL_time/__init__.py:187
 msgid "Please check your answer to question 1"
 msgstr "Veuillez vérifier votre réponse à la question 1"
 
-#: FL_DG/__init__.py:117 FL_PGG/__init__.py:301 FL_time/__init__.py:190
+#: FL_DG/__init__.py:117 FL_PGG/__init__.py:304 FL_time/__init__.py:190
 msgid "Please check your answer to question 2"
 msgstr "Veuillez vérifier votre réponse à la question 2"
 
@@ -630,9 +642,9 @@ msgstr "Réessayer"
 
 #: FL_PGG/Identity_task.html:30 FL_PGG/Identity_task.html:62
 #: FL_PGG/Identity_task_ALT.html:15 FL_PGG/Identity_task_ALT.html:50
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "can be"
 msgstr "peut être"
 
@@ -640,20 +652,20 @@ msgstr "peut être"
 #: FL_PGG/Identity_task.html:63 FL_PGG/Identity_task.html:64
 #: FL_PGG/Identity_task_ALT.html:23 FL_PGG/Identity_task_ALT.html:31
 #: FL_PGG/Identity_task_ALT.html:58 FL_PGG/Identity_task_ALT.html:66
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
-#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
-#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
-#: FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:83 FL_PGG/__init__.py:90
+#: FL_PGG/__init__.py:92 FL_PGG/__init__.py:102 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:113 FL_PGG/__init__.py:123
+#: FL_PGG/__init__.py:125 FL_PGG/__init__.py:132 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:146 FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:155
 msgid "can"
 msgstr "peut"
 
 #: FL_PGG/Identity_task.html:33 FL_PGG/Identity_task.html:65
 #: FL_PGG/Identity_task_ALT.html:39 FL_PGG/Identity_task_ALT.html:74
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "makes"
 msgstr "fait"
 
@@ -661,52 +673,52 @@ msgstr "fait"
 #: FL_PGG/Identity_task.html:38 FL_PGG/Identity_task.html:39
 #: FL_PGG/Identity_task_ALT.html:16 FL_PGG/Identity_task_ALT.html:24
 #: FL_PGG/Identity_task_ALT.html:32 FL_PGG/Identity_task_ALT.html:40
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:86 FL_PGG/__init__.py:88
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:105 FL_PGG/__init__.py:107
-#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:111 FL_PGG/__init__.py:126
-#: FL_PGG/__init__.py:128 FL_PGG/__init__.py:130 FL_PGG/__init__.py:132
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:149 FL_PGG/__init__.py:151
-#: FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:81 FL_PGG/__init__.py:83
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:100 FL_PGG/__init__.py:102
+#: FL_PGG/__init__.py:104 FL_PGG/__init__.py:106 FL_PGG/__init__.py:121
+#: FL_PGG/__init__.py:123 FL_PGG/__init__.py:125 FL_PGG/__init__.py:127
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:144 FL_PGG/__init__.py:146
+#: FL_PGG/__init__.py:148
 msgid "It"
 msgstr "Ça "
 
 #: FL_PGG/Identity_task.html:42 FL_PGG/Identity_task.html:74
 #: FL_PGG/Identity_task_ALT.html:17 FL_PGG/Identity_task_ALT.html:52
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "warm."
 msgstr "chaude."
 
 #: FL_PGG/Identity_task.html:43 FL_PGG/Identity_task.html:75
 #: FL_PGG/Identity_task_ALT.html:25 FL_PGG/Identity_task_ALT.html:60
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:95 FL_PGG/__init__.py:107
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:128 FL_PGG/__init__.py:137
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:158
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:90 FL_PGG/__init__.py:102
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:123 FL_PGG/__init__.py:132
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:153
 msgid "transparent."
 msgstr "transparente."
 
 #: FL_PGG/Identity_task.html:44 FL_PGG/Identity_task.html:76
 #: FL_PGG/Identity_task_ALT.html:33 FL_PGG/Identity_task_ALT.html:68
-#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:97 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:130 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:83 FL_PGG/__init__.py:92 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:113 FL_PGG/__init__.py:125 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:146 FL_PGG/__init__.py:155
 msgid "salty."
 msgstr "salé."
 
 #: FL_PGG/Identity_task.html:45 FL_PGG/Identity_task.html:77
 #: FL_PGG/Identity_task_ALT.html:41 FL_PGG/Identity_task_ALT.html:76
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "go away."
 msgstr "disparaître"
 
 #: FL_PGG/Identity_task.html:48 FL_PGG/Identity_task.html:80
 #: FL_PGG/Identity_task_ALT.html:18 FL_PGG/Identity_task_ALT.html:53
-#: FL_PGG/__init__.py:84 FL_PGG/__init__.py:93 FL_PGG/__init__.py:105
-#: FL_PGG/__init__.py:114 FL_PGG/__init__.py:126 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:147 FL_PGG/__init__.py:156
+#: FL_PGG/__init__.py:79 FL_PGG/__init__.py:88 FL_PGG/__init__.py:100
+#: FL_PGG/__init__.py:109 FL_PGG/__init__.py:121 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:142 FL_PGG/__init__.py:151
 msgid "cold or"
 msgstr "froide ou"
 
@@ -714,20 +726,20 @@ msgstr "froide ou"
 #: FL_PGG/Identity_task.html:81 FL_PGG/Identity_task.html:82
 #: FL_PGG/Identity_task_ALT.html:26 FL_PGG/Identity_task_ALT.html:34
 #: FL_PGG/Identity_task_ALT.html:61 FL_PGG/Identity_task_ALT.html:69
-#: FL_PGG/__init__.py:86 FL_PGG/__init__.py:88 FL_PGG/__init__.py:95
-#: FL_PGG/__init__.py:97 FL_PGG/__init__.py:107 FL_PGG/__init__.py:109
-#: FL_PGG/__init__.py:116 FL_PGG/__init__.py:118 FL_PGG/__init__.py:128
-#: FL_PGG/__init__.py:130 FL_PGG/__init__.py:137 FL_PGG/__init__.py:139
-#: FL_PGG/__init__.py:149 FL_PGG/__init__.py:151 FL_PGG/__init__.py:158
-#: FL_PGG/__init__.py:160
+#: FL_PGG/__init__.py:81 FL_PGG/__init__.py:83 FL_PGG/__init__.py:90
+#: FL_PGG/__init__.py:92 FL_PGG/__init__.py:102 FL_PGG/__init__.py:104
+#: FL_PGG/__init__.py:111 FL_PGG/__init__.py:113 FL_PGG/__init__.py:123
+#: FL_PGG/__init__.py:125 FL_PGG/__init__.py:132 FL_PGG/__init__.py:134
+#: FL_PGG/__init__.py:144 FL_PGG/__init__.py:146 FL_PGG/__init__.py:153
+#: FL_PGG/__init__.py:155
 msgid "be"
 msgstr "être"
 
 #: FL_PGG/Identity_task.html:51 FL_PGG/Identity_task.html:83
 #: FL_PGG/Identity_task_ALT.html:42 FL_PGG/Identity_task_ALT.html:77
-#: FL_PGG/__init__.py:90 FL_PGG/__init__.py:99 FL_PGG/__init__.py:111
-#: FL_PGG/__init__.py:120 FL_PGG/__init__.py:132 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:153 FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:85 FL_PGG/__init__.py:94 FL_PGG/__init__.py:106
+#: FL_PGG/__init__.py:115 FL_PGG/__init__.py:127 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:148 FL_PGG/__init__.py:157
 msgid "thirst"
 msgstr "la soif."
 
@@ -735,12 +747,12 @@ msgstr "la soif."
 #: FL_PGG/Identity_task.html:70 FL_PGG/Identity_task.html:71
 #: FL_PGG/Identity_task_ALT.html:51 FL_PGG/Identity_task_ALT.html:59
 #: FL_PGG/Identity_task_ALT.html:67 FL_PGG/Identity_task_ALT.html:75
-#: FL_PGG/__init__.py:93 FL_PGG/__init__.py:95 FL_PGG/__init__.py:97
-#: FL_PGG/__init__.py:99 FL_PGG/__init__.py:114 FL_PGG/__init__.py:116
-#: FL_PGG/__init__.py:118 FL_PGG/__init__.py:120 FL_PGG/__init__.py:135
-#: FL_PGG/__init__.py:137 FL_PGG/__init__.py:139 FL_PGG/__init__.py:141
-#: FL_PGG/__init__.py:156 FL_PGG/__init__.py:158 FL_PGG/__init__.py:160
-#: FL_PGG/__init__.py:162
+#: FL_PGG/__init__.py:88 FL_PGG/__init__.py:90 FL_PGG/__init__.py:92
+#: FL_PGG/__init__.py:94 FL_PGG/__init__.py:109 FL_PGG/__init__.py:111
+#: FL_PGG/__init__.py:113 FL_PGG/__init__.py:115 FL_PGG/__init__.py:130
+#: FL_PGG/__init__.py:132 FL_PGG/__init__.py:134 FL_PGG/__init__.py:136
+#: FL_PGG/__init__.py:151 FL_PGG/__init__.py:153 FL_PGG/__init__.py:155
+#: FL_PGG/__init__.py:157
 msgid "Water"
 msgstr "L'eau"
 
@@ -1108,16 +1120,16 @@ msgstr "Total des contributions au compte commun"
 msgid "Your payoff"
 msgstr "Votre gain"
 
-#: FL_PGG/__init__.py:57
+#: FL_PGG/__init__.py:52
 msgid "Fairly "
 msgstr "Assez"
 
-#: FL_PGG/__init__.py:73 FL_risk/__init__.py:61 FL_time/__init__.py:62
+#: FL_PGG/__init__.py:68 FL_risk/__init__.py:61 FL_time/__init__.py:62
 msgid "Fairly well"
 msgstr "Assez bien"
 
-#: FL_PGG/__init__.py:344 FL_PGG/__init__.py:346 FL_PGG/__init__.py:348
-#: FL_PGG/__init__.py:350
+#: FL_PGG/__init__.py:347 FL_PGG/__init__.py:349 FL_PGG/__init__.py:351
+#: FL_PGG/__init__.py:353
 msgid "The sequence is not correct, please Retry"
 msgstr "La séquence n'est pas correcte, veuillez réessayer"
 
@@ -1136,6 +1148,11 @@ msgid ""
 msgstr ""
 "Veuillez indiquer votre choix en correspondance avec chaque choix "
 "possible de l'autre"
+
+#: FL_TG/Choice_receiver.html:17 FL_payments/Results_1.html:143
+#: FL_payments/Results_2.html:102
+msgid "Choice #"
+msgstr "Tour #"
 
 #: FL_TG/Choice_receiver.html:18
 msgid "When the other sends"
@@ -1375,14 +1392,14 @@ msgid ""
 "If you are assigned to the role of Sender for the payment, you will earn "
 "the tokens you have kept from your initial endowment of"
 msgstr ""
-"Si vous êtes affecté au rôle d'expéditeur pour le paiement, vous gagnerez"
-"les jetons que vous avez conservés de votre dotation initiale de"
+"Si vous êtes affecté au rôle d'expéditeur pour le paiement, vous "
+"gagnerezles jetons que vous avez conservés de votre dotation initiale de"
 
 #: FL_TG/Instructions_sender.html:17
 msgid "plus the tokens returned to you by the Receiver you are paired with."
 msgstr ""
-"plus les jetons qui ont été rendus par le receveur avec lequel vous "
-"avez été jumelé."
+"plus les jetons qui ont été rendus par le receveur avec lequel vous avez "
+"été jumelé."
 
 #: FL_TG/Instructions_sender_inst.html:16
 msgid ""
@@ -1405,14 +1422,6 @@ msgid ""
 msgstr ""
 "Comme précédemment, le montant que vous déciderez de donner sera "
 "<i>triplé</i> avant d'être transmis au receveur."
-
-#: FL_TG/Instructions_sender_inst.html:20
-msgid ""
-"Only one of the choices of the participants made as senders will be "
-"finally paid to the"
-msgstr ""
-"Seul un des choix des participants faits en tant qu'expéditeurs sera "
-"finalement payé à "
 
 #: FL_TG/Instructions_sender_inst.html:29
 msgid ""
@@ -1453,9 +1462,9 @@ msgid ""
 "person they have been paired with."
 msgstr ""
 "à titre de dotation initiale. Ils s'ajoutent à la participation et aux "
-"jetons éventuellement gagnés dans les autres jeux. Chacun d'entre vous peut"
-" gagner des jetons en fonction de sa décision et de celle de la personne "
-"avec laquelle il a été jumelé."
+"jetons éventuellement gagnés dans les autres jeux. Chacun d'entre vous "
+"peut gagner des jetons en fonction de sa décision et de celle de la "
+"personne avec laquelle il a été jumelé."
 
 #: FL_TG/Instructions_welcome.html:17
 msgid ""
@@ -1482,9 +1491,9 @@ msgstr ""
 "Avant de jouer pour de vrai, nous vous demanderons de faire quelques "
 "calculs pour s'assurer que vous avez compris les instructions. Si vous "
 "donnez une mauvaise réponse, vous recevrez un message du système vous "
-"indiquant qu'il y a eu une erreur dans la façon avec laquelle vous avez répondue. "
-"Si c'est le cas, vous pouvez soit réessayer, soit appeler l'agent "
-"recenseur pour obtenir des précisions supplémentaires."
+"indiquant qu'il y a eu une erreur dans la façon avec laquelle vous avez "
+"répondue. Si c'est le cas, vous pouvez soit réessayer, soit appeler "
+"l'agent recenseur pour obtenir des précisions supplémentaires."
 
 #: FL_TG/Questionnaire_1.html:27
 msgid "1) You are playing as a Sender; you have"
@@ -1685,7 +1694,9 @@ msgstr "Merci !"
 #: FL_payments/End.html:11 FL_payments/Results_1.html:215
 #: FL_payments/Results_2.html:171
 msgid "We are now done with the games. Thank you for your time!"
-msgstr "Nous avons maintenant terminé avec les jeux. Merci pour le temps consacré !"
+msgstr ""
+"Nous avons maintenant terminé avec les jeux. Merci pour le temps consacré"
+" !"
 
 #: FL_payments/End.html:15 FL_payments/Results_1.html:219
 #: FL_payments/Results_2.html:175
@@ -1828,10 +1839,6 @@ msgstr ""
 "Alternativement, vous pouvez recevoir cet argent par paiement "
 "téléphonique."
 
-#: FL_payments/Results_1.html:143 FL_payments/Results_2.html:102
-msgid "Choice #"
-msgstr "Tour #"
-
 #: FL_payments/Results_1.html:146 FL_payments/Results_2.html:105
 msgid "For this choice, you chose Lottery"
 msgstr "Pour ce choix, vous avez choisi Loterie"
@@ -1847,7 +1854,7 @@ msgstr "Vos gains totaux :"
 #: FL_payments/Results_1.html:196 FL_payments/Results_1.html:200
 #: FL_payments/Results_1.html:211 FL_payments/Results_2.html:154
 #: FL_payments/Results_2.html:157 FL_payments/Results_2.html:167
-#: FL_welcome/Welcome.html:26
+#: FL_welcome/Welcome.html:23 FL_welcome/Welcome.html:26
 msgid "LC"
 msgstr "ML"
 
@@ -1937,6 +1944,11 @@ msgstr ""
 "versé. Ils s'ajoutent à l'allocation de participation et aux jetons "
 "éventuellement gagnés dans les autres jeux."
 
+#: FL_risk/Choices.html:31 FL_risk/Example.html:28 FL_risk/Example.html:81
+#: FL_time/Choices.html:26 FL_time/Example.html:27 FL_time/Example.html:72
+msgid "Your choice"
+msgstr "Votre choix"
+
 #: FL_risk/Example.html:12
 msgid ""
 "Before we proceed with the real decision, we will give you some examples "
@@ -1959,11 +1971,6 @@ msgstr ""
 #: FL_risk/Example.html:21 FL_risk/Example.html:75
 msgid "Assume that the following decision was randomly drawn by the system"
 msgstr "Supposons que la décision suivante ait été tirée au hasard par le système"
-
-#: FL_risk/Example.html:28 FL_risk/Example.html:81 FL_time/Choices.html:26
-#: FL_time/Example.html:27 FL_time/Example.html:72
-msgid "Your choice"
-msgstr "Votre choix"
 
 #: FL_risk/Example.html:68
 msgid "Assume that a <b>white ball</b> was randomly drawn by the system."
@@ -2216,11 +2223,11 @@ msgstr ""
 "prendre vos décisions soigneusement en vous basant uniquement sur vos "
 "propres préférences. Quelle que soit l'option que vous choisissez, nous "
 "vous donnerons un bon de dépôt et vous reviendrez pour récupérer votre "
-"argent deux ou quatre semaines plus tard ou, si vous préférez, vous aurez"
-"la possibilité de recevoir cet argent par paiement éléctronique. Si vous"
-"préférez utiliser cette méthode, vous aurez la possibilité de fournir votre"
-"numéro de compte, votre CIN et votre numéro de téléphone portable aux enquêteurs à la fin de la session "
-"d'aujourd'hui."
+"argent deux ou quatre semaines plus tard ou, si vous préférez, vous "
+"aurezla possibilité de recevoir cet argent par paiement éléctronique. Si "
+"vouspréférez utiliser cette méthode, vous aurez la possibilité de fournir"
+" votrenuméro de compte, votre CIN et votre numéro de téléphone portable "
+"aux enquêteurs à la fin de la session d'aujourd'hui."
 
 #: FL_time/Instructions.html:21
 msgid "Do you have questions? "
@@ -2252,7 +2259,8 @@ msgstr "Comment évaluez-vous votre compréhension des instructions du jeu ?"
 
 #: FL_time/Questionnaire.html:19
 msgid ""
-"How much do you trust that you will receive the money in 2 or 4 weeks time?"
+"How much do you trust that you will receive the money in 2 or 4 weeks "
+"time?"
 msgstr ""
 "Dans quelle mesure pensez-vous que vous recevrez l'argent dans 2 ou 4 "
 "semaines ?"
@@ -2407,8 +2415,8 @@ msgid ""
 "please do not ask your questions aloud."
 msgstr ""
 "Si vous avez des questions, levez la main et un agent recenseur "
-"s'approchera de vous pour vous écouter et fournira une réponse ;"
-"Merci de ne pas poser vos questions à haute voix.""
+"s'approchera de vous pour vous écouter et fournira une réponse ;Merci de "
+"ne pas poser vos questions à haute voix.\""
 
 #: FL_welcome/Welcome2.html:26
 msgid "You will take part in"

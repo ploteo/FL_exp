@@ -18,13 +18,21 @@
     - see NOTE: in the demo dev
 - Check "Your Choice" and "Continue" in FL_risk, the % sign in DG instructions and "Choice #" in FL_trust
 - Check 'How much do you trust that you will receive the money in 2 or 4 weeks\' time?' 
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG TODO
 
 # Translation
 
 ## Tunisia
 
 - Implement new rando at group level @TODO:
-
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
+  - copy messages.pot from EN 
+  - update messages.po 
+  - compile messages.po
 
 
 ## Morocco (MO)
@@ -36,6 +44,12 @@
   - Proposed a solution to partners https://foodland-demo-ar-morocco.herokuapp.com/demo @WAIT
     - Added a new translation DONE 23/11/21
 - Implement new rando at group level @DONE:
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
+  - copy messages.pot from EN 
+  - update messages.po 
+  - compile messages.po
   
 ### French
 
@@ -44,6 +58,12 @@
   - Still some problem with the article of the institution (check when real names are available) @DONE:
 - Revised version available on https://foodland-demo-fr.herokuapp.com/demo  @WAIT
 - Implement new rando at group level @DONE:
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
+  - copy messages.pot from EN 
+  - update messages.po 
+  - compile messages.po
 
 ## Tunisia (TN)
 
@@ -64,7 +84,13 @@
   - Identity_task_feedback.html
   - Identity_task_ALT.html
   - init.py
-- Minor changes, conversion rate @TODO:
+- Minor changes, conversion rate @DONE:
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
+  - copy messages.pot from EN 
+  - update messages.po 
+  - compile messages.po
 
 
 It can be cold or warm.
@@ -163,6 +189,13 @@ Specific corrections
 13. use "Endelea" instead of "Continue" (currently not translated in the installed version)DONE
 14. use "Sarafu (pesa) za ndani" instead of "Fedha za Kenya" DONE
 
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
+  - copy messages.pot from EN 
+  - update messages.po 
+  - compile messages.po
+
 ## 1) Uganda (UG)
 
 - Received feedback
@@ -221,3 +254,9 @@ Specific corrections
     - [ ] Per finire, anche provando più di 20 volte e da computer diversi, non riusciamo ad accedere al PGG group identity treatment group (quello con IT per capirci), in quanto il sistema fornisce solo il gruppo controllo. È dovuto al fatto che per il momento nella versione demo i gruppi non vengono ancora randomizzati?@DONE:
       - REPLY: il trattamento identity/no identity deve essere controllato "a mano" cambiando un parametro in setting.py (così si era deciso, vedi anche il documento operativo che avevo preparato). Se vogliamo invece che sia randomizzato devo cambiare il codice. Ho caricato adesso una versione che randomizza a livello di sessione,questo semplificherebbe il lavoro degli assistenti.
  
+- add sentence "{{ trans 'Only one of the choices of the participants made as senders will be finally paid to the' }}
+{{Type}}
+({{Institution}})." to DG DONE
+  - copy messages.pot from EN 
+  - update messages.po 
+  - compile messages.po

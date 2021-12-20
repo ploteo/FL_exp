@@ -1328,6 +1328,7 @@ msgstr ""
 " كما في السابق ، سيتم مضاعفة المبلغ الذي ستقرر تقديمه ثلاث مرات قبل أن "
 "يتم تمريره إلى المتلقي "
 
+#: FL_DG/Instructions_sender_inst.html:19
 #: FL_TG/Instructions_sender_inst.html:20
 msgid ""
 "Only one of the choices of the participants made as senders will be "

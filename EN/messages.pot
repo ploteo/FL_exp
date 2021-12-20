@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-11-23 15:11+0100\n"
+"POT-Creation-Date: 2021-12-20 06:14+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -201,24 +201,31 @@ msgid ""
 "smallholder farmers through the local"
 msgstr ""
 
-#: FL_DG/Instructions_sender_inst.html:18
+#: FL_DG/Instructions_sender_inst.html:17
+#: FL_TG/Instructions_sender_inst.html:20
+msgid ""
+"Only one of the choices of the participants made as senders will be "
+"finally paid to the"
+msgstr ""
+
+#: FL_DG/Instructions_sender_inst.html:24
 #: FL_TG/Instructions_sender_inst.html:27
 msgid "Your new initial endowment is"
 msgstr ""
 
-#: FL_DG/Instructions_sender_inst.html:20
+#: FL_DG/Instructions_sender_inst.html:26
 msgid ""
 "These are in addition to the tokens received in previous games. Your "
 "gains from previous games will not be affected in this new game."
 msgstr ""
 
-#: FL_DG/Instructions_sender_inst.html:24 FL_TG/Instructions_welcome.html:20
+#: FL_DG/Instructions_sender_inst.html:30 FL_TG/Instructions_welcome.html:20
 msgid ""
 "At the end of today’s session, we will tell you the total number of "
 "tokens you will be paid."
 msgstr ""
 
-#: FL_DG/Instructions_sender_inst.html:28 FL_DG/Results.html:49
+#: FL_DG/Instructions_sender_inst.html:34 FL_DG/Results.html:49
 #: FL_PGG/Choices.html:33 FL_PGG/Identity_task.html:120
 #: FL_PGG/Identity_task_ALT.html:123 FL_PGG/Identity_task_feedback.html:62
 #: FL_PGG/Pregame.html:33 FL_PGG/Questionnaire2.html:35
@@ -1176,12 +1183,6 @@ msgstr ""
 msgid ""
 "As before, the amount you will decide to give  will be <i>tripled</i> "
 "before it is passed on to the Receiver."
-msgstr ""
-
-#: FL_TG/Instructions_sender_inst.html:20
-msgid ""
-"Only one of the choices of the participants made as senders will be "
-"finally paid to the"
 msgstr ""
 
 #: FL_TG/Instructions_sender_inst.html:29
