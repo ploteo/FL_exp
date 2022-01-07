@@ -168,21 +168,21 @@ def creating_session(subsession: Subsession):
         #-------------------------------
         ## original 
         #-------------------------------
-        # for g in subsession.get_groups():
-        #     if random.randint(0, 1) == 1:#NOTE: added this to randomize at group level
-        #         treatment = 'no_identity'
-        #     else:
-        #         treatment = 'identity'
-        #     print(treatment)
-        #-------------------------------
-        ## use group id for the randomization
-        #-------------------------------
         for g in subsession.get_groups():
-            if g.id_in_subsession % 2 == 0:
+            if random.randint(0, 1) == 1:#NOTE: added this to randomize at group level
                 treatment = 'no_identity'
             else:
                 treatment = 'identity'
-            print(treatment)            
+            print(treatment)
+        #-------------------------------
+        ## use group id for the randomization
+        #-------------------------------
+        # for g in subsession.get_groups():
+        #     if g.id_in_subsession % 2 == 0:
+        #         treatment = 'no_identity'
+        #     else:
+        #         treatment = 'identity'
+        #     print(treatment)            
         #-------------------------------
 
             for p in g.get_players():

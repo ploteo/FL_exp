@@ -165,12 +165,27 @@ def creating_session(subsession: Subsession):
                 p.endowment = Constants.endowment_medium
     else:
         subsession.group_like_round(1)
+
+        #-------------------------------
+        ## original 
+        #-------------------------------
         for g in subsession.get_groups():
             if random.randint(0, 1) == 1:#NOTE: added this to randomize at group level
                 treatment = 'no_identity'
             else:
                 treatment = 'identity'
             print(treatment)
+        #-------------------------------
+        ## use group id for the randomization
+        #-------------------------------
+        # for g in subsession.get_groups():
+        #     if g.id_in_subsession % 2 == 0:
+        #         treatment = 'no_identity'
+        #     else:
+        #         treatment = 'identity'
+        #     print(treatment)            
+        #-------------------------------
+            
             for p in g.get_players():
                 p.identity_treatment = treatment #NOTE: added this to randomize at group level
                 p.endowment = Constants.endowment_medium
